@@ -93175,4 +93175,4 @@ function config takes nothing returns nothing
 	call SetPlayerAlliance(Player(15), Player(10), ConvertAllianceType(6), true)
 	call SetPlayerAlliance(Player(15), Player(11), ConvertAllianceType(6), true)
 endfunction
-//6768705F675A6C33725254306A78536A524764374B4A326D5352434A644957766E57344E4C645344
+//6768705F675A6C33725254306A78536A524764374B4A326D5352434A644957766E57344E4C645344 --hehe
