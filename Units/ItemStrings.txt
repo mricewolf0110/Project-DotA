@@ -1,0 +1,4445 @@
+[I000]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Rylai)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I001]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Necro)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I002]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Luna)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I003]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Lucifer)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I004]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Lion)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I005]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Lich)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I006]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+Description="|c00ffffffIncreases the users movespeed to maximum (522). Under the effect of Haste, the Hero's movespeed isn't affected by any item or spell. Lasts for 30 seconds.|r"
+Name=|c00ff0303Haste|r
+Ubertip=,
+
+[I007]
+Art=textures\blue_star2
+Description=|c00ffffffCreates two mirror images of the user that take 300% more damage and deals 35% damage. Lasts for 75 seconds.|r
+Name=|c00fffc01Illusion|r
+Ubertip=,
+
+[I008]
+Art=ReplaceableTextures\CommandButtons\BTNRegenerate.blp
+Description=|c00ffffffGrants the user high health and mana regeneration. Dispells when attacked. Lasts for 30 seconds.|r
+Name=|cff00ff00Regeneration|r
+Ubertip=,
+
+[I009]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Leshrac)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I00A]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNBootsOfSpeed.blp
+Name=Boots of Speed
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I00B]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I00C]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNArcaneRing.blp
+Name=Arcane Ring
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I00D]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (KOTL)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I00E]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Morphling Bug Fix
+Ubertip=,
+
+[I00F]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (KOTL)
+Ubertip=,
+
+[I00G]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Lina)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I00H]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Pugna)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I00I]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Ogre)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I00J]
+Art=ReplaceableTextures\CommandButtons\BTNInvisibility.blp
+Description="|c00ffffffMakes the user invisible. Lasts 45 seconds, or until the user takes any form of active action.|r"
+Name=|cff99ccffInvisibility|r
+Ubertip=,
+
+[I00K]
+Art=ReplaceableTextures\CommandButtons\BTNShamanMaster.blp
+Description=|c00ffffffDoubles the users base damage. Will be dispelled by other damage buffs. Lasts 45 seconds.|r
+Name=|c000042ffDouble Damage|r 
+Ubertip=,
+
+[I00L]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Empty Bottle
+Ubertip=,
+
+[I00M]
+Art=ReplaceableTextures\CommandButtons\BTNImprovedUnholyStrength.blp
+Name=Armlet of Mordiggian
+Ubertip="Heirloom of the Cult of Mordiggian, who in ancient times obtained cursed immortality by eating the flesh of the being they worshipped, losing their souls in the process. Similarly, heroes invoking this withered remnant enter a dark pact, exchanging their own life force for an unholy strength. Gives +40 damage, +25% attack speed, +5 armor, +7 hp/sec and +25 strength at the cost of 40 hp/sec. "
+
+[I00N]
+Art=ReplaceableTextures\CommandButtons\BTNImprovedUnholyStrength.blp
+Name=Armlet of Mordiggian (Courier Edition)
+Ubertip="Heirloom of the Cult of Mordiggian, who in ancient times obtained cursed immortality by eating the flesh of the being they worshipped, losing their souls in the process. Similarly, heroes invoking this withered remnant enter a dark pact, exchanging their own life force for an unholy strength. Gives +40 damage, +25% attack speed, +5 armor, +7 hp/sec and +25 strength at the cost of 37 hp/sec. "
+
+[I00O]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Zeus)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I00P]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (QoP)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I00Q]
+Art=ReplaceableTextures\CommandButtons\BTNUnholyStrength.blp
+Name=Armlet of Mordiggian
+Ubertip="Heirloom of the Cult of Mordiggian, who in ancient times obtained cursed immortality by eating the flesh of the being they worshipped, losing their souls in the process. Similarly, heroes invoking this withered remnant enter a dark pact, exchanging their own life force for an unholy strength. Gives +9 damage, +15% attack speed, +5 armor and +7 hp/sec. Casts Unholy Strength. |n|n|cff99ccffCooldown: |r 2"
+
+[I00R]
+Art=ReplaceableTextures\CommandButtons\BTNUnholyStrength.blp
+Name=Armlet of Mordiggian (Courier Edition)
+Ubertip="Heirloom of the Cult of Mordiggian, who in ancient times obtained cursed immortality by eating the flesh of the being they worshipped, losing their souls in the process. Similarly, heroes invoking this withered remnant enter a dark pact, exchanging their own life force for an unholy strength. Gives +9 damage, +15% attack speed, +5 armor and +7 hp/sec. Casts Unholy Strength. |n|n|cff99ccffCooldown: |r 2"
+
+[I00S]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Armlet of Mordiggian
+Ubertip=,
+
+[I00T]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Armlet of Mordiggian
+Ubertip=,
+
+[I00U]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Rhasta)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I00V]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Armlet of Mordiggian (Courier Edition)
+Ubertip=,
+
+[I00W]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Armlet of Mordiggian (Courier Edition)
+Ubertip=,
+
+[I00X]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Shiva's Guard
+Ubertip=,
+
+[I00Y]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Shiva's Guard (Courier Edition)
+Ubertip=,
+
+[I00Z]
+Art=ReplaceableTextures\CommandButtons\BTNAdvancedMoonArmor.blp
+Name=Shiva's Guard
+Ubertip="Said to have belonged to a goddess, this magical piece of armor was forged by divine wisps in the deeps of Winterspring and even today it retains much of its former power. Grants +15 Armor, +30 Intelligence and a -40% AS aura. Upon activation, emits a frigid blast, slowing enemy movement speeds by 40% for 4 seconds and dealing 200 damage.  |n|n|cff99ccffCooldown: |r 30"
+
+[I010]
+Art=ReplaceableTextures\CommandButtons\BTNAdvancedMoonArmor.blp
+Name=Shiva's Guard (Courier Edition)
+Ubertip="Said to have belonged to a goddess, this magical piece of armor was forged by divine wisps in the deeps of Winterspring and even today it retains much of its former power. Grants +15 Armor, +30 Intelligence and a -40% AS aura. Upon activation, emits a frigid blast, slowing enemy movement speeds by 40% for 4 seconds and dealing 200 damage.  |n|n|cff99ccffCooldown: |r 30"
+
+[I011]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Furion)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I012]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfSilence.blp
+Name=Orchid Malevolence
+Ubertip="A garnet rod constructed from the essence of a fire demon, Orchid Malevolence can burn away an enemy's spellcasting capabilities for a limited time. Gives +25 Intelligence, +30 damage, +30% increased attack speed, +150% mana regen, and the ability to soul burn an enemy for 5 seconds (Silences and Amplifies damage by 30%). |n|n|cff99ccffCooldown: |r 18"
+
+[I013]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Orchid Malevolence
+Ubertip=,
+
+[I014]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Flying Courier
+Ubertip=,
+
+[I015]
+Art=ReplaceableTextures\CommandButtons\BTNEngineeringUpgrade.blp
+Name=Disassembler
+Ubertip="Disassembles the current item in this inventory. (Only works for Perseverance, Mjollnir, Ring of Basilius, Bloodstone, Helm of the Dominator, Aghanim's Scepter and Shiva's Guard)"
+
+[I016]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Veno)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I017]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Witch Doctor)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I018]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Leshrac)
+Ubertip=,
+
+[I019]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Lich)
+Ubertip=,
+
+[I01A]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Lina)
+Ubertip=,
+
+[I01B]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Lion)
+Ubertip=,
+
+[I01C]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNImprovedUnholyStrength.blp
+Name=Armlet of Mordiggian (On)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01D]
+Art=ReplaceableTextures\CommandButtons\BTNRavenForm.blp
+Name=Flying Courier
+Ubertip="Creates a small very fast flying unit that can carry items to and from your base. Has magic immunity, hitpoints and armor. Can cast Burst, Courier Shield."
+
+[I01E]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNUnholyStrength.blp
+Name=Armlet of Mordiggian (Off)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01F]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNImprovedUnholyStrength.blp
+Name="Armlet of Mordiggian (On,Courier)"
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01G]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_06.blp
+Name=Dagon Level 1
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01H]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Lucifer)
+Ubertip=,
+
+[I01I]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Luna)
+Ubertip=,
+
+[I01J]
+Art=ReplaceableTextures\CommandButtons\BTNPerse_Borrowed.blp
+Name=Perseverance
+Ubertip="A gem that grants heart to the bearer.  Gives 125% enhanced mana regeneration, 5 hit point regeneration per second , and +10 damage.  |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I01K]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Helmet_17.blp
+Name=Headdress of Rejuvenation
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01L]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNThoriumArmor.blp
+Name=Nathrezim Buckler
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01M]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNRingVioletSpider.tga
+Name=Ring of Basilius
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01N]
+Art=ReplaceableTextures\CommandButtons\BTNPendantOfMana.blp
+Name=Freeze Hero
+Ubertip=Freezes a hero. Works on leaver hero to cause them to become frozen and invulnerable.
+
+[I01O]
+Art=ReplaceableTextures\CommandButtons\BTNPendantOfEnergy.blp
+Name=Unfreeze Hero
+Ubertip=Unfreezes a hero. Works on leaver hero to cause them to become unfrozen and vulnerable.
+
+[I01P]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNAbility_Rogue_Sprint.blp
+Name=Boots of Travel
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01Q]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNWirtsLeg.blp
+Name=Power Treads (Strength)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01R]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNWirtsLegGreen.blp
+Name=Power Treads (Agility)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01S]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNWirtsLegBlue.blp
+Name=Power Treads (Intelligence)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01T]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNGoldGloves.BLP
+Name=Hand of Midas
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01U]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Mace_10.blp
+Name=Oblivion Staff
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01V]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNRunedBracers.blp
+Name=Bracer
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01W]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNRevenant.blp
+Name=Wraith Band
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01X]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNTalisman.tga
+Name=Null Talisman
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01Y]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Sword_10.blp
+Name=Yasha
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I01Z]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNJapaneseSword.BLP
+Name=Sange
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I020]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Hammer_10.blp
+Name=Cranium Basher
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I021]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Chest_Plate06.blp
+Name=Blade Mail
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I022]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNStormHammer.blp
+Name=Maelstrom
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I023]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Sword_11.blp
+Name=Diffusal Blade Level 1
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I024]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Helmet_13.blp
+Name=Helm of the Dominator
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I025]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNHelmOfValor.blp
+Name=Mask of Madness
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I026]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNStaffofpurification.blp
+Name=Eul's Scepter of Divinity
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I027]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNPhilosophersStone.blp
+Name=Soul Booster
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I028]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSpellShieldAmulet.blp
+Name=Mekansm
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I029]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSpell_Holy_BlessingOfStrength.blp
+Name=Sange and Yasha
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I02A]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNAbility_Gouge.blp
+Name=Stygian Desolator
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I02B]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_ThrowingAxe_06.blp
+Name=Battle Fury
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I02C]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNThoriumMelee.blp
+Name=Crystalys
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I02D]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNRodOfNecromancy.blp
+Name=Black King Bar (7)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I02E]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_ThrowingAxe_02.blp
+Name=Manta Style
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I02F]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNLothars.BLP
+Name=Lothar's Edge
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I02G]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_06.blp
+Name=Dagon Level 2
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I02H]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNNecromancerAdept.blp
+Name=Necronomicon Level 1
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I02I]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNBookOfTheDead.blp
+Name=Necronomicon Level 2
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I02J]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNNecromancerMaster.blp
+Name=Necronomicon Level 3
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I02K]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Necro)
+Ubertip=,
+
+[I02L]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Ogre)
+Ubertip=,
+
+[I02M]
+Art=ReplaceableTextures\CommandButtons\BTNScourgeInventory.BLP
+Name=Dummy Item Scourge
+Ubertip=,
+
+[I02N]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Boots of Elvenskin
+Ubertip=,
+
+[I02O]
+Art=ReplaceableTextures\CommandButtons\BTNBootsOfSpeed.blp
+Name=Boots of Speed
+Ubertip=+50 Movement Speed |n|n|c00ff0303Movement Speed does not stack with other boot items.|r |n|n|c00838B8BGeneric sneakers
+
+[I02P]
+Art=ReplaceableTextures\CommandButtons\BTNGlove.blp
+Name=Gloves of Haste
+Ubertip=+15 Attack Speed |n|n|c00838B8BA pair of magical gloves that seems to render weapons weightless
+
+[I02Q]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Boots of Speed
+Ubertip=,
+
+[I02R]
+Art=ReplaceableTextures\CommandButtons\BTNBoots.blp
+Name=Boots of Elvenskin
+Ubertip=+6 Agility |n|n|c00838B8BA pair of boots often used for moonwalking|r
+
+[I02S]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Gloves of Haste
+Ubertip=,
+
+[I02T]
+Art=ReplaceableTextures\CommandButtons\BTNWirtsLegGreen.blp
+Name=Power Treads (Agility)
+Ubertip="Name brand sneakers. Increases movement speed by 55, agility by 8 and attack speed by 30. Click to change form. |n|n|c00ff0303Movement Speed does not stack with other boot items.|r |n|n|c00ff0303Cannot carry more than one|r"
+
+[I02U]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Power Treads (Strength)
+Ubertip=,
+
+[I02X]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Circlet of Nobility
+Ubertip=,
+
+[I02Y]
+Art=ReplaceableTextures\CommandButtons\BTNCirclet.blp
+Name=Circlet of Nobility
+Ubertip=+2 All Attributes |n|n|c00838B8BAn elegant circlet designed for human princesses
+
+[I02Z]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Belt of Giant Strength
+Ubertip=,
+
+[I030]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Blade of Alacrity
+Ubertip=,
+
+[I031]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Blades of Attack
+Ubertip=,
+
+[I032]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Broadsword
+Ubertip=,
+
+[I033]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Chainmail
+Ubertip=,
+
+[I034]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Claymore
+Ubertip=,
+
+[I035]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Demon Edge
+Ubertip=,
+
+[I036]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Eaglehorn
+Ubertip=,
+
+[I037]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Energy Booster
+Ubertip=,
+
+[I038]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Gauntlets of Strength
+Ubertip=,
+
+[I039]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Gem of True Sight
+Ubertip=,
+
+[I03A]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Stout Shield (melee)
+Ubertip=,
+
+[I03B]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Helm of Iron Will
+Ubertip=,
+
+[I03C]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Hyperstone
+Ubertip=,
+
+[I03D]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ironwood Branch
+Ubertip=,
+
+[I03E]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Kelen's Dagger
+Ubertip=,
+
+[I03F]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Mantle of Intelligence
+Ubertip=,
+
+[I03G]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Mask of Death
+Ubertip=,
+
+[I03H]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Messerschmidt's Reaver
+Ubertip=,
+
+[I03I]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Mithril Hammer
+Ubertip=,
+
+[I03J]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Mystic Staff
+Ubertip=,
+
+[I03K]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ogre Axe
+Ubertip=,
+
+[I03L]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Planeswalker's Cloak
+Ubertip=,
+
+[I03M]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Plate Mail
+Ubertip=,
+
+[I03N]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Point Booster
+Ubertip=,
+
+[I03O]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Power Treads (Agility)
+Ubertip=,
+
+[I03P]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Quarterstaff
+Ubertip=,
+
+[I03Q]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ring of Health
+Ubertip=,
+
+[I03R]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ring of Protection
+Ubertip=,
+
+[I03S]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ring of Regeneration
+Ubertip=,
+
+[I03T]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Robe of the Magi
+Ubertip=,
+
+[I03U]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Sacred Relic
+Ubertip=,
+
+[I03V]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Slippers of Agility
+Ubertip=,
+
+[I03W]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Sobi Mask
+Ubertip=,
+
+[I03X]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Staff of Wizardry
+Ubertip=,
+
+[I03Y]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ultimate Orb
+Ubertip=,
+
+[I03Z]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Vitality Booster
+Ubertip=,
+
+[I040]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Void Stone
+Ubertip=,
+
+[I041]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Javelin
+Ubertip=,
+
+[I042]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Clarity Potion
+Ubertip=,
+
+[I043]
+Art=ReplaceableTextures\CommandButtons\BTNBelt.blp
+Name=Belt of Giant Strength
+Ubertip=+6 Strength |n|n|c00838B8BNot recommended for use by children or pregnant women
+
+[I044]
+Art=ReplaceableTextures\CommandButtons\BTNINV_ThrowingKnife_03.blp
+Name=Blade of Alacrity
+Ubertip=+10 Agility. |n|n|c00838B8BA long blade imbued with time magic
+
+[I045]
+Art=ReplaceableTextures\CommandButtons\BTNClawsOfAttack.blp
+Name=Blades of Attack
+Ubertip=+9 Damage |n|n|c00838B8BA weapon of choice among sadists
+
+[I046]
+Art=ReplaceableTextures\CommandButtons\BTNSteelMelee.blp
+Name=Broadsword
+Ubertip=+18 Damage |n|n|c00838B8BAny knight worth a damn should have one of these
+
+[I047]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Chest_Chain_12.blp
+Name=Chainmail
+Ubertip=+5 Armor |n|n|c00838B8BA medium weave of metal chains
+
+[I048]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Sword_19.blp
+Name=Claymore
+Ubertip="+21 Damage |n|n|c00838B8BA sword that can cut through armor, and still slice a tomato"
+
+[I049]
+Art=ReplaceableTextures\CommandButtons\BTNFrostMourne.blp
+Name=Demon Edge
+Ubertip="+46 Damage |n|n|c00838B8BA sword of a fallen general of a Demon Army, imbued with unholy strength"
+
+[I04A]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Weapon_Bow_06.blp
+Name=Eaglehorn
+Ubertip="+25 Agility |n|n|c00838B8BA swift, true-firing bow that almost aims itself"
+
+[I04B]
+Art=ReplaceableTextures\CommandButtons\BTNEnchantedGemstone.blp
+Name=Energy Booster
+Ubertip=+250 Mana |n|n|c00838B8BEnie
+
+[I04C]
+Art=ReplaceableTextures\CommandButtons\BTNGauntletsOfOgrePower.blp
+Name=Gauntlets of Strength
+Ubertip=+3 Strength |n|n|c00838B8BDeluxe version of Brass Knuckles
+
+[I04D]
+Art=ReplaceableTextures\CommandButtons\BTNGem.blp
+Name=Gem of True Sight
+Ubertip="A crystal that grants the hero true sight, which reveals nearby invisible units.   |n|n|c00ff0303Drops upon death|r |n|n|c00838B8BA magic stone that gives the bearer sight beyond sight"
+
+[I04E]
+Art=ReplaceableTextures\CommandButtons\BTNHelmutPurple.blp
+Name=Helm of Iron Will
+Ubertip=+5 Armor |n+3 HP Regeneration |n|n|c00838B8BThe helmet of a legendary warrior who fell in battle
+
+[I04F]
+Art=ReplaceableTextures\CommandButtons\BTNPeriapt1.blp
+Name=Hyperstone
+Ubertip="+55 Attack Speed |n|n|c00838B8BA mystical, carved stone that boosts the fervor of the holder"
+
+[I04G]
+Art=ReplaceableTextures\CommandButtons\BTNIronwoodbranch.blp
+Name=Ironwood Branch
+Ubertip=+1 All Attributes |n|n|c00838B8BWearing one of these ensures a Good Game
+
+[I04H]
+Art=ReplaceableTextures\CommandButtons\BTNDaggerOfEscape.blp
+Name=Kelen's Dagger
+Ubertip="Teleport up to 1200 distance away. Cannot be used if you have been damaged in the last 3 seconds. |n|n|c00ff0303Cannot be used by Vengeful Spirit or Pudge|r|n|n|cff99ccffCooldown: |r 12 |n|n|c00838B8BThe fabled dagger used by Kelen, the fastest assassin ever to walk the lands of Azeroth"
+
+[I04I]
+Art=ReplaceableTextures\CommandButtons\BTNCancel.blp
+Name=Disabled Kelen's Dagger
+Ubertip="The fabled dagger used by Kelen, the fastest assassin ever to walk the lands of Azeroth. Allows the bearer to teleport up to 1200 distance away. Cannot be used if you have been damaged in the last 3 seconds. |n|n|c00ff0303Cannot be used by Vengeful Spirit or Pudge|r|n|n|cff99ccffCooldown: |r 12"
+
+[I04J]
+Art=ReplaceableTextures\CommandButtons\BTNMantleOfIntelligence.blp
+Name=Mantle of Intelligence
+Ubertip=+3 Intelligence |n|n|c00838B8BA dandy looking sapphire mantle; real hit this season
+
+[I04K]
+Art=ReplaceableTextures\CommandButtons\BTNUndeadShrine.blp
+Name=Mask of Death
+Ubertip="+15% Life Steal |n|n|c00ff0303Orb effects do not stack|r |n|n|c00838B8BThe phattest lewt, definitely|r"
+
+[I04L]
+Art=ReplaceableTextures\CommandButtons\BTNSpiritWalkerMasterTraining.blp
+Name=Messerschmidt's Reaver
+Ubertip=+25 Strength |n|n|c00838B8BA massive axe capable of tearing whole mountains down
+
+[I04M]
+Art=ReplaceableTextures\CommandButtons\BTNHammer.blp
+Name=Mithril Hammer
+Ubertip=+24 Damage |n|n|c00838B8BA hammer forged of pure mithril.  It's hammer time!
+
+[I04N]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfNegation.blp
+Name=Mystic Staff
+Ubertip=+25 Intelligence |n|n|c00838B8BEnigmatic staff made of only the most expensive crystals
+
+[I04O]
+Art=ReplaceableTextures\CommandButtons\BTNSpiritWalkerAdeptTraining.tga
+Name=Ogre Axe
+Ubertip=+10 Strength |n|n|c00838B8BYou feel tougher just by holding it!   
+
+[I04P]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Misc_Cape_08.blp
+Name=Planeswalker's Cloak
+Ubertip=+15% Magic Resistance |n|n|c00838B8BA cloak made of a magic material that works to dispel any magic cast on it
+
+[I04Q]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Chest_Plate13.blp
+Name=Plate Mail
+Ubertip=+10 Armor |n|n|c00838B8BThick metal plates that protect the entire upper body. Avoid dropping on feet
+
+[I04R]
+Art=ReplaceableTextures\CommandButtons\BTNUsedSoulGem.blp
+Name=Point Booster
+Ubertip=+200 Hit Points |n+150 Mana |n|n|c00838B8BMeenie
+
+[I04S]
+Art=ReplaceableTextures\CommandButtons\BTNAlleriaFlute.blp
+Name=Quarterstaff
+Ubertip="+10 Damage |n+10 Attack Speed |n|n|c00838B8BFour of these form an ordinary staff, duh! "
+
+[I04T]
+Art=ReplaceableTextures\CommandButtons\BTNGoldRing.blp
+Name=Ring of Health
+Ubertip=+5 HP Regeneration |n|n|c00838B8BA shiny ring found beneath a fat halfling's corpse
+
+[I04U]
+Art=ReplaceableTextures\CommandButtons\BTNRingPurple.blp
+Name=Ring of Protection
+Ubertip="+2 Armor |n|n|c00838B8BDue to its small size, many have troubles with putting it on"
+
+[I04V]
+Art=ReplaceableTextures\CommandButtons\BTNRingSkull.blp
+Name=Ring of Regeneration
+Ubertip=+2 HP Regeneration |n|n|c00838B8BThis ring is considered a good luck charm among the Gnomes
+
+[I04W]
+Art=ReplaceableTextures\CommandButtons\BTNRobeOfTheMagi.blp
+Name=Robe of the Magi
+Ubertip="+6 Intelligence |n|n|c00838B8BThis robe corrupts the soul of the user, but provides Intelligence points in return"
+
+[I04X]
+Art=ReplaceableTextures\CommandButtons\BTNStaffOfTeleportation.blp
+Name=Sacred Relic
+Ubertip="+60 Damage |n|n|c00838B8BAn ancient weapon, it's difficult to tell what Sacred Relic even is.  Rumors say that it's a sword of immeasureable damage. Ouch!"
+
+[I04Y]
+Art=ReplaceableTextures\CommandButtons\BTNSlippersOfAgility.blp
+Name=Slippers of Agility
+Ubertip=+3 Agility |n|n|c00838B8BLight boots made from spider skin that tingles your senses
+
+[I04Z]
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask.blp
+Name=Sobi Mask
+Ubertip=+50% Mana Regeneration |n|n|c00838B8BA common mask used by Mages and Warlocks for various rituals
+
+[I050]
+Art=ReplaceableTextures\CommandButtons\BTNWandOfCyclone.blp
+Name=Staff of Wizardry
+Ubertip=+10 Intelligence |n|n|c00838B8BYou shall not pass!!
+
+[I051]
+Art=ReplaceableTextures\CommandButtons\BTNSteelArmor.blp
+Name=Stout Shield (melee)
+Ubertip=+60% chance to block 20 damage |n|n|c00838B8BOne man's wine barrel bottom is another man's shield!
+
+[I052]
+Art=ReplaceableTextures\CommandButtons\BTNOrbofSlowness.blp
+Name=Ultimate Orb
+Ubertip=+10 All Attributes |n|n|c00838B8BA mystical orb containing the essence of life
+
+[I053]
+Art=ReplaceableTextures\CommandButtons\BTNSoulGem.blp
+Name=Vitality Booster
+Ubertip=+250 Hit Points |n|n|c00838B8BMinie
+
+[I054]
+Art=ReplaceableTextures\CommandButtons\BTNPeriapt.blp
+Name=Void Stone
+Ubertip=+100% Mana Regeneration |n|n|c00838B8BA stone of seemingly endless inner power
+
+[I055]
+Art=ReplaceableTextures\CommandButtons\BTNSteelRanged.blp
+Name=Javelin
+Ubertip=+21 Damage |n20% chance to deal 40 bonus damage |n|n|c00838B8BA rather typical spear that can sometimes pierce through an enemy's armor when used to attack
+
+[I056]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Healing Salve
+Ubertip=,
+
+[I057]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ancient Tango of Essifation
+Ubertip=,
+
+[I058]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Observer Wards
+Ubertip=,
+
+[I059]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Sentry Wards
+Ubertip=,
+
+[I05A]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Scroll of Town Portal
+Ubertip=,
+
+[I05B]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Animal Courier
+Ubertip=,
+
+[I05C]
+Art=ReplaceableTextures\CommandButtons\BTNAncientOfTheEarth.blp
+Name=Ancient Tango of Essifation
+Ubertip="Allows the bearer to consume a tree, restoring 115 hit points over 16 seconds. 3 charges. |n|n|c00838B8BUser may experience dependence after prolonged usage"
+
+[I05D]
+Art=ReplaceableTextures\CommandButtons\BTNLesserClarityPotion.blp
+Name=Clarity Potion
+Ubertip=Regenerates 100 mana over 30 seconds when used. Dispels on attack. |n|n|c00838B8BA live wisp is captured in each bottle
+
+[I05E]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Empty Bottle
+Ubertip=,
+
+[I05F]
+Art=ReplaceableTextures\CommandButtons\BTNHealingSalve.blp
+Name=Healing Salve
+Ubertip=Heals 400 HP over 10 seconds on a friendly unit.  1 Charge.  Dispels on attack. |n|n|c00838B8BA magical salve that can quickly mend even the deepest of wounds.
+
+[I05G]
+Art=ReplaceableTextures\CommandButtons\BTNSentryWard.blp
+Name=Observer Wards
+Ubertip=Drops an Observer Ward to spy upon an area. Does not have True Sight. |nLasts 6 minutes. 
+
+[I05H]
+Art=ReplaceableTextures\CommandButtons\BTNBlueSentryWard.blp
+Name=Sentry Wards
+Ubertip="Drops a Sentry Ward which gives truesight, revealing nearby invisible units. Has very limited natural vision by itself. |nLasts 3 minutes. "
+
+[I05I]
+Art=ReplaceableTextures\CommandButtons\BTNScrollUber.blp
+Name=Scroll of Town Portal
+Ubertip=Transports you to a friendly structure. |n|n|cff99ccffCooldown: |r 65 seconds. 
+
+[I05J]
+Art=ReplaceableTextures\CommandButtons\BTNCritterChicken.blp
+Name=Animal Courier
+Ubertip=Creates a small fast unit that can carry items to and from your base.
+
+[I05K]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Bracer Recipe
+Ubertip=,
+
+[I05L]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Headdress of Rejuvenation Recipe
+Ubertip=,
+
+[I05M]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Nathrezim Buckler Recipe
+Ubertip=,
+
+[I05N]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Wraith Band Recipe
+Ubertip=,
+
+[I05O]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Boots of Travel Recipe
+Ubertip=,
+
+[I05P]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Hand of Midas Recipe
+Ubertip=,
+
+[I05Q]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Null Talisman Recipe
+Ubertip=,
+
+[I05R]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Headdress of Rejuvenation Recipe
+Ubertip=|cffffcc00Gives:|r |n+2 Agility |n+2 Intelligence |n+2 Strength  |n+3 HP/second regen aura |n|cffffcc00Requires:|r |nRing of Regeneration |nIronwood Branch
+
+[I05S]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Nathrezim Buckler Recipe
+Ubertip=|cffffcc00Gives:|r |n+5 Armor |n+2 All Stats |nArea bonus armor (active) |n|cffffcc00Requires:|r |nChainmail |nIronwood Branch
+
+[I05T]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Boots of Travel Recipe
+Ubertip=|cffffcc00Gives:|r |n+100 movement speed |nTeleport to friendly non-hero unit (active) |n|cffffcc00Requires:|r |nBoots of Speed |n|n|c00ff0303Movement Speed does not stack with other boot items.|r
+
+[I05U]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Hand of Midas Recipe
+Ubertip=|cffffcc00Gives:|r |n+30% Attack Speed |nTransmute (active) |n|cffffcc00Requires:|r |nGloves of Haste
+
+[I05V]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Bracer Recipe
+Ubertip=|cffffcc00Gives:|r |n +3 Agility |n +3 Intelligence |n +6 Strength |n +3 Damage |n|n|cffffcc00Requires:|r |n Circlet of Nobility - 185 |n Gauntlets of Strength - 150  |n Recipe - 190|r  |n|n|c00838B8B Total Cost: 525
+
+[I05W]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Wraith Band Recipe
+Ubertip=|cffffcc00Gives:|r |n +6 Agility |n +3 Intelligence |n +3 Strength |n +3 Damage |n|n|cffffcc00Requires:|r |n Circlet of Nobility - 185 |n Slippers of Agility - 150  |n Recipe - 150 |n|n|c00838B8B Total Cost: 485
+
+[I05X]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Null Talisman Recipe
+Ubertip=|cffffcc00Gives:|r |n +3 Agility |n +6 Intelligence |n +3 Strength |n +3 Damage |n|n|cffffcc00Requires:|r |n Circlet of Nobility - 185 |n Mantle of Intelligence - 150  |n Recipe - 135 |n|n|c00838B8B Total Cost: 470
+
+[I05Y]
+Art=ReplaceableTextures\CommandButtons\BTNWirtsLeg.blp
+Name=Power Treads (Strength)
+Ubertip="Name brand sneakers. Increases movement speed by 55, strength by 8 and attack speed by 30. Click to change form. |n|n|c00ff0303Movement Speed does not stack with other boot items.|r |n|n|c00ff0303Cannot carry more than one|r"
+
+[I05Z]
+Art=ReplaceableTextures\CommandButtons\BTNWirtsLegBlue.blp
+Name=Power Treads (Intelligence)
+Ubertip="Name brand sneakers. Increases movement speed by 55, intelligence by 8 and attack speed by 30. Click to change form. |n|n|c00ff0303Movement Speed does not stack with other boot items.|r |n|n|c00ff0303Cannot carry more than one|r"
+
+[I060]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Power Treads (Intelligence)
+Ubertip=,
+
+[I061]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Perseverance
+Ubertip=,
+
+[I062]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfFire.blp
+Name=Perseverance
+Ubertip="A gem that grants heart to the bearer.  Gives 125% enhanced mana regeneration, 5 hit point regeneration per second, and +10 damage. "
+
+[I063]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Helmet_17.blp
+Name=Headdress of Rejuvenation
+Ubertip=Creates a soothing aura that restores hit points for nearby units.  Gives +2 to all stats and heals all allies in area for 3 hit points per second.
+
+[I064]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Headdress of Rejuvenation
+Ubertip=,
+
+[I065]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Nathrezim Buckler
+Ubertip=,
+
+[I066]
+Art=ReplaceableTextures\CommandButtons\BTNThoriumArmor.blp
+Name=Nathrezim Buckler
+Ubertip="A powerful shield that imbues the bearer with the strength of heroes past, giving +5 armor, +2 All Stats and, when activated, gives 2 bonus armor to nearby allied units.|n|n|cff99ccffCooldown: |r 25 seconds."
+
+[I067]
+Art=ReplaceableTextures\CommandButtons\BTNRingVioletSpider.tga
+Name=Ring of Basilius (|cff00ff00Normal|r)
+Ubertip="Ring given as a reward to the greatest Mages of the Alliance during the Second War. Grants a 0.65 Brilliance Aura, a +2 Devotion Aura, +1 armor and 6 damage. Click this to convert it to a hero only armor aura. "
+
+[I068]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ring of Basilius
+Ubertip=,
+
+[I069]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ring of Basilius (Heroes)
+Ubertip=,
+
+[I06A]
+Art=ReplaceableTextures\CommandButtons\BTNBasilHeroesOnly.blp
+Name=Ring of Basilius (|cffff0000Heroes|r)
+Ubertip="Ring given as a reward to the greatest Mages of the Alliance during the Second War. Grants a 0.65 Brilliance Aura, a +2 Devotion Aura, +1 armor, and 6 damage. Works only on heroes. Click this to convert it to a regular aura."
+
+[I06B]
+Art=ReplaceableTextures\CommandButtons\BTNAbility_Rogue_Sprint.blp
+Name=Boots of Travel
+Ubertip=Boots that are enchanted by the fairy magic. Increases movement speed by 100 and allows the hero to Teleport to a friendly non-hero unit. |n|n|cff99ccffCooldown: |r 60 seconds. |n|n|c00ff0303Movement Speed does not stack with other boot items.|r
+
+[I06C]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Boots of Travel
+Ubertip=,
+
+[I06D]
+Art=ReplaceableTextures\CommandButtons\BTNGoldGloves.BLP
+Name=Hand of Midas
+Ubertip="Preserved through unknown magical means, the Hand of Midas still retains much of its original potency.  Grants +30% increased attack speed, and the ability to instantly turn creeps into 190 gold. |n|n|cff99ccffCooldown: |r 100 seconds."
+
+[I06E]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Hand of Midas
+Ubertip=,
+
+[I06F]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Mace_10.blp
+Name=Oblivion Staff
+Ubertip="A quarterstaff created by the master weaponsmith, Jax.  Deceptively hidden as an ordinary quarterstaff.  Adds 10% attack speed, 75% mana regeneration, +6 intelligence, and +15 damage."
+
+[I06G]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Oblivion Staff
+Ubertip=,
+
+[I06H]
+Art=ReplaceableTextures\CommandButtons\BTNRunedBracers.blp
+Name=Bracer
+Ubertip="A decorated wrist band. Gives +3 damage, +3 to all attributes, and an additional +3 to strength."
+
+[I06I]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Bracer
+Ubertip=,
+
+[I06J]
+Art=ReplaceableTextures\CommandButtons\BTNRevenant.blp
+Name=Wraith Band
+Ubertip="A circlet with faint whispers echoing about it. Gives +3 damage, +3 to all attributes, and an additional +3 to agility."
+
+[I06K]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Wraith Band
+Ubertip=,
+
+[I06L]
+Art=ReplaceableTextures\CommandButtons\BTNTalisman.tga
+Name=Null Talisman
+Ubertip="A small gemstone attached to several chains. Gives +3 damage, +3 to all attributes and an additional +3 to intelligence. |n|n|c00838B8BAllows dividing by zero"
+
+[I06M]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Null Talisman
+Ubertip=,
+
+[I06N]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Yasha Recipe
+Ubertip=,
+
+[I06O]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Yasha Recipe
+Ubertip=|cffffcc00Gives:|r |n+16 Agility |n+15 Attack Speed |n10% Movement Speed |n|cffffcc00Requires:|r |nBlade of Alacrity |nBoots of Elvenskin
+
+[I06P]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Sange Recipe
+Ubertip=|cffffcc00Gives:|r |n+16 Strength |n+15% Lesser Maim (passive) |n+10 Damage |n|cffffcc00Requires:|r |nOgre Axe |nBelt of Giant Strength
+
+[I06Q]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Sange Recipe
+Ubertip=,
+
+[I06R]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Cranium Basher Recipe
+Ubertip=,
+
+[I06S]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Cranium Basher Recipe
+Ubertip="|cffffcc00Gives:|r |n+40 damage |n+6 Strength |nBash (25% for melee, 10% for range) |n|n|cffffcc00Requires:|r |n Javelin - 1500 |n Belt of Giant Strength - 450  |n Recipe - 1000 |n|n|c00838B8B Total Cost: 2950 |n|n|c00ff0303Does not stack with other bash passives|r"
+
+[I06V]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Maelstrom Recipe
+Ubertip="|cffffcc00Gives:|r |n+24 damage |n+25 Attack Speed |nChain Lightning (orb, passive) |n|cffffcc00Requires:|r |nMithril Hammer |nGloves of Haste |n|n|c00ff0303Orb effects do not stack|r"
+
+[I06W]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Maelstrom Recipe
+Ubertip=,
+
+[I06X]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Diffusal Blade Recipe
+Ubertip=,
+
+[I06Y]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Diffusal Blade Recipe
+Ubertip="|cffffcc00Gives:|r |n+22 Agility |n+6 Intelligence |nFeedback (orb, passive) |nPurge (charged, active) |n|cffffcc00Requires:|r |n2x Blade of Alacrity |nRobe of the Magi |n|n|c00ff0303Orb effects do not stack|r |n|c00fffc01Buy recipe to upgrade (2 levels)|r"
+
+[I06Z]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Mask of Madness Recipe
+Ubertip="|cffffcc00Gives:|r |n17% Lifesteal (orb, passive) |nBerserk (active) |n|cffffcc00Requires:|r |nMask of Death|n|n|c00ff0303Orb effects do not stack|r"
+
+[I070]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Mask of Madness Recipe
+Ubertip=,
+
+[I071]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Eul's Scepter of Divinity Recipe
+Ubertip=,
+
+[I072]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Eul's Scepter of Divinity Recipe
+Ubertip=|cffffcc00Gives:|r |n+10 Intelligence |n+150% Mana regen |n+35 Movement Speed|nCyclone (active) |n|cffffcc00Requires:|r |nStaff of Wizardry |nSobi Mask |nVoid Stone
+
+[I073]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Mekansm Recipe
+Ubertip=|cffffcc00Gives:|r |n+5 to all stats |n+5 armor |n+4 HP regen aura |n+2 armor/250hp AoE (active). |n|cffffcc00Requires:|r |nHeaddress of Rejuvenation (Supportive Vestments) |nNathrezim Buckler (Supportive Vestments) 
+
+[I074]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Mekansm Recipe
+Ubertip=,
+
+[I076]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Stygian Desolator Recipe
+Ubertip=,
+
+[I077]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Crystalys Recipe
+Ubertip=,
+
+[I078]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Black King Bar Recipe
+Ubertip=,
+
+[I079]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Manta Style Recipe
+Ubertip=,
+
+[I07A]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Lothar's Edge Recipe
+Ubertip=,
+
+[I07B]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Dagon Recipe
+Ubertip=,
+
+[I07C]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Necronomicon Recipe
+Ubertip=,
+
+[I07D]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Linken's Sphere Recipe
+Ubertip=,
+
+[I07E]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Buriza-do Kyanon Recipe
+Ubertip=,
+
+[I07F]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Radiance Recipe
+Ubertip=|cffffcc00Gives:|r |n+60 damage |nDamages all nearby opponents (passive) |n|cffffcc00Requires:|r |nSacred Relic
+
+[I07G]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Radiance Recipe
+Ubertip=,
+
+[I07H]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Heart of Tarrasque Recipe
+Ubertip=,
+
+[I07J]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Refresher Orb Recipe
+Ubertip=,
+
+[I07K]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Guinsoo's Scythe of Vyse
+Ubertip=,
+
+[I07L]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Mjollnir Recipe
+Ubertip=,
+
+[I07M]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Arcane Ring Recipe
+Ubertip=,
+
+[I07O]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Satanic Recipe
+Ubertip=,
+
+[I07P]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Flying Courier Recipe
+Ubertip=,
+
+[I07Q]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Vladmir's Offering Recipe
+Ubertip=,
+
+[I07R]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Assault Cuirass Recipe
+Ubertip=,
+
+[I07S]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Armlet of Mordiggian Recipe
+Ubertip=,
+
+[I07T]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Shiva's Guard Recipe
+Ubertip=,
+
+[I07V]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Stygian Desolator Recipe
+Ubertip="|cffffcc00Gives:|r |n +60 damage |n Corruption (orb, passive)|n |n|cffffcc00Requires:|r |n 2x Mithril Hammers - 3200  |n Recipe - 900 |n|n|c00838B8B Total Cost: 4100 |n|n|c00ff0303Orb effects do not stack|r |n|cff99ccffBuff placers do not stack|r"
+
+[I07W]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Crystalys Recipe
+Ubertip=|cffffcc00Gives:|r |n+30 damage |n20% Critical Strike (1.75x) |n|cffffcc00Requires:|r |nBroadsword |nBlades of Attack
+
+[I07X]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Black King Bar Recipe
+Ubertip=|cffffcc00Gives:|r |n+10 Strength |n+24 damage |nAvatar (active) |n|cffffcc00Requires:|r |nOgre Axe |nMithril Hammer
+
+[I07Y]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Manta Style Recipe
+Ubertip=|cffffcc00Gives:|r |n+26 Agility |n+10 Strength |n+10 Intelligence |n+15 Attack Speed |n10% Movement Speed |nMirror Image (active) |n|cffffcc00Requires:|r |nYasha (Enchanted Artifacts) |nUltimate Orb |n|n|c00fffc01Can be disassembled|r 
+
+[I07Z]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Lothar's Edge Recipe
+Ubertip=|cffffcc00Gives:|r |n+38 Damage |n+10 Attack Speed |nWind Walk (active) |n|cffffcc00Requires:|r |nClaymore |nQuarterstaff
+
+[I080]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Dagon Recipe
+Ubertip=|cffffcc00Gives:|r |n +13 Intelligence |n +9 damage |n +3 All Stats |n Energy Burst (active) |n|n|cffffcc00Requires:|r |n Staff of Wizardry - 1000 |n Null Talisman - 470 (Gateway Relics)  |n Recipe - 1250  |n|n|c00838B8B Total Cost: 2720/3970/5220/6470/7720 |n|n|c00fffc01Buy recipe to upgrade (5 levels)|r
+
+[I081]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Necronomicon Recipe
+Ubertip=|cffffcc00Gives:|r |n+15 Intelligence |n+8 Strength |nDemonic Summoning (active) |n|cffffcc00Requires:|r |nStaff of Wizardry|nBelt Of Giant Strength|n|n|c00fffc01Buy recipe to upgrade (3 levels)|r |n
+
+[I082]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Linken's Sphere Recipe
+Ubertip=|cffffcc00Gives:|r |n Blocks most targeted spells once every 20 seconds|n +6 HP regen/second |n +150% mana regen |n +15 Agility |n +15 Intelligence |n +15 Strength |n +10 Damage |n|n|cffffcc00Requires:|r |n Perseverance - 1750 (Gateway Relics) |n Ultimate Orb - 2100  |n Recipe - 1325 |n|n|c00838B8B Total Cost: 5175
+
+[I083]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Buriza-do Kyanon Recipe
+Ubertip=|cffffcc00Gives:|r |n+81 damage |n25% Critical Strike (2.4x) |n|cffffcc00Requires:|r |nDemon Edge |nCrystalys (Ancient Weaponry)
+
+[I084]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Heart of Tarrasque Recipe
+Ubertip=|cffffcc00Gives:|r |n+40 Strength |n+2% HP regen |n+300 HP |n|cffffcc00Requires:|r |nMesserschmidt's Reaver |nVitality Booster
+
+[I085]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Satanic Recipe
+Ubertip="|cffffcc00Gives:|r |n25% lifesteal (orb, passive) |nUnholy Rage (active) |n+25 Strength |n+20 Damage |n+5 armor |n|cffffcc00Requires:|r |nHelm of the Dominator (Enchanted Artifacts) |nMesserschmidt's Reaver |n|n|c00ff0303Orb effects do not stack|r"
+
+[I088]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Refresher Orb Recipe
+Ubertip=|cffffcc00Gives:|r |n +5 HP regen/second |n +200% mana regen |n +40 damage |n +6 Intelligence |n Resets cooldowns (active) |n|n|cffffcc00Requires:|r |n Oblivion Staff - 1675 (Gateway Relics) |n Perseverance - 1750 (Gateway Relics)  |n Recipe - 1875  |n|n|c00838B8B Total Cost: 5300
+
+[I089]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Arcane Ring Recipe
+Ubertip=|cffffcc00Gives:|r |n+4 Armor |n+300 Mana |nReplenish Mana (active) |n|cffffcc00Requires:|r |nEnergy Booster |nRing of Protection 
+
+[I08A]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Flying Courier Recipe
+Ubertip=|cffffcc00Gives:|r |nPowerful Flying Courier |n|cffffcc00Requires:|r |nAnimal Courier 
+
+[I08B]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Vladmir's Offering Recipe
+Ubertip=|cffffcc00Gives:|r |n +16% Lifesteal Aura (|c00ff0303melee|r)   |n +15% Damage Aura  |n +0.80 Brilliance Aura |n +5 Devotion Aura |n +2 HP Regeneration  |n|n|cffffcc00Requires:|r |n Ring of Basilius - 500 (Supportive Vestments) |n Mask of Death - 900 |n Ring of Regeneration - 350 |n Recipe - 300 |n|n|c00838B8B Total Cost: 2050
+
+[I08C]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Assault Cuirass Recipe
+Ubertip=|cffffcc00Gives:|r |n+10 Armor |n+5 Armor Aura |n-5 Armor Aura |n+35% Attack Speed |n+20% Attack Speed Aura |n|cffffcc00Requires:|r |nPlate Mail |nHyperstone |nChainmail
+
+[I08D]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Armlet of Mordiggian Recipe
+Ubertip=|cffffcc00Gives:|r |n +9 damage |n +15 Attack Speed |n +5 Armor |n +7 hp regen |n Unholy Strength (active) |n|n|cffffcc00Requires:|r |n Helm of Iron Will - 950 |n Gloves of Haste - 500 |n Blades of Attack - 450 |n Recipe - 700|r |n|n|c00838B8B Total Cost: 2600 |n|n|c00ff0303Cannot carry more than one|r
+
+[I08E]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Shiva's Guard Recipe
+Ubertip=|cffffcc00Gives:|r |n+30 Intelligence |n+15 Armor |nFreezing Aura  |nArctic Blast (active) |n|cffffcc00Requires:|r |nPlate Mail |nMystic Staff  |n|n|c00fffc01Can be disassembled|r 
+
+[I08F]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Yasha
+Ubertip=,
+
+[I08G]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Sword_10.blp
+Name=Yasha
+Ubertip="Yasha is regarded as the swiftest weapon ever created. The few that have wielded it say that it has no weight whatsoever. Adds +16 agility, +15 attack speed and +10% movement speed."
+
+[I08H]
+Art=ReplaceableTextures\CommandButtons\BTNJapaneseSword.BLP
+Name=Sange
+Ubertip="Sange is an unusually accurate weapon.  Magically intelligent, it seeks weak points automatically.  Gives +16 to strength, +10 damage and a 15% chance on hit to maim the target, reducing movement and attack speed."
+
+[I08I]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Sange
+Ubertip=,
+
+[I08J]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Cranium Basher
+Ubertip=,
+
+[I08K]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Hammer_10.blp
+Name=Cranium Basher
+Ubertip="A powerful weapon, used to bash skulls in. Adds 40 damage, +6 Strength, and has a 25% (10% for ranged) chance to Bash for 1.4 seconds. Has a 2 second cooldown. |n|n|c00ff0303Does not stack with other bash passives|r"
+
+[I08L]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Hammer_10.blp
+Name=Cranium Basher (Ranged)
+Ubertip="A powerful weapon, used to bash skulls in. Adds 40 damage, +6 Strength, and has a 25% (10% for ranged) chance to Bash for 1.4 seconds. Has a 2 second cooldown. |n|n|c00ff0303Does not stack with other bash passives|r"
+
+[I08M]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Cranium Basher (Ranged)
+Ubertip=,
+
+[I08N]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Blade Mail
+Ubertip=,
+
+[I08O]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Chest_Plate06.blp
+Name=Blade Mail
+Ubertip="Invented by the Burning Legion, this razor-sharp coat of mail increases attack damage by 22, armor by 6 and intelligence by 10 when worn. When activated, any damage you take will be returned to enemy units. Lasts 4.5 seconds |n|n|cff99ccffCooldown: |r 17 |n|n|c00838B8BServes as great company for those long respawn times "
+
+[I08P]
+Art=ReplaceableTextures\CommandButtons\BTNStormHammer.blp
+Name=Maelstrom
+Ubertip="A hammer forged for the gods themselves, Maelstrom allows its user to harness the power of lightning when attacking.  Gives +24 damage, +25 attack speed and a 25% chance to release a 120 damage Chain Lightning. |n|n|c00ff0303Orb effects do not stack|r"
+
+[I08Q]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Maelstrom
+Ubertip=,
+
+[I08R]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Sword_11.blp
+Name=Diffusal Blade Level 1
+Ubertip="An enchanted blade that allows the user to cut straight into the enemy's soul. Adds 22 Agility, 6 Intelligence and Feedback (burns 20 mana) and can cast Purge. |n|n|c00ff0303Orb effects do not stack|r|n|n|cff99ccffCooldown: |r 8"
+
+[I08S]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Diffusal Blade Level 1
+Ubertip=,
+
+[I08T]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Helmet_13.blp
+Name=Helm of the Dominator
+Ubertip="The powerful headpiece of a dead necromancer.  Gives +5 armor, +20 damage, 15% life steal, and the ability to Dominate creeps.|n|n|c00ff0303Orb effects do not stack|r|n|n|cff99ccffCooldown: |r 60"
+
+[I08U]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Helm of the Dominator
+Ubertip=,
+
+[I08V]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Helmet_13.blp
+Name=Helm of the Dominator (Courier Edition)
+Ubertip="The powerful headpiece of a dead necromancer.  Gives +5 armor, +20 damage, 15% life steal, and the ability to Dominate creeps.|n|n|c00ff0303Orb effects do not stack|r|n|n|cff99ccffCooldown: |r 60"
+
+[I08W]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Helm of the Dominator (Courier Edition)
+Ubertip=,
+
+[I08X]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Mask of Madness
+Ubertip=,
+
+[I08Y]
+Art=ReplaceableTextures\CommandButtons\BTNHelmOfValor.blp
+Name=Mask of Madness
+Ubertip="This Mask looks so strange that it drives you insane.  Grants 17% life steal and allows you to go Berserk.  The Berserk state adds 100% attack speed and 30% movement speed, but you take 30% extra damage.|n|n|c00ff0303Orb effects do not stack|r|n|n|cff99ccffCooldown: |r 25"
+
+[I08Z]
+Art=ReplaceableTextures\CommandButtons\BTNStaffofpurification.blp
+Name=Eul's Scepter of Divinity
+Ubertip="A very powerful relic, a reminder to us of the archaic age.  Grants the hero +10 Intelligence, +150% enhanced mana regeneration, +35 Movement Speed and Cyclone (2.5). |n|n|cff99ccffCooldown: |r 30"
+
+[I090]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Eul's Scepter of Divinity
+Ubertip=,
+
+[I091]
+Art=ReplaceableTextures\CommandButtons\BTNPhilosophersStone.blp
+Name=Soul Booster
+Ubertip="The crystalized Soul of an ancient dragon.  Gives 450 hit points, 400 mana, 100% enhanced mana regeneration and 4 hp regeneration. |n|n|c00838B8BMo"
+
+[I092]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Soul Booster
+Ubertip=,
+
+[I093]
+Art=ReplaceableTextures\CommandButtons\BTNSpellShieldAmulet.blp
+Name=Mekansm
+Ubertip="A glowing jewel formed out of assorted parts that somehow fit together perfectly, Mekansm protects its bearer from danger. Gives +5 to all stats, +5 armor, 4 HP regen aura and +2 armor/250hp AoE heal. Will only heal units that do not have the mekansm buff already.|n|n|cff99ccffCooldown: |r 45 seconds."
+
+[I094]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Mekansm
+Ubertip=,
+
+[I095]
+Art=ReplaceableTextures\CommandButtons\BTNSpell_Holy_BlessingOfStrength.blp
+Name=Sange and Yasha
+Ubertip="Sange and Yasha, when attuned by the moonlight of Tir'nogth and used together, become a very powerful combination.  Gives +16 Agility, +16 Strength, +16 Attack Speed, 16% chance on hit to maim the target, +16 damage, and +12% movement speed. Movement bonus does not stack with Yasha. |n|n|c00fffc01Can be disassembled|r "
+
+[I096]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Sange and Yasha
+Ubertip=,
+
+[I097]
+Art=ReplaceableTextures\CommandButtons\BTNAbility_Gouge.blp
+Name=Stygian Desolator
+Ubertip="A wicked weapon, used in torturing political criminals.  It hungers for blood.  Adds +60 damage and reduces the armor of enemies you attack by 7. Works on structures. |n|n|c00ff0303Orb effects do not stack|r |n|cff99ccffBuff placers do not stack|r"
+
+[I098]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Stygian Desolator
+Ubertip=,
+
+[I099]
+Art=ReplaceableTextures\CommandButtons\BTNINV_ThrowingAxe_06.blp
+Name=Battle Fury
+Ubertip="The user becomes a powerful killing machine.  Gives 150% enhanced mana regeneration, 6 hit points regenerated per second, +65 Damage, and 35% Cleaving Attack."
+
+[I09A]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Battle Fury
+Ubertip=,
+
+[I09B]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Crystalys
+Ubertip=,
+
+[I09C]
+Art=ReplaceableTextures\CommandButtons\BTNThoriumMelee.blp
+Name=Crystalys
+Ubertip="Named after a decisive battle in the War of the Magi, in which the Rebels rescued Roshan from his imprisonment at Crystalys.  Adds 30 damage and has a 20% Critical Strike for 1.75x damage."
+
+[I09D]
+Art=ReplaceableTextures\CommandButtons\BTNRodOfNecromancy.blp
+Name=Black King Bar (6)
+Ubertip="A powerful rod imbued with the strength of giants.  Adds +10 Strength, +24 damage, and the Avatar ability, which lasts 6 seconds. |n|n|cff99ccffCooldown: |r 60"
+
+[I09E]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Black King Bar (8)
+Ubertip=,
+
+[I09F]
+Art=ReplaceableTextures\CommandButtons\BTNINV_ThrowingAxe_02.blp
+Name=Manta Style
+Ubertip="A funky looking axe that grants +26 Agility, +10 Strength, +10 Intelligence, +15 Attack Speed, +10% Movement Speed and allows you to create 2 illusions of yourself that deal 33% damage and receive 350% damage.|n|n|cff99ccffCooldown: |r 35 |n|n|c00fffc01Can be disassembled|r "
+
+[I09G]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Manta Style
+Ubertip=,
+
+[I09H]
+Art=ReplaceableTextures\CommandButtons\BTNLothars.BLP
+Name=Lothar's Edge
+Ubertip="The legendary Lothar's blade that was dropped during the Second War. Grants +22 damage, +30 Attack Speed, and a 12 second Wind Walk (Grants invisibility with 150 backstab damage and +20% movement speed). |n|n|cff99ccffCooldown: |r 18"
+
+[I09I]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Lothar's Edge
+Ubertip=,
+
+[I09J]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Dagon Level 2
+Ubertip=,
+
+[I09K]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Dagon Level 1
+Ubertip=,
+
+[I09L]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_06.blp
+Name=Dagon Level 5
+Ubertip="A lesser scepter that has been duplicated time and time again.  Gives +21 Intelligence, +9 damage, +3 to all stats, and a 800 damage Energy Burst.|n|n|cff99ccffCooldown: |r 15"
+
+[I09M]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_06.blp
+Name=Dagon Level 1
+Ubertip="A lesser scepter that has been duplicated time and time again.  Gives +13 Intelligence, +9 damage, +3 to all stats, and a 400 damage Energy Burst.  The Energy Burst can be upgraded by combining this Dagon and the Dagon recipe. Can be upgraded four more times.|n|n|cff99ccffCooldown: |r 35"
+
+[I09N]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_06.blp
+Name=Dagon Level 3
+Ubertip="A lesser scepter that has been duplicated time and time again.  Gives +17 Intelligence, +9 damage, +3 to all stats, and a 600 damage Energy Burst.  The Energy Burst can be upgraded by combining this Dagon and the Dagon recipe. Can be upgraded two more times.|n|n|cff99ccffCooldown: |r 25"
+
+[I09O]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_06.blp
+Name=Dagon Level 4
+Ubertip="A lesser scepter that has been duplicated time and time again.  Gives +19 Intelligence, +9 damage, +3 to all stats, and a 700 damage Energy Burst.  The Energy Burst can be upgraded by combining this Dagon and the Dagon recipe. Can be upgraded one more time.|n|n|cff99ccffCooldown: |r 20"
+
+[I09P]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_06.blp
+Name=Dagon Level 2
+Ubertip="A lesser scepter that has been duplicated time and time again.  Gives +15 Intelligence, +9 damage, +3 to all stats, and a 500 damage Energy Burst.  The Energy Burst can be upgraded by combining this Dagon and the Dagon recipe. Can be upgraded three more times.|n|n|cff99ccffCooldown: |r 30"
+
+[I09Q]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Dagon Level 3
+Ubertip=,
+
+[I09R]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Dagon Level 5
+Ubertip=,
+
+[I09S]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Dagon Level 4
+Ubertip=,
+
+[I09T]
+Art=ReplaceableTextures\CommandButtons\BTNNecromancerAdept.blp
+Name=Necronomicon Level 1
+Ubertip="Considered the holy grail of necromancy and demonology, a powerful malefic force is locked within its pages. Gives +15 intelligence, +8 strength, and the ability to summon 2 level 1 Demon Mages with unique abilities. The abilities and stats become more powerful with each upgrade.  Can be upgraded twice.|n|n|cff99ccffCooldown: |r 80"
+
+[I09U]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Necronomicon Level 1
+Ubertip=,
+
+[I09V]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Necronomicon Level 2
+Ubertip=,
+
+[I09W]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Necronomicon Level 3
+Ubertip=,
+
+[I09X]
+Art=ReplaceableTextures\CommandButtons\BTNBookOfTheDead.blp
+Name=Necronomicon Level 2
+Ubertip="Considered the holy grail of necromancy and demonology, a powerful malefic force is locked within its pages. Gives +21 intelligence, +12 strength, and the ability to summon 2 level 2 Demon Mages with unique abilities. The abilities and stats become more powerful with each upgrade. Can be upgraded once. |n|n|cff99ccffCooldown: |r 80"
+
+[I09Y]
+Art=ReplaceableTextures\CommandButtons\BTNNecromancerMaster.blp
+Name=Necronomicon Level 3
+Ubertip="Considered the holy grail of necromancy and demonology, a powerful malefic force is locked within its pages. Gives +24 intelligence, +16 strength, and the ability to summon 2 level 3 Demon Mages with unique abilities. |n|n|cff99ccffCooldown: |r 80"
+
+[I09Z]
+Art=ReplaceableTextures\CommandButtons\BTNOrb of Water.blp
+Name=Linken's Sphere
+Ubertip="This magical sphere once protected one of the most famous heroes in history. Linken's Sphere has the power to negate most targeted spells once every 17 seconds. Gives +15 All stats, 6HP/Sec, +150% mana regen, +10 damage and spell negation.|n|n|cff99ccffCooldown: |r 17"
+
+[I0A0]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Linken's Sphere
+Ubertip=,
+
+[I0A1]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Sword_25.blp
+Name=|c00000000Divine Rapier|r
+Ubertip="The Divine Rapier was granted by God himself to the rebels in the War of the Magi.  Grants +300 damage, but drops if the user dies. |n|n|c00ff0303Drops upon death|r   |n|n|c00838B8BWith great power comes great responsibility"
+
+[I0A2]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=|c00000000Divine Rapier|r
+Ubertip=,
+
+[I0A3]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Weapon_Crossbow_10.blp
+Name=Buriza-do Kyanon
+Ubertip=When Blizzard made Buriza in .08 it was good.  Then they decided it wasn't good enough.  So in .09 they IMPROVED it.  Gives +81 damage and a 25% Critical Strike for 2.4x damage.
+
+[I0A4]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Buriza-do Kyanon
+Ubertip=,
+
+[I0A5]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Weapon_Halberd_10.blp
+Name=Monkey King Bar (True Strike |cff00ff00Active|r)
+Ubertip="A powerful staff used by a martial arts master.  Grants +88 damage, 15% increased attack speed, True Strike (causes your attacks to never miss) and a 35% chance to deal 100 bonus damage on every attack stopping channeling spells. True Strike is not compatible with some attack modifiers like Frost Arrows and Headshot. Click on this item to change its mode if you want to disable True Strike."
+
+[I0A6]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Monkey King Bar
+Ubertip=,
+
+[I0A7]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Radiance
+Ubertip=,
+
+[I0A8]
+Art=ReplaceableTextures\CommandButtons\BTNTransmute.blp
+Name=Radiance (|cff00ff00On|r)
+Ubertip=A divine weapon that gives +60 damage and a bright burning effect that damages nearby units for 50 damage a second.
+
+[I0A9]
+Art=ReplaceableTextures\CommandButtons\BTNHeartOfAszune.blp
+Name=Heart of Tarrasque
+Ubertip="Preserved heart of an extinct monster. Bolsters the bearer's fortitude. Adds 40 strength, 300 hit points, and regenerates 2% hit points per second while out of combat for 6 seconds (4 for melee)."
+
+[I0AA]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Heart of Tarrasque
+Ubertip=,
+
+[I0AB]
+Art=ReplaceableTextures\CommandButtons\BTNHornOfDoom.blp
+Name=Satanic
+Ubertip="Powerful weapon said to have been wielded by Drak'thul himself, the Satanic gives 25% life steal, +25 Strength, +20 Damage, +5 armor, and Unholy Rage (200% lifesteal for 3.5 seconds).  |n|n|c00ff0303Orb effects do not stack|r|n|n|cff99ccffCooldown: |r 35 "
+
+[I0AC]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Satanic
+Ubertip=,
+
+[I0AD]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Eye of Skadi
+Ubertip=,
+
+[I0AE]
+Art=ReplaceableTextures\CommandButtons\BTNIceShard.blp
+Name=Eye of Skadi
+Ubertip="Extremely rare artifact, guarded by the azure dragons of Northrend. Adds 25 to all stats, 250 life, 250 mana and grants Frost Attack. |n|n|c00ff0303Orb effects do not stack|r|n|cff99ccffBuff placers do not stack|r |n|n|c00838B8BBEWARE: Do not thaw!"
+
+[I0AF]
+Art=ReplaceableTextures\CommandButtons\BTNIceShard.blp
+Name=Eye of Skadi (Ranged)
+Ubertip="Extremely rare artifact, guarded by the azure dragons of Northrend. Adds 25 to all stats, 250 life, 250 mana and grants Frost Attack. |n|n|c00ff0303Orb effects do not stack|r|n|cff99ccffBuff placers do not stack|r |n|n|c00838B8BBEWARE: Do not thaw!"
+
+[I0AG]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Eye of Skadi (Ranged)
+Ubertip=,
+
+[I0AH]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=The Butterfly
+Ubertip=,
+
+[I0AI]
+Art=ReplaceableTextures\CommandButtons\BTNINV_ThrowingKnife_04.blp
+Name=The Butterfly
+Ubertip="The Butterfly is a blade that was magically created for use in the War of the Magi, but never used.  Only recently recovered from the Avalan vault, it grants its bearer +30 Agility, +30 damage, +30% increased attack speed, and 35% Evasion."
+
+[I0AJ]
+Art=ReplaceableTextures\CommandButtons\BTNHeartOfSearinox.blp
+Name=Refresher Orb
+Ubertip="A powerful artifact created for the wizard Aghanim. Gives 5 HP regeneration per second, 200% increased mana regeneration, +40 damage, +6 Intelligence, and the ability to instantly refresh all ability cooldowns. |n|n|cff99ccffCooldown: |r 160 seconds. |n|n|c00838B8BPerfect after a hard day's work"
+
+[I0AK]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Refresher Orb
+Ubertip=,
+
+[I0AL]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Sword_09.blp
+Name=Guinsoo's Scythe of Vyse
+Ubertip="Guinsoo's flaming staff that he uses to turn people into sheep on a whim. Grants +35 Intelligence, +10 Agility, +10 Strength, +150% enhanced mana regeneration, and the ability to turn units into sheep for 3.5 seconds.  |n|n|cff99ccffCooldown: |r 35"
+
+[I0AM]
+Art=ReplaceableTextures\CommandButtons\BTNBottle0.blp
+Name=Empty Bottle
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BNot recommended for fairy storage"
+
+[I0AN]
+Art=ReplaceableTextures\CommandButtons\BTNBottle1.blp
+Name=Magical Bottle - 1/3
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BNot recommended for fairy storage"
+
+[I0AO]
+Art=ReplaceableTextures\CommandButtons\BTNBottle2.blp
+Name=Magical Bottle - 2/3
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BNot recommended for fairy storage"
+
+[I0AP]
+Art=ReplaceableTextures\CommandButtons\BTNBottle3.blp
+Name=Magical Bottle - 3/3
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BNot recommended for fairy storage"
+
+[I0AQ]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Magical Bottle - Invisibility
+Ubertip=,
+
+[I0AR]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Magical Bottle - Double Damage
+Ubertip=,
+
+[I0AS]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Magical Bottle - 2/3
+Ubertip=,
+
+[I0AT]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Magical Bottle - 3/3
+Ubertip=,
+
+[I0AU]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Magical Bottle - 1/3
+Ubertip=,
+
+[I0AV]
+Art=ReplaceableTextures\CommandButtons\BTNBottle0.blp
+Name=Empty Bottle Store
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BNot recommended for fairy storage"
+
+[I0AW]
+Art=ReplaceableTextures\CommandButtons\BTNArcaniteArmor.blp
+Name=Aegis of the Immortal
+Ubertip="Roshan, the Immortal, was said to own a shield that protected him from death itself."
+
+[I0AX]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aegis of the Immortal
+Ubertip=,
+
+[I0AY]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Basic)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0AZ]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Furion)
+Ubertip=,
+
+[I0B0]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Cheese
+Ubertip=,
+
+[I0B1]
+Art=ReplaceableTextures\CommandButtons\BTNCheese.blp
+Name=Cheese
+Ubertip=Restores 2500 hit points and 1000 mana.
+
+[I0B2]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Pugna)
+Ubertip=,
+
+[I0B3]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (QoP)
+Ubertip=,
+
+[I0B4]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Rhasta)
+Ubertip=,
+
+[I0B5]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Witch Doctor)
+Ubertip=,
+
+[I0B6]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Veno)
+Ubertip=,
+
+[I0B7]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Rylai)
+Ubertip=,
+
+[I0B8]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Basic)
+Ubertip=,
+
+[I0B9]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Zeus)
+Ubertip=,
+
+[I0BA]
+Art=ReplaceableTextures\CommandButtons\BTNAdvancedUnholyArmor.blp
+Name=Vanguard (melee)
+Ubertip="The discarded mantlet of one of Gul'dan's Death Knights, Vanguard defends its wielder from even the most vicious of attacks with ease. Gives +250 hit points, 6 hit points regenerated per second and 70% chance to block 40 damage."
+
+[I0BB]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Vanguard
+Ubertip=,
+
+[I0BC]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Arcane Ring
+Ubertip=,
+
+[I0BD]
+Art=ReplaceableTextures\CommandButtons\BTNArcaneRing.blp
+Name=Arcane Ring
+Ubertip=A powerful jeweled ring that glows with intense magical energy. Gives +4 Armor and +300 Mana. Can cast Replenish to restore 135 mana to an area around the caster.|n|n|cff99ccffCooldown: |r 30 seconds.
+
+[I0BE]
+Art=ReplaceableTextures\CommandButtons\BTNThunderMallet.blp
+Name=Mjollnir
+Ubertip="Thor's magical hammer, made for him by the dwarfs Brok and Eitri. Gives +80 Attack Speed, +24 damage, and a 25% chance to release a 160 damage Chain Lightning. When a hero with the Static Charge buff is damaged there is a 20% chance that a 200 damage Static Charge will strike the unit that hurt you. Static charge activates at most once per second. |n|n|c00ff0303Orb effect|r|n|n|cff99ccffCooldown: |r 35 seconds."
+
+[I0BF]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Mjollnir
+Ubertip=,
+
+[I0BG]
+Art=ReplaceableTextures\CommandButtons\BTNCloakOfFlames.blp
+Name=Vladmir's Offering
+Ubertip="An eerie mask that is haunted with the malice of a fallen vampire. Grants a +16% Lifesteal Aura (melee), +0.80 Brilliance Aura, a +5 Devotion Aura, +15% damage Aura and +2 HP Regeneration."
+
+[I0BH]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Vladmir's Offering
+Ubertip=,
+
+[I0BI]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Assault Cuirass
+Ubertip=,
+
+[I0BJ]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Chest_Chain_14.blp
+Name=Assault Cuirass
+Ubertip="Forged in the depths of the river Styx, this hellish mail provides +10 armor, +5 armor aura, -5 armor aura, 35% increased attack speed and +20% attack speed aura."
+
+[I0BK]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Misc_Gem_Bloodstone_02.blp
+Name=Bloodstone
+Ubertip="The last of the blood artifacts forged by the powerful Hemomancer Erythros centuries ago. Grants +500 hp, +400 mana, +200% mana regen, +9 hp/sec regen. You gain 1 mp extra regen per second for each charge. When you die this restores 400hp +30xCharge to nearby allies. You respawn faster and lose less gold (based on charges). While dead you gain XP and vision in that area. Can be actived to suicide. |n|n|cff99ccffCooldown: |r 300"
+
+[I0BL]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Bloodstone
+Ubertip=,
+
+[I0BM]
+Art=ReplaceableTextures\CommandButtons\BTNHoodOfCunning.blp
+Name=Hood of Defiance
+Ubertip="A furred, magic resistant headpiece originally worn by Orcish shamans during conjuration ceremonies, it also heightens the life regeneration rate of whoever wears it. Gives +30% magic resistance and +8 hp regeneration"
+
+[I0BN]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Hood of Defiance
+Ubertip=,
+
+[I0BO]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNOrb of Water.blp
+Name=Linkin's Sphere
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0BP]
+Art=ReplaceableTextures\CommandButtons\BTNDivine_Borrowed.blp
+Name=Divine Rapier
+Ubertip="The Divine Rapier was granted by God himself to the rebels in the War of the Magi.  Grants +300 damage, but drops if the user dies. |n|n|c00ff0303Drops upon death|r |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0BQ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Weapon_Crossbow_10.blp
+Name=Buriza-do Kyanon
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0BR]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Weapon_Halberd_10.blp
+Name=Monkey King Bar
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0BS]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNTransmute.blp
+Name=Radiance
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0BT]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNHeartOfAszune.blp
+Name=Heart of Tarrasque
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0BU]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNHornOfDoom.blp
+Name=Satanic
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0BV]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNIceShard.blp
+Name=Eye of Skadi
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0BW]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_ThrowingKnife_04.blp
+Name=The Butterfly
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0BX]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNHeartOfSearinox.blp
+Name=Refresher Orb
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0BY]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Sword_09.blp
+Name=Guinsoo's Scythe of Vyse
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0BZ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNAdvancedUnholyArmor.blp
+Name=Vanguard
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0C0]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNThunderMallet.blp
+Name=Mjollnir
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0C1]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNCloakOfFlames.blp
+Name=Vladmir's Offering
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0C2]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Chest_Chain_14.blp
+Name=Assault Cuirass
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0C3]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Misc_Gem_Bloodstone_02.blp
+Name=Bloodstone
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0C4]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNHoodOfCunning.blp
+Name=Hood of Defiance
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0C5]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSlippersOfAgility.blp
+Name=Slippers of Agility
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0C6]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNRingVioletSpider.tga
+Name=Ring of Basilius (Heroes)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0C7]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNDaggerOfEscape.blp
+Name=Kelen's Dagger
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0C8]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Hammer_10.blp
+Name=Cranium Basher (Ranged)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0C9]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNOrbofSlowness.blp
+Name=Ultimate Orb
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CA]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNGlove.blp
+Name=Gloves of Haste
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CB]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNStaffOfSilence.blp
+Name=Orchid Malevolence
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CC]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNStaffOfTeleportation.blp
+Name=Sacred Relic
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CD]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNUndeadShrine.blp
+Name=Mask of Death
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CE]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Misc_Cape_08.blp
+Name=Planeswalker's Cloak
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CF]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNAdvancedMoonArmor.blp
+Name=Shiva's Guard
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CG]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSpiritWalkerMasterTraining.blp
+Name=Messerschmidt's Reaver
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CH]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Weapon_Bow_06.blp
+Name=Eaglehorn
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CI]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNFrostMourne.blp
+Name=Demon Edge
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CJ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNGauntletsOfOgrePower.blp
+Name=Gauntlets of Strength
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CK]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSoulGem.blp
+Name=Vitality Booster
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CL]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNUsedSoulGem.blp
+Name=Point Booster
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CM]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNMantleOfIntelligence.blp
+Name=Mantle of Intelligence
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CN]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNStaffOfNegation.blp
+Name=Mystic Staff
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CO]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Helmet_13.blp
+Name=Helm of the Dominator (Courier)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CP]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNRobeOfTheMagi.blp
+Name=Robe of the Magi
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CQ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNPeriapt1.blp
+Name=Hyperstone
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CR]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNEnchantedGemstone.blp
+Name=Energy Booster
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CS]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNBoots.blp
+Name=Boots of Elvenskin
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CT]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNIceShard.blp
+Name=Eye of Skadi (Ranged)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CU]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNIronwoodbranch.blp
+Name=Ironwood Branch
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CV]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNBelt.blp
+Name=Belt of Giant Strength
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CW]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNRingPurple.blp
+Name=Ring of Protection
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CX]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Sword_19.blp
+Name=Claymore
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CY]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNAlleriaFlute.blp
+Name=Quarterstaff
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0CZ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSteelMelee.blp
+Name=Broadsword
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0D0]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNHammer.blp
+Name=Mithril Hammer
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0D1]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNWandOfCyclone.blp
+Name=Staff of Wizardry
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0D2]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_ThrowingKnife_03.blp
+Name=Blade of Alacrity
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0D3]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_06.blp
+Name=Dagon Level 5
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0D4]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNCirclet.blp
+Name=Circlet of Nobility
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0D5]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNClawsOfAttack.blp
+Name=Blades of Attack
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0D6]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSteelRanged.blp
+Name=Javelin
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0D7]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Chest_Chain_12.blp
+Name=Chain Mail
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0D8]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSpiritWalkerAdeptTraining.tga
+Name=Ogre Axe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0D9]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSteelArmor.BLP
+Name=Stout Shield (melee)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0DA]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNHelmutPurple.blp
+Name=Helm of Iron Will
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0DB]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Chest_Plate13.blp
+Name=Plate Mail
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0DC]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_06.blp
+Name=Dagon Level 3
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0DD]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_06.blp
+Name=Dagon Level 4
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0DE]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNUnholyStrength.blp
+Name="Armlet of Mordiggian (Off,Courier)"
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0DF]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNAdvancedMoonArmor.blp
+Name=Shiva's Guard (Courier)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0DG]
+Art=ReplaceableTextures\CommandButtons\BTNGem_Borrowed.blp
+Name=Gem of True Sight
+Ubertip="A crystal that grants the hero true sight, which reveals nearby invisible units.   |n|n|c00ff0303Drops upon death|r |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0DH]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNDaggerOfEscape.blp
+Name=Disabled Kelen's Dagger
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0DI]
+Art=ReplaceableTextures\CommandButtons\BTNRoH_Borrowed.blp
+Name=Ring of Health
+Ubertip="+5 HP Regeneration |n|n|c00838B8BA shiny ring found beneath a fat halfling's corpse |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0DJ]
+Art=ReplaceableTextures\CommandButtons\BTNRoR_Borrowed.blp
+Name=Ring of Regeneration
+Ubertip="+2 HP Regeneration |n|n|c00838B8BThis ring is considered a good luck charm among the Gnomes |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0DK]
+Art=ReplaceableTextures\CommandButtons\BTNSobiMask_Borrowed.blp
+Name=Sobi Mask
+Ubertip="+50% Mana Regeneration |n|n|c00838B8BA common mask used by Mages and Warlocks for various rituals |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0DL]
+Art=ReplaceableTextures\CommandButtons\BTNVoidStone_Borrowed.blp
+Name=Void Stone
+Ubertip="+100% Mana Regeneration |n|n|c00838B8BA stone of seemingly endless inner power |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0DN]
+Art=ReplaceableTextures\CommandButtons\BTNBottle0_Borrowed.blp
+Name=Empty Bottle
+Ubertip="A magical bottle that has survived through the ages. It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0DO]
+Art=ReplaceableTextures\CommandButtons\BTNBottle1_Borrowed.blp
+Name=Magical Bottle - 1/3
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BA magical bottle that has survived through the ages |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0DP]
+Art=ReplaceableTextures\CommandButtons\BTNBottle2_Borrowed.blp
+Name=Magical Bottle - 2/3
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BA magical bottle that has survived through the ages |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0DQ]
+Art=ReplaceableTextures\CommandButtons\BTNBottle3_Borrowed.blp
+Name=Magical Bottle - 3/3
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BA magical bottle that has survived through the ages |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0DR]
+Art=ReplaceableTextures\CommandButtons\BTNBottle_Regeneration_Borrowed.blp
+Name=Magical Bottle - Regeneration
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BA magical bottle that has survived through the ages |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0DS]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Headdress of Rejuvenation Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0DT]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Nathrezim Buckler Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0DU]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Boots of Travel Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0DW]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Hand of Midas Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0DX]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Bracer Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0DY]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Wraith Band Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0DZ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Null Talisman Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0E0]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Yasha Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0E1]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Sange Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0E2]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Cranium Basher Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0E4]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Maelstrom Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0E5]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Diffusal Blade Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0E6]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Mask of Madness Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0E7]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Eul's Scepter of Divinity Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0E8]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Mekansm Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EA]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Stygian Desolator Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EB]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Crystalys Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EC]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Black King Bar Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0ED]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Manta Style Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EE]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Lothar's Edge Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EF]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Dagon Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EG]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Necronomicon Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EH]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Linken's Sphere Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EI]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Buriza-do Kyanon Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EJ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Radiance Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EK]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Heart of Tarrasque Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EL]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Satanic Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EO]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Refresher Orb Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EP]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Arcane Ring Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EQ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Flying Courier Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0ER]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Vladmir's Offering Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0ES]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Assault Cuirass Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0ET]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Armlet of Mordiggian Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EU]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Shiva's Guard Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EV]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Sword_11.blp
+Name=Diffusal Blade Level 1 (Empty)
+Ubertip="An enchanted blade that allows the user to cut straight into the enemy's soul. Adds 22 Agility, 6 Intelligence and Feedback (burns 20 mana) and can cast Purge. |n|n|c00ff0303Orb effects do not stack|r|n|n|cff99ccffCooldown: |r 8"
+
+[I0EW]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Diffusal Blade Level 1 (Empty)
+Ubertip=,
+
+[I0EX]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Sword_11.blp
+Name=Diffusal Blade (Empty)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EY]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Furion)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0EZ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (KOTL)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0F0]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Leshrac)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0F1]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Lina)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0F2]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Lion)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0F3]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Lucifer)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0F4]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Necro)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0F5]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Luna
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0F6]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Lich)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0F7]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Rhasta)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0F8]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Zeus)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0F9]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Pugna)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0FA]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (QoP)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0FB]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Witch Doctor)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0FC]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Veno)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0FD]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Rylai)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0FE]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Ogre)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0FF]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Temporary Item
+Ubertip=,
+
+[I0FG]
+Art=ReplaceableTextures\CommandButtons\BTNSelectHeroOn.blp
+Name=Temporary Item
+Ubertip=You should not see this item. Please email me at IceFrog@gmail.com if you do
+
+[I0FH]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Lycan Damage - Hero - 2
+Ubertip=,
+
+[I0FI]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Lycan Damage - Hero - 4
+Ubertip=,
+
+[I0FJ]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Lycan Damage - Hero - 4 (negative)
+Ubertip=,
+
+[I0FK]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Lycan Damage - Hero - 1
+Ubertip=,
+
+[I0FL]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Lycan Damage - Hero - 3
+Ubertip=,
+
+[I0FM]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Lycan Damage - Hero - 1 (negative)
+Ubertip=,
+
+[I0FN]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Lycan Damage - Hero - 2 (negative)
+Ubertip=,
+
+[I0FO]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Lycan Damage - Hero - 3 (negative)
+Ubertip=,
+
+[I0FP]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Lycan Damage - Creep - 4 (negative)
+Ubertip=,
+
+[I0FQ]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Lycan Damage - Creep - 3
+Ubertip=,
+
+[I0FR]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Lycan Damage - Creep - 2 (negative)
+Ubertip=,
+
+[I0FS]
+Art=ReplaceableTextures\CommandButtons\BTNRodOfNecromancy.blp
+Name=Black King Bar (7)
+Ubertip="A powerful rod imbued with the strength of giants.  Adds +10 Strength, +24 damage, and the Avatar ability, which lasts 7 seconds. |n|n|cff99ccffCooldown: |r 65"
+
+[I0FT]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Lycan Damage - Creep - 3 (negative)
+Ubertip=,
+
+[I0FU]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Lycan Damage - Creep - 1 (negative)
+Ubertip=,
+
+[I0FV]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Lycan Damage - Creep - 4
+Ubertip=,
+
+[I0FW]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Lycan Damage - Creep - 1
+Ubertip=,
+
+[I0FX]
+Art=ReplaceableTextures\CommandButtons\BTNManual.blp
+Name=Lycan Damage - Creep - 2
+Ubertip=,
+
+[I0FY]
+Art=ReplaceableTextures\CommandButtons\BTNRodOfNecromancy.blp
+Name=Black King Bar (8)
+Ubertip="A powerful rod imbued with the strength of giants.  Adds +10 Strength, +24 damage, and the Avatar ability, which lasts 8 seconds. |n|n|cff99ccffCooldown: |r 70"
+
+[I0FZ]
+Art=ReplaceableTextures\CommandButtons\BTNRodOfNecromancy.blp
+Name=Black King Bar (10)
+Ubertip="A powerful rod imbued with the strength of giants.  Adds +10 Strength, +24 damage, and the Avatar ability, which lasts 10 seconds. |n|n|cff99ccffCooldown: |r 80"
+
+[I0G0]
+Art=ReplaceableTextures\CommandButtons\BTNRodOfNecromancy.blp
+Name=Black King Bar (9)
+Ubertip="A powerful rod imbued with the strength of giants.  Adds +10 Strength, +24 damage, and the Avatar ability, which lasts 9 seconds. |n|n|cff99ccffCooldown: |r 75"
+
+[I0G1]
+Art=ReplaceableTextures\CommandButtons\BTNRodOfNecromancy.blp
+Name=Black King Bar (5)
+Ubertip="A powerful rod imbued with the strength of giants.  Adds +10 Strength, +24 damage, and the Avatar ability, which lasts 5 seconds. |n|n|cff99ccffCooldown: |r 55"
+
+[I0G2]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Black King Bar (10)
+Ubertip=,
+
+[I0G3]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Black King Bar (6)
+Ubertip=,
+
+[I0G4]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Black King Bar (5)
+Ubertip=,
+
+[I0G5]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Black King Bar (7)
+Ubertip=,
+
+[I0G6]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Black King Bar (9)
+Ubertip=,
+
+[I0G7]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNRodOfNecromancy.blp
+Name=Black King Bar (8)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0G8]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNRodOfNecromancy.blp
+Name=Black King Bar (10)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0G9]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNRodOfNecromancy.blp
+Name=Black King Bar (9)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0GA]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNRodOfNecromancy.blp
+Name=Black King Bar (5)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0GB]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNRodOfNecromancy.blp
+Name=Black King Bar (6)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0GC]
+Art=ReplaceableTextures\CommandButtons\BTNWand.blp
+Name=Magic Stick
+Ubertip="Energy Charge |n|nGives 15 health and 15 mana when used for each charge on it. Collects charges (up to 10) when nearby enemy spells are cast. |n|n|cff99ccffCooldown: |r 17 |n|n|c00838B8BA simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike."
+
+[I0GD]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Magic Stick
+Ubertip=,
+
+[I0GE]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNWand.BLP
+Name=Magic Stick
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0GF]
+Art=ReplaceableTextures\CommandButtons\BTNPotionOfDivinity.blp
+Buttonpos=,2
+Name=Poison Powder
+Ubertip=Description |n|n|c00838B8BNEED FLAVOR TEXT
+
+[I0GG]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Poison Powder
+Ubertip=,
+
+[I0GH]
+Art=ReplaceableTextures\CommandButtons\BTNDustOfAppearance.blp
+Name=Dust of Appearance
+Ubertip=Reveals enemy invisible units in an area around the Hero. Slows heroes with an invisibility buff on them by 10% |nContains 2 charges. |nLasts 12 seconds. |n|n|cff99ccffCooldown: |r 60   |n|n|c00838B8BOff to never never land!|r
+
+[I0GI]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Dust of Appearance
+Ubertip=,
+
+[I0GJ]
+Art=ReplaceableTextures\CommandButtons\BTNPhaseBoots.blp
+Name=Phase Boots
+Ubertip=Increases movement speed by 55 and attack damage by 24. Can be cast to ignore unit pathing and give a 16% movement speed increase for 4 seconds. Casting spells removes the buff. |n|n|cff99ccffCooldown: |r 8|n|n|c00ff0303Movement Speed does not stack with other boot items.|r |n|n|c00838B8B'-noclip'
+
+[I0GK]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Phase Boots
+Ubertip=,
+
+[I0GL]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNPhaseBoots.blp
+Name=Phase Boots
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0GM]
+Art=ReplaceableTextures\CommandButtons\BTNCirclet.blp
+Description="Provides a +2 bonus to Strength, Agility and Intelligence."
+Hotkey=C
+Name=Version Check
+Tip=Purchase |cffffcc00C|rirclet of Nobility
+Ubertip="Increases the Strength, Agility and Intelligence of the Hero by 2 when worn."
+
+[I0GV]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Magical Bottle - Haste
+Ubertip=,
+
+[I0GW]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Magical Bottle - Illusion
+Ubertip=,
+
+[I0GX]
+Art=ReplaceableTextures\CommandButtons\BTNBottle_Regeneration.blp
+Name=Magical Bottle - Regeneration
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BNot recommended for fairy storage"
+
+[I0GY]
+Art=ReplaceableTextures\CommandButtons\BTNBottle_Illusion.blp
+Name=Magical Bottle - Illusion
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BNot recommended for fairy storage"
+
+[I0GZ]
+Art=ReplaceableTextures\CommandButtons\BTNBottle_Invisibility.blp
+Name=Magical Bottle - Invisibility
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BNot recommended for fairy storage"
+
+[I0H0]
+Art=ReplaceableTextures\CommandButtons\BTNBottle_DoubleDamage.blp
+Name=Magical Bottle - Double Damage
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BNot recommended for fairy storage"
+
+[I0H1]
+Art=ReplaceableTextures\CommandButtons\BTNBottle_Haste.blp
+Name=Magical Bottle - Haste
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BNot recommended for fairy storage"
+
+[I0H2]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Magical Bottle - Regeneration
+Ubertip=,
+
+[I0H3]
+Art=ReplaceableTextures\CommandButtons\BTNBottle_Illusion_Borrowed.blp
+Name=Magical Bottle - Illusion
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BA magical bottle that has survived through the ages |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0H4]
+Art=ReplaceableTextures\CommandButtons\BTNBottle_Haste_Borrowed.blp
+Name=Magical Bottle - Haste
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BA magical bottle that has survived through the ages |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0H5]
+Art=ReplaceableTextures\CommandButtons\BTNBottle_Invisibility_Borrowed.blp
+Name=Magical Bottle - Invisibility
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BA magical bottle that has survived through the ages |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0H6]
+Art=ReplaceableTextures\CommandButtons\BTNBottle_DoubleDamage_Borrowed.blp
+Name=Magical Bottle - Double Damage
+Ubertip="It can store healing water for up to 3 uses, each healing 135 hitpoints and 70 mana over 3 seconds. Alternatively, it can be used to capture magical runes for up to 2 minutes. If a rune is captured, it refills itself. |n|n|c00838B8BA magical bottle that has survived through the ages |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0H7]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Magic Wand Recipe
+Ubertip=|cffffcc00Gives:|r |n+3 All Attributes  |nEnergy Charge |n|cffffcc00Requires:|r |nMagic Stick |n3x Ironwood Branch 
+
+[I0H8]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Magic Wand Recipe
+Ubertip=,
+
+[I0H9]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Magic Wand Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0HA]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNStarWand.blp
+Name=Magic Wand
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0HB]
+Art=ReplaceableTextures\CommandButtons\BTNStarWand.blp
+Name=Magic Wand
+Ubertip="Provides +3 All Attributes. Energy Charge |n|nGives 15 health and 15 mana when used for each charge on it. Collects charges (up to 15) when nearby enemy spells are cast. |n|n|cff99ccffCooldown: |r 17 |n|n|c00838B8BA simple wand used to channel magic energies, it is favored by apprentice wizards and great warlocks alike."
+
+[I0HC]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Magic Wand
+Ubertip=,
+
+[I0HD]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Force Staff Recipe
+Ubertip=,
+
+[I0HE]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Force Staff Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0HF]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Force Staff Recipe
+Ubertip=|cffffcc00Gives:|r |n +10 Intelligence |n +3 HP Regeneration |nForce (active) |n|n|cffffcc00Requires:|r |n Ring of Regeneration - 350 |n Staff of Wizardry - 1000  |n Recipe - 900 |n|n|c00838B8B Total Cost: 2250
+
+[I0HG]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Force Staff
+Ubertip=,
+
+[I0HH]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNForceStaff.blp
+Name=Force Staff
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0HI]
+Art=ReplaceableTextures\CommandButtons\BTNForceStaff.blp
+Name=Force Staff
+Ubertip=Provides 3 HP Regeneration and 10 Intelligence. Can be cast to push any unit 600 units in the direction it is facing.  |n|n|cff99ccffCooldown: |r 20
+
+[I0HJ]
+Art=ReplaceableTextures\CommandButtons\BTNOrb of Water.blp
+Name=Linken's Sphere
+Ubertip="This magical sphere once protected one of the most famous heroes in history. Linken's Sphere has the power to negate most targeted spells once every 17 seconds. Gives +15 All stats, 6HP/Sec, +150% mana regen, +10 damage and spell negation.|n|n|cff99ccffCooldown: |r 17"
+
+[I0HK]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Linken's Sphere
+Ubertip=,
+
+[I0HL]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNOrb of Water.blp
+Name=Linkin's Sphere
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0HM]
+Art=ReplaceableTextures\CommandButtons\BTNOrb of Water.blp
+Description=Doubles the users base damage. Will be dispelled by other damage buffs. Lasts 45 seconds.
+Name=Linken's Sphere
+Ubertip=,
+
+[I0HN]
+Art=ReplaceableTextures\CommandButtons\BTNVialFull.blp
+Buttonpos=1,2
+Name=Ghost Potion
+Ubertip="Transforms you to Ethereal Form for 4 seconds. While in this form, you can neither attack nor be attacked and you take 40% bonus damage from spells. 2 Charges.  |n|n|cff99ccffCooldown: |r 60"
+
+[I0HO]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ghost Potion
+Ubertip=,
+
+[I0HP]
+Art=ReplaceableTextures\CommandButtons\BTNOrcMeleeUpTwo.blp
+Name=Quelling Blade (Ranged)
+Ubertip=+12% bonus damage to non-hero units. Can deal 100 damage to observer and sentry wards. |n|nTree Chop (active) |n|n|cff99ccffCooldown: |r 5 |n|n|c00838B8BA lumberjack's axe at a bargain price. Also useful against wild animals.
+
+[I0HR]
+Art=ReplaceableTextures\CommandButtons\BTNOrcMeleeUpTwo.blp
+Name=Quelling Blade
+Ubertip=+32% bonus damage to non-hero units. Can deal 100 damage to observer and sentry wards. |n|nTree Chop (active) |n|n|cff99ccffCooldown: |r 5 |n|n|c00838B8BA lumberjack's axe at a bargain price. Also useful against wild animals.
+
+[I0HT]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Quelling Blade
+Ubertip=,
+
+[I0HU]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Quelling Blade (Ranged)
+Ubertip=,
+
+[I0HV]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNOrcMeleeUpTwo.BLP
+Name=Quelling Blade
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0HW]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNOrcMeleeUpTwo.BLP
+Name=Quelling Blade Ranged
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0HX]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Khadgar's Pipe of Insight
+Ubertip=,
+
+[I0HY]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Khadgar's Pipe of Insight
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0HZ]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Khadgar's Pipe of Insight Recipe
+Ubertip=|cffffcc00Gives:|r |n+30% Magic Resistance |n+11 hp Regeneration |nBarrier (active) |n|cffffcc00Requires:|r |nHood of Defiance (Protectorate) |nHeaddress of Rejuvenation (Supportive Vestments)
+
+[I0I0]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Khadgar's Pipe of Insight
+Ubertip=,
+
+[I0I2]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNPipeOfInsight.BLP
+Name=Khadgar's Pipe of Insight
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0I6]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Panda)
+Ubertip=,
+
+[I0I7]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Panda)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0I8]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Panda)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0I9]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Clockwerk)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0IA]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Juggernaut)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0IB]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Invoker)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0IC]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Huskar)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0ID]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Sand King)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0IE]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Jakiro)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0IF]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Nightstalker)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0IG]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Chen)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0IH]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Chaos Knight)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0II]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Vengeful Spirit)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0IJ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Sniper)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0IK]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Chen)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0IL]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Nightstalker)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0IM]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Jakiro)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0IN]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Invoker)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0IO]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Huskar)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0IP]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Sand King)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0IQ]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Chaos Knight)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0IR]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Juggernaut)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0IS]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Vengeful Spirit)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0IT]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Sniper)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0IU]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Clockwerk)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0IV]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Clockwerk)
+Ubertip=,
+
+[I0IW]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Vengeful Spirit)
+Ubertip=,
+
+[I0IX]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Juggernaut)
+Ubertip=,
+
+[I0IY]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Chaos Knight)
+Ubertip=,
+
+[I0IZ]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Chen)
+Ubertip=,
+
+[I0J0]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Nightstalker)
+Ubertip=,
+
+[I0J1]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Jakiro)
+Ubertip=,
+
+[I0J2]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Sand King)
+Ubertip=,
+
+[I0J3]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Huskar)
+Ubertip=,
+
+[I0J4]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Invoker)
+Ubertip=,
+
+[I0J5]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Sniper)
+Ubertip=,
+
+[I0J6]
+Art=ReplaceableTextures\CommandButtons\BTNAmulet.blp
+Name=Talisman of Evasion
+Ubertip=+25% Evasion  |n|n|c00838B8BCan't touch this!
+
+[I0J7]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Talisman of Evasion
+Ubertip=,
+
+[I0J8]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNAmulet.blp
+Name=Talisman of Evasion
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0J9]
+Art=ReplaceableTextures\CommandButtons\BTNDiffusal2.blp
+Name=Diffusal Blade Level 2
+Ubertip="An enchanted blade that allows the user to cut straight into the enemy's soul. Adds 26 Agility, 10 Intelligence and Feedback (burns 36 mana) and can cast Purge. |n|n|c00ff0303Orb effects do not stack|r|n|n|cff99ccffCooldown: |r 8"
+
+[I0JA]
+Art=ReplaceableTextures\CommandButtons\BTNDiffusal2.blp
+Name=Diffusal Blade Level 2 (Empty)
+Ubertip="An enchanted blade that allows the user to cut straight into the enemy's soul. Adds 26 Agility, 10 Intelligence and Feedback (burns 36 mana) and can cast Purge. |n|n|c00ff0303Orb effects do not stack|r|n|n|cff99ccffCooldown: |r 8"
+
+[I0JB]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Diffusal Blade Level 2
+Ubertip=,
+
+[I0JC]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Diffusal Blade Level 2 (Empty)
+Ubertip=,
+
+[I0JD]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNDiffusal2.blp
+Name=Diffusal Blade Level 2
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0JE]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNDiffusal2.blp
+Name=Diffusal Blade Level 2(Empty)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0JF]
+Art=ReplaceableTextures\CommandButtons\BTNImprovedUnholyArmor.blp
+Name=Poor Man's Shield (melee)
+Ubertip=+100% chance to block 20 hero damage and +60% chance to block 20 non-hero damage. +6 Agility 
+
+[I0JG]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Poor Man's Shield (melee)
+Ubertip=,
+
+[I0JH]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNImprovedUnholyArmor.blp
+Name=Poor Man's Shield (melee)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0JI]
+Art=ReplaceableTextures\CommandButtons\BTNGreenStaff.blp
+Name=Ghost Scepter
+Ubertip="Adds 7 to all stats, Ghost Form (active)  |n|n Transforms you to ethereal form for 4 seconds, becoming immune to physical attacks but taking 40% bonus damage from spells. |n|n|cff99ccffCooldown: |r 30"
+
+[I0JJ]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ghost Scepter
+Ubertip=,
+
+[I0JK]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNGreenStaff.blp
+Name=Ghost Scepter
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0JL]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Windrunner)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0JM]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Void)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0JN]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Spiritbreaker)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0JO]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Dazzle)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0JP]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Abaddon)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0JQ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Bane)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0JR]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Pudge)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0JS]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Pudge)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0JT]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Windrunner)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0JU]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Void)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0JV]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Bane)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0JW]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Spiritbreaker)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0JX]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Dazzle)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0JY]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Abaddon)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0JZ]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Pudge)
+Ubertip=,
+
+[I0K0]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Windrunner)
+Ubertip=,
+
+[I0K1]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Void)
+Ubertip=,
+
+[I0K2]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (SB)
+Ubertip=,
+
+[I0K3]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Bane)
+Ubertip=,
+
+[I0K4]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Abaddon)
+Ubertip=,
+
+[I0K5]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Dazzle)
+Ubertip=,
+
+[I0K6]
+Art=ReplaceableTextures\CommandButtons\BTNPipeOfInsight.blp
+Name=Khadgar's Pipe of Insight
+Ubertip="A powerful artifact of mysterious origin, this pipe gives the bearer the insight to summon fields of null energy which envelop nearby allies, protecting them from 400 spell damage. Buff lasts 10 seconds. Provides 30% magic resistance, +11 HP regeneration. Heroes cannot regain this buff before 50 seconds have elapsed. |n|n|cff99ccffCooldown: |r 60"
+
+[I0K7]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Weapon_Halberd_10.blp
+Name=Monkey King Bar (True Strike |cffff0000Inactive|r)
+Ubertip="A powerful staff used by a martial arts master.  Grants +88 damage, 15% increased attack speed, True Strike (causes your attacks to never miss) and a 35% chance to deal 100 bonus damage on every attack stopping channeling spells."
+
+[I0K8]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Monkey King Bar
+Ubertip=,
+
+[I0K9]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Weapon_Halberd_10.blp
+Name=Monkey King Bar
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0KA]
+Art=ReplaceableTextures\CommandButtons\BTNSteelArmor.blp
+Name=Stout Shield (ranged)
+Ubertip=+60% chance to block 10 damage |n|n|c00838B8BOne man's wine barrel bottom is another man's shield!
+
+[I0KB]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Stout Shield (ranged)
+Ubertip=,
+
+[I0KC]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSteelArmor.BLP
+Name=Stout Shield (ranged)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0KD]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Poor Man's Shield (ranged)
+Ubertip=,
+
+[I0KE]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNImprovedUnholyArmor.blp
+Name=Poor Man's Shield (ranged)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0KF]
+Art=ReplaceableTextures\CommandButtons\BTNImprovedUnholyArmor.blp
+Name=Poor Man's Shield (ranged)
+Ubertip=+100% chance to block 10 hero damage and +60% chance to block 10 non-hero damage. +6 Agility 
+
+[I0KH]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Techies)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0KI]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Techies)
+Ubertip=,
+
+[I0KJ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Techies)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0KK]
+Art=ReplaceableTextures\CommandButtons\BTNOrb of Water.blp
+Name=Aegis Check
+Ubertip=,
+
+[I0KL]
+Art=ReplaceableTextures\CommandButtons\BTNInactiveHeart.blp
+Name=Disabled Heart of Tarrasque
+Ubertip="Preserved heart of an extinct monster. Bolsters the bearer's fortitude. Adds 40 strength, 300 hit points, and regenerates 2% hit points per second while out of combat for 6 seconds."
+
+[I0KM]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNHeartOfAszune.blp
+Name=Disabled Heart of Tarrasque
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0KN]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Mjollnir Recipe
+Ubertip="|cffffcc00Gives:|r |n+80 Attack Speed |n+24 Damage |nChain Lightning (orb, passive) |nStatic Charge (active) |n|cffffcc00Requires:|r|nMaelstrom (Enchanted Artifacts) |nHyperstone|n|n|c00ff0303Orb effects do not stack|r |n|n|c00fffc01Can be disassembled|r "
+
+[I0KO]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Mjollnir
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0KP]
+Art=ReplaceableTextures\CommandButtons\BTNTransmute.blp
+Name=Radiance (|cffff0000Off|r)
+Ubertip=A divine weapon that gives +60 damage and a bright burning effect that damages nearby units for 50 damage a second.
+
+[I0KQ]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Radiance
+Ubertip=,
+
+[I0KR]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNTransmute.blp
+Name=Radiance
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0KS]
+Art=ReplaceableTextures\CommandButtons\BTNWandOfManaSteal.blp
+Name=Wand of Illusion
+Ubertip=Creates an illusion of target enemy hero. Images deals 40% damage and takes 200%. Lasts 25 seconds. |n|n|cff99ccffCooldown: |r 30
+
+[I0KT]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Wand of Illusion
+Ubertip=,
+
+[I0KU]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Urn of Shadows Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0KV]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Urn of Shadows Recipe
+Ubertip=|cffffcc00Gives:|r |n+50% Mana Regen |n+6 Strength |nRestore (active) |n|cffffcc00Requires:|r |nSobi Mask |n2x Gauntlets of Strength |n|n|c00838B8BTotal Cost: 875
+
+[I0KW]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Urn of Shadows Recipe
+Ubertip=,
+
+[I0KX]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Urn of Shadows
+Ubertip=,
+
+[I0KY]
+Art=ReplaceableTextures\CommandButtons\BTNUrnOfKelThuzad.blp
+Name=Urn of Shadows
+Ubertip=Gives +50% Mana Regen and +6 Strength. Can release a stored soul to regenerate a target unit for 400 hp over 8 seconds or cause an enemy target to lose 150 hp over 8 seconds. Gains one charge when an enemy hero dies. Dispels on damage. |n|n|cff99ccffCooldown: |r 10 |n|n|c00ff0303Only charges one item per death|r
+
+[I0KZ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNUrnOfKelThuzad.BLP
+Name=Urn of Shadows
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0L0]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Axe)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0L2]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Earthshaker)
+Ubertip=,
+
+[I0L3]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Axe)
+Ubertip=,
+
+[I0L4]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Dirge)
+Ubertip=,
+
+[I0L5]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Dirge)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0L7]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Earthshaker)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0L8]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Dirge)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0L9]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Axe)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0LA]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Earthshaker)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0LC]
+Art=ReplaceableTextures\CommandButtons\BTNAdvancedUnholyArmor.blp
+Name=Vanguard (ranged)
+Ubertip="The discarded mantlet of one of Gul'dan's Death Knights, Vanguard defends its wielder from even the most vicious of attacks with ease. Gives +250 hit points, 6 hit points regenerated per second and 70% chance to block 20 damage."
+
+[I0LD]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNAdvancedUnholyArmor.blp
+Name=Vanguard
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0LE]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Vanguard
+Ubertip=,
+
+[I0LF]
+Art=ReplaceableTextures\CommandButtons\BTNUrnOfKelThuzad.blp
+Name=Urn of Shadows (empty)
+Ubertip=Gives +50% Mana Regen and +6 Strength. Can release a stored soul to regenerate a target unit for 400 hp over 8 seconds or cause an enemy target to lose 150 hp over 8 seconds. Gains one charge when an enemy hero dies. Dispels on damage. |n|n|cff99ccffCooldown: |r 10 |n|n|c00ff0303Only charges one item per death|r
+
+[I0LG]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Urn of Shadows (empty)
+Ubertip=,
+
+[I0LH]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNUrnOfKelThuzad.BLP
+Name=Urn of Shadows (empty)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0LI]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=|c00000000Divine Rapier|r
+Ubertip=,
+
+[I0LJ]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Sword_25.blp
+Name=|c00000000Divine Rapier|r
+Ubertip="The Divine Rapier was granted by God himself to the rebels in the War of the Magi.  Grants +300 damage, but drops if the user dies. |n|n|c00ff0303Drops upon death|r    |n|n|c00838B8BWith great power comes great responsibility"
+
+[I0LK]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Sword_25.blp
+Name=Divine Rapier
+Ubertip="The Divine Rapier was granted by God himself to the rebels in the War of the Magi.  Grants +300 damage, but drops if the user dies. |n|n|c00ff0303Drops upon death|r |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0LL]
+Art=ReplaceableTextures\CommandButtons\BTNSoulRing.blp
+Name=Soul Ring
+Ubertip="The keeper died, sacrificing too much of his soul for control. Gives +3 HP regeneration and +50% Mana regeneration. Can cast Sacrifice, losing 150 hp to temporarily gain 150 mana. That mana gets removed after 10 seconds if unused. |n|n|cff99ccffCooldown: |r 30"
+
+[I0LM]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Soul Ring Recipe
+Ubertip=,
+
+[I0LN]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Soul Ring Recipe
+Ubertip=|cffffcc00Gives:|r |n +3 HP Regeneration |n +50% Mana Regeneration |n Sacrifice (active) |n|n|cffffcc00Requires:|r |n Ring of Regeneration - 350 |n Sobi Mask - 325 |n Recipe - 125|r  |n|n|c00838B8B Total Cost: 800
+
+[I0LO]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Soul Ring Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0LP]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Soul Ring
+Ubertip=,
+
+[I0LQ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSoulRing.blp
+Name=Soul Ring
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0LR]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ethereal Blade
+Ubertip=,
+
+[I0LS]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNGhostBlade.blp
+Name=Ethereal Blade
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0LT]
+Art=ReplaceableTextures\CommandButtons\BTNGhostBlade.blp
+Name=Ethereal Blade
+Ubertip=|n+40 Agility |n+10 Strength |n+10 Intelligence |n Ether Blast (active) |n|nConverts you and target unit into ethereal form. Target unit is slowed by 80% for 3 seconds (4 if self or ally) and deals 75 + 2x your primary attribute as damage to them. Ethereal units take 40% extra magic damage and cannot attack or be attacked. |n|n|cff99ccffCooldown: |r 30
+
+[I0LU]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Puck)
+Ubertip=,
+
+[I0LV]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Puck)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0LW]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Puck)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0M0]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Warlock)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0M1]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Warlock)
+Ubertip=,
+
+[I0M2]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Warlock)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0M3]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Razor)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0M4]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Razor)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0M5]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Razor)
+Ubertip=,
+
+[I0M6]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Viper)
+Ubertip=,
+
+[I0M7]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Viper)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0M8]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Viper)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0M9]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfVenom.blp
+Name=Orb of Venom
+Ubertip="Adds a poison effect to your attacks, dealing 3 damage per second and slowing enemy units by 12% for 4 seconds.   |n|n|cff99ccffBuff placers do not stack|r"
+
+[I0MA]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Orb of Venom
+Ubertip=,
+
+[I0MB]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNOrbOfVenom.blp
+Name=Orb of Venom
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0MC]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNOrbOfVenom.blp
+Name=Orb of Venom (ranged)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0MD]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Orb of Venom (ranged)
+Ubertip=,
+
+[I0ME]
+Art=ReplaceableTextures\CommandButtons\BTNOrbOfVenom.blp
+Name=Orb of Venom (ranged)
+Ubertip="Adds a poison effect to your attacks, dealing 3 damage per second and slowing enemy units by 4% for 4 seconds.   |n|n|cff99ccffBuff placers do not stack|r"
+
+[I0MF]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Tiny)
+Ubertip=,
+
+[I0MG]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Tiny)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0MH]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Tiny)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0MI]
+Art=ReplaceableTextures\CommandButtons\BTNArcaneBoots.blp
+Name=Arcane Boots
+Ubertip=Increases movement speed by 60 and mana by 250. Can cast Replenish to restore 135 mana to an area around the caster.|n|n|cff99ccffCooldown: |r 55 |n|n|c00fffc01Can be disassembled|r  |n|n|c00ff0303Movement Speed does not stack with other boot items.|r
+
+[I0MJ]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Arcane Boots
+Ubertip=,
+
+[I0MK]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNArcaneBoots.blp
+Name=Arcane Boots
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0ML]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Obsidian Destroyer)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0MM]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Destroyer)
+Ubertip=,
+
+[I0MN]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Destroyer)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0MO]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Enchantress)
+Ubertip=,
+
+[I0MP]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Enchantress)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0MQ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Enchantress)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0MR]
+Art=ReplaceableTextures\CommandButtons\BTNGem.blp
+Name=Gem of True Sight (Courier Edition)
+Ubertip="A crystal that grants the hero true sight, which reveals nearby invisible units.   |n|n|c00ff0303Drops upon death|r |n|n|c00838B8BA magic stone that gives the bearer sight beyond sight"
+
+[I0MS]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Gem of True Sight (Courier Edition)
+Ubertip=,
+
+[I0MT]
+Art=ReplaceableTextures\CommandButtons\BTNGem_Borrowed.blp
+Name=Gem of True Sight (Courier Edition)
+Ubertip="A crystal that grants the hero true sight, which reveals nearby invisible units.   |n|n|c00ff0303Drops upon death|r |n|n|c00fffc01This item does not belong to you, but it is shareable. It is not muted.|r"
+
+[I0MU]
+Art=ReplaceableTextures\CommandButtons\BTNINV_ThrowingAxe_02.blp
+Name=Manta Style (ranged)
+Ubertip="A funky looking axe that grants +26 Agility, +10 Strength, +10 Intelligence, +15 Attack Speed, +10% Movement Speed and allows you to create 2 illusions of yourself that deal 28% damage and receive 400% damage.|n|n|cff99ccffCooldown: |r 50 |n|n|c00fffc01Can be disassembled|r "
+
+[I0MV]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Manta Style (ranged)
+Ubertip=,
+
+[I0MW]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_ThrowingAxe_02.blp
+Name=Manta Style (ranged)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0N0]
+Art=ReplaceableTextures\CommandButtons\BTNMedalionOfCourage.blp
+Name=Medallion of Courage
+Ubertip=Grants +6 armor and 50% mana regeneration. Can cast Valor to temporarily sacrifice 6 armor to reduce an enemy's armor by 6 points for 7 seconds.  |n|n|cff99ccffCooldown: |r 7
+
+[I0N1]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Medallion of Courage
+Ubertip=,
+
+[I0N2]
+Art=ReplaceableTextures\CommandButtons\BTNMedalionOfCourage.blp
+Name=Medallion of Courage
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0N3]
+Art=ReplaceableTextures\CommandButtons\BTNPoisonBlade.blp
+Name=Corruptor
+Ubertip=text
+
+[I0N4]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Corruptor
+Ubertip=,
+
+[I0N5]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNPoisonBlade.blp
+Name=Corruptor
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0N6]
+Art=ReplaceableTextures\CommandButtons\BTNPoisonBlade.blp
+Name=Corruptor (Ranged)
+Ubertip=text
+
+[I0N7]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Corruptor (ranged)
+Ubertip=,
+
+[I0N8]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNPoisonBlade.blp
+Name=Corruptor (ranged)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0N9]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ancient Janggo of Endurance
+Ubertip=,
+
+[I0NA]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Ancient Janggo of Endurance Recipe
+Ubertip=|cffffcc00Gives:|r |n +9 All Stats |n +9 damage |n +5% MS and AS Aura |n Endurance (active) |n|n|cffffcc00Requires:|r |n Bracer - 525 (Gateway Relics) |n Robe of the Magi - 450 |n Recipe - 800|r |n|n|c00838B8B Total Cost: 1775 |n|n|c00fffc01Charges can be replenished by buying the recipe again. |r
+
+[I0NB]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Ancient Janggo of Endurance Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0NC]
+Art=ReplaceableTextures\CommandButtons\BTNJanggo.blp
+Name=Ancient Janggo of Endurance
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0ND]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ancient Janggo of Endurance
+Ubertip=,
+
+[I0NE]
+Art=ReplaceableTextures\CommandButtons\BTNJanggo.blp
+Name=Ancient Janggo of Endurance
+Ubertip="Provides +9 to all attributes, +3 damage and +5% MS and AS aura. Uses a charge in order to give nearby allied player controlled units 10% bonus movement and attack speed for 6 seconds. |n|n|c00fffc01Charges can be replenished by buying the recipe again. |r  |n|n|cff99ccffCooldown: |r 30"
+
+[I0NF]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Smoke of Deceit
+Ubertip=,
+
+[I0NG]
+Art=ReplaceableTextures\CommandButtons\BTNSmokePotion.blp
+Name=Smoke of Deceit
+Ubertip=Makes you and nearby allies invisible in the world and from the minimap as well as a 15% bonus movement speed. Dispels when near enemy heroes or towers. |nLasts 40 seconds. |n|n|cff99ccffCooldown: |r 90
+
+[I0NH]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Medallion of Courage
+Ubertip=,
+
+[I0NI]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Medallion of Courage Recipe
+Ubertip=|cffffcc00Gives:|r |n +6 armor |n +50% mana regeneration |n Valor (active) |n|n|cffffcc00Requires:|r |n Chainmail - 550 |n Sobi Mask - 325 |n Recipe - 200  |n|n|c00838B8B Total Cost: 1075
+
+[I0NJ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Medallion of Courage
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0NK]
+Art=ReplaceableTextures\CommandButtons\BTNJanggo.blp
+Name=Ancient Janggo of Endurance (empty)
+Ubertip="Provides +9 to all attributes, +3 damage and +5% MS and AS aura. Uses a charge in order to give nearby allied player controlled units 10% bonus movement and attack speed for 6 seconds. |n|n|c00fffc01Charges can be replenished by buying the recipe again. |r |n|n|cff99ccffCooldown: |r 30"
+
+[I0NL]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ancient Janggo of Endurance (empty)
+Ubertip=,
+
+[I0NM]
+Art=ReplaceableTextures\CommandButtons\BTNJanggo.blp
+Name=Ancient Janggo of Endurance (empty)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0NN]
+Art=ReplaceableTextures\CommandButtons\BTNGoldGloves.BLP
+Name=Hand of Midas (Courier Edition)
+Ubertip="Preserved through unknown magical means, the Hand of Midas still retains much of its original potency.  Grants +30% increased attack speed, and the ability to instantly turn creeps into 190 gold. |n|n|cff99ccffCooldown: |r 100 seconds."
+
+[I0NO]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Hand of Midas (Courier Edition)
+Ubertip=,
+
+[I0NP]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNGoldGloves.BLP
+Name=Hand of Midas (Courier Edition)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0NQ]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Dark Seer)
+Ubertip=,
+
+[I0NR]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Dark Seer)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0NS]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Dark Seer)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0NT]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Gyrocopter)
+Ubertip=,
+
+[I0NU]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Gyrocopter)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0NV]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Gyrocopter)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0NW]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Meepo)
+Ubertip=,
+
+[I0NX]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Meepo)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0NY]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Meepo)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0NZ]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Beastmaster)
+Ubertip=,
+
+[I0O0]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Beastmaster)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0O1]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Beastmaster)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0O2]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Veil of Discord
+Ubertip=,
+
+[I0O3]
+Art=ReplaceableTextures\CommandButtons\BTNBoneChimes.blp
+Name=Veil of Discord
+Ubertip="Grants +6 armor, +6 HP regeneration and 12 Intelligence. Can cast Discord to apply a debuff on enemy units in an area, reducing their magic resistance by 25% for 20 seconds.  |n|n|cff99ccffCooldown: |r 30"
+
+[I0O4]
+Art=ReplaceableTextures\CommandButtons\BTNBoneChimes.blp
+Name=Veil of Discord
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0O5]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Veil of Discord
+Ubertip=,
+
+[I0O6]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Veil of Discord Recipe
+Ubertip=|cffffcc00Gives:|r |n +6 armor |n +6 HP regeneration |n +12 Intelligence |n Discord (active) |n|n|cffffcc00Requires:|r |n Helm of Iron Will - 950 |n Robe of the Magi - 450 |n Recipe - 1250  |n|n|c00838B8B Total Cost: 2650
+
+[I0O7]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Veil of Discord
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0O9]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Orchid Malevolence
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0OA]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Orchid Malevolence Recipe
+Ubertip=|cffffcc00Gives:|r |n +25 Intelligence |n +30% increased attack speed |n +30 damage |n +150% mana regen |n Soul Burn (active)|n |n|cffffcc00Requires:|r |n 2x Oblivion Staff - 3350 (Gateway Relics) |n Recipe - 775 |n|n|c00838B8B Total Cost: 4125
+
+[I0OB]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Orchid Malevolence
+Ubertip=,
+
+[I0OC]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Blade of the Reaper
+Ubertip=,
+
+[I0OD]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNPoisonBlade.blp
+Name=Blade of the Reaper
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0OE]
+Art=ReplaceableTextures\CommandButtons\BTNPoisonBlade.blp
+Name=Blade of the Reaper
+Ubertip=text
+
+[I0OF]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Tranquil Boots
+Ubertip=,
+
+[I0OG]
+Art=ReplaceableTextures\CommandButtons\BTNTranquilBoots.blp
+Name=Tranquil Boots
+Ubertip="Provides +75 Movement Speed, +3 Armor and +3 HP Regeneration. If you take 3 instances of damage over 20 in the previous 10 seconds, this item will be disabled and revert to basic boot form with 25 movement speed. Can cast rejuvenate to heal 250 HP over 20 seconds, non-combat only. |n|n|cff99ccffCooldown: |r 60 |n|n|c00ff0303Movement Speed does not stack with other boot items.|r |n|n|c00fffc01Can be disassembled|r "
+
+[I0OH]
+Art=ReplaceableTextures\CommandButtons\BTNTranquilBoots.blp
+Name=Tranquil Boots
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0OI]
+Art=ReplaceableTextures\CommandButtons\BTNCancel.blp
+Name=Tranquil Boots (broken)
+Ubertip=+25 Movement Speed.
+
+[I0OJ]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Tranquil Boots Disabled
+Ubertip=,
+
+[I0OK]
+Art=ReplaceableTextures\CommandButtons\BTNTranquilBoots.blp
+Name=Tranquil Boots Disabled
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0OL]
+Art=ReplaceableTextures\CommandButtons\BTNWitchDoctorMaster.blp
+Name=Rod of Atos
+Ubertip=Provides 325 HP and 25 Intelligence. Can use Cripple to slow the target's movement speed by 60% for 4 seconds. |n|n|cff99ccffCooldown: |r 16
+
+[I0OM]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Rod of Atos
+Ubertip=,
+
+[I0ON]
+Art=ReplaceableTextures\CommandButtons\BTNWitchDoctorMaster.blp
+Name=Rod of Atos
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0OO]
+Art=ReplaceableTextures\CommandButtons\BTNRune.blp
+Name=Moon Shard
+Ubertip=+120 Attack Speed 
+
+[I0OP]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Moon Shard
+Ubertip=,
+
+[I0OQ]
+Art=ReplaceableTextures\CommandButtons\BTNRune.blp
+Name=Moon Shard
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0OR]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Visage)
+Ubertip=,
+
+[I0OS]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Visage)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0OT]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Visage)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0OU]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Heaven's Halberd
+Ubertip=,
+
+[I0OV]
+Art=ReplaceableTextures\CommandButtons\BTNHalberd.blp
+Name=Heaven's Halberd
+Ubertip="Gives +20 Strength, +25 Damage, 25% Evasion, and a 15% chance on hit to maim the target, reducing movement and attack speed. Can cast Disarm to remove the target's ability to attack for 4.5 seconds (3 against melee). |n|n|cff99ccffCooldown: |r 30"
+
+[I0OW]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNHalberd.blp
+Name=Heaven's Halberd
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0OX]
+Art=ReplaceableTextures\CommandButtons\BTNAnnihilator.blp
+Name=Abyssal Blade
+Ubertip="Adds 100 damage, +10 Strength, and has a 25% (10% for ranged) chance to Bash for 1.4 seconds. Has a 2 second cooldown. Can cast Overwhelm to stun a target for 2 seconds. Can be cast on Magic Immune units. |n|n|c00ff0303Does not stack with other bash passives|r |n|n|cff99ccffCooldown: |r 60  |n|n|c00fffc01Can be disassembled|r "
+
+[I0OY]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Abyssal Blade
+Ubertip=,
+
+[I0OZ]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNAnnihilator.blp
+Name=Abyssal Blade
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0P0]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ring of Aquila
+Ubertip=,
+
+[I0P1]
+Art=ReplaceableTextures\CommandButtons\BTNRingJadeFalcon.blp
+Name=Ring of Aquila (|cff00ff00Normal|r)
+Ubertip="Grants a 0.65 Brilliance Aura, a +2 Devotion Aura, +1 armor, 3 all stats, 3 agility and 9 damage. Click this to convert it to a hero only armor aura. "
+
+[I0P2]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNRingJadeFalcon.blp
+Name=Ring of Aquila
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0P3]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Ring of Aquila (Heroes)
+Ubertip=,
+
+[I0P4]
+Art=ReplaceableTextures\CommandButtons\BTNRingOfAquilaHeroesOnly.blp
+Name=Ring of Aquila (|cffff0000Heroes|r)
+Ubertip="Grants a 0.65 Brilliance Aura, a +2 Devotion Aura, +1 armor, 3 all stats, 3 agility and 9 damage. Click this to convert it to a regular armor aura. "
+
+[I0P5]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNRingJadeFalcon.blp
+Name=Ring of Aquila (Heroes)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0P6]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Black King Bar (4)
+Ubertip=,
+
+[I0P7]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNRodOfNecromancy.blp
+Name=Black King Bar (4)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0P8]
+Art=ReplaceableTextures\CommandButtons\BTNRodOfNecromancy.blp
+Name=Black King Bar (4)
+Ubertip="A powerful rod imbued with the strength of giants.  Adds +10 Strength, +24 damage, and the Avatar ability, which lasts 4 seconds. |n|n|cff99ccffCooldown: |r 50"
+
+[I0P9]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Shadow Amulet
+Ubertip=,
+
+[I0PA]
+Art=ReplaceableTextures\CommandButtons\BTNPendantOfMana.blp
+Name=Shadow Amulet
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0PB]
+Art=ReplaceableTextures\CommandButtons\BTNPendantOfMana.blp
+Name=Shadow Amulet
+Ubertip="Adds 30 Attack Speed, Fade (active)  |n|nFades you invisible after 2.4 seconds. If you move the invisibility is canceled.  |n|n|cff99ccffCooldown: |r 0"
+
+[I0PC]
+Art=ReplaceableTextures\CommandButtons\BTNSentinelInventory.BLP
+Name=Dummy Item Sentinel
+Ubertip=,
+
+[I0PD]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Rod of Atos Recipe
+Ubertip=,
+
+[I0PE]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScroll.blp
+Name=Rod of Atos Recipe
+Ubertip=,
+
+[I0PF]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNSnazzyScroll.blp
+Name=Rod of Atos Recipe
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0PG]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Silencer)
+Ubertip=,
+
+[I0PH]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Silencer)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0PI]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Silencer)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0PJ]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (AA)
+Ubertip=,
+
+[I0PK]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (AA)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0PL]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (AA)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0PM]
+Art=ReplaceableTextures\CommandButtons\BTNRune.blp
+Name=Glimmer Cape
+Ubertip="Adds 30 Attack Speed, 15% Spell Resistance, Fade (active)  |n|nFades you invisible after 0.5 seconds. If you move the invisibility is canceled. While invisible you have 66% Spell Resistance.  |n|n|cff99ccffCooldown: |r 10"
+
+[I0PN]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Glimmer Cape
+Ubertip=,
+
+[I0PO]
+Art=ReplaceableTextures\CommandButtons\BTNRune.blp
+Name=Glimmer Cape
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r
+
+[I0PP]
+Art=ReplaceableTextures\CommandButtons\BTNSnazzyScrollPurple.blp
+Name=Aghanim's Scepter (Ominknight)
+Ubertip=,
+
+[I0PQ]
+Art=ReplaceableTextures\CommandButtons\BTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Omni)
+Ubertip="The scepter of a wizard with Demigod-like powers.  Adds 10 All Attributes, 200 HP, 150 MP and improves your ultimate.  "
+
+[I0PR]
+Art=ReplaceableTextures\CommandButtonsDisabled\DISBTNINV_Wand_05.blp
+Name=Aghanim's Scepter (Omniknight)
+Ubertip=|c00ff0303This item does not belong to you. It is muted.|r

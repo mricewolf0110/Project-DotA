@@ -1,0 +1,272 @@
+[R000]
+Art=ReplaceableTextures\CommandButtons\BTNEnchantedBears.blp
+Buttonpos=1,1
+Hotkey=M
+Name=Synergy
+Tip=Research |cffffcc00M|rark of the Claw
+Ubertip=Allows Druids of the Claw to cast Roar while in Bear Form.
+
+[R001]
+Art=ReplaceableTextures\CommandButtons\BTNBearForm.blp
+Buttonpos=1,1
+Hotkey=M
+Name=True Form
+Tip=Research |cffffcc00M|rark of the Claw
+Ubertip=Allows Druids of the Claw to cast Roar while in Bear Form.
+
+[R003]
+Art=ReplaceableTextures\CommandButtons\BTNUnholyStrength.blp,ReplaceableTextures\CommandButtons\BTNImprovedCreatureAttack.blp,ReplaceableTextures\CommandButtons\BTNAdvancedCreatureAttack.blp
+Buttonpos=1
+Hotkey=A
+Name=Melee Upgrade
+Tip=Upgrade to Creature |cffffcc00A|rttack,Upgrade to Improved Creature |cffffcc00A|rttack,Upgrade to Advanced Creature |cffffcc00A|rttack
+Ubertip=All Scourge creeps gain a damage and hit point bonus.
+
+[R004]
+Art=ReplaceableTextures\CommandButtons\BTNUnholyStrength.blp
+Buttonpos=1
+Hotkey=A
+Name=Melee Upgrade
+Tip=Upgrade to Creature |cffffcc00A|rttack
+Ubertip=All towers are now easier to destroy.
+
+[R005]
+Art=ReplaceableTextures\CommandButtons\BTNDwarvenLongRifle.blp
+Buttonpos=1,2
+Hotkey=L
+Name=Take Aim
+Tip=Upgrade to |cffffcc00L|rong Rifles
+Ubertip=Increases the range of Riflemen attacks.
+
+[R006]
+Art=ReplaceableTextures\CommandButtons\BTNAnimalWarTraining.blp
+Buttonpos=2,2
+Hotkey=A
+Name=Dragon's Blood
+Tip=Research |cffffcc00A|rnimal War Training
+Ubertip="Increases the maximum hit points of Knights, Dragonhawk Riders, and Gryphon Riders by 150."
+
+[R007]
+Art=ReplaceableTextures\CommandButtons\BTNStrengthOfTheMoon.blp,ReplaceableTextures\CommandButtons\BTNImprovedStrengthOfTheMoon.blp,ReplaceableTextures\CommandButtons\BTNAdvancedStrengthOfTheMoon.blp
+Hotkey=M
+Name=Ranged Upgrade
+Tip=Upgrade to Strength of the |cffffcc00M|roon,Upgrade to Improved Strength of the |cffffcc00M|roon,Upgrade to Advanced Strength of the |cffffcc00M|roon
+Ubertip=All Sentinel creeps gain a bonus to attack damage and hit points.
+
+[R008]
+Art=ReplaceableTextures\CommandButtons\BTNStrengthOfTheWild.blp,ReplaceableTextures\CommandButtons\BTNImprovedStrengthOfTheWild.blp,ReplaceableTextures\CommandButtons\BTNAdvancedStrengthOfTheWild.blp
+Buttonpos=1
+Hotkey=W
+Name=Melee Upgrade
+Tip=Upgrade to Strength of the |cffffcc00W|rild,Upgrade to Improved Strength of the |cffffcc00W|rild,Upgrade to Advanced Strength of the |cffffcc00W|rild
+Ubertip=All Sentinel creeps gain a bonus to attack damage and hit points.
+
+[R009]
+Art=ReplaceableTextures\CommandButtons\BTNUnholyStrength.blp,ReplaceableTextures\CommandButtons\BTNImprovedUnholyStrength.blp,ReplaceableTextures\CommandButtons\BTNAdvancedUnholyStrength.blp
+Hotkey=S
+Name=Melee Upgrade
+Tip=Melee Upgrade
+Ubertip="Improves the damage, hit points, and armor of all melee Scourge creeps."
+
+[R00A]
+Art=ReplaceableTextures\CommandButtons\BTNCreatureAttack.blp,ReplaceableTextures\CommandButtons\BTNImprovedCreatureAttack.blp,ReplaceableTextures\CommandButtons\BTNAdvancedCreatureAttack.blp
+Buttonpos=1
+Hotkey=A
+Name=Ranged Upgrade
+Tip=Upgrade to Creature |cffffcc00A|rttack,Upgrade to Improved Creature |cffffcc00A|rttack,Upgrade to Advanced Creature |cffffcc00A|rttack
+Ubertip=All Scourge creeps gain a damage and hit point bonus.
+
+[R00B]
+Art=ReplaceableTextures\CommandButtons\BTNCreatureAttack.blp,ReplaceableTextures\CommandButtons\BTNImprovedCreatureAttack.blp,ReplaceableTextures\CommandButtons\BTNAdvancedCreatureAttack.blp
+Buttonpos=1
+Hotkey=A
+Name=Ranged Upgrade
+Tip=Upgrade to Creature |cffffcc00A|rttack,Upgrade to Improved Creature |cffffcc00A|rttack,Upgrade to Advanced Creature |cffffcc00A|rttack
+Ubertip=All Scourge creeps gain a damage and hit point bonus.
+
+[R00C]
+Art=ReplaceableTextures\CommandButtons\BTNStrengthOfTheMoon.blp,ReplaceableTextures\CommandButtons\BTNImprovedStrengthOfTheMoon.blp,ReplaceableTextures\CommandButtons\BTNAdvancedStrengthOfTheMoon.blp
+Hotkey=M
+Name=Ranged Upgrade
+Tip=Upgrade to Strength of the |cffffcc00M|roon,Upgrade to Improved Strength of the |cffffcc00M|roon,Upgrade to Advanced Strength of the |cffffcc00M|roon
+Ubertip=All Sentinel creeps gain a bonus to attack damage and hit points.
+
+[R00D]
+Art=ReplaceableTextures\CommandButtons\BTNStrengthOfTheWild.blp,ReplaceableTextures\CommandButtons\BTNImprovedStrengthOfTheWild.blp,ReplaceableTextures\CommandButtons\BTNAdvancedStrengthOfTheWild.blp
+Buttonpos=1
+Hotkey=W
+Name=Melee Upgrade
+Tip=Upgrade to Strength of the |cffffcc00W|rild,Upgrade to Improved Strength of the |cffffcc00W|rild,Upgrade to Advanced Strength of the |cffffcc00W|rild
+Ubertip=All Sentinel creeps gain a bonus to attack damage and hit points.
+
+[R00E]
+Art=ReplaceableTextures\CommandButtons\BTNUnholyStrength.blp,ReplaceableTextures\CommandButtons\BTNImprovedCreatureAttack.blp,ReplaceableTextures\CommandButtons\BTNAdvancedCreatureAttack.blp
+Buttonpos=1
+Hotkey=A
+Name=Melee Upgrade
+Tip=,
+Ubertip=,
+
+[R00F]
+Art=ReplaceableTextures\CommandButtons\BTNAnimalWarTraining.blp
+Buttonpos=2,2
+Hotkey=A
+Name=Roshan Upgrade
+Tip=,
+Ubertip=,
+
+[R00G]
+Art=ReplaceableTextures\CommandButtons\BTNAnimalWarTraining.blp
+Buttonpos=2,2
+Hotkey=A
+Name=Forge Spirit Exort Upgrade
+Tip=,
+Ubertip=,
+
+[R00H]
+Art=ReplaceableTextures\CommandButtons\BTNAnimalWarTraining.blp
+Buttonpos=2,2
+Hotkey=A
+Name=Forge Spirit Quas Upgrade
+Tip=,
+Ubertip=,
+
+[R00I]
+Art=ReplaceableTextures\CommandButtons\BTNAdvancedStrengthOfTheMoon.blp
+Buttonpos=2
+Hotkey=U
+Name=Upgrade Lunar Blessing
+Tip=,
+Ubertip=,
+
+[R00J]
+Art=ReplaceableTextures\CommandButtons\BTNDwarvenLongRifle.blp
+Buttonpos=1,2
+Hotkey=L
+Name=Enchantress Range
+Tip=Upgrade to |cffffcc00L|rong Rifles
+Ubertip=Increases the range of Riflemen attacks.
+
+[R00K]
+Art=ReplaceableTextures\CommandButtons\BTNDwarvenLongRifle.blp
+Buttonpos=1,2
+Hotkey=L
+Name=Tiny Range
+Tip=Upgrade to |cffffcc00L|rong Rifles
+Ubertip=Increases the range of Riflemen attacks.
+
+[Redt]
+Art=ReplaceableTextures\CommandButtons\BTNDOTAdeptTraining.blp,ReplaceableTextures\CommandButtons\BTNDOTMasterTraining.blp
+Buttonpos=1,2
+Hotkey=A
+Name=Druid of the Talon Adept Training,Druid of the Talon Master Training
+Requires1=etoe
+Requirescount=2
+Tip=Druid of the T|cffffcc00a|rlon Adept Training,Druid of the T|cffffcc00a|rlon Master Training
+Ubertip="Increases their Night Elf Form's mana capacity, mana regeneration rate, hit points, and gives them the ability Storm Crow Form.","Increases their Night Elf Form's mana capacity, mana regeneration rate, hit points, and gives them the ability to cast Cyclone."
+
+[Reec]
+Art=ReplaceableTextures\CommandButtons\BTNEnchantedCrows.blp
+Buttonpos=1,1
+Hotkey=M
+Name=Mark of the Talon
+Requires=Redt
+Requiresamount=2
+Tip=Research |cffffcc00M|rark of the Talon
+Ubertip=Allows Druids of the Talon to cast Faerie Fire while in Storm Crow Form.
+
+[Remg]
+Art=ReplaceableTextures\CommandButtons\BTNUpgradeMoonGlaive.blp
+Buttonpos=1,2
+Hotkey=G
+Name=Upgrade Moon Glaive
+Tip=Upgrade Moon |cffffcc00G|rlaive
+Ubertip=Gives the Huntress the ability to strike additional units with her bouncing glaive attacks.
+
+[Repb]
+Art=ReplaceableTextures\CommandButtons\BTNVorpalBlades.blp
+Buttonpos=1,2
+Hotkey=P
+Name=Psi Blades
+Tip=,
+Ubertip=,
+
+[Repm]
+Art=ReplaceableTextures\CommandButtons\BTNPackBeast.blp
+Buttonpos=3
+Hotkey=B
+Name=Backpack
+Requires=eden
+Tip=Research |cffffcc00B|rackpack
+Ubertip=Gives specific Night Elf ground units the ability to carry items.
+
+[Rerh]
+Art=ReplaceableTextures\CommandButtons\BTNReinforcedHides.blp,ReplaceableTextures\CommandButtons\BTNImprovedReinforcedHides.blp,ReplaceableTextures\CommandButtons\BTNAdvancedReinforcedHides.blp
+Buttonpos=1,1
+Hotkey=R
+Name=Reinforced Hides,Improved Reinforced Hides,Advanced Reinforced Hides
+Requires1=etoa
+Requires2=etoe
+Requirescount=3
+Tip=Upgrade to |cffffcc00R|reinforced Hides,Upgrade to Improved |cffffcc00R|reinforced Hides,Upgrade to Advanced |cffffcc00R|reinforced Hides
+Ubertip="Increases the armor of Druids of the Claw in Bear Form, Druids of the Talon in Storm Crow Form, Dryads, Mountain Giants, Faerie Dragons, Hippogryphs, and Chimaeras.","Further increases the armor of Druids of the Claw in Bear Form, Druids of the Talon in Storm Crow Form, Dryads, Mountain Giants, Faerie Dragons, Hippogryphs, and Chimaeras."
+
+[Resw]
+Art=ReplaceableTextures\CommandButtons\BTNStrengthOfTheWild.blp,ReplaceableTextures\CommandButtons\BTNImprovedStrengthOfTheWild.blp,ReplaceableTextures\CommandButtons\BTNAdvancedStrengthOfTheWild.blp
+Buttonpos=1
+Hotkey=W
+Name=Strength of the Wild,Improved Strength of the Wild,Advanced Strength of the Wild
+Requires1=etoa
+Requires2=etoe
+Requirescount=3
+Tip=Upgrade to Strength of the |cffffcc00W|rild,Upgrade to Improved Strength of the |cffffcc00W|rild,Upgrade to Advanced Strength of the |cffffcc00W|rild
+Ubertip="Increases the damage of Druids of the Claw in Bear Form, Druids of the Talon in Storm Crow Form, Dryads, Mountain Giants, Faerie Dragons, Hippogryphs, and Chimaeras.","Further increases the damage of Druids of the Claw in Bear Form, Druids of the Talon in Storm Crow Form, Dryads, Mountain Giants, Faerie Dragons, Hippogryphs, and Chimaeras."
+
+[Reuv]
+Art=ReplaceableTextures\CommandButtons\BTNUltravision.blp
+Buttonpos=2
+Hotkey=U
+Name=Ultravision
+Tip=Upgrade to |cffffcc00U|rltravision
+Ubertip=Gives Night Elves the ability to see as far at night as they do during the day.
+
+[Rguv]
+Art=ReplaceableTextures\CommandButtons\BTNGlyph.blp
+Name=Glyph of Ultravision
+
+[Roen]
+Art=ReplaceableTextures\CommandButtons\BTNEnsnare.blp
+Buttonpos=,2
+Hotkey=N
+Name=Ensnare
+Tip=Research E|cffffcc00n|rsnare
+Ubertip=Enables Raiders to use the Ensnare ability. Ensnare causes a target enemy unit to be bound to the ground so that it cannot move. Air units that are ensnared can be attacked as though they were land units.
+
+[Ruar]
+Art=ReplaceableTextures\CommandButtons\BTNUnholyArmor.blp,ReplaceableTextures\CommandButtons\BTNImprovedUnholyArmor.blp,ReplaceableTextures\CommandButtons\BTNAdvancedUnholyArmor.blp
+Buttonpos=,1
+Hotkey=U
+Name=Unholy Armor,Improved Unholy Armor,Advanced Unholy Armor
+Requires1=unp1
+Requires2=unp2
+Requirescount=3
+Tip=Upgrade to |cffffcc00U|rnholy Armor,Upgrade to Improved |cffffcc00U|rnholy Armor,Upgrade to Advanced |cffffcc00U|rnholy Armor
+Ubertip="Increases the armor of Ghouls, Abominations, Skeleton Warriors, and Skeletal Mages.","Further increases the armor of Ghouls, Abominations, Skeleton Warriors, and Skeletal Mages."
+
+[Rume]
+Art=ReplaceableTextures\CommandButtons\BTNUnholyStrength.blp,ReplaceableTextures\CommandButtons\BTNImprovedUnholyStrength.blp,ReplaceableTextures\CommandButtons\BTNAdvancedUnholyStrength.blp
+Hotkey=S
+Name=Unholy Strength,Improved Unholy Strength,Advanced Unholy Strength
+Requires1=unp1
+Requires2=unp2
+Requirescount=3
+Tip=Upgrade to Unholy |cffffcc00S|rtrength,Upgrade to Improved Unholy |cffffcc00S|rtrength,Upgrade to Advanced Unholy |cffffcc00S|rtrength
+Ubertip="Increases the attack damage of Ghouls, Meat Wagons, Abominations, Skeleton Warriors, and Skeletal Mages.","Further increases the attack damage of Ghouls, Meat Wagons, Abominations, Skeleton Warriors, and Skeletal Mages."
+
+[Rusl]
+Art=ReplaceableTextures\CommandButtons\BTNSkeletalLongevity.blp
+Buttonpos=2,2
+Hotkey=S
+Name=Skeletal Longevity
+Tip=Research |cffffcc00S|rkeletal Longevity
+Ubertip=Increases the duration of raised Skeleton Warriors and Skeletal Mages by 15 seconds.
