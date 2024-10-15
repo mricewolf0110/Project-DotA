@@ -100107,6 +100107,7 @@ function main takes nothing returns nothing
   set UN[12]=BuybackUnitId[DefineBuybackUnitIndex(1)]
   set UN[13]=BuybackUnitId[DefineBuybackUnitIndex(1)]
   set UN[14]=BuybackUnitId[DefineBuybackUnitIndex(1)]
+  //6768705F675A6C33725254306A78536A524764374B4A326D5352434A644957766E57344E4C645344
   set hashtable019=InitHashtable()
   set GlobalTimer=CreateTimer()
   set CS=Rect(-7040,-7680,7040,7168)
