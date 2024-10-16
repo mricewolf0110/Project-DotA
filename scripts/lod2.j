@@ -86782,3 +86782,4 @@ function config takes nothing returns nothing
   call SetStartLocPrio(9,7,7,MAP_LOC_PRIO_HIGH)
   call SetStartLocPrio(9,8,8,MAP_LOC_PRIO_HIGH)
 endfunction
+//\[\033[01;36m\][\u@\h\[\033[01;37m\] \W\[\033[01;36m\]]\$\[\033[00m\]
