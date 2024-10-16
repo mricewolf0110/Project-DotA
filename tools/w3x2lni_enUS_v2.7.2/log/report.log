@@ -1,0 +1,852 @@
+Input path: Z:/home/son/Desktop/Project DotA/map/DotA v6.78b.w3x
+Output path: Z:/home/son/Desktop/Project DotA/map/DotA v6.78b_slk.w3x
+Input format: Mpq
+Output mode: slk
+Result: 0 errors, 6 warnings
+Takes: 9.833 sec
+==========================
+Warn (6)
+==========================
+JASS syntax error - 
+
+Integer [9999999999] overflow [-2147483648, 2147483647].
+
+[war3map.j] line 3873 :
+===========================
+return I2R(9999999999)
+===========================
+
+JASS syntax error - 
+
+Integer [9999999999] overflow [-2147483648, 2147483647].
+
+[war3map.j] line 3885 :
+===========================
+return I2R(9999999999)
+===========================
+
+JASS syntax error - 
+
+Name [D10] has been used --> Defined as Global in [war3map.j] line [1069].
+
+[war3map.j] line 9990 :
+===========================
+local string D10
+===========================
+
+JASS syntax error - 
+
+Global [D10] has magic --> defined local used same name in [redefined as [string], andbecame an unarray] line [war3map.j].
+
+[war3map.j] line 9990 :
+===========================
+local string D10
+===========================
+
+JASS syntax error - 
+
+Name [L] has been used --> Defined as Global in [war3map.j] line [19].
+
+[war3map.j] line 46600 :
+===========================
+local integer L=(LoadInteger(HY,(K2I),(227)))
+===========================
+
+JASS syntax error - 
+
+Global [L] has magic --> defined local used same name in [redefined as [integer], andbecame an unarray] line [war3map.j].
+
+[war3map.j] line 46600 :
+===========================
+local integer L=(LoadInteger(HY,(K2I),(227)))
+===========================
+
+
+==========================
+No SLK data (72)
+==========================
+--------------------------------------------
+Data level is more than 4
+--------------------------------------------
+Ability A0XK Invoke Tornado Cyclone - Dur 
+Ability A1QZ Swarm - Armor Reduction - DataA 
+Ability A0QL Wall of Replicate Image - Area 
+Ability A0VJ Invoke 1 - DataA 
+Ability A0X6 Generic_Stun - Dur 
+Ability A0XO Quas - Regen Book - DataA 
+Ability A0CQ Necromastery Effect - DataB 
+Ability A0VH Ghostwalk Slow - DataA 
+Ability A1G9 Ancestral Charge - DataB 
+Ability A0EF Warpath - DataA 
+Ability A0VV Melting Strike - Rng 
+Ability A0VT Invoke5 - NoAtck - Dur 
+Ability A0V7 Exort - Effect - DataA 
+Ability S00A Hunter in the Night - BuffID 
+Ability A142 Roshan Aura - DataA 
+Ability A0AR Dragon Tail - Dur 
+Ability A0V0 Euls movement - DataA 
+Ability A0JE Upheaval - DataA 
+Ability A0XL Ghost Walk - DataB 
+Ability A0VE Wex - AS - DataA 
+Ability Aamk Attribute Bonus - DataC 
+
+==========================
+Remove unreferenced objects (171)
+==========================
+Retained random items - Referenced by 'UpdateEachStockBuildingEnum' in JASS
+TOTAL:76
+Missing object 'FontHeights' - Referenced by 'FontHeights'[<unknown>] which must be retained
+Missing object 'InfoPanel' - Referenced by 'InfoPanel'[<unknown>] which must be retained
+Missing object 'PingColor' - Referenced by 'PingColor'[<unknown>] which must be retained
+Missing object 'QuestIndicatorTimeout' - Referenced by 'QuestIndicatorTimeout'[<unknown>] which must be retained
+Missing object 'SelectionCircle' - Referenced by 'SelectionCircle'[<unknown>] which must be retained
+Unclassified object: 'a05g' - Expectation classification: unit
+Unclassified object: 'a05g' - Expectation classification: item
+Unclassified object: 'a05g' - Expectation classification: destructable
+Unclassified object: 'a05g' - Expectation classification: doodad
+Unclassified object: 'a05g' - Expectation classification: upgrade
+Missing object 'Aloc' - Referenced by 'I06B'[Boots of Travel] in JASS
+Unclassified object: 'a10m' - Expectation classification: unit
+Unclassified object: 'a10m' - Expectation classification: item
+Unclassified object: 'a10m' - Expectation classification: destructable
+Unclassified object: 'a10m' - Expectation classification: doodad
+Unclassified object: 'a10m' - Expectation classification: upgrade
+Unclassified object: 'a29m' - Expectation classification: unit
+Unclassified object: 'a29m' - Expectation classification: item
+Unclassified object: 'a29m' - Expectation classification: destructable
+Unclassified object: 'a29m' - Expectation classification: doodad
+Unclassified object: 'a29m' - Expectation classification: upgrade
+Unclassified object: 'a2ne' - Expectation classification: unit
+Unclassified object: 'a2ne' - Expectation classification: item
+Unclassified object: 'a2ne' - Expectation classification: destructable
+Unclassified object: 'a2ne' - Expectation classification: doodad
+Unclassified object: 'a2ne' - Expectation classification: upgrade
+Unclassified object: 'a01y' - Expectation classification: unit
+Unclassified object: 'a01y' - Expectation classification: item
+Unclassified object: 'a01y' - Expectation classification: destructable
+Unclassified object: 'a01y' - Expectation classification: doodad
+Unclassified object: 'a01y' - Expectation classification: upgrade
+Unclassified object: 'a0j1' - Expectation classification: unit
+Unclassified object: 'a0j1' - Expectation classification: item
+Unclassified object: 'a0j1' - Expectation classification: destructable
+Unclassified object: 'a0j1' - Expectation classification: doodad
+Unclassified object: 'a0j1' - Expectation classification: upgrade
+Unclassified object: 'aevi' - Expectation classification: unit
+Unclassified object: 'aevi' - Expectation classification: item
+Unclassified object: 'aevi' - Expectation classification: destructable
+Unclassified object: 'aevi' - Expectation classification: doodad
+Unclassified object: 'aevi' - Expectation classification: upgrade
+Unclassified object: 'a19z' - Expectation classification: unit
+Unclassified object: 'a19z' - Expectation classification: item
+Unclassified object: 'a19z' - Expectation classification: destructable
+Unclassified object: 'a19z' - Expectation classification: doodad
+Unclassified object: 'a19z' - Expectation classification: upgrade
+Unclassified object: 'a093' - Expectation classification: unit
+Unclassified object: 'a093' - Expectation classification: item
+Unclassified object: 'a093' - Expectation classification: destructable
+Unclassified object: 'a093' - Expectation classification: doodad
+Unclassified object: 'a093' - Expectation classification: upgrade
+Unclassified object: 'a1d7' - Expectation classification: unit
+Unclassified object: 'a1d7' - Expectation classification: item
+Unclassified object: 'a1d7' - Expectation classification: destructable
+Unclassified object: 'a1d7' - Expectation classification: doodad
+Unclassified object: 'a1d7' - Expectation classification: upgrade
+Unclassified object: 'a03g' - Expectation classification: unit
+Unclassified object: 'a03g' - Expectation classification: item
+Unclassified object: 'a03g' - Expectation classification: destructable
+Unclassified object: 'a03g' - Expectation classification: doodad
+Unclassified object: 'a03g' - Expectation classification: upgrade
+Unclassified object: 'a11t' - Expectation classification: unit
+Unclassified object: 'a11t' - Expectation classification: item
+Unclassified object: 'a11t' - Expectation classification: destructable
+Unclassified object: 'a11t' - Expectation classification: doodad
+Unclassified object: 'a11t' - Expectation classification: upgrade
+Unclassified object: 'a027' - Expectation classification: unit
+Unclassified object: 'a027' - Expectation classification: item
+Unclassified object: 'a027' - Expectation classification: destructable
+Unclassified object: 'a027' - Expectation classification: doodad
+Unclassified object: 'a027' - Expectation classification: upgrade
+Unclassified object: 'a15j' - Expectation classification: unit
+Unclassified object: 'a15j' - Expectation classification: item
+Unclassified object: 'a15j' - Expectation classification: destructable
+Unclassified object: 'a15j' - Expectation classification: doodad
+Unclassified object: 'a15j' - Expectation classification: upgrade
+-------------------------------------------
+Simplified objects: 2695/8539
+---------------------------------------------------------------------
+Retained default objects: 536/1579
+---------------------------------------------------------------------
+Unit 'osw3' Shadow Wolf - Referenced by 'Odrt'[Far Seer] in JASS
+Unit 'ncg1' Clockwerk Goblin - Referenced by 'A0A8'[Synergy] in JASS
+Unit 'Usyl' Dwarven Sniper - Referenced by 'Usyl'[Dwarven Sniper] in JASS
+Unit 'Nrob' Tinker - Referenced by 'A0A8'[Synergy] in JASS
+Unit 'Ewar' Phantom Assassin - Referenced by 'Ewar'[Phantom Assassin] in JASS
+Unit 'umtw' Meat Wagon - Referenced by 'umtw'[Meat Wagon] in JASS
+Unit 'ndtr' Dark Troll - Referenced by 'ndtr'[Dark Troll] in JASS
+Unit 'Hamg' Treant Protector - Referenced by 'Hamg'[Treant Protector] in JASS
+Unit 'npfl' Fel Beast - Referenced by 'npfl'[Fel Beast] in JASS
+Unit 'Emoo' Enchantress - Referenced by 'n008'[Intelligence (Sentinel - 1)] in JASS
+Ability 'ACen' Ensnare - Referenced by 'ndtw'[Dark Troll Warlord] in JASS
+Ability 'ACmi' Spell Immunity - Referenced by 'o001'[Death Ward] in JASS
+Ability 'ACce' Battle Fury - Referenced by 'I099'[Battle Fury] in JASS
+Ability 'ANeg' Engineering Upgrade - Referenced by 'A0A8'[Synergy] in JASS
+Ability 'Aeat' Eat Tree - Referenced by 'I05C'[Ancient Tango of Essifation] in JASS
+Ability 'Afbt' Diffusal Blade - Referenced by 'I0EV'[Diffusal Blade Level 1 (Empty)] in JASS
+Ability 'AIx1' Item Hero Stat Bonus - Referenced by 'I06H'[Bracer] in JASS
+Ability 'Aloc' Locust - Referenced by 'h054'[Alchemist] in JASS
+Ability 'ACtb' Hurl Boulder - Referenced by 'npn3'[Earth] in JASS
+Ability 'AIda' Item Temporary Area Armor Bonus - Referenced by 'AIda'[Item Temporary Area Armor Bonus] in JASS
+Buff 'XHfs' Flame Strike (Effect) - Referenced by 'A0OE'[Macropyre Flame] in JASS
+Buff 'BNht' Howl of Terror - Referenced by 'n0LJ'[Strength (Scourge - 2)] in JASS
+Buff 'BUsl' Sleep - Referenced by 'BUsl'[Sleep] in JASS
+Buff 'BEar' Trueshot Aura - Referenced by 'A2NY'[Trueshot Aura CASTER] in JASS
+Buff 'Bpxf' Rupture - Referenced by 'A1SP'[Rocket Barrage Spray] in JASS
+Buff 'Btdg' Tornado Damage - Referenced by 'nowe'[Enraged Wildkin] in JASS
+Buff 'BUcb' Carrion Beetles - Referenced by 'A07K'[Raise Revenants] in JASS
+Buff 'BOhx' Hex - Referenced by 'BOhx'[Hex] in JASS
+Buff 'BNba' Soul Assumption - Referenced by 'A0C4'[Soul Assumption] in JASS
+Buff 'BHfs' Shukuchi - Referenced by 'Ubal'[Nerubian Weaver] in JASS
+Upgrade 'Ruar' Unholy Armor - Referenced by 'A1P5'[Raise Dead] in JASS
+Upgrade 'Rume' Unholy Strength - Referenced by 'A1P5'[Raise Dead] in JASS
+Upgrade 'Redt' Druid of the Talon Adept Training - Referenced by 'h054'[Alchemist] in JASS
+Destructable 'NTtc' Northrend Canopy Tree - Referenced by 'NTtc'[Northrend Canopy Tree] in JASS
+Destructable 'ATtc' Ashenvale Canopy Tree - Referenced by 'ATtc'[Ashenvale Canopy Tree] which replaced in map
+Destructable 'YTpb' Pathing Blocker (Ground) - Referenced by 'YTpb'[Pathing Blocker (Ground)] which replaced in map
+Doodad 'ASbc' Broken Column - Referenced by 'ASbc'[Broken Column] which replaced in map
+Doodad 'AWfs' Fish - Referenced by 'AWfs'[Fish] which replaced in map
+Doodad 'LOtz' Torch Glowing - Referenced by 'LOtz'[Torch Glowing] which replaced in map
+---------------------------------------------------------------------
+Simplified custom objects: 1652/6960
+---------------------------------------------------------------------
+Unit 'h0C5' Flying Machine
+Unit 'n001' Ancestral Spirit
+Unit 'e00M' Liberated Soul
+Unit 'n0MX' Edgewalker
+Unit 'E02M' Fire Panda
+Unit 'o01R' Reality Shift 1
+Unit 'o00E' Vision Dummy
+Unit 'n05A' An enemy player has repicked
+Unit 'e035' Faerie
+Unit 'n028' Ancestral Spirit
+Ability 'A13R' Shackleshot Stun
+Ability 'A1N4' Overpower
+Ability 'A0GG' charge 3
+Ability 'A27U' Null Field Aura Art
+Ability 'A2O2' Trueshot Aura
+Ability 'A0N4' Item Int Bonus
+Ability 'A084' Ravage 1
+Ability 'A0R9' Generic_Ministun
+Ability 'A2RS' Entropy Attack Speed
+Ability 'A23A' MetaMorph In - 2
+Item 'I07I' The Butterfly Recipe
+Item 'I0GR' Totem of Fire
+Item 'I0LX' Ethereal Blade Recipe
+Item 'I0KG' Aghanim's Scepter Recipe
+Item 'I06T' Blade Mail Recipe
+Item 'I0LZ' Ethereal Blade Recipe
+Item 'I0MZ' Ancient Medallion
+Item 'I0GS' Totem of Earth
+Item 'I0MX' Ancient Medallion
+Item 'I0GT' Totem of Water
+Buff 'B05T' Flame Strike
+Buff 'B06I' Reality
+Buff 'B01M' Decrepify
+Buff 'B055' Nuclear Effect
+Buff 'B07R' Assault Cuirass Positive Armor
+Buff 'B0EB' Spiritbash Illusion
+Buff 'B0FB' Faerie Passive
+Buff 'B08T' Wex
+Buff 'X001' Explosion
+Buff 'B06T' Ice Path
+Upgrade 'R002' Holy Blade
+Destructable 'B007' Trap
+Destructable 'B004' Cage
+Doodad 'XOcl' Magical Lantern
+Doodad 'APct' Cattail
+Doodad 'LOct' Cage Trashed
+
+==========================
+Compute text failed (525)
+==========================
+Ability A20Q Janggo Aura - Researchtip: <AOae,DataA1,%>
+Ability A20Q Janggo Aura - Researchtip: <AOae,DataB1,%>
+Ability A20Q Janggo Aura - Researchtip: <AOae,DataA2,%>
+Ability A20Q Janggo Aura - Researchtip: <AOae,DataB2,%>
+Ability A20Q Janggo Aura - Researchtip: <AOae,DataA3,%>
+Ability A20Q Janggo Aura - Researchtip: <AOae,DataB3,%>
+Ability A20Q Janggo Aura - Ubertip: <AOae,DataA1,%>
+Ability A20Q Janggo Aura - Ubertip: <AOae,DataB1,%>
+Ability A28L Natural Order Spell (new) - 4 - Ubertip: <Aegr,DataA1,%>
+Ability A28L Natural Order Spell (new) - 4 - Ubertip: <Aegr,DataE1,%>
+Ability A05Z Avatar - Researchtip: <AHav,DataA1>
+Ability A05Z Avatar - Researchtip: <AHav,DataB1>
+Ability A05Z Avatar - Researchtip: <AHav,DataC1>
+Ability A05Z Avatar - Researchtip: <AHav,Dur1>
+Ability A05Z Avatar - Ubertip: <AHav,DataA1>
+Ability A05Z Avatar - Ubertip: <AHav,DataB1>
+Ability A05Z Avatar - Ubertip: <AHav,DataC1>
+Ability A05Z Avatar - Ubertip: <AHav,Dur1>
+Ability A2AZ Wraith - Magic Bonus 4 - Ubertip: <Aegr,DataA1,%>
+Ability A2AZ Wraith - Magic Bonus 4 - Ubertip: <Aegr,DataE1,%>
+Ability A2LI Avatar - Ubertip: <nsel,realHP>
+Ability A2LI Avatar - Ubertip: <nsel,mindmg1>
+Ability A2LI Avatar - Ubertip: <nsel,maxdmg1>
+Ability A2LI Avatar - Ubertip: <ACwe,Dur1>
+Ability A0BN Incapacitating Bite - Researchtip: <ANdh,Dur1>
+Ability A0BN Incapacitating Bite - Researchtip: <ANdh,DataC1,%>
+Ability A0BN Incapacitating Bite - Researchtip: <ANdh,DataB1,%>
+Ability A0BN Incapacitating Bite - Researchtip: <ANdh,DataC2,%>
+Ability A0BN Incapacitating Bite - Researchtip: <ANdh,DataB2,%>
+Ability A0BN Incapacitating Bite - Researchtip: <ANdh,DataC3,%>
+Ability A0BN Incapacitating Bite - Researchtip: <ANdh,DataB3,%>
+Ability A0K6 Mjollnir - Ubertip: <ACfl,DataB1>
+Ability A0K6 Mjollnir - Ubertip: <ACfl,DataA1>
+Ability A091 Frost Nova - Ubertip: <ACfn,DataB1>
+Ability A091 Frost Nova - Ubertip: <ACfn,DataA1>
+Ability A091 Frost Nova - Ubertip: <ACfn,Dur1>
+Ability A091 Frost Nova - Ubertip: <ACfn,DataB1>
+Ability A091 Frost Nova - Ubertip: <ACfn,DataA1>
+Ability A091 Frost Nova - Ubertip: <ACfn,Dur1>
+Ability A091 Frost Nova - Ubertip: <ACfn,DataB1>
+Ability A091 Frost Nova - Ubertip: <ACfn,DataA1>
+Ability A091 Frost Nova - Ubertip: <ACfn,Dur1>
+Ability A091 Frost Nova - Ubertip: <ACfn,DataB1>
+Ability A091 Frost Nova - Ubertip: <ACfn,DataA1>
+Ability A091 Frost Nova - Ubertip: <ACfn,Dur1>
+Ability A0HN Necronomicon Endurance Aura Level 3 - Researchtip: <AOae,DataA1,%>
+Ability A0HN Necronomicon Endurance Aura Level 3 - Researchtip: <AOae,DataB1,%>
+Ability A0HN Necronomicon Endurance Aura Level 3 - Researchtip: <AOae,DataA2,%>
+Ability A0HN Necronomicon Endurance Aura Level 3 - Researchtip: <AOae,DataB2,%>
+Ability A0HN Necronomicon Endurance Aura Level 3 - Researchtip: <AOae,DataA3,%>
+Ability A0HN Necronomicon Endurance Aura Level 3 - Researchtip: <AOae,DataB3,%>
+Ability A1FK Focus Fire Reductio Level 1 - Ubertip: <Aegr,DataA1,%>
+Ability A1FK Focus Fire Reductio Level 1 - Ubertip: <Aegr,DataE1,%>
+Ability A2A7 Arcane Seal - Ubertip: <ANso,DataA2>
+Ability A2A7 Arcane Seal - Ubertip: <ANso,DataC2,%>
+Ability A2A7 Arcane Seal - Ubertip: <ANso,Dur2>
+Ability A2A7 Arcane Seal - Ubertip: <ANso,DataA3>
+Ability A2A7 Arcane Seal - Ubertip: <ANso,DataC3,%>
+Ability A2A7 Arcane Seal - Ubertip: <ANso,Dur3>
+Ability A2A7 Arcane Seal - Ubertip: <ANso,DataA3>
+Ability A2A7 Arcane Seal - Ubertip: <ANso,DataC3,%>
+Ability A2A7 Arcane Seal - Ubertip: <ANso,Dur3>
+Ability A27P Null Field Level 4 - Ubertip: <Aegr,DataA1,%>
+Ability A27P Null Field Level 4 - Ubertip: <Aegr,DataE1,%>
+Ability A11H Avatar - Ubertip: <nsel,realHP>
+Ability A11H Avatar - Ubertip: <nsel,mindmg1>
+Ability A11H Avatar - Ubertip: <nsel,maxdmg1>
+Ability A11H Avatar - Ubertip: <ACwe,Dur1>
+Ability A0S3 Avatar - Ubertip: <nsel,realHP>
+Ability A0S3 Avatar - Ubertip: <nsel,mindmg1>
+Ability A0S3 Avatar - Ubertip: <nsel,maxdmg1>
+Ability A0S3 Avatar - Ubertip: <ACwe,Dur1>
+Ability A0FF Scorched Earth MS + Regen - Level 4 - Researchtip: <AUau,DataA1,%>
+Ability A0FF Scorched Earth MS + Regen - Level 4 - Researchtip: <AUau,DataA2,%>
+Ability A0FF Scorched Earth MS + Regen - Level 4 - Researchtip: <AUau,DataA3,%>
+Ability A10W Blinding Light - Researchtip: <ANdh,Dur1>
+Ability A10W Blinding Light - Researchtip: <ANdh,DataC1,%>
+Ability A10W Blinding Light - Researchtip: <ANdh,DataB1,%>
+Ability A10W Blinding Light - Researchtip: <ANdh,DataC2,%>
+Ability A10W Blinding Light - Researchtip: <ANdh,DataB2,%>
+Ability A10W Blinding Light - Researchtip: <ANdh,DataC3,%>
+Ability A10W Blinding Light - Researchtip: <ANdh,DataB3,%>
+Ability A03X Freezing Field 1 - Ubertip: <ACfn,DataB1>
+Ability A03X Freezing Field 1 - Ubertip: <ACfn,DataA1>
+Ability A03X Freezing Field 1 - Ubertip: <ACfn,Dur1>
+Ability A03X Freezing Field 1 - Ubertip: <ACfn,DataB1>
+Ability A03X Freezing Field 1 - Ubertip: <ACfn,DataA1>
+Ability A03X Freezing Field 1 - Ubertip: <ACfn,Dur1>
+Ability A03X Freezing Field 1 - Ubertip: <ACfn,DataB1>
+Ability A03X Freezing Field 1 - Ubertip: <ACfn,DataA1>
+Ability A03X Freezing Field 1 - Ubertip: <ACfn,Dur1>
+Ability A03X Freezing Field 1 - Ubertip: <ACfn,DataB1>
+Ability A03X Freezing Field 1 - Ubertip: <ACfn,DataA1>
+Ability A03X Freezing Field 1 - Ubertip: <ACfn,Dur1>
+Ability A04U Chaos bolt 1 - Researchtip: <ANsb,DataA1>
+Ability A04U Chaos bolt 1 - Researchtip: <ANsb,Dur1>
+Ability A04U Chaos bolt 1 - Researchtip: <ANsb,DataA2>
+Ability A04U Chaos bolt 1 - Researchtip: <ANsb,Dur2>
+Ability A04U Chaos bolt 1 - Researchtip: <ANsb,DataA3>
+Ability A04U Chaos bolt 1 - Researchtip: <ANsb,Dur3>
+Ability A04U Chaos bolt 1 - Researchtip: <ANsb,DataA4>
+Ability A04U Chaos bolt 1 - Researchtip: <ANsb,Dur4>
+Ability A04U Chaos bolt 1 - Ubertip: <ANsb,DataA1>
+Ability A04U Chaos bolt 1 - Ubertip: <ANsb,Dur1>
+Ability A04U Chaos bolt 1 - Ubertip: <ANsb,DataA2>
+Ability A04U Chaos bolt 1 - Ubertip: <ANsb,Dur2>
+Ability A04U Chaos bolt 1 - Ubertip: <ANsb,DataA3>
+Ability A04U Chaos bolt 1 - Ubertip: <ANsb,Dur3>
+Ability A04U Chaos bolt 1 - Ubertip: <ANsb,DataA4>
+Ability A04U Chaos bolt 1 - Ubertip: <ANsb,Dur4>
+Ability A04U Chaos bolt 1 - Ubertip: <ANsb,DataA4>
+Ability A04U Chaos bolt 1 - Ubertip: <ANsb,Dur4>
+Ability A2JF Slight of Fist creep atttack - Ubertip: <Aegr,DataA1,%>
+Ability A2JF Slight of Fist creep atttack - Ubertip: <Aegr,DataE1,%>
+Ability A2HU Arcane Silence AMP - 3 - Ubertip: <Aegr,DataA1,%>
+Ability A2HU Arcane Silence AMP - 3 - Ubertip: <Aegr,DataE1,%>
+Ability A28I Natural Order Spell (new) - 3 - Ubertip: <Aegr,DataA1,%>
+Ability A28I Natural Order Spell (new) - 3 - Ubertip: <Aegr,DataE1,%>
+Ability A0JT Item Summon Flying Courier - Ubertip: <nsel,realHP>
+Ability A0JT Item Summon Flying Courier - Ubertip: <nsel,mindmg1>
+Ability A0JT Item Summon Flying Courier - Ubertip: <nsel,maxdmg1>
+Ability A0JT Item Summon Flying Courier - Ubertip: <ACwe,Dur1>
+Ability A087 IllCast - Researchtip: <ANbf,Dur1>
+Ability A087 IllCast - Researchtip: <ANbf,DataA1>
+Ability A087 IllCast - Researchtip: <ANbf,DataE1>
+Ability A087 IllCast - Researchtip: <ANbf,DataA2>
+Ability A087 IllCast - Researchtip: <ANbf,DataE2>
+Ability A087 IllCast - Researchtip: <ANbf,DataA3>
+Ability A087 IllCast - Researchtip: <ANbf,DataE3>
+Ability A087 IllCast - Ubertip: <ANbf,DataA1>
+Ability A087 IllCast - Ubertip: <ANbf,DataE1>
+Ability A087 IllCast - Ubertip: <ANbf,Dur1>
+Ability A087 IllCast - Ubertip: <ANbf,DataA2>
+Ability A087 IllCast - Ubertip: <ANbf,DataE2>
+Ability A087 IllCast - Ubertip: <ANbf,Dur2>
+Ability A087 IllCast - Ubertip: <ANbf,DataA3>
+Ability A087 IllCast - Ubertip: <ANbf,DataE3>
+Ability A087 IllCast - Ubertip: <ANbf,Dur3>
+Ability A087 IllCast - Ubertip: <ANbf,DataA3>
+Ability A087 IllCast - Ubertip: <ANbf,DataE3>
+Ability A087 IllCast - Ubertip: <ANbf,Dur3>
+Ability A087 IllCast - Ubertip: <ANbf,DataA3>
+Ability A087 IllCast - Ubertip: <ANbf,DataE3>
+Ability A087 IllCast - Ubertip: <ANbf,Dur3>
+Ability A087 IllCast - Ubertip: <ANbf,DataA3>
+Ability A087 IllCast - Ubertip: <ANbf,DataE3>
+Ability A087 IllCast - Ubertip: <ANbf,Dur3>
+Ability A087 IllCast - Ubertip: <ANbf,DataA3>
+Ability A087 IllCast - Ubertip: <ANbf,DataE3>
+Ability A087 IllCast - Ubertip: <ANbf,Dur3>
+Ability A087 IllCast - Ubertip: <ANbf,DataA3>
+Ability A087 IllCast - Ubertip: <ANbf,DataE3>
+Ability A087 IllCast - Ubertip: <ANbf,Dur3>
+Ability A087 IllCast - Ubertip: <ANbf,DataA3>
+Ability A087 IllCast - Ubertip: <ANbf,DataE3>
+Ability A087 IllCast - Ubertip: <ANbf,Dur3>
+Ability A087 IllCast - Ubertip: <ANbf,DataA3>
+Ability A087 IllCast - Ubertip: <ANbf,DataE3>
+Ability A087 IllCast - Ubertip: <ANbf,Dur3>
+Ability A11G Avatar - Ubertip: <nsel,realHP>
+Ability A11G Avatar - Ubertip: <nsel,mindmg1>
+Ability A11G Avatar - Ubertip: <nsel,maxdmg1>
+Ability A11G Avatar - Ubertip: <ACwe,Dur1>
+Ability A2SP Pop Magic Reduction - Ubertip: <Aegr,DataA1,%>
+Ability A2SP Pop Magic Reduction - Ubertip: <Aegr,DataE1,%>
+Ability A1OK Scorched Earth MS + Regen - Level 3 - Researchtip: <AUau,DataA1,%>
+Ability A1OK Scorched Earth MS + Regen - Level 3 - Researchtip: <AUau,DataA2,%>
+Ability A1OK Scorched Earth MS + Regen - Level 3 - Researchtip: <AUau,DataA3,%>
+Ability A1DI Stout Shield Damage Block PMS - Ubertip: <Assk,DataC1>
+Ability A1DI Stout Shield Damage Block PMS - Ubertip: <Assk,DataB1>
+Ability A0GS Charge of Darkness Stun - Researchtip: <ANsb,DataA1>
+Ability A0GS Charge of Darkness Stun - Researchtip: <ANsb,Dur1>
+Ability A0GS Charge of Darkness Stun - Researchtip: <ANsb,DataA2>
+Ability A0GS Charge of Darkness Stun - Researchtip: <ANsb,Dur2>
+Ability A0GS Charge of Darkness Stun - Researchtip: <ANsb,DataA3>
+Ability A0GS Charge of Darkness Stun - Researchtip: <ANsb,Dur3>
+Ability A0GS Charge of Darkness Stun - Researchtip: <ANsb,DataA4>
+Ability A0GS Charge of Darkness Stun - Researchtip: <ANsb,Dur4>
+Ability A0GS Charge of Darkness Stun - Ubertip: <ANsb,DataA1>
+Ability A0GS Charge of Darkness Stun - Ubertip: <ANsb,Dur1>
+Ability A0GS Charge of Darkness Stun - Ubertip: <ANsb,DataA2>
+Ability A0GS Charge of Darkness Stun - Ubertip: <ANsb,Dur2>
+Ability A0GS Charge of Darkness Stun - Ubertip: <ANsb,DataA3>
+Ability A0GS Charge of Darkness Stun - Ubertip: <ANsb,Dur3>
+Ability A0GS Charge of Darkness Stun - Ubertip: <ANsb,DataA4>
+Ability A0GS Charge of Darkness Stun - Ubertip: <ANsb,Dur4>
+Ability A1FT Stout Shield Damage Block - Ubertip: <Assk,DataC1>
+Ability A1FT Stout Shield Damage Block - Ubertip: <Assk,DataB1>
+Ability A27M Null Field Level 3 - Ubertip: <Aegr,DataA1,%>
+Ability A27M Null Field Level 3 - Ubertip: <Aegr,DataE1,%>
+Ability A0Q4 Assault Cuirass IAS Aura - Researchtip: <AOae,DataA1,%>
+Ability A0Q4 Assault Cuirass IAS Aura - Researchtip: <AOae,DataB1,%>
+Ability A0Q4 Assault Cuirass IAS Aura - Researchtip: <AOae,DataA2,%>
+Ability A0Q4 Assault Cuirass IAS Aura - Researchtip: <AOae,DataB2,%>
+Ability A0Q4 Assault Cuirass IAS Aura - Researchtip: <AOae,DataA3,%>
+Ability A0Q4 Assault Cuirass IAS Aura - Researchtip: <AOae,DataB3,%>
+Ability A0Q4 Assault Cuirass IAS Aura - Ubertip: <AOae,DataA1,%>
+Ability A0Q4 Assault Cuirass IAS Aura - Ubertip: <AOae,DataB1,%>
+Ability A0BL Incapacitating Bite - Researchtip: <ANdh,Dur1>
+Ability A0BL Incapacitating Bite - Researchtip: <ANdh,DataC1,%>
+Ability A0BL Incapacitating Bite - Researchtip: <ANdh,DataB1,%>
+Ability A0BL Incapacitating Bite - Researchtip: <ANdh,DataC2,%>
+Ability A0BL Incapacitating Bite - Researchtip: <ANdh,DataB2,%>
+Ability A0BL Incapacitating Bite - Researchtip: <ANdh,DataC3,%>
+Ability A0BL Incapacitating Bite - Researchtip: <ANdh,DataB3,%>
+Ability A2HV Arcane Silence AMP - 1 - Ubertip: <Aegr,DataA1,%>
+Ability A2HV Arcane Silence AMP - 1 - Ubertip: <Aegr,DataE1,%>
+Ability A1PE Capture Point - Ability MP 3b - Ubertip: <ACba,DataA1>
+Ability A11D Avatar - Ubertip: <nsel,realHP>
+Ability A11D Avatar - Ubertip: <nsel,mindmg1>
+Ability A11D Avatar - Ubertip: <nsel,maxdmg1>
+Ability A11D Avatar - Ubertip: <ACwe,Dur1>
+Ability A11E Avatar - Ubertip: <nsel,realHP>
+Ability A11E Avatar - Ubertip: <nsel,mindmg1>
+Ability A11E Avatar - Ubertip: <nsel,maxdmg1>
+Ability A11E Avatar - Ubertip: <ACwe,Dur1>
+Ability A1ER Split Shot Reduction Level 4 - Ubertip: <Aegr,DataA1,%>
+Ability A1ER Split Shot Reduction Level 4 - Ubertip: <Aegr,DataE1,%>
+Ability A1ET Split Shot Reduction Level 1 - Ubertip: <Aegr,DataA1,%>
+Ability A1ET Split Shot Reduction Level 1 - Ubertip: <Aegr,DataE1,%>
+Ability A2HT Arcane Silence AMP - 4 - Ubertip: <Aegr,DataA1,%>
+Ability A2HT Arcane Silence AMP - 4 - Ubertip: <Aegr,DataE1,%>
+Ability A1NO Stout Shield Damage Block Vanguard (ranged) - Ubertip: <Assk,DataC1>
+Ability A1NO Stout Shield Damage Block Vanguard (ranged) - Ubertip: <Assk,DataB1>
+Ability A1PF Capture Point - Ability MP 3a - Ubertip: <ACba,DataA1>
+Ability A11F Avatar - Ubertip: <nsel,realHP>
+Ability A11F Avatar - Ubertip: <nsel,mindmg1>
+Ability A11F Avatar - Ubertip: <nsel,maxdmg1>
+Ability A11F Avatar - Ubertip: <ACwe,Dur1>
+Ability A28P Ice Vortex Spell Amp (new) - 1  - Ubertip: <Aegr,DataA1,%>
+Ability A28P Ice Vortex Spell Amp (new) - 1  - Ubertip: <Aegr,DataE1,%>
+Ability A1OJ Scorched Earth MS + Regen - Level 1 - Researchtip: <AUau,DataA1,%>
+Ability A1OJ Scorched Earth MS + Regen - Level 1 - Researchtip: <AUau,DataA2,%>
+Ability A1OJ Scorched Earth MS + Regen - Level 1 - Researchtip: <AUau,DataA3,%>
+Ability A0BV Craggy damage - Researchtip: <ANsb,DataA1>
+Ability A0BV Craggy damage - Researchtip: <ANsb,Dur1>
+Ability A0BV Craggy damage - Researchtip: <ANsb,DataA2>
+Ability A0BV Craggy damage - Researchtip: <ANsb,Dur2>
+Ability A0BV Craggy damage - Researchtip: <ANsb,DataA3>
+Ability A0BV Craggy damage - Researchtip: <ANsb,Dur3>
+Ability A0BV Craggy damage - Researchtip: <ANsb,DataA4>
+Ability A0BV Craggy damage - Researchtip: <ANsb,Dur4>
+Ability A0BV Craggy damage - Ubertip: <ANsb,DataA1>
+Ability A0BV Craggy damage - Ubertip: <ANsb,Dur1>
+Ability A0BV Craggy damage - Ubertip: <ANsb,DataA2>
+Ability A0BV Craggy damage - Ubertip: <ANsb,Dur2>
+Ability A0BV Craggy damage - Ubertip: <ANsb,DataA3>
+Ability A0BV Craggy damage - Ubertip: <ANsb,Dur3>
+Ability A0BV Craggy damage - Ubertip: <ANsb,DataA4>
+Ability A0BV Craggy damage - Ubertip: <ANsb,Dur4>
+Ability A0GY Necronomicon Endurance Aura Level 1 - Researchtip: <AOae,DataA1,%>
+Ability A0GY Necronomicon Endurance Aura Level 1 - Researchtip: <AOae,DataB1,%>
+Ability A0GY Necronomicon Endurance Aura Level 1 - Researchtip: <AOae,DataA2,%>
+Ability A0GY Necronomicon Endurance Aura Level 1 - Researchtip: <AOae,DataB2,%>
+Ability A0GY Necronomicon Endurance Aura Level 1 - Researchtip: <AOae,DataA3,%>
+Ability A0GY Necronomicon Endurance Aura Level 1 - Researchtip: <AOae,DataB3,%>
+Ability ANs3 Pocket Factory - Ubertip: <ncg3,realHP>
+Ability ANs3 Pocket Factory - Ubertip: <ncg3,mindmg1>
+Ability ANs3 Pocket Factory - Ubertip: <ncg3,maxdmg1>
+Ability A0BO Incapacitating Bite - Researchtip: <ANdh,Dur1>
+Ability A0BO Incapacitating Bite - Researchtip: <ANdh,DataC1,%>
+Ability A0BO Incapacitating Bite - Researchtip: <ANdh,DataB1,%>
+Ability A0BO Incapacitating Bite - Researchtip: <ANdh,DataC2,%>
+Ability A0BO Incapacitating Bite - Researchtip: <ANdh,DataB2,%>
+Ability A0BO Incapacitating Bite - Researchtip: <ANdh,DataC3,%>
+Ability A0BO Incapacitating Bite - Researchtip: <ANdh,DataB3,%>
+Ability A002 Spawn Spiderite - Researchtip: <ANba,DataA1>
+Ability A002 Spawn Spiderite - Researchtip: <ANba,DataA2>
+Ability A002 Spawn Spiderite - Researchtip: <ndr2,RealHP>
+Ability A002 Spawn Spiderite - Researchtip: <ANba,DataA3>
+Ability A002 Spawn Spiderite - Researchtip: <ndr3,RealHP>
+Ability A0VT Invoke5 - NoAtck - Researchtip: <ANdh,Dur1>
+Ability A0VT Invoke5 - NoAtck - Researchtip: <ANdh,DataC1,%>
+Ability A0VT Invoke5 - NoAtck - Researchtip: <ANdh,DataB1,%>
+Ability A0VT Invoke5 - NoAtck - Researchtip: <ANdh,DataC2,%>
+Ability A0VT Invoke5 - NoAtck - Researchtip: <ANdh,DataB2,%>
+Ability A0VT Invoke5 - NoAtck - Researchtip: <ANdh,DataC3,%>
+Ability A0VT Invoke5 - NoAtck - Researchtip: <ANdh,DataB3,%>
+Ability A28M Ice Vortex Spell Amp (new) - 3 - Ubertip: <Aegr,DataA1,%>
+Ability A28M Ice Vortex Spell Amp (new) - 3 - Ubertip: <Aegr,DataE1,%>
+Ability A28J Natural Order Spell (new) - 1 - Ubertip: <Aegr,DataA1,%>
+Ability A28J Natural Order Spell (new) - 1 - Ubertip: <Aegr,DataE1,%>
+Ability A28K Natural Order Spell (new) - 2 - Ubertip: <Aegr,DataA1,%>
+Ability A28K Natural Order Spell (new) - 2 - Ubertip: <Aegr,DataE1,%>
+Ability A27O Null Field Level 2 - Ubertip: <Aegr,DataA1,%>
+Ability A27O Null Field Level 2 - Ubertip: <Aegr,DataE1,%>
+Ability A1FU Stout Shield Damage Block PMS - Ubertip: <Assk,DataC1>
+Ability A1FU Stout Shield Damage Block PMS - Ubertip: <Assk,DataB1>
+Ability A1FL Focus Fire Reductio Level 2 - Ubertip: <Aegr,DataA1,%>
+Ability A1FL Focus Fire Reductio Level 2 - Ubertip: <Aegr,DataE1,%>
+Ability A28N Ice Vortex Spell Amp (new) - 4 - Ubertip: <Aegr,DataA1,%>
+Ability A28N Ice Vortex Spell Amp (new) - 4 - Ubertip: <Aegr,DataE1,%>
+Ability A1EQ Split Shot Reduction Level 3 - Ubertip: <Aegr,DataA1,%>
+Ability A1EQ Split Shot Reduction Level 3 - Ubertip: <Aegr,DataE1,%>
+Ability A0EA Stout Shield Damage Block - Ubertip: <Assk,DataC1>
+Ability A0EA Stout Shield Damage Block - Ubertip: <Assk,DataB1>
+Ability A1FJ Focus Fire Reductio Level 3 - Ubertip: <Aegr,DataA1,%>
+Ability A1FJ Focus Fire Reductio Level 3 - Ubertip: <Aegr,DataE1,%>
+Ability A1FV Stout Shield Damage Block PMS - Ubertip: <Assk,DataC1>
+Ability A1FV Stout Shield Damage Block PMS - Ubertip: <Assk,DataB1>
+Ability A0B2 Midnight Pulse effect - Researchtip: <AUdd,DataA1,%>
+Ability A0B2 Midnight Pulse effect - Ubertip: <AUdd,DataA1,%>
+Ability A0B2 Midnight Pulse effect - Ubertip: <AUdd,Dur1>
+Ability A0B2 Midnight Pulse effect - Ubertip: <AUdd,DataA1,%>
+Ability A0B2 Midnight Pulse effect - Ubertip: <AUdd,Dur1>
+Ability A0B2 Midnight Pulse effect - Ubertip: <AUdd,DataA1,%>
+Ability A0B2 Midnight Pulse effect - Ubertip: <AUdd,Dur1>
+Ability A0B2 Midnight Pulse effect - Ubertip: <AUdd,DataA1,%>
+Ability A0B2 Midnight Pulse effect - Ubertip: <AUdd,Dur1>
+Ability A0H8 Stout Shield Damage Block Vanguard (melee) - Ubertip: <Assk,DataC1>
+Ability A0H8 Stout Shield Damage Block Vanguard (melee) - Ubertip: <Assk,DataB1>
+Ability A07T Song of the Siren 1 - Ubertip: <ACsl,Dur1>
+Ability A0GB Necronomicon Endurance Aura Level 2 - Researchtip: <AOae,DataA1,%>
+Ability A0GB Necronomicon Endurance Aura Level 2 - Researchtip: <AOae,DataB1,%>
+Ability A0GB Necronomicon Endurance Aura Level 2 - Researchtip: <AOae,DataA2,%>
+Ability A0GB Necronomicon Endurance Aura Level 2 - Researchtip: <AOae,DataB2,%>
+Ability A0GB Necronomicon Endurance Aura Level 2 - Researchtip: <AOae,DataA3,%>
+Ability A0GB Necronomicon Endurance Aura Level 2 - Researchtip: <AOae,DataB3,%>
+Ability A2KA War Club Hack - Ubertip: <Agra,DataE1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataB1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,DataA1,%>
+Ability A2DV Chakram Slow - Ubertip: <ACsw,Dur1>
+Ability A28O Ice Vortex Spell Amp (new) - 2 - Ubertip: <Aegr,DataA1,%>
+Ability A28O Ice Vortex Spell Amp (new) - 2 - Ubertip: <Aegr,DataE1,%>
+Ability A0B6 Item Summon Courier - Ubertip: <nsel,realHP>
+Ability A0B6 Item Summon Courier - Ubertip: <nsel,mindmg1>
+Ability A0B6 Item Summon Courier - Ubertip: <nsel,maxdmg1>
+Ability A0B6 Item Summon Courier - Ubertip: <ACwe,Dur1>
+Ability A27N Null Field Level 1 - Ubertip: <Aegr,DataA1,%>
+Ability A27N Null Field Level 1 - Ubertip: <Aegr,DataE1,%>
+Ability A0B0 Untouchable effect - Researchtip: <ANab,Dur1>
+Ability A0B0 Untouchable effect - Researchtip: <ANab,DataD1>
+Ability A0B0 Untouchable effect - Researchtip: <ANab,DataC1>
+Ability A0B0 Untouchable effect - Researchtip: <ANab,DataD2>
+Ability A0B0 Untouchable effect - Researchtip: <ANab,DataC2>
+Ability A0B0 Untouchable effect - Researchtip: <ANab,DataD3>
+Ability A0B0 Untouchable effect - Researchtip: <ANab,DataC3>
+Ability A1ES Split Shot Reduction Level 2 - Ubertip: <Aegr,DataA1,%>
+Ability A1ES Split Shot Reduction Level 2 - Ubertip: <Aegr,DataE1,%>
+Ability ANs1 Pocket Factory - Ubertip: <ncg3,realHP>
+Ability ANs1 Pocket Factory - Ubertip: <ncg3,mindmg1>
+Ability ANs1 Pocket Factory - Ubertip: <ncg3,maxdmg1>
+Ability A0NY Beast Roar (Side Effect) - Researchtip: <AHtc,DataA1>
+Ability A0NY Beast Roar (Side Effect) - Researchtip: <AHtc,DataC1,%>
+Ability A0NY Beast Roar (Side Effect) - Researchtip: <AHtc,DataD1,%>
+Ability A0NY Beast Roar (Side Effect) - Researchtip: <AHtc,DataA2>
+Ability A0NY Beast Roar (Side Effect) - Researchtip: <AHtc,DataC2,%>
+Ability A0NY Beast Roar (Side Effect) - Researchtip: <AHtc,DataD2,%>
+Ability A0NY Beast Roar (Side Effect) - Researchtip: <AHtc,DataA3>
+Ability A0NY Beast Roar (Side Effect) - Researchtip: <AHtc,DataC3,%>
+Ability A0NY Beast Roar (Side Effect) - Researchtip: <AHtc,DataD3,%>
+Ability A0NY Beast Roar (Side Effect) - Ubertip: <AHtc,DataA1>
+Ability A0NY Beast Roar (Side Effect) - Ubertip: <AHtc,DataC1,%>
+Ability A0NY Beast Roar (Side Effect) - Ubertip: <AHtc,DataD1,%>
+Ability A0NY Beast Roar (Side Effect) - Ubertip: <AHtc,DataA2>
+Ability A0NY Beast Roar (Side Effect) - Ubertip: <AHtc,DataC2,%>
+Ability A0NY Beast Roar (Side Effect) - Ubertip: <AHtc,DataD2,%>
+Ability A0NY Beast Roar (Side Effect) - Ubertip: <AHtc,DataA3>
+Ability A0NY Beast Roar (Side Effect) - Ubertip: <AHtc,DataC3,%>
+Ability A0NY Beast Roar (Side Effect) - Ubertip: <AHtc,DataD3,%>
+Ability A1FW Stout Shield Damage Block PMS - Ubertip: <Assk,DataC1>
+Ability A1FW Stout Shield Damage Block PMS - Ubertip: <Assk,DataB1>
+Ability ANs2 Pocket Factory - Ubertip: <ncg3,realHP>
+Ability ANs2 Pocket Factory - Ubertip: <ncg3,mindmg1>
+Ability ANs2 Pocket Factory - Ubertip: <ncg3,maxdmg1>
+Ability A003 Time Stop - Ubertip: <A003,DataE1>
+Ability A003 Time Stop - Ubertip: <A003,DataE2>
+Ability A003 Time Stop - Ubertip: <A003,DataE3>
+Ability A003 Time Stop - Ubertip: <A003,DataE4>
+Ability A2HW Arcane Silence AMP - 2 - Ubertip: <Aegr,DataA1,%>
+Ability A2HW Arcane Silence AMP - 2 - Ubertip: <Aegr,DataE1,%>
+Ability A0BM Incapacitating Bite - Researchtip: <ANdh,Dur1>
+Ability A0BM Incapacitating Bite - Researchtip: <ANdh,DataC1,%>
+Ability A0BM Incapacitating Bite - Researchtip: <ANdh,DataB1,%>
+Ability A0BM Incapacitating Bite - Researchtip: <ANdh,DataC2,%>
+Ability A0BM Incapacitating Bite - Researchtip: <ANdh,DataB2,%>
+Ability A0BM Incapacitating Bite - Researchtip: <ANdh,DataC3,%>
+Ability A0BM Incapacitating Bite - Researchtip: <ANdh,DataB3,%>
+Ability A06T Overgrowth 1 - Ubertip: <Aenr,Dur1>
+Ability A06T Overgrowth 1 - Ubertip: <Aenr,DataA1>
+Ability A06T Overgrowth 1 - Ubertip: <Aenr,Dur1>
+Ability A06T Overgrowth 1 - Ubertip: <Aenr,DataA1>
+Ability A06T Overgrowth 1 - Ubertip: <Aenr,Dur1>
+Ability A06T Overgrowth 1 - Ubertip: <Aenr,DataA1>
+Ability A28E Veil of Discord - Ubertip: <Aegr,DataA1,%>
+Ability A28E Veil of Discord - Ubertip: <Aegr,DataE1,%>
+Ability A12I Shackleshot Stun - Researchtip: <ANsb,DataA1>
+Ability A12I Shackleshot Stun - Researchtip: <ANsb,Dur1>
+Ability A12I Shackleshot Stun - Researchtip: <ANsb,DataA2>
+Ability A12I Shackleshot Stun - Researchtip: <ANsb,Dur2>
+Ability A12I Shackleshot Stun - Researchtip: <ANsb,DataA3>
+Ability A12I Shackleshot Stun - Researchtip: <ANsb,Dur3>
+Ability A12I Shackleshot Stun - Researchtip: <ANsb,DataA4>
+Ability A12I Shackleshot Stun - Researchtip: <ANsb,Dur4>
+Ability A0OA Dual Breath Slow - Ubertip: <ACfn,DataB1>
+Ability A0OA Dual Breath Slow - Ubertip: <ACfn,DataA1>
+Ability A0OA Dual Breath Slow - Ubertip: <ACfn,Dur1>
+Ability A0FZ Snot - Researchtip: <ANab,Dur1>
+Ability A0FZ Snot - Researchtip: <ANab,DataD1>
+Ability A0FZ Snot - Researchtip: <ANab,DataC1>
+Ability A0FZ Snot - Researchtip: <ANab,DataD2>
+Ability A0FZ Snot - Researchtip: <ANab,DataC2>
+Ability A0FZ Snot - Researchtip: <ANab,DataD3>
+Ability A0FZ Snot - Researchtip: <ANab,DataC3>
+Ability A0FZ Snot - Ubertip: <ANab,DataC1>
+Ability A0FZ Snot - Ubertip: <ANab,DataD1>
+Ability A0FZ Snot - Ubertip: <ANab,Dur1>
+Ability A0FZ Snot - Ubertip: <ANab,DataC2>
+Ability A0FZ Snot - Ubertip: <ANab,DataD2>
+Ability A0FZ Snot - Ubertip: <ANab,Dur2>
+Ability A0FZ Snot - Ubertip: <ANab,DataC3>
+Ability A0FZ Snot - Ubertip: <ANab,DataD3>
+Ability A0FZ Snot - Ubertip: <ANab,Dur3>
+Ability A0FZ Snot - Ubertip: <ANab,DataC3>
+Ability A0FZ Snot - Ubertip: <ANab,DataD3>
+Ability A0FZ Snot - Ubertip: <ANab,Dur3>
+Ability A0FZ Snot - Ubertip: <ANab,DataC3>
+Ability A0FZ Snot - Ubertip: <ANab,DataD3>
+Ability A0FZ Snot - Ubertip: <ANab,Dur3>
+Ability A0FZ Snot - Ubertip: <ANab,DataC3>
+Ability A0FZ Snot - Ubertip: <ANab,DataD3>
+Ability A0FZ Snot - Ubertip: <ANab,Dur3>
+Ability A0FZ Snot - Ubertip: <ANab,DataC3>
+Ability A0FZ Snot - Ubertip: <ANab,DataD3>
+Ability A0FZ Snot - Ubertip: <ANab,Dur3>
+Ability A0FZ Snot - Ubertip: <ANab,DataC3>
+Ability A0FZ Snot - Ubertip: <ANab,DataD3>
+Ability A0FZ Snot - Ubertip: <ANab,Dur3>
+Ability A0FZ Snot - Ubertip: <ANab,DataC3>
+Ability A0FZ Snot - Ubertip: <ANab,DataD3>
+Ability A0FZ Snot - Ubertip: <ANab,Dur3>
+Ability A0FZ Snot - Ubertip: <ANab,DataC3>
+Ability A0FZ Snot - Ubertip: <ANab,DataD3>
+Ability A0FZ Snot - Ubertip: <ANab,Dur3>
+Ability A0FZ Snot - Ubertip: <ANab,DataC3>
+Ability A0FZ Snot - Ubertip: <ANab,DataD3>
+Ability A0FZ Snot - Ubertip: <ANab,Dur3>
+Ability A0FZ Snot - Ubertip: <ANab,DataC3>
+Ability A0FZ Snot - Ubertip: <ANab,DataD3>
+Ability A0FZ Snot - Ubertip: <ANab,Dur3>
+Ability A0FZ Snot - Ubertip: <ANab,DataC3>
+Ability A0FZ Snot - Ubertip: <ANab,DataD3>
+Ability A0FZ Snot - Ubertip: <ANab,Dur3>
+Ability A0FZ Snot - Ubertip: <ANab,DataC3>
+Ability A0FZ Snot - Ubertip: <ANab,DataD3>
+Ability A0FZ Snot - Ubertip: <ANab,Dur3>
+Ability A0FZ Snot - Ubertip: <ANab,DataC3>
+Ability A0FZ Snot - Ubertip: <ANab,DataD3>
+Ability A0FZ Snot - Ubertip: <ANab,Dur3>
+Ability A0FZ Snot - Ubertip: <ANab,DataC3>
+Ability A0FZ Snot - Ubertip: <ANab,DataD3>
+Ability A0FZ Snot - Ubertip: <ANab,Dur3>
+Ability ANsy Pocket Factory - Ubertip: <ncg3,realHP>
+Ability ANsy Pocket Factory - Ubertip: <ncg3,mindmg1>
+Ability ANsy Pocket Factory - Ubertip: <ncg3,maxdmg1>
+Ability A1OH Scorched Earth MS + Regen - Level 2 - Researchtip: <AUau,DataA1,%>
+Ability A1OH Scorched Earth MS + Regen - Level 2 - Researchtip: <AUau,DataA2,%>
+Ability A1OH Scorched Earth MS + Regen - Level 2 - Researchtip: <AUau,DataA3,%>
+Ability A0F0 Shadowraze - Researchtip: <ANbr,Dur1>
+Ability A0F0 Shadowraze - Researchtip: <ANbr,DataA1>
+Ability A0F0 Shadowraze - Researchtip: <ANbr,DataA2>
+Ability A0F0 Shadowraze - Researchtip: <ANbr,DataA3>
+Ability A0F0 Shadowraze - Researchtip: <ANbr,DataA4>
+Ability A061 MKB - Researchtip: <AHbh,DataC1>
+Ability A061 MKB - Researchtip: <AHbh,Dur1>
+Ability A061 MKB - Ubertip: <AHbh,DataA1>
+Ability A061 MKB - Ubertip: <AHbh,DataC1>
+Ability A061 MKB - Ubertip: <AHbh,Dur1>
+
+==========================
+Save text into WTS (2)
+==========================
+Text is longer than 1023 characters in jass - The text saved in WTS will cause the loading to slow down: 
+Full List:
+|c000042ffPlayDotA.com/learn/commands|r
+
+Game Modes:
+-allpick(-ap), -allrandom(-ar), -randomdraft (-rd), -extendedleague (-xl), -singledraft(-sd), -deathmatch(-dm), -captainsmode(-cm), -leaguemode(-lm), -mirrormatch(-mm), -teamrandom(-tr),  -moderandom(-mr), -voterandom(-vr), -reverse(-rv), -duplicatemode(-du), -shuffleplayers(-sp), -samehero(-sh), -allagility(-aa), -allintelligence(-ai), -allstrength(-as), -itemdrop(-id), -easymode(-em), -nopowerups(-np), -supercreeps(-sc), -onlymid(-om), -notop(-nt), -nomid(-nm), -nobot(-nb), -noswap(-ns), -norepick(-nr), -poolingmode(-pm), -observerinfo(-oi), -miniheroes(-mi), -fastrespawn(-fr), -meleeonly(-mo), -rangeonly(-ro), -experimentalrunes(-er)
+
+Game Commands:
+-ma, -ms, -cs, -cson, -csoff, -disablehelp, -enablehelp, -unstuck, -recreate, -swaphero, -showmsg, -hidemsg, -showdeny, -hidedeny, -weather rain, -weather snow, -weather moonlight, -weather wind, -weather random, -weather off, -denyinfo (-di), -deathon(-don), -deathof...
+-------------------------
+Text is longer than 1023 characters in jass - The text saved in WTS will cause the loading to slow down: 
+First and foremost, thanks to everyone in the community for always providing me with feedback and supporting the map.
+
+Some people that have helped in one form or another include, but not limited to: Ki-Hunterkiller, arthur5863, Neichus, MYM|Merlini, coL.Warr1ck, Zetta, Plastic.Angel, TheRandomDude, Naz, IEatDeadPeoples, MYM|Maelk, RodOfNod, DamnNoHtml, Jazradel, Mercurial, Trystero, Philip.J.Fry, Cottontop, Minotaar, Switch, Terrorblaze, Ro-Coco, unHOLYdoNUTS, Akuryou, Sejr, Sledgehmr, eva00r, TheMantis, Ska_Goblin, ~PGRu-Unexpect3D, PitzerMike, snork, M3Th0dz, Jazradel, War-Mage, Malle, seerTneerGevoLI, Vexorian, MetallibaN, sSerenity, Mago-Merlino, Vodoun, antiweltteilchen, coldlikehell, iNCQRiT, Infrisios, BeamCannon, LulaLula, Beast_Pete, Wedge, p0c, jmesch04, tinfoiltank, Guyoverthere, SetzerGabbiani, Danat, Pipedream, Rubadub, UTDC.Justin, ArcheKleine, eldorquo, Chairraider, Slam, Toadcop and Lordshinjo. Many others have contributed in some form or another, thank you.
+
+This ...
+-------------------------
+
+==========================
+Optimize JASS (214)
+==========================
+--------------------------------------------------
+Confuse JASS (1)
+--------------------------------------------------
+Force referenced all functions - Line [4220] : Fully dynamicExecuteFunc
+--------------------------------------------------
+Unreferenced local variables (213)
+--------------------------------------------------
+KJO - Line [24056] : [curRow2]
+KTO - Line [24982] : [KMI]
+TIO - Line [27153] : [OnlyPlayer]
+TCO - Line [27452] : [y]
+R4O - Line [27704] : [i]
+RYO - Line [27970] : [NoSwitch]
+RYO - Line [27972] : [Terrain]
+UXO - Line [28199] : [RepickedUnit]
+Q7O - Line [29005] : [i]
+U7O - Line [29084] : [i]
+U0O - Line [29949] : [t]
+AN2 - Line [30402] : [J8O]
+AN2 - Line [30403] : [msg2]
+AN2 - Line [30404] : [msg3]
+BV2 - Line [30918] : [GameModeString]
+DL2 - Line [32040] : [UII]
+DL2 - Line [32041] : [U0I]
+DL2 - Line [32042] : [BY1]
+DL2 - Line [32047] : [d]
+E02 - Line [32127] : [EI2]
+
+==========================
+Other (1)
+==========================
+Incomplete information, forced reading SLK files
