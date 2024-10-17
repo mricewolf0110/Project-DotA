@@ -438,7 +438,7 @@ globals
 	sound sound042 = null
 	sound sound043 = null
 	sound sound044 = null
-	sound sound045 = null
+	// sound sound045 = null
 	sound sound046 = null
 	sound sound047 = null
 	sound sound048 = null
@@ -517,119 +517,119 @@ globals
 	trigger trigger043 = null
 	trigger trigger044 = null
 	trigger trigger045 = null
-//	unit unit004 = null
+	//	unit unit004 = null
 	unit unit005 = null
 	unit unit006 = null
-//	unit unit007 = null
+	//	unit unit007 = null
 	unit unit008 = null
 	unit unit009 = null
 	unit unit010 = null
 	unit unit011 = null
-//	unit unit012 = null
-	unit unit013 = null
-//	unit unit014 = null
+	//	unit unit012 = null
+//	unit unit013 = null
+	//	unit unit014 = null
 	unit unit015 = null
-//	unit unit016 = null
-//	unit unit017 = null
-	unit unit018 = null
-	unit unit019 = null
-	unit unit020 = null
+	//	unit unit016 = null
+	//	unit unit017 = null
+//	unit unit018 = null
+//	unit unit019 = null
+//	unit unit020 = null
 	unit unit021 = null
 	unit unit022 = null
 	unit unit023 = null
 	unit unit024 = null
-	unit unit025 = null
+//	unit unit025 = null
 	unit unit026 = null
 	unit unit027 = null
 	unit unit028 = null
 	unit unit029 = null
 	unit unit030 = null
-//	unit unit031 = null
-//	unit unit032 = null
-//	unit unit033 = null
-//	unit unit034 = null
-//	unit unit035 = null
-//	unit unit036 = null
-//	unit unit037 = null
-//	unit unit038 = null
-//	unit unit039 = null
-//	unit unit040 = null
-//	unit unit041 = null
-//	unit unit042 = null
-//	unit unit043 = null
-//	unit unit044 = null
-//	unit unit045 = null
-//	unit unit046 = null
-//	unit unit047 = null
-//	unit unit048 = null
-//	unit unit049 = null
-//	unit unit050 = null
-//	unit unit051 = null
-//	unit unit052 = null
-//	unit unit053 = null
-//	unit unit054 = null
-//	unit unit055 = null
-//	unit unit056 = null
-//	unit unit057 = null
-//	unit unit058 = null
-//	unit unit059 = null
-//	unit unit060 = null
-//	unit unit061 = null
-//	unit unit062 = null
-//	unit unit063 = null
-//	unit unit064 = null
-//	unit unit065 = null
-//	unit unit066 = null
-//	unit unit067 = null
-	unit unit068 = null
-	unit unit069 = null
-	unit unit070 = null
-	unit unit071 = null
-	unit unit072 = null
-	unit unit073 = null
-	unit unit074 = null
-	unit unit075 = null
-	unit unit076 = null
-	unit unit077 = null
-	unit unit078 = null
-	unit unit079 = null
-	unit unit080 = null
-	unit unit081 = null
-	unit unit082 = null
+	//	unit unit031 = null
+	//	unit unit032 = null
+	//	unit unit033 = null
+	//	unit unit034 = null
+	//	unit unit035 = null
+	//	unit unit036 = null
+	//	unit unit037 = null
+	//	unit unit038 = null
+	//	unit unit039 = null
+	//	unit unit040 = null
+	//	unit unit041 = null
+	//	unit unit042 = null
+	//	unit unit043 = null
+	//	unit unit044 = null
+	//	unit unit045 = null
+	//	unit unit046 = null
+	//	unit unit047 = null
+	//	unit unit048 = null
+	//	unit unit049 = null
+	//	unit unit050 = null
+	//	unit unit051 = null
+	//	unit unit052 = null
+	//	unit unit053 = null
+	//	unit unit054 = null
+	//	unit unit055 = null
+	//	unit unit056 = null
+	//	unit unit057 = null
+	//	unit unit058 = null
+	//	unit unit059 = null
+	//	unit unit060 = null
+	//	unit unit061 = null
+	//	unit unit062 = null
+	//	unit unit063 = null
+	//	unit unit064 = null
+	//	unit unit065 = null
+	//	unit unit066 = null
+	//	unit unit067 = null
+//	unit unit068 = null
+//	unit unit069 = null
+//	unit unit070 = null
+//	unit unit071 = null
+//	unit unit072 = null
+//	unit unit073 = null
+//	unit unit074 = null
+//	unit unit075 = null
+//	unit unit076 = null
+//	unit unit077 = null
+//	unit unit078 = null
+//	unit unit079 = null
+//	unit unit080 = null
+//	unit unit081 = null
+//	unit unit082 = null
 	unit unit083 = null
 	unit unit084 = null
 	unit unit085 = null
 	unit unit086 = null
 	unit unit087 = null
-	unit unit088 = null
+//	unit unit088 = null
 	unit unit089 = null
 	unit unit090 = null
 	unit unit091 = null
-	unit unit092 = null
-	unit unit093 = null
-	unit unit094 = null
-	unit unit095 = null
-	unit unit096 = null
-	unit unit097 = null
-	unit unit098 = null
-	unit unit099 = null
-	unit unit100 = null
-	unit unit101 = null
-	unit unit102 = null
-	unit unit103 = null
-	unit unit104 = null
-	unit unit105 = null
-	unit unit106 = null
-	unit unit107 = null
-	unit unit108 = null
-	unit unit109 = null
-	unit unit110 = null
-	unit unit111 = null
-	unit unit112 = null
-	unit unit113 = null
-	unit unit114 = null
+//	unit unit092 = null
+//	unit unit093 = null
+//	unit unit094 = null
+//	unit unit095 = null
+//	unit unit096 = null
+//	unit unit097 = null
+//	unit unit098 = null
+//	unit unit099 = null
+//	unit unit100 = null
+//	unit unit101 = null
+//	unit unit102 = null
+//	unit unit103 = null
+//	unit unit104 = null
+//	unit unit105 = null
+//	unit unit106 = null
+//	unit unit107 = null
+//	unit unit108 = null
+//	unit unit109 = null
+//	unit unit110 = null
+//	unit unit111 = null
+//	unit unit112 = null
+//	unit unit113 = null
+//	unit unit114 = null
 	unit unit115 = null
-//	unit unit116 = null
+	//	unit unit116 = null
 	unit unit117 = null
 	unit unit118 = null
 	unit unit119 = null
@@ -783,92 +783,92 @@ globals
 	constant playercolor PlayerColor12 = ConvertPlayerColor(12)
 	// real GetUnitX(Sentinel_Fountain) = -7360
 	// real GetUnitY(Sentinel_Fountain) = -6688
-//	real real018 = -6592
-//	real real019 = -6464
-//	real real020 = -7392
-//	real real021 = -6240
-//	real real022 = -7392
-//	real real023 = -6432
-//	real real024 = -6592
-//	real real025 = -6720
-//	real real026 = -6816
-//	real real027 = -5984
-//	real real028 = -6944
-//	real real029 = -5920
-//	real real030 = -7072
-//	real real031 = -5920
-//	real real032 = -7200
-//	real real033 = -5920
-//	real real034 = -7328
-//	real real035 = -5984
-//	real real036 = -7328
-//	real real037 = -5984
-//	real real038 = -5632
-//	real real039 = -5952
-//	real real040 = -6112
-//	real real041 = 1504
-//	real real042 = -1504
-//	real real043 = -1824
-//	real real044 = 4960
-//	real real045 = -6752
-//	real real046 = -6112
-//	real real047 = -1312
-//	real real048 = -3488
-//	real real049 = -3296
-//	real real050 = -544
-//	real real051 = -6688
-//	real real052 = -6496
-//	real real053 = -4832
-//	real real054 = -4576
-//	real real055 = -4832
-//	real real056 = -4512
-//	real real057 = -6752
-//	real real058 = -5920
-//	real real059 = -5984
-//	real real060 = -5664
-//	real real061 = -6240
-//	real real062 = -6400
-//	real real063 = -4224
-//	real real064 = -4288
-//	real real065 = -4992
-//	real real066 = -3776
-//	real real067 = -6720
-//	real real068 = -5952
-//	real real069 = -4160
-//	real real070 = -4800
-//	real real071 = -4608
-//	real real072 = -3776
-//	real real073 = -6272
-//	real real074 = -7136
-//	real real075 = -4640
-//	real real076 = -6496
-//	real real077 = -5536
-//	real real078 = -5088
-//	real real079 = -5280
-//	real real080 = -5920
-//	real real081 = -4640
-//	real real082 = -4832
-//	real real083 = -4384
-//	real real084 = -4128
-//	real real085 = -5024
-//	real real086 = -5216
-//	real real087 = -6816
-//	real real088 = -4192
-//	real real089 = -7456
-//	real real090 = -4192
-//	real real091 = -6176
-//	real real092 = -5664
-//	real real093 = -3872
-//	real real094 = -5664
-//	real real095 = -3872
-//	real real096 = -5440
-//	real real097 = -4800
-//	real real098 = -3840
-//	real real099 = -5184
-//	real real100 = -5440
-//	real real101 = -4800
-//	real real102 = -3840
-//	real real103 = -5184
+	//	real real018 = -6592
+	//	real real019 = -6464
+	//	real real020 = -7392
+	//	real real021 = -6240
+	//	real real022 = -7392
+	//	real real023 = -6432
+	//	real real024 = -6592
+	//	real real025 = -6720
+	//	real real026 = -6816
+	//	real real027 = -5984
+	//	real real028 = -6944
+	//	real real029 = -5920
+	//	real real030 = -7072
+	//	real real031 = -5920
+	//	real real032 = -7200
+	//	real real033 = -5920
+	//	real real034 = -7328
+	//	real real035 = -5984
+	//	real real036 = -7328
+	//	real real037 = -5984
+	//	real real038 = -5632
+	//	real real039 = -5952
+	//	real real040 = -6112
+	//	real real041 = 1504
+	//	real real042 = -1504
+	//	real real043 = -1824
+	//	real real044 = 4960
+	//	real real045 = -6752
+	//	real real046 = -6112
+	//	real real047 = -1312
+	//	real real048 = -3488
+	//	real real049 = -3296
+	//	real real050 = -544
+	//	real real051 = -6688
+	//	real real052 = -6496
+	//	real real053 = -4832
+	//	real real054 = -4576
+	//	real real055 = -4832
+	//	real real056 = -4512
+	//	real real057 = -6752
+	//	real real058 = -5920
+	//	real real059 = -5984
+	//	real real060 = -5664
+	//	real real061 = -6240
+	//	real real062 = -6400
+	//	real real063 = -4224
+	//	real real064 = -4288
+	//	real real065 = -4992
+	//	real real066 = -3776
+	//	real real067 = -6720
+	//	real real068 = -5952
+	//	real real069 = -4160
+	//	real real070 = -4800
+	//	real real071 = -4608
+	//	real real072 = -3776
+	//	real real073 = -6272
+	//	real real074 = -7136
+	//	real real075 = -4640
+	//	real real076 = -6496
+	//	real real077 = -5536
+	//	real real078 = -5088
+	//	real real079 = -5280
+	//	real real080 = -5920
+	//	real real081 = -4640
+	//	real real082 = -4832
+	//	real real083 = -4384
+	//	real real084 = -4128
+	//	real real085 = -5024
+	//	real real086 = -5216
+	//	real real087 = -6816
+	//	real real088 = -4192
+	//	real real089 = -7456
+	//	real real090 = -4192
+	//	real real091 = -6176
+	//	real real092 = -5664
+	//	real real093 = -3872
+	//	real real094 = -5664
+	//	real real095 = -3872
+	//	real real096 = -5440
+	//	real real097 = -4800
+	//	real real098 = -3840
+	//	real real099 = -5184
+	//	real real100 = -5440
+	//	real real101 = -4800
+	//	real real102 = -3840
+	//	real real103 = -5184
 	unit Sentinel_Fountain
 	unit Sentinel_ShopCache
 	unit Sentinel_ShopWeapon
@@ -913,94 +913,94 @@ globals
 	unit unit171
 	unit unit172
 	unit unit173
-	real real104 = 6272
-	real real105 = 5504
-	real real106 = 6464
-	real real107 = 5120
-	real real108 = 5952
-	real real109 = 5568
-	real real110 = 6080
-	real real111 = 5568
-	real real112 = 6464
-	real real113 = 4736
-	real real114 = 5696
-	real real115 = 5120
-	real real116 = 5568
-	real real117 = 5248
-	real real118 = 5568
-	real real119 = 5376
-	real real120 = 5696
-	real real121 = 5504
-	real real122 = 5568
-	real real123 = 5696
-	real real124 = 5568
-	real real125 = 5696
-	real real126 = 4992
-	real real127 = 4544
-	real real128 = -4704
-	real real129 = 5920
-	real real130 = 1056
-	real real131 = -160
-	real real132 = 6048
-	real real133 = -2080
-	real real134 = 32
-	real real135 = 5856
-	real real136 = 2400
-	real real137 = 1696
-	real real138 = 6112
-	real real139 = -96
-	real real140 = 3168
-	real real141 = 5920
-	real real142 = 3616
-	real real143 = 3296
-	real real144 = 6048
-	real real145 = 2784
-	real real146 = 4640
-	real real147 = 4576
-	real real148 = 5088
-	real real149 = 4192
-	real real150 = 3776
-	real real151 = 5888
-	real real152 = 4096
-	real real153 = 3392
-	real real154 = 6208
-	real real155 = 3264
-	real real156 = 3520
-	real real157 = 5376
-	real real158 = 3776
-	real real159 = 3840
-	real real160 = 5696
-	real real161 = 3264
-	real real162 = 3168
-	real real163 = 4000
-	real real164 = 4192
-	real real165 = 5536
-	real real166 = 4128
-	real real167 = 4512
-	real real168 = 4640
-	real real169 = 3680
-	real real170 = 4832
-	real real171 = 3104
-	real real172 = 5408
-	real real173 = 2592
-	real real174 = 5408
-	real real175 = 3296
-	real real176 = 6112
-	real real177 = 4000
-	real real178 = 3040
-	real real179 = 5088
-	real real180 = 6304
-	real real181 = 3744
-	real real182 = 6304
-	real real183 = 3744
-	real real184 = 3520
-	real real185 = 4608
-	real real186 = 4096
-	real real187 = 2624
-	real real188 = 4096
-	real real189 = 2624
-	real real190 = 4096
-	real real191 = 2624
+//	real real104 = 6272
+//	real real105 = 5504
+//	real real106 = 6464
+//	real real107 = 5120
+//	real real108 = 5952
+//	real real109 = 5568
+//	real real110 = 6080
+//	real real111 = 5568
+//	real real112 = 6464
+//	real real113 = 4736
+//	real real114 = 5696
+//	real real115 = 5120
+//	real real116 = 5568
+//	real real117 = 5248
+//	real real118 = 5568
+//	real real119 = 5376
+//	real real120 = 5696
+//	real real121 = 5504
+//	real real122 = 5568
+//	real real123 = 5696
+//	real real124 = 5568
+//	real real125 = 5696
+//	real real126 = 4992
+//	real real127 = 4544
+//	real real128 = -4704
+//	real real129 = 5920
+//	real real130 = 1056
+//	real real131 = -160
+//	real real132 = 6048
+//	real real133 = -2080
+//	real real134 = 32
+//	real real135 = 5856
+//	real real136 = 2400
+//	real real137 = 1696
+//	real real138 = 6112
+//	real real139 = -96
+//	real real140 = 3168
+//	real real141 = 5920
+//	real real142 = 3616
+//	real real143 = 3296
+//	real real144 = 6048
+//	real real145 = 2784
+//	real real146 = 4640
+//	real real147 = 4576
+//	real real148 = 5088
+//	real real149 = 4192
+//	real real150 = 3776
+//	real real151 = 5888
+//	real real152 = 4096
+//	real real153 = 3392
+//	real real154 = 6208
+//	real real155 = 3264
+//	real real156 = 3520
+//	real real157 = 5376
+//	real real158 = 3776
+//	real real159 = 3840
+//	real real160 = 5696
+//	real real161 = 3264
+//	real real162 = 3168
+//	real real163 = 4000
+//	real real164 = 4192
+//	real real165 = 5536
+//	real real166 = 4128
+//	real real167 = 4512
+//	real real168 = 4640
+//	real real169 = 3680
+//	real real170 = 4832
+//	real real171 = 3104
+//	real real172 = 5408
+//	real real173 = 2592
+//	real real174 = 5408
+//	real real175 = 3296
+//	real real176 = 6112
+//	real real177 = 4000
+//	real real178 = 3040
+//	real real179 = 5088
+//	real real180 = 6304
+//	real real181 = 3744
+//	real real182 = 6304
+//	real real183 = 3744
+//	real real184 = 3520
+//	real real185 = 4608
+//	real real186 = 4096
+//	real real187 = 2624
+//	real real188 = 4096
+//	real real189 = 2624
+//	real real190 = 4096
+//	real real191 = 2624
 	unit unit174
 	unit unit175
 	unit unit176
@@ -1082,11 +1082,11 @@ globals
 	integer integer047
 	string array HeroIcon
 	integer array DummyID
-	string array strings007
-	string array strings008
-	string array strings009
-	string array strings010
-	string array strings011
+//	string array strings007
+//	string array strings008
+//	string array strings009
+//	string array strings010
+//	string array strings011
 	unit unit228
 	unit unit229
 	unit unit230
@@ -7341,141 +7341,141 @@ function CreateStructure takes player p, integer id, real x, real y, real a retu
 endfunction
 
 function InitSentinels takes nothing returns nothing
-//	// set GetUnitX(Sentinel_Fountain) = GetUnitX(unit031)
-//	// set GetUnitY(Sentinel_Fountain) = GetUnitY(unit031)
-////	set real018 = GetUnitX(unit035)
-////	set real019 = GetUnitY(unit035)
-////	set real020 = GetUnitX(unit033)
-////	set real021 = GetUnitY(unit033)
-////	set real022 = GetUnitX(unit032)
-////	set real023 = GetUnitY(unit032)
-////	set real024 = GetUnitX(unit065)
-////	set real025 = GetUnitY(unit065)
-////	set real026 = GetUnitX(unit014)
-////	set real027 = GetUnitY(unit014)
-////	set real028 = GetUnitX(unit012)
-////	set real029 = GetUnitY(unit012)
-////	set real030 = GetUnitX(unit007)
-////	set real031 = GetUnitY(unit007)
-////	set real032 = GetUnitX(unit016)
-////	set real033 = GetUnitY(unit016)
-////	set real034 = GetUnitX(unit036)
-////	set real035 = GetUnitY(unit036)
-////	set real034 = GetUnitX(unit036)
-////	set real035 = GetUnitY(unit036)
-////	set real036 = GetUnitX(unit116)
-////	set real037 = GetUnitY(unit116)
-////	set real038 = GetUnitX(unit004)
-////	set real039 = GetUnitY(unit004)
-////	set real040 = GetUnitX(unit040)
-////	set real041 = GetUnitY(unit040)
-////	set real042 = GetUnitX(unit039)
-////	set real043 = GetUnitY(unit039)
-////	set real044 = GetUnitX(unit037)
-////	set real045 = GetUnitY(unit037)
-////	set real046 = GetUnitX(unit041)
-////	set real047 = GetUnitY(unit041)
-////	set real048 = GetUnitX(unit017)
-////	set real049 = GetUnitY(unit017)
-////	set real050 = GetUnitX(unit038)
-////	set real051 = GetUnitY(unit038)
-////	set real052 = GetUnitX(unit043)
-////	set real053 = GetUnitY(unit043)
-////	set real054 = GetUnitX(unit042)
-////	set real055 = GetUnitY(unit042)
-////	set real056 = GetUnitX(unit050)
-////	set real057 = GetUnitY(unit050)
-////	set real058 = GetUnitX(unit045)
-////	set real059 = GetUnitY(unit045)
-////	set real060 = GetUnitX(unit044)
-////	set real061 = GetUnitY(unit044)
-////	set real062 = GetUnitX(unit046)
-////	set real063 = GetUnitY(unit046)
-////	set real064 = GetUnitX(unit049)
-////	set real065 = GetUnitY(unit049)
-////	set real066 = GetUnitX(unit048)
-////	set real067 = GetUnitY(unit048)
-////	set real068 = GetUnitX(unit047)
-////	set real069 = GetUnitY(unit047)
-////	set real070 = GetUnitX(unit052)
-////	set real071 = GetUnitY(unit052)
-////	set real072 = GetUnitX(unit051)
-////	set real073 = GetUnitY(unit051)
-////	set real074 = GetUnitX(unit055)
-////	set real075 = GetUnitY(unit055)
-////	set real076 = GetUnitX(unit054)
-////	set real077 = GetUnitY(unit054)
-////	set real078 = GetUnitX(unit056)
-////	set real079 = GetUnitY(unit056)
-////	set real080 = GetUnitX(unit057)
-////	set real081 = GetUnitY(unit057)
-////	set real082 = GetUnitX(unit058)
-////	set real083 = GetUnitY(unit058)
-////	set real084 = GetUnitX(unit053)
-////	set real085 = GetUnitY(unit053)
-////	set real086 = GetUnitX(unit060)
-////	set real087 = GetUnitY(unit060)
-////	set real088 = GetUnitX(unit061)
-////	set real089 = GetUnitY(unit061)
-////	set real090 = GetUnitX(unit059)
-////	set real091 = GetUnitY(unit059)
-////	set real092 = GetUnitX(unit062)
-////	set real093 = GetUnitY(unit062)
-////	set real094 = GetUnitX(unit063)
-////	set real095 = GetUnitY(unit063)
-////	set real096 = GetUnitX(unit034)
-////	set real097 = GetUnitY(unit034)
-////	set real098 = GetUnitX(unit064)
-////	set real099 = GetUnitY(unit064)
-////	set real100 = GetUnitX(unit067)
-////	set real101 = GetUnitY(unit067)
-////	set real102 = GetUnitX(unit066)
-////	set real103 = GetUnitY(unit066)
-//	call RemoveUnit(unit043)
-//	call RemoveUnit(unit047)
-//	call RemoveUnit(unit046)
-//	call RemoveUnit(unit042)
-//	call RemoveUnit(unit052)
-//	call RemoveUnit(unit049)
-//	call RemoveUnit(unit050)
-//	call RemoveUnit(unit051)
-//	call RemoveUnit(unit048)
-//	call RemoveUnit(unit034)
-//	call RemoveUnit(unit064)
-//	call RemoveUnit(unit004)
-//	call RemoveUnit(unit045)
-//	call RemoveUnit(unit044)
-//	call RemoveUnit(unit055)
-//	call RemoveUnit(unit054)
-//	call RemoveUnit(unit056)
-//	call RemoveUnit(unit057)
-//	call RemoveUnit(unit058)
-//	call RemoveUnit(unit053)
-//	call RemoveUnit(unit060)
-//	call RemoveUnit(unit061)
-//	call RemoveUnit(unit059)
-//	call RemoveUnit(unit062)
-//	call RemoveUnit(unit063)
-//	call RemoveUnit(unit036)
-//	call RemoveUnit(unit116)
-//	call RemoveUnit(unit016)
-//	call RemoveUnit(unit007)
-//	call RemoveUnit(unit012)
-//	call RemoveUnit(unit014)
-//	call RemoveUnit(unit033)
-//	call RemoveUnit(unit032)
-//	call RemoveUnit(unit031)
-//	call RemoveUnit(unit035)
-//	call RemoveUnit(unit065)
-//	call RemoveUnit(unit040)
-//	call RemoveUnit(unit039)
-//	call RemoveUnit(unit037)
-//	call RemoveUnit(unit041)
-//	call RemoveUnit(unit017)
-//	call RemoveUnit(unit038)
-//	call RemoveUnit(unit067)
-//	call RemoveUnit(unit066)
-	call PreloadStart()
+	//	// set GetUnitX(Sentinel_Fountain) = GetUnitX(unit031)
+	//	// set GetUnitY(Sentinel_Fountain) = GetUnitY(unit031)
+	//	set real018 = GetUnitX(unit035)
+	//	set real019 = GetUnitY(unit035)
+	//	set real020 = GetUnitX(unit033)
+	//	set real021 = GetUnitY(unit033)
+	//	set real022 = GetUnitX(unit032)
+	//	set real023 = GetUnitY(unit032)
+	//	set real024 = GetUnitX(unit065)
+	//	set real025 = GetUnitY(unit065)
+	//	set real026 = GetUnitX(unit014)
+	//	set real027 = GetUnitY(unit014)
+	//	set real028 = GetUnitX(unit012)
+	//	set real029 = GetUnitY(unit012)
+	//	set real030 = GetUnitX(unit007)
+	//	set real031 = GetUnitY(unit007)
+	//	set real032 = GetUnitX(unit016)
+	//	set real033 = GetUnitY(unit016)
+	//	set real034 = GetUnitX(unit036)
+	//	set real035 = GetUnitY(unit036)
+	//	set real034 = GetUnitX(unit036)
+	//	set real035 = GetUnitY(unit036)
+	//	set real036 = GetUnitX(unit116)
+	//	set real037 = GetUnitY(unit116)
+	//	set real038 = GetUnitX(unit004)
+	//	set real039 = GetUnitY(unit004)
+	//	set real040 = GetUnitX(unit040)
+	//	set real041 = GetUnitY(unit040)
+	//	set real042 = GetUnitX(unit039)
+	//	set real043 = GetUnitY(unit039)
+	//	set real044 = GetUnitX(unit037)
+	//	set real045 = GetUnitY(unit037)
+	//	set real046 = GetUnitX(unit041)
+	//	set real047 = GetUnitY(unit041)
+	//	set real048 = GetUnitX(unit017)
+	//	set real049 = GetUnitY(unit017)
+	//	set real050 = GetUnitX(unit038)
+	//	set real051 = GetUnitY(unit038)
+	//	set real052 = GetUnitX(unit043)
+	//	set real053 = GetUnitY(unit043)
+	//	set real054 = GetUnitX(unit042)
+	//	set real055 = GetUnitY(unit042)
+	//	set real056 = GetUnitX(unit050)
+	//	set real057 = GetUnitY(unit050)
+	//	set real058 = GetUnitX(unit045)
+	//	set real059 = GetUnitY(unit045)
+	//	set real060 = GetUnitX(unit044)
+	//	set real061 = GetUnitY(unit044)
+	//	set real062 = GetUnitX(unit046)
+	//	set real063 = GetUnitY(unit046)
+	//	set real064 = GetUnitX(unit049)
+	//	set real065 = GetUnitY(unit049)
+	//	set real066 = GetUnitX(unit048)
+	//	set real067 = GetUnitY(unit048)
+	//	set real068 = GetUnitX(unit047)
+	//	set real069 = GetUnitY(unit047)
+	//	set real070 = GetUnitX(unit052)
+	//	set real071 = GetUnitY(unit052)
+	//	set real072 = GetUnitX(unit051)
+	//	set real073 = GetUnitY(unit051)
+	//	set real074 = GetUnitX(unit055)
+	//	set real075 = GetUnitY(unit055)
+	//	set real076 = GetUnitX(unit054)
+	//	set real077 = GetUnitY(unit054)
+	//	set real078 = GetUnitX(unit056)
+	//	set real079 = GetUnitY(unit056)
+	//	set real080 = GetUnitX(unit057)
+	//	set real081 = GetUnitY(unit057)
+	//	set real082 = GetUnitX(unit058)
+	//	set real083 = GetUnitY(unit058)
+	//	set real084 = GetUnitX(unit053)
+	//	set real085 = GetUnitY(unit053)
+	//	set real086 = GetUnitX(unit060)
+	//	set real087 = GetUnitY(unit060)
+	//	set real088 = GetUnitX(unit061)
+	//	set real089 = GetUnitY(unit061)
+	//	set real090 = GetUnitX(unit059)
+	//	set real091 = GetUnitY(unit059)
+	//	set real092 = GetUnitX(unit062)
+	//	set real093 = GetUnitY(unit062)
+	//	set real094 = GetUnitX(unit063)
+	//	set real095 = GetUnitY(unit063)
+	//	set real096 = GetUnitX(unit034)
+	//	set real097 = GetUnitY(unit034)
+	//	set real098 = GetUnitX(unit064)
+	//	set real099 = GetUnitY(unit064)
+	//	set real100 = GetUnitX(unit067)
+	//	set real101 = GetUnitY(unit067)
+	//	set real102 = GetUnitX(unit066)
+	//	set real103 = GetUnitY(unit066)
+	//	call RemoveUnit(unit043)
+	//	call RemoveUnit(unit047)
+	//	call RemoveUnit(unit046)
+	//	call RemoveUnit(unit042)
+	//	call RemoveUnit(unit052)
+	//	call RemoveUnit(unit049)
+	//	call RemoveUnit(unit050)
+	//	call RemoveUnit(unit051)
+	//	call RemoveUnit(unit048)
+	//	call RemoveUnit(unit034)
+	//	call RemoveUnit(unit064)
+	//	call RemoveUnit(unit004)
+	//	call RemoveUnit(unit045)
+	//	call RemoveUnit(unit044)
+	//	call RemoveUnit(unit055)
+	//	call RemoveUnit(unit054)
+	//	call RemoveUnit(unit056)
+	//	call RemoveUnit(unit057)
+	//	call RemoveUnit(unit058)
+	//	call RemoveUnit(unit053)
+	//	call RemoveUnit(unit060)
+	//	call RemoveUnit(unit061)
+	//	call RemoveUnit(unit059)
+	//	call RemoveUnit(unit062)
+	//	call RemoveUnit(unit063)
+	//	call RemoveUnit(unit036)
+	//	call RemoveUnit(unit116)
+	//	call RemoveUnit(unit016)
+	//	call RemoveUnit(unit007)
+	//	call RemoveUnit(unit012)
+	//	call RemoveUnit(unit014)
+	//	call RemoveUnit(unit033)
+	//	call RemoveUnit(unit032)
+	//	call RemoveUnit(unit031)
+	//	call RemoveUnit(unit035)
+	//	call RemoveUnit(unit065)
+	//	call RemoveUnit(unit040)
+	//	call RemoveUnit(unit039)
+	//	call RemoveUnit(unit037)
+	//	call RemoveUnit(unit041)
+	//	call RemoveUnit(unit017)
+	//	call RemoveUnit(unit038)
+	//	call RemoveUnit(unit067)
+	//	call RemoveUnit(unit066)
+	// call PreloadStart()
 	set Sentinel_Fountain = CreateStructure(Sentinels[0], 'nfoh', -7232, -7136, 270)
 	set Sentinel_ShopCache = CreateStructure(Shops, 'hC95', -6880, -7136, 270)
 	set Sentinel_ShopWeapon = CreateStructure(Shops, 'n01K', -7264, -6688, 270)
@@ -7520,8 +7520,8 @@ function InitSentinels takes nothing returns nothing
 	set unit171 = CreateStructure(Sentinels[0], 'eaow', -4544, -6528, 270)
 	set unit172 = CreateStructure(Sentinels[0], 'edob', -6400, -5696, 270)
 	set unit173 = CreateStructure(Sentinels[0], 'edob', -5248, -6848, 270)
-	call PreloadGenEnd("sents.txt")
-	call PreloadEnd(0)
+	// call PreloadGenEnd("sents.txt")
+	// call PreloadEnd(0)
 	call SetPlayerAbilityAvailable(Shops, 'Aro1', false)
 	call SetUnitColor(Sentinel_ShopCache, PlayerColor0)
 	call SetUnitColor(Sentinel_ShopWonders, PlayerColor0)
@@ -7570,182 +7570,186 @@ function InitSentinels takes nothing returns nothing
 endfunction
 
 function InitScourges takes nothing returns nothing
-	set real104 = GetUnitX(unit088)
-	set real105 = GetUnitY(unit088)
-	set real106 = GetUnitX(unit080)
-	set real107 = GetUnitY(unit080)
-	set real108 = GetUnitX(unit081)
-	set real109 = GetUnitY(unit081)
-	set real110 = GetUnitX(unit082)
-	set real111 = GetUnitY(unit082)
-	set real112 = GetUnitX(unit078)
-	set real113 = GetUnitY(unit078)
-	set real114 = GetUnitX(unit076)
-	set real115 = GetUnitY(unit076)
-	set real116 = GetUnitX(unit075)
-	set real117 = GetUnitY(unit075)
-	set real118 = GetUnitX(unit074)
-	set real119 = GetUnitY(unit074)
-	set real120 = GetUnitX(unit077)
-	set real121 = GetUnitY(unit077)
-	set real122 = GetUnitX(unit079)
-	set real123 = GetUnitY(unit079)
-	set real124 = GetUnitX(unit020)
-	set real125 = GetUnitY(unit020)
-	set real126 = GetUnitX(unit096)
-	set real127 = GetUnitY(unit096)
-	set real128 = GetUnitX(unit013)
-	set real129 = GetUnitY(unit013)
-	set real130 = GetUnitX(unit098)
-	set real131 = GetUnitY(unit098)
-	set real132 = GetUnitX(unit019)
-	set real133 = GetUnitY(unit019)
-	set real134 = GetUnitX(unit025)
-	set real135 = GetUnitY(unit025)
-	set real136 = GetUnitX(unit099)
-	set real137 = GetUnitY(unit099)
-	set real138 = GetUnitX(unit018)
-	set real139 = GetUnitY(unit018)
-	set real140 = GetUnitX(unit073)
-	set real141 = GetUnitY(unit073)
-	set real142 = GetUnitX(unit100)
-	set real143 = GetUnitY(unit100)
-	set real144 = GetUnitX(unit113)
-	set real145 = GetUnitY(unit113)
-	set real146 = GetUnitX(unit101)
-	set real147 = GetUnitY(unit101)
-	set real148 = GetUnitX(unit093)
-	set real149 = GetUnitY(unit093)
-	set real150 = GetUnitX(unit072)
-	set real151 = GetUnitY(unit072)
-	set real152 = GetUnitX(unit092)
-	set real153 = GetUnitY(unit092)
-	set real154 = GetUnitX(unit112)
-	set real155 = GetUnitY(unit112)
-	set real156 = GetUnitX(unit071)
-	set real157 = GetUnitY(unit071)
-	set real158 = GetUnitX(unit097)
-	set real159 = GetUnitY(unit097)
-	set real160 = GetUnitX(unit111)
-	set real161 = GetUnitY(unit111)
-	set real162 = GetUnitX(unit106)
-	set real163 = GetUnitY(unit106)
-	set real164 = GetUnitX(unit103)
-	set real165 = GetUnitY(unit103)
-	set real166 = GetUnitX(unit109)
-	set real167 = GetUnitY(unit109)
-	set real168 = GetUnitX(unit070)
-	set real169 = GetUnitY(unit070)
-	set real170 = GetUnitX(unit108)
-	set real171 = GetUnitY(unit108)
-	set real172 = GetUnitX(unit102)
-	set real173 = GetUnitY(unit102)
-	set real174 = GetUnitX(unit104)
-	set real175 = GetUnitY(unit104)
-	set real176 = GetUnitX(unit107)
-	set real177 = GetUnitY(unit107)
-	set real178 = GetUnitX(unit114)
-	set real179 = GetUnitY(unit114)
-	set real180 = GetUnitX(unit068)
-	set real181 = GetUnitY(unit068)
-	set real182 = GetUnitX(unit094)
-	set real183 = GetUnitY(unit094)
-	set real184 = GetUnitX(unit069)
-	set real185 = GetUnitY(unit069)
-	set real186 = GetUnitX(unit110)
-	set real187 = GetUnitY(unit110)
-	set real188 = GetUnitX(unit105)
-	set real189 = GetUnitY(unit105)
-	set real190 = GetUnitX(unit095)
-	set real191 = GetUnitY(unit095)
-	call RemoveUnit(unit106)
-	call RemoveUnit(unit103)
-	call RemoveUnit(unit109)
-	call RemoveUnit(unit070)
-	call RemoveUnit(unit108)
-	call RemoveUnit(unit102)
-	call RemoveUnit(unit104)
-	call RemoveUnit(unit107)
-	call RemoveUnit(unit114)
-	call RemoveUnit(unit068)
-	call RemoveUnit(unit094)
-	call RemoveUnit(unit013)
-	call RemoveUnit(unit025)
-	call RemoveUnit(unit073)
-	call RemoveUnit(unit098)
-	call RemoveUnit(unit099)
-	call RemoveUnit(unit100)
-	call RemoveUnit(unit019)
-	call RemoveUnit(unit018)
-	call RemoveUnit(unit113)
-	call RemoveUnit(unit101)
-	call RemoveUnit(unit093)
-	call RemoveUnit(unit072)
-	call RemoveUnit(unit092)
-	call RemoveUnit(unit112)
-	call RemoveUnit(unit071)
-	call RemoveUnit(unit097)
-	call RemoveUnit(unit111)
-	call RemoveUnit(unit069)
-	call RemoveUnit(unit110)
-	call RemoveUnit(unit105)
-	call RemoveUnit(unit095)
-	call RemoveUnit(unit096)
-	call RemoveUnit(unit076)
-	call RemoveUnit(unit075)
-	call RemoveUnit(unit074)
-	call RemoveUnit(unit077)
-	call RemoveUnit(unit079)
-	call RemoveUnit(unit020)
-	call RemoveUnit(unit082)
-	call RemoveUnit(unit081)
-	call RemoveUnit(unit088)
-	call RemoveUnit(unit080)
-	call RemoveUnit(unit078)
-	set unit174 = CreateUnit(Scourges[0], 'ndfl', real104, real105, 270)
-	set unit175 = CreateUnit(Shops, 'nC35', real106, real107, 270)
-	set unit176 = CreateUnit(Shops, 'n01K', real108, real109, 270)
-	set unit177 = CreateUnit(Shops, 'nC38', real110, real111, 270)
-	set unit178 = CreateUnit(Shops, 'u00Q', real112, real113, 270)
-	set unit179 = CreateUnit(Shops, 'n00V', real114, real115, 0)
-	set unit180 = CreateUnit(Shops, 'n00W', real116, real117, 0)
-	set unit181 = CreateUnit(Shops, 'n002', real118, real119, 0)
-	set unit182 = CreateUnit(Shops, 'n00X', real120, real121, 0)
-	set unit183 = CreateUnit(Shops, 'n009', real122, real123, 0)
-	set unit184 = CreateUnit(Shops, 'n0HE', real124, real125, 0)
-	set unit185 = CreateUnit(Scourges[0], 'unpl', real126, real127, 220)
-	set unit186 = CreateUnit(Scourges[0], 'u00M', real128, real129, 270)
-	set unit187 = CreateUnit(Scourges[0], 'u00M', real130, real131, 270)
-	set unit188 = CreateUnit(Scourges[0], 'u00M', real132, real133, 270)
-	set unit189 = CreateUnit(Scourges[0], 'u00D', real134, real135, 270)
-	set unit190 = CreateUnit(Scourges[0], 'u00D', real136, real137, 270)
-	set unit191 = CreateUnit(Scourges[0], 'u00D', real138, real139, 270)
-	set unit192 = CreateUnit(Scourges[0], 'u00N', real140, real141, 270)
-	set unit193 = CreateUnit(Scourges[0], 'u00N', real142, real143, 270)
-	set unit194 = CreateUnit(Scourges[0], 'u00N', real144, real145, 270)
-	set unit195 = CreateUnit(Scourges[0], 'u00T', real146, real147, 270)
-	set unit196 = CreateUnit(Scourges[0], 'u00T', real148, real149, 270)
-	set Scourge_Melee_Top = CreateUnit(Scourges[0], 'usep', real150, real151, 270)
-	set Scourge_Melee_Mid = CreateUnit(Scourges[0], 'usep', real152, real153, 270)
-	set Scourge_Melee_Bot = CreateUnit(Scourges[0], 'usep', real154, real155, 270)
-	set Scourge_Ranged_Top = CreateUnit(Scourges[0], 'utod', real156, real157, 270)
-	set Scourge_Ranged_Mid = CreateUnit(Scourges[0], 'utod', real158, real159, 270)
-	set Scourge_Ranged_Bot = CreateUnit(Scourges[0], 'utod', real160, real161, 270)
-	set unit203 = CreateUnit(Scourges[0], 'uzig', real162, real163, 270)
-	set unit204 = CreateUnit(Scourges[0], 'uzig', real164, real165, 270)
-	set unit205 = CreateUnit(Scourges[0], 'uzig', real166, real167, 270)
-	set unit206 = CreateUnit(Scourges[0], 'uzig', real168, real169, 270)
-	set unit207 = CreateUnit(Scourges[0], 'uzig', real170, real171, 270)
-	set unit208 = CreateUnit(Scourges[0], 'uzig', real172, real173, 270)
-	set unit209 = CreateUnit(Scourges[0], 'uzig', real174, real175, 270)
-	set unit210 = CreateUnit(Scourges[0], 'uzig', real176, real177, 270)
-	set unit211 = CreateUnit(Scourges[0], 'uzig', real178, real179, 270)
-	set unit212 = CreateUnit(Scourges[0], 'uzig', real180, real181, 270)
-	set unit213 = CreateUnit(Scourges[0], 'uzig', real182, real183, 270)
-	set unit214 = CreateUnit(Scourges[0], 'usap', real184, real185, 270)
-	set unit215 = CreateUnit(Scourges[0], 'usap', real186, real187, 270)
-	set unit216 = CreateUnit(Scourges[0], 'ubon', real188, real189, 270)
-	set unit217 = CreateUnit(Scourges[0], 'ubon', real190, real191, 270)
+//	set real104 = GetUnitX(unit088)
+//	set real105 = GetUnitY(unit088)
+//	set real106 = GetUnitX(unit080)
+//	set real107 = GetUnitY(unit080)
+//	set real108 = GetUnitX(unit081)
+//	set real109 = GetUnitY(unit081)
+//	set real110 = GetUnitX(unit082)
+//	set real111 = GetUnitY(unit082)
+//	set real112 = GetUnitX(unit078)
+//	set real113 = GetUnitY(unit078)
+//	set real114 = GetUnitX(unit076)
+//	set real115 = GetUnitY(unit076)
+//	set real116 = GetUnitX(unit075)
+//	set real117 = GetUnitY(unit075)
+//	set real118 = GetUnitX(unit074)
+//	set real119 = GetUnitY(unit074)
+//	set real120 = GetUnitX(unit077)
+//	set real121 = GetUnitY(unit077)
+//	set real122 = GetUnitX(unit079)
+//	set real123 = GetUnitY(unit079)
+//	set real124 = GetUnitX(unit020)
+//	set real125 = GetUnitY(unit020)
+//	set real126 = GetUnitX(unit096)
+//	set real127 = GetUnitY(unit096)
+//	set real128 = GetUnitX(unit013)
+//	set real129 = GetUnitY(unit013)
+//	set real130 = GetUnitX(unit098)
+//	set real131 = GetUnitY(unit098)
+//	set real132 = GetUnitX(unit019)
+//	set real133 = GetUnitY(unit019)
+//	set real134 = GetUnitX(unit025)
+//	set real135 = GetUnitY(unit025)
+//	set real136 = GetUnitX(unit099)
+//	set real137 = GetUnitY(unit099)
+//	set real138 = GetUnitX(unit018)
+//	set real139 = GetUnitY(unit018)
+//	set real140 = GetUnitX(unit073)
+//	set real141 = GetUnitY(unit073)
+//	set real142 = GetUnitX(unit100)
+//	set real143 = GetUnitY(unit100)
+//	set real144 = GetUnitX(unit113)
+//	set real145 = GetUnitY(unit113)
+//	set real146 = GetUnitX(unit101)
+//	set real147 = GetUnitY(unit101)
+//	set real148 = GetUnitX(unit093)
+//	set real149 = GetUnitY(unit093)
+//	set real150 = GetUnitX(unit072)
+//	set real151 = GetUnitY(unit072)
+//	set real152 = GetUnitX(unit092)
+//	set real153 = GetUnitY(unit092)
+//	set real154 = GetUnitX(unit112)
+//	set real155 = GetUnitY(unit112)
+//	set real156 = GetUnitX(unit071)
+//	set real157 = GetUnitY(unit071)
+//	set real158 = GetUnitX(unit097)
+//	set real159 = GetUnitY(unit097)
+//	set real160 = GetUnitX(unit111)
+//	set real161 = GetUnitY(unit111)
+//	set real162 = GetUnitX(unit106)
+//	set real163 = GetUnitY(unit106)
+//	set real164 = GetUnitX(unit103)
+//	set real165 = GetUnitY(unit103)
+//	set real166 = GetUnitX(unit109)
+//	set real167 = GetUnitY(unit109)
+//	set real168 = GetUnitX(unit070)
+//	set real169 = GetUnitY(unit070)
+//	set real170 = GetUnitX(unit108)
+//	set real171 = GetUnitY(unit108)
+//	set real172 = GetUnitX(unit102)
+//	set real173 = GetUnitY(unit102)
+//	set real174 = GetUnitX(unit104)
+//	set real175 = GetUnitY(unit104)
+//	set real176 = GetUnitX(unit107)
+//	set real177 = GetUnitY(unit107)
+//	set real178 = GetUnitX(unit114)
+//	set real179 = GetUnitY(unit114)
+//	set real180 = GetUnitX(unit068)
+//	set real181 = GetUnitY(unit068)
+//	set real182 = GetUnitX(unit094)
+//	set real183 = GetUnitY(unit094)
+//	set real184 = GetUnitX(unit069)
+//	set real185 = GetUnitY(unit069)
+//	set real186 = GetUnitX(unit110)
+//	set real187 = GetUnitY(unit110)
+//	set real188 = GetUnitX(unit105)
+//	set real189 = GetUnitY(unit105)
+//	set real190 = GetUnitX(unit095)
+//	set real191 = GetUnitY(unit095)
+//	call RemoveUnit(unit106)
+//	call RemoveUnit(unit103)
+//	call RemoveUnit(unit109)
+//	call RemoveUnit(unit070)
+//	call RemoveUnit(unit108)
+//	call RemoveUnit(unit102)
+//	call RemoveUnit(unit104)
+//	call RemoveUnit(unit107)
+//	call RemoveUnit(unit114)
+//	call RemoveUnit(unit068)
+//	call RemoveUnit(unit094)
+//	call RemoveUnit(unit013)
+//	call RemoveUnit(unit025)
+//	call RemoveUnit(unit073)
+//	call RemoveUnit(unit098)
+//	call RemoveUnit(unit099)
+//	call RemoveUnit(unit100)
+//	call RemoveUnit(unit019)
+//	call RemoveUnit(unit018)
+//	call RemoveUnit(unit113)
+//	call RemoveUnit(unit101)
+//	call RemoveUnit(unit093)
+//	call RemoveUnit(unit072)
+//	call RemoveUnit(unit092)
+//	call RemoveUnit(unit112)
+//	call RemoveUnit(unit071)
+//	call RemoveUnit(unit097)
+//	call RemoveUnit(unit111)
+//	call RemoveUnit(unit069)
+//	call RemoveUnit(unit110)
+//	call RemoveUnit(unit105)
+//	call RemoveUnit(unit095)
+//	call RemoveUnit(unit096)
+//	call RemoveUnit(unit076)
+//	call RemoveUnit(unit075)
+//	call RemoveUnit(unit074)
+//	call RemoveUnit(unit077)
+//	call RemoveUnit(unit079)
+//	call RemoveUnit(unit020)
+//	call RemoveUnit(unit082)
+//	call RemoveUnit(unit081)
+//	call RemoveUnit(unit088)
+//	call RemoveUnit(unit080)
+//	call RemoveUnit(unit078)
+	// call PreloadGenClear()
+	// call PreloadStart()
+	set unit174 = CreateStructure(Scourges[0], 'ndfl', 6784, 6368, 270)
+	set unit175 = CreateStructure(Shops, 'nC35', 6816, 5984, 270)
+	set unit176 = CreateStructure(Shops, 'n01K', 6304, 6368, 270)
+	set unit177 = CreateStructure(Shops, 'nC38', 6496, 6368, 270)
+	set unit178 = CreateStructure(Shops, 'u00Q', 6816, 5664, 270)
+	set unit179 = CreateStructure(Shops, 'n00V', 5920, 6048, 0)
+	set unit180 = CreateStructure(Shops, 'n00W', 5984, 6432, 0)
+	set unit181 = CreateStructure(Shops, 'n002', 5920, 5920, 0)
+	set unit182 = CreateStructure(Shops, 'n00X', 5920, 6304, 0)
+	set unit183 = CreateStructure(Shops, 'n009', 5984, 5792, 0)
+	set unit184 = CreateStructure(Shops, 'n0HE', 5920, 6176, 0)
+	set unit185 = CreateStructure(Scourges[0], 'unpl', 5184, 4864, 220)
+	set unit186 = CreateStructure(Scourges[0], 'u00M', -4704, 5920, 270)
+	set unit187 = CreateStructure(Scourges[0], 'u00M', 1056, -96, 270)
+	set unit188 = CreateStructure(Scourges[0], 'u00M', 6048, -2080, 270)
+	set unit189 = CreateStructure(Scourges[0], 'u00D', 32, 5920, 270)
+	set unit190 = CreateStructure(Scourges[0], 'u00D', 2528, 1824, 270)
+	set unit191 = CreateStructure(Scourges[0], 'u00D', 6304, -96, 270)
+	set unit192 = CreateStructure(Scourges[0], 'u00N', 2976, 5792, 270)
+	set unit193 = CreateStructure(Scourges[0], 'u00N', 3936, 3488, 270)
+	set unit194 = CreateStructure(Scourges[0], 'u00N', 6368, 2528, 270)
+	set unit195 = CreateStructure(Scourges[0], 'u00T', 4832, 4832, 270)
+	set unit196 = CreateStructure(Scourges[0], 'u00T', 5152, 4512, 270)
+	set Scourge_Melee_Top = CreateStructure(Scourges[0], 'usep', 3392, 5504, 270)
+	set Scourge_Melee_Mid = CreateStructure(Scourges[0], 'usep', 4352, 3584, 270)
+	set Scourge_Melee_Bot = CreateStructure(Scourges[0], 'usep', 6656, 2880, 270)
+	set Scourge_Ranged_Top = CreateStructure(Scourges[0], 'utod', 3392, 6080, 270)
+	set Scourge_Ranged_Mid = CreateStructure(Scourges[0], 'utod', 3904, 3904, 270)
+	set Scourge_Ranged_Bot = CreateStructure(Scourges[0], 'utod', 6080, 2944, 270)
+	set unit203 = CreateStructure(Scourges[0], 'uzig', 2720, 4704, 270)
+	set unit204 = CreateStructure(Scourges[0], 'uzig', 3232, 4064, 270)
+	set unit205 = CreateStructure(Scourges[0], 'uzig', 3488, 4832, 270)
+	set unit206 = CreateStructure(Scourges[0], 'uzig', 4128, 6240, 270)
+	set unit207 = CreateStructure(Scourges[0], 'uzig', 4064, 5280, 270)
+	set unit208 = CreateStructure(Scourges[0], 'uzig', 4384, 4256, 270)
+	set unit209 = CreateStructure(Scourges[0], 'uzig', 5728, 4000, 270)
+	set unit210 = CreateStructure(Scourges[0], 'uzig', 5536, 2464, 270)
+	set unit211 = CreateStructure(Scourges[0], 'uzig', 5024, 3744, 270)
+	set unit212 = CreateStructure(Scourges[0], 'uzig', 6880, 3936, 270)
+	set unit213 = CreateStructure(Scourges[0], 'uzig', 4640, 2848, 270)
+	set unit214 = CreateStructure(Scourges[0], 'usap', 3968, 5888, 270)
+	set unit215 = CreateStructure(Scourges[0], 'usap', 6400, 3584, 270)
+	set unit216 = CreateStructure(Scourges[0], 'ubon', 4992, 5952, 270)
+	set unit217 = CreateStructure(Scourges[0], 'ubon', 6464, 4608, 270)
+	// call PreloadGenEnd("structure.txt")
+	// call PreloadEnd(0)
 	call SetUnitColor(unit175, PlayerColor6)
 	call SetUnitColor(unit177, PlayerColor12)
 	call SetUnitColor(unit176, PlayerColor12)
@@ -8320,7 +8324,7 @@ function InitForces takes nothing returns nothing
 endfunction
 
 function InitHeroes takes nothing returns nothing
-	local integer loc_integer01 = 1
+//	local integer loc_integer01 = 1
 	set integer039 = 1
 	set HeroID[1] = 'Hvwd'
 	set DummyID[1] = 'h03Z'
@@ -8328,108 +8332,108 @@ function InitHeroes takes nothing returns nothing
 	set HeroIcon[1] = "ReplaceableTextures\\CommandButtons\\BTNAvengingWatcher.blp"
 	call SaveHeroWinAnimation(HeroID[1], "stand 4")
 	call SaveHeroScale(HeroID[1], 1.35, DummyID[1])
-	set strings007[loc_integer01] = "Cheap items such as Bracers, Bottle and Magic Stick help give Vengeful Spirit what she needs to use Magic Missile and Swap safely and frequently."
-	set strings008[loc_integer01] = "By getting Magic Missile first, Vengeful Spirit should take advantage of this powerful stun by moving around the map instead of simply farming in a lane."
-	set strings009[loc_integer01] = "It sometimes a good idea to save the Command Aura for later in the game when it will give your team more damage."
-	set strings010[loc_integer01] = "Wave of Terror is used to provide sight, giving you vision over an area or providing an opportunity to use Swap."
-	set strings011[loc_integer01] = "Swap will allow you to isolate a key hero on their team, sometimes your sacrifice is needed to win the battle and maybe even the game."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Cheap items such as Bracers, Bottle and Magic Stick help give Vengeful Spirit what she needs to use Magic Missile and Swap safely and frequently."
+//	set strings008[loc_integer01] = "By getting Magic Missile first, Vengeful Spirit should take advantage of this powerful stun by moving around the map instead of simply farming in a lane."
+//	set strings009[loc_integer01] = "It sometimes a good idea to save the Command Aura for later in the game when it will give your team more damage."
+//	set strings010[loc_integer01] = "Wave of Terror is used to provide sight, giving you vision over an area or providing an opportunity to use Swap."
+//	set strings011[loc_integer01] = "Swap will allow you to isolate a key hero on their team, sometimes your sacrifice is needed to win the battle and maybe even the game."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[2] = 'Hmbr'
 	set DummyID[2] = 'h040'
 	//  set integers069[2]='n09A'
 	set HeroIcon[2] = "ReplaceableTextures\\CommandButtons\\BTNAvatar.blp"
 	call SaveHeroWinAnimation(HeroID[2], "attack slam alternate")
 	call SaveHeroScale(HeroID[2], 1.3, DummyID[2])
-	set strings007[loc_integer01] = "When using Arc lightning, try to kill creeps and harass your opponent at the same time"
-	set strings008[loc_integer01] = "When ganking, you can use Lightning Bolt to ensure you will not lose sight of the target quickly."
-	set strings009[loc_integer01] = "Lightning Bolt has a mini-stun that can be used against channeling spells and teleporting heroes."
-	set strings010[loc_integer01] = "Static Field is extremely powerful throughout the game: Use your spells as frequently as possible during fights."
-	set strings011[loc_integer01] = "Both Lightning Bolt and Wrath of the Thundergod reveal invisible units. Wrath will not damage invisible units."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "When using Arc lightning, try to kill creeps and harass your opponent at the same time"
+//	set strings008[loc_integer01] = "When ganking, you can use Lightning Bolt to ensure you will not lose sight of the target quickly."
+//	set strings009[loc_integer01] = "Lightning Bolt has a mini-stun that can be used against channeling spells and teleporting heroes."
+//	set strings010[loc_integer01] = "Static Field is extremely powerful throughout the game: Use your spells as frequently as possible during fights."
+//	set strings011[loc_integer01] = "Both Lightning Bolt and Wrath of the Thundergod reveal invisible units. Wrath will not damage invisible units."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[3] = 'Emoo'
 	set DummyID[3] = 'h041'
 	//  set integers069[3]='n099'
 	set HeroIcon[3] = "ReplaceableTextures\\CommandButtons\\BTNDryad.blp"
 	call SaveHeroWinAnimation(HeroID[3], "stand 4")
 	call SaveHeroScale(HeroID[3], 1, DummyID[3])
-	set strings007[loc_integer01] = "Enchant can be used on neutral creeps, meaning Enchantress can fight and use neutral creeps to engage enemy heroes effectively."
-	set strings008[loc_integer01] = "Nature's Attendants heals in an area AOE, so make sure you're far from creeps if you only want to heal yourself."
-	set strings009[loc_integer01] = "Untouchable is great against physical attacks, but it does not help you survive huge burst damage nukes."
-	set strings010[loc_integer01] = "Impetus deals negligible damage at short range; switch to normal attacks if your target gets close to save mana."
-	set strings011[loc_integer01] = "Impetus deals pure damage, making it a great tool against heroes with a lot of resistance because it is not reduced."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Enchant can be used on neutral creeps, meaning Enchantress can fight and use neutral creeps to engage enemy heroes effectively."
+//	set strings008[loc_integer01] = "Nature's Attendants heals in an area AOE, so make sure you're far from creeps if you only want to heal yourself."
+//	set strings009[loc_integer01] = "Untouchable is great against physical attacks, but it does not help you survive huge burst damage nukes."
+//	set strings010[loc_integer01] = "Impetus deals negligible damage at short range; switch to normal attacks if your target gets close to save mana."
+//	set strings011[loc_integer01] = "Impetus deals pure damage, making it a great tool against heroes with a lot of resistance because it is not reduced."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[4] = 'O00P'
 	set DummyID[4] = 'h042'
 	//  set integers069[4]='n098'
 	set HeroIcon[4] = "ReplaceableTextures\\CommandButtons\\BTNSeaElemental.blp"
 	call SaveHeroWinAnimation(HeroID[4], "stand 2")
 	call SaveHeroScale(HeroID[4], 1, DummyID[4])
-	set strings007[loc_integer01] = "Waveform is extremely powerful: Used for damage, chasing, escaping, it even allows you to dodge some spells by casting it at the right time."
-	set strings008[loc_integer01] = "Morph allows you to manipulate your Agility and Strength. Using the Strength Morph ('F') can act as a heal to help you survive between spells."
-	set strings009[loc_integer01] = "Use Morph Replicate to take the location of your Replicated unit, making it great for a quick escape or simply as a free teleport."
-	set strings010[loc_integer01] = "Replicate is usually cast on the strongest ally or enemy to a fight. Certain hero passives or items will retain their effects, so Replicate those heroes."
-	set strings011[loc_integer01] = "Eye of Skadi and Linken's Sphere are two examples of Statistic-increasing items which give Morphling a lot of versatility and the ability to cast spells often."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Waveform is extremely powerful: Used for damage, chasing, escaping, it even allows you to dodge some spells by casting it at the right time."
+//	set strings008[loc_integer01] = "Morph allows you to manipulate your Agility and Strength. Using the Strength Morph ('F') can act as a heal to help you survive between spells."
+//	set strings009[loc_integer01] = "Use Morph Replicate to take the location of your Replicated unit, making it great for a quick escape or simply as a free teleport."
+//	set strings010[loc_integer01] = "Replicate is usually cast on the strongest ally or enemy to a fight. Certain hero passives or items will retain their effects, so Replicate those heroes."
+//	set strings011[loc_integer01] = "Eye of Skadi and Linken's Sphere are two examples of Statistic-increasing items which give Morphling a lot of versatility and the ability to cast spells often."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[5] = 'Hjai'
 	set DummyID[5] = 'h043'
 	//  set integers069[5]='n09W'
 	set HeroIcon[5] = "ReplaceableTextures\\CommandButtons\\BTNJaina.blp"
 	call SaveHeroWinAnimation(HeroID[5], "stand victory")
 	call SaveHeroScale(HeroID[5], 1, DummyID[5])
-	set strings007[loc_integer01] = "CM is a fragile support hero: Items like Bracers and Phase Boots will help her survive and deal with her low movement speed and armor."
-	set strings008[loc_integer01] = "A few points of Brilliance Aura early on provides your team with massive amounts of extra mana."
-	set strings009[loc_integer01] = "Enemies hit by Frostbite can still cast spells, so don't take them lightly. "
-	set strings010[loc_integer01] = "Frostbite on non-hero units will last 10 seconds. This can be useful for killing neutral creeps that are level 5 or lower as well."
-	set strings011[loc_integer01] = "There are two items that can help you with the perfect Freezing Field: Placement with Kelen's Dagger and the spell immunity of Black King Bar."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "CM is a fragile support hero: Items like Bracers and Phase Boots will help her survive and deal with her low movement speed and armor."
+//	set strings008[loc_integer01] = "A few points of Brilliance Aura early on provides your team with massive amounts of extra mana."
+//	set strings009[loc_integer01] = "Enemies hit by Frostbite can still cast spells, so don't take them lightly. "
+//	set strings010[loc_integer01] = "Frostbite on non-hero units will last 10 seconds. This can be useful for killing neutral creeps that are level 5 or lower as well."
+//	set strings011[loc_integer01] = "There are two items that can help you with the perfect Freezing Field: Placement with Kelen's Dagger and the spell immunity of Black King Bar."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[6] = 'H001'
 	set DummyID[6] = 'h044'
 	//  set integers069[6]='n096'
 	set HeroIcon[6] = "ReplaceableTextures\\CommandButtons\\BTNFelGuardBlue.tga"
 	call SaveHeroWinAnimation(HeroID[6], "spell")
 	call SaveHeroScale(HeroID[6], 1, DummyID[6])
-	set strings007[loc_integer01] = "Storm Bolt is a skill Sven should usually get early because of its damage and stun. "
-	set strings008[loc_integer01] = "Take advantage of Storm Bolt's area of effect by hitting additional enemy creeps and heroes whenever possible. "
-	set strings009[loc_integer01] = "Try to be near your allies when you cast Warcry."
-	set strings010[loc_integer01] = "Only items that increase Strength will give you additional damage from effect of God's Strength."
-	set strings011[loc_integer01] = "Casting God's Strength before engaging in fights or casting Storm Bolt will allow you to get additional attacks on your opponent."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Storm Bolt is a skill Sven should usually get early because of its damage and stun. "
+//	set strings008[loc_integer01] = "Take advantage of Storm Bolt's area of effect by hitting additional enemy creeps and heroes whenever possible. "
+//	set strings009[loc_integer01] = "Try to be near your allies when you cast Warcry."
+//	set strings010[loc_integer01] = "Only items that increase Strength will give you additional damage from effect of God's Strength."
+//	set strings011[loc_integer01] = "Casting God's Strength before engaging in fights or casting Storm Bolt will allow you to get additional attacks on your opponent."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[7] = 'HC49'
 	set DummyID[7] = 'h045'
 	//  set integers069[7]='n09P'
 	set HeroIcon[7] = "ReplaceableTextures\\CommandButtons\\BTNSeaWitch.blp"
 	call SaveHeroWinAnimation(HeroID[7], "spell")
 	call SaveHeroScale(HeroID[7], 1, DummyID[7])
-	set strings007[loc_integer01] = "Opponents can attack and cast spells while Ensnared. However, it will work on magic immune units and reveal invisible heroes until the duration expires."
-	set strings008[loc_integer01] = "Mirror Image can be used defensively to avoid certain spells and dispel debuffs or channeling spells."
-	set strings009[loc_integer01] = "Items that provide attribute bonuses improve your Image's power."
-	set strings010[loc_integer01] = "Enemies caught by Song of the Siren are invulnerable while asleep. Save your attacks and spells for after the spell expires."
-	set strings011[loc_integer01] = "Use Song of the Siren to isolate a magic immune or Cycloned hero (since they will not be affected), or to demolish buildings while enemies are asleep."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Opponents can attack and cast spells while Ensnared. However, it will work on magic immune units and reveal invisible heroes until the duration expires."
+//	set strings008[loc_integer01] = "Mirror Image can be used defensively to avoid certain spells and dispel debuffs or channeling spells."
+//	set strings009[loc_integer01] = "Items that provide attribute bonuses improve your Image's power."
+//	set strings010[loc_integer01] = "Enemies caught by Song of the Siren are invulnerable while asleep. Save your attacks and spells for after the spell expires."
+//	set strings011[loc_integer01] = "Use Song of the Siren to isolate a magic immune or Cycloned hero (since they will not be affected), or to demolish buildings while enemies are asleep."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[8] = 'Otch'
 	set DummyID[8] = 'h046'
 	//  set integers069[8]='n09D'
 	set HeroIcon[8] = "ReplaceableTextures\\CommandButtons\\BTNTauren.blp"
 	call SaveHeroWinAnimation(HeroID[8], "attack slam")
 	call SaveHeroScale(HeroID[8], 1.1, DummyID[8])
-	set strings007[loc_integer01] = "Although he's a strength hero, Earthshaker (ES) actually plays more like a caster. Damage items are not very useful, but mana items can be nice."
-	set strings008[loc_integer01] = "A good cast of Fissure can isolate an opponent and cut off their escape. Practice often to achieve devastating results."
-	set strings009[loc_integer01] = "Kelen's Dagger is an incredible item on ES, it allows you to quickly position yourself for the perfect Fissure or Echoslam."
-	set strings010[loc_integer01] = "The timing of your spells is important, by spacing them out properly you can keep a group of heroes disabled for several seconds."
-	set strings011[loc_integer01] = "Due to Raigor's ability to split up an enemy team and keep them stunned, he is great for initiating fights."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Although he's a strength hero, Earthshaker (ES) actually plays more like a caster. Damage items are not very useful, but mana items can be nice."
+//	set strings008[loc_integer01] = "A good cast of Fissure can isolate an opponent and cut off their escape. Practice often to achieve devastating results."
+//	set strings009[loc_integer01] = "Kelen's Dagger is an incredible item on ES, it allows you to quickly position yourself for the perfect Fissure or Echoslam."
+//	set strings010[loc_integer01] = "The timing of your spells is important, by spacing them out properly you can keep a group of heroes disabled for several seconds."
+//	set strings011[loc_integer01] = "Due to Raigor's ability to split up an enemy team and keep them stunned, he is great for initiating fights."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[9] = 'HC92'
 	set DummyID[9] = 'h047'
 	//  set integers069[9]='n09X'
 	set HeroIcon[9] = "ReplaceableTextures\\CommandButtons\\BTNSatyrTrickster.blp"
 	call SaveHeroWinAnimation(HeroID[9], "stand 4")
 	call SaveHeroScale(HeroID[9], 1, DummyID[9])
-	set strings007[loc_integer01] = "Getting at least one level of Blink Strike and Smoke Screen help you survive to level 6 when you can learn Permanent Invisibility."
-	set strings008[loc_integer01] = "Attacking or using your spells makes you visible: Consider the fade time of Permanent Invisibility before placing yourself at risk."
-	set strings009[loc_integer01] = "Try to position Smoke Screen slightly behind enemies so that they spend more time in the cloud if they retreat."
-	set strings010[loc_integer01] = "Wraith Bands and later a Yasha or a Diffusal Blade will provide Rikimaru with cheap damage and chasing power for dispatching fragile heroes quickly."
-	set strings011[loc_integer01] = "Be careful of items that render you visible, such as Dust of Appearance, Sentry Wards or a Gem of True Sight."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Getting at least one level of Blink Strike and Smoke Screen help you survive to level 6 when you can learn Permanent Invisibility."
+//	set strings008[loc_integer01] = "Attacking or using your spells makes you visible: Consider the fade time of Permanent Invisibility before placing yourself at risk."
+//	set strings009[loc_integer01] = "Try to position Smoke Screen slightly behind enemies so that they spend more time in the cloud if they retreat."
+//	set strings010[loc_integer01] = "Wraith Bands and later a Yasha or a Diffusal Blade will provide Rikimaru with cheap damage and chasing power for dispatching fragile heroes quickly."
+//	set strings011[loc_integer01] = "Be careful of items that render you visible, such as Dust of Appearance, Sentry Wards or a Gem of True Sight."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[10] = 'N01O'
 	set DummyID[10] = 'h048'
 	//  set integers069[10]='n09Y'
@@ -8443,72 +8447,72 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroScale('n018', 1.1, DummyID[10])
 	call SaveHeroScale('n01C', 1.2, DummyID[10])
 	call SaveHeroScale('n01G', 1.3, DummyID[10])
-	set strings007[loc_integer01] = "Spirit Bear is great to have in the lane and allowing Syllabear to fight neutral creeps because of its high HP and damage. "
-	set strings008[loc_integer01] = "Leveling Spirit Bear also gets various bonuses that make it very powerful for fighting heroes and towers so it is usually the first thing to max out."
-	set strings009[loc_integer01] = "Your Spirit Bear might be able to handle a lot of damage, but if it dies you will also take damage (100 X its level). If you die, it dies as well."
-	set strings010[loc_integer01] = "Give items to your bear instead of Syllabear since it is usually engaging the enemy for you. Remember that stat-increasing items do not benefit the bear."
-	set strings011[loc_integer01] = "True Form gives Syllabear massive HP in his melee form, and Rabid and Battle Cry give both him and his Bear huge damage temporarily."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Spirit Bear is great to have in the lane and allowing Syllabear to fight neutral creeps because of its high HP and damage. "
+//	set strings008[loc_integer01] = "Leveling Spirit Bear also gets various bonuses that make it very powerful for fighting heroes and towers so it is usually the first thing to max out."
+//	set strings009[loc_integer01] = "Your Spirit Bear might be able to handle a lot of damage, but if it dies you will also take damage (100 X its level). If you die, it dies as well."
+//	set strings010[loc_integer01] = "Give items to your bear instead of Syllabear since it is usually engaging the enemy for you. Remember that stat-increasing items do not benefit the bear."
+//	set strings011[loc_integer01] = "True Form gives Syllabear massive HP in his melee form, and Rabid and Battle Cry give both him and his Bear huge damage temporarily."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[11] = 'H004'
 	set DummyID[11] = 'h049'
 	//  set integers069[11]='n09Z'
 	set HeroIcon[11] = "ReplaceableTextures\\CommandButtons\\BTNSorceress.blp"
 	call SaveHeroWinAnimation(HeroID[11], "stand victory")
 	call SaveHeroScale(HeroID[11], 1.2, DummyID[11])
-	set strings007[loc_integer01] = "Light Strike Array is usually a good skill to get at level 1 because it provides you with a stun."
-	set strings008[loc_integer01] = "Target the ground in their direction instead of clicking on enemies to maximize Dragon Slave's long range."
-	set strings009[loc_integer01] = "Cheap items will help Lina do her job: Bracers, Bottle, Phase Boots. A Point booster provides a nice HP/mana bonus for its cost."
-	set strings010[loc_integer01] = "Fiery Soul can help you maneuver better during a fight."
-	set strings011[loc_integer01] = "Try to stun as many heroes as possible during team fights"
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Light Strike Array is usually a good skill to get at level 1 because it provides you with a stun."
+//	set strings008[loc_integer01] = "Target the ground in their direction instead of clicking on enemies to maximize Dragon Slave's long range."
+//	set strings009[loc_integer01] = "Cheap items will help Lina do her job: Bracers, Bottle, Phase Boots. A Point booster provides a nice HP/mana bonus for its cost."
+//	set strings010[loc_integer01] = "Fiery Soul can help you maneuver better during a fight."
+//	set strings011[loc_integer01] = "Try to stun as many heroes as possible during team fights"
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[12] = 'Nbbc'
 	set DummyID[12] = 'h04A'
 	//  set integers069[12]='n0A5'
 	set HeroIcon[12] = "ReplaceableTextures\\CommandButtons\\BTNChaosBlademaster.blp"
 	call SaveHeroWinAnimation(HeroID[12], "stand victory")
 	call SaveHeroScale(HeroID[12], 1, DummyID[12])
-	set strings007[loc_integer01] = "Blade Fury is your most important skill early game for getting hero kills and avoiding magic damage."
-	set strings008[loc_integer01] = "Avoid follow-command (right-clicking) heroes with Blade Fury and instead click the ground near the opponent."
-	set strings009[loc_integer01] = "Isolate enemy heroes before using Omnislash to prevent Juggernaut from attacking multiple targets and doing less damage."
-	set strings010[loc_integer01] = "Increasing your attack speed will give you 'extra attacks' during Omnislash, which are treated like a normal attack (in terms of damage and orb effects)."
-	set strings011[loc_integer01] = "Protect the 1-HP Healing Ward in battles and it can prolong and save the lives of your entire team."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Blade Fury is your most important skill early game for getting hero kills and avoiding magic damage."
+//	set strings008[loc_integer01] = "Avoid follow-command (right-clicking) heroes with Blade Fury and instead click the ground near the opponent."
+//	set strings009[loc_integer01] = "Isolate enemy heroes before using Omnislash to prevent Juggernaut from attacking multiple targets and doing less damage."
+//	set strings010[loc_integer01] = "Increasing your attack speed will give you 'extra attacks' during Omnislash, which are treated like a normal attack (in terms of damage and orb effects)."
+//	set strings011[loc_integer01] = "Protect the 1-HP Healing Ward in battles and it can prolong and save the lives of your entire team."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[13] = 'N01A'
 	set DummyID[13] = 'h04B'
 	//  set integers069[13]='n097'
 	set HeroIcon[13] = "ReplaceableTextures\\CommandButtons\\BTNSpellBreaker.blp"
 	call SaveHeroWinAnimation(HeroID[13], "stand ready")
 	call SaveHeroScale(HeroID[13], 1, DummyID[13])
-	set strings007[loc_integer01] = "Glaives of Wisdom is useful to get early because it is useful for killing creeps and harassing your opponent manually ('W' and then the target)."
-	set strings008[loc_integer01] = "Curse of the Silent will cause an enemy to lose HP/mana if they do not choose to use their spells, or cannot use their spells (disabled, silenced, cooldown)."
-	set strings009[loc_integer01] = "Last Word will prevent enemies from using multiple spells on you and your team at the same time provided you get close enough."
-	set strings010[loc_integer01] = "Global Silence can be used for initiating on enemies or saving allies early on. Try to pay attention to your teammates and enemies, even those not nearby."
-	set strings011[loc_integer01] = "Global Silence will also give your allies the opportunity in team battles to use their spells without repercussions - making it a powerful control spell."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Glaives of Wisdom is useful to get early because it is useful for killing creeps and harassing your opponent manually ('W' and then the target)."
+//	set strings008[loc_integer01] = "Curse of the Silent will cause an enemy to lose HP/mana if they do not choose to use their spells, or cannot use their spells (disabled, silenced, cooldown)."
+//	set strings009[loc_integer01] = "Last Word will prevent enemies from using multiple spells on you and your team at the same time provided you get close enough."
+//	set strings010[loc_integer01] = "Global Silence can be used for initiating on enemies or saving allies early on. Try to pay attention to your teammates and enemies, even those not nearby."
+//	set strings011[loc_integer01] = "Global Silence will also give your allies the opportunity in team battles to use their spells without repercussions - making it a powerful control spell."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[14] = 'Hamg'
 	set DummyID[14] = 'h04C'
 	//  set integers069[14]='n09F'
 	set HeroIcon[14] = "ReplaceableTextures\\CommandButtons\\BTNTreant.blp"
 	call SaveHeroWinAnimation(HeroID[14], "stand 3")
 	call SaveHeroScale(HeroID[14], 0.72, DummyID[14])
-	set strings007[loc_integer01] = "Thanks to his high base damage and survivability, Rooftrellen can usually obtain high-tier damage or caster items depending on the needs of the team."
-	set strings008[loc_integer01] = "Living armor adds significant defensive bonuses to an allied unit. It can even be cast on buildings to make them more resilient and provide regeneration."
-	set strings009[loc_integer01] = "Nature's Guise is more than an escape tool, it can be used offensively as well. Use it to position allies and yourself near trees before surprising the enemy."
-	set strings010[loc_integer01] = "Use Eyes in the Forest whenever you can to gain vision of key locations such as the rune spots, neutral creep camps and Roshan."
-	set strings011[loc_integer01] = "Enemies under the effect of Overgrowth can still use spells and items, so make sure your team acts quickly while enemies remain immobilized."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Thanks to his high base damage and survivability, Rooftrellen can usually obtain high-tier damage or caster items depending on the needs of the team."
+//	set strings008[loc_integer01] = "Living armor adds significant defensive bonuses to an allied unit. It can even be cast on buildings to make them more resilient and provide regeneration."
+//	set strings009[loc_integer01] = "Nature's Guise is more than an escape tool, it can be used offensively as well. Use it to position allies and yourself near trees before surprising the enemy."
+//	set strings010[loc_integer01] = "Use Eyes in the Forest whenever you can to gain vision of key locations such as the rune spots, neutral creep camps and Roshan."
+//	set strings011[loc_integer01] = "Enemies under the effect of Overgrowth can still use spells and items, so make sure your team acts quickly while enemies remain immobilized."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[15] = 'O015'
 	set DummyID[15] = 'h07P'
 	//  set integers069[15]='n0GC'
 	set HeroIcon[15] = "ReplaceableTextures\\CommandButtons\\BTNHeroTaurenChieftain.blp"
 	call SaveHeroWinAnimation(HeroID[15], "stand victory")
 	call SaveHeroScale(HeroID[15], 1.1, DummyID[15])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[16] = 'Hblm'
 	set DummyID[16] = 'h04E'
 	//  set integers069[16]='n09G'
@@ -8518,132 +8522,132 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroScale('H06X', 1.5, DummyID[16])
 	call SaveHeroScale('H06Y', 1.5, DummyID[16])
 	call SaveHeroScale('H06W', 1.5, DummyID[16])
-	set strings007[loc_integer01] = "Chakra Magic is an amazing support skill that you should cast on allies as often as possible if they have powerful spells."
-	set strings008[loc_integer01] = "Illuminate can be useful for earning gold or clearing creeps quickly, but channeling the blast can leave you vulnerable. "
-	set strings009[loc_integer01] = "Mana Leak gives you the offensive: An enemy that moves loses his resources to cast spells, but if he does not, you can punish him with spells and attacks."
-	set strings010[loc_integer01] = "When in your Spirit Form, use Blinding Light to push enemies aside, and Recall for saving or calling on the assistance of an ally."
-	set strings011[loc_integer01] = "Keeper of the Light usually needs to stay back in fights and make use of the long range of his spells as a support hero when pushing and defending."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Chakra Magic is an amazing support skill that you should cast on allies as often as possible if they have powerful spells."
+//	set strings008[loc_integer01] = "Illuminate can be useful for earning gold or clearing creeps quickly, but channeling the blast can leave you vulnerable. "
+//	set strings009[loc_integer01] = "Mana Leak gives you the offensive: An enemy that moves loses his resources to cast spells, but if he does not, you can punish him with spells and attacks."
+//	set strings010[loc_integer01] = "When in your Spirit Form, use Blinding Light to push enemies aside, and Recall for saving or calling on the assistance of an ally."
+//	set strings011[loc_integer01] = "Keeper of the Light usually needs to stay back in fights and make use of the long range of his spells as a support hero when pushing and defending."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[17] = 'Huth'
 	set DummyID[17] = 'h04F'
 	//  set integers069[17]='n09V'
 	set HeroIcon[17] = "ReplaceableTextures\\CommandButtons\\BTNFurbolgTracker.blp"
 	call SaveHeroWinAnimation(HeroID[17], "attack spell")
 	call SaveHeroScale(HeroID[17], 1.2, DummyID[17])
-	set strings007[loc_integer01] = "Get Fury Swipes and Overpower early. Fury Swipes is a very powerful orb effect on Ursa, replacing it with another is not advised."
-	set strings008[loc_integer01] = "Ursa is a very effective hero to fight neutral creeps with: Vladimir's Offering is a recommended item choice."
-	set strings009[loc_integer01] = "Thanks to Enrage, Ursa usually purchases items that increase HP or Strength over Agility and Damage items."
-	set strings010[loc_integer01] = "It is a good idea to fight the two ancient camps when you need a quick boost in experience and gold. They are marked red in your minimap."
-	set strings011[loc_integer01] = "Certain items like Kelen's Dagger and Lothar's Edge will help both close the distance on enemies and take them by surprise."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Get Fury Swipes and Overpower early. Fury Swipes is a very powerful orb effect on Ursa, replacing it with another is not advised."
+//	set strings008[loc_integer01] = "Ursa is a very effective hero to fight neutral creeps with: Vladimir's Offering is a recommended item choice."
+//	set strings009[loc_integer01] = "Thanks to Enrage, Ursa usually purchases items that increase HP or Strength over Agility and Damage items."
+//	set strings010[loc_integer01] = "It is a good idea to fight the two ancient camps when you need a quick boost in experience and gold. They are marked red in your minimap."
+//	set strings011[loc_integer01] = "Certain items like Kelen's Dagger and Lothar's Edge will help both close the distance on enemies and take them by surprise."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[18] = 'Hmkg'
 	set DummyID[18] = 'h04G'
 	//  set integers069[18]='n0A1'
 	set HeroIcon[18] = "ReplaceableTextures\\CommandButtons\\BTNOgreMagi.blp"
 	call SaveHeroWinAnimation(HeroID[18], "sleep")
 	call SaveHeroScale(HeroID[18], 1.4, DummyID[18])
-	set strings007[loc_integer01] = "Buying a few Clarity Potions, Ring of Basilius or Bottle in the beginning of the game will help you cast a few more spells."
-	set strings008[loc_integer01] = "Fireblast provides a disable, Ignite provides a slow. Both deal damage, usually making them good skills early."
-	set strings009[loc_integer01] = "Ogre Magi has a lot of survivability but he does need the ability to use his spells: An Arcane Ring might be the only item you will need all game."
-	set strings010[loc_integer01] = "Use Bloodlust to help teammates chase and escape enemies and on the hero capable of dealing the most damage before major battles."
-	set strings011[loc_integer01] = "Focus heroes that need to be shut down quickly with Fireblast: Hopefully they are repeatedly damaged and disabled by the effect of Multicast."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Buying a few Clarity Potions, Ring of Basilius or Bottle in the beginning of the game will help you cast a few more spells."
+//	set strings008[loc_integer01] = "Fireblast provides a disable, Ignite provides a slow. Both deal damage, usually making them good skills early."
+//	set strings009[loc_integer01] = "Ogre Magi has a lot of survivability but he does need the ability to use his spells: An Arcane Ring might be the only item you will need all game."
+//	set strings010[loc_integer01] = "Use Bloodlust to help teammates chase and escape enemies and on the hero capable of dealing the most damage before major battles."
+//	set strings011[loc_integer01] = "Focus heroes that need to be shut down quickly with Fireblast: Hopefully they are repeatedly damaged and disabled by the effect of Multicast."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[19] = 'Ntin'
 	set DummyID[19] = 'h04H'
 	//  set integers069[19]='n0AA'
 	set HeroIcon[19] = "ReplaceableTextures\\CommandButtons\\BTNHeroTinker.blp"
 	call SaveHeroWinAnimation(HeroID[19], "stand 2")
 	call SaveHeroScale(HeroID[19], 1, DummyID[19])
-	set strings007[loc_integer01] = "Laser and Missile give Tinker massive burst damage, so it is usually a good idea to get these two skills before Rearm, your ultimate."
-	set strings008[loc_integer01] = "Laser is not reduced by magic resistance or armor; you deal the number in the description exactly."
-	set strings009[loc_integer01] = "You can use the active effects of items indefinitely with Rearm, which makes Boots of Travel a very powerful item for Tinker."
-	set strings010[loc_integer01] = "March of the Machines can be very useful for killing creeps quickly, its large area of effect makes it useful for pushing and team fights."
-	set strings011[loc_integer01] = "Level 1 of Rearm is generally enough until much later when you have the mana pool to support levels 2 and 3."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Laser and Missile give Tinker massive burst damage, so it is usually a good idea to get these two skills before Rearm, your ultimate."
+//	set strings008[loc_integer01] = "Laser is not reduced by magic resistance or armor; you deal the number in the description exactly."
+//	set strings009[loc_integer01] = "You can use the active effects of items indefinitely with Rearm, which makes Boots of Travel a very powerful item for Tinker."
+//	set strings010[loc_integer01] = "March of the Machines can be very useful for killing creeps quickly, its large area of effect makes it useful for pushing and team fights."
+//	set strings011[loc_integer01] = "Level 1 of Rearm is generally enough until much later when you have the mana pool to support levels 2 and 3."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[20] = 'Emns'
 	set DummyID[20] = 'h04I'
 	//  set integers069[20]='n0A4'
 	set HeroIcon[20] = "ReplaceableTextures\\CommandButtons\\BTNFurion.blp"
 	call SaveHeroWinAnimation(HeroID[20], "spell")
 	call SaveHeroScale(HeroID[20], 1.2, DummyID[20])
-	set strings007[loc_integer01] = "Get Force of Nature early if you plan on leaving the lane to kill neutral creeps. Start with a Ring of Basilius to provide you with mana and armor."
-	set strings008[loc_integer01] = "Invest points in Teleportation, it gives you the mobility to be anywhere in the map: Cancel the spell if you change your mind by clicking 'S'."
-	set strings009[loc_integer01] = "Sprout can be extremely useful offensively and defensively so get at least one point in it. Higher levels increase the duration but also the mana cost."
-	set strings010[loc_integer01] = "Teleportation shows allies and enemies where you intend to go, so if you want to surprise enemies, teleport where they cannot see."
-	set strings011[loc_integer01] = "Wrath of Nature is a great farming tool but also a powerful nuke on enemy heroes: Hit other units nearby to deal more damage to the intended target."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Get Force of Nature early if you plan on leaving the lane to kill neutral creeps. Start with a Ring of Basilius to provide you with mana and armor."
+//	set strings008[loc_integer01] = "Invest points in Teleportation, it gives you the mobility to be anywhere in the map: Cancel the spell if you change your mind by clicking 'S'."
+//	set strings009[loc_integer01] = "Sprout can be extremely useful offensively and defensively so get at least one point in it. Higher levels increase the duration but also the mana cost."
+//	set strings010[loc_integer01] = "Teleportation shows allies and enemies where you intend to go, so if you want to surprise enemies, teleport where they cannot see."
+//	set strings011[loc_integer01] = "Wrath of Nature is a great farming tool but also a powerful nuke on enemy heroes: Hit other units nearby to deal more damage to the intended target."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[21] = 'Ogrh'
 	set DummyID[21] = 'h04J'
 	//  set integers069[21]='n0A3'
 	set HeroIcon[21] = "ReplaceableTextures\\CommandButtons\\BTNHellScream.blp"
 	call SaveHeroWinAnimation(HeroID[21], "stand victory")
 	call SaveHeroScale(HeroID[21], 1, DummyID[21])
-	set strings007[loc_integer01] = "Get Spirit Lance and Doppelwalk first because Juxtapose is better when your illusions have more health and damage."
-	set strings008[loc_integer01] = "Beware of the high mana costs of your spells early game, especially for Doppelwalk, which can be an escape mechanism."
-	set strings009[loc_integer01] = "Keep your opponents guessing by controlling your illusions created by Doppelwalk and Juxtapose."
-	set strings010[loc_integer01] = "Your illusions are amazing for pushing later on. Focus creeps and heroes first because illusions will not create new ones when attacking buildings."
-	set strings011[loc_integer01] = "Diffusal Blade and Manta Style are good choices of because they make his images much stronger by adding Agility directly."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Get Spirit Lance and Doppelwalk first because Juxtapose is better when your illusions have more health and damage."
+//	set strings008[loc_integer01] = "Beware of the high mana costs of your spells early game, especially for Doppelwalk, which can be an escape mechanism."
+//	set strings009[loc_integer01] = "Keep your opponents guessing by controlling your illusions created by Doppelwalk and Juxtapose."
+//	set strings010[loc_integer01] = "Your illusions are amazing for pushing later on. Focus creeps and heroes first because illusions will not create new ones when attacking buildings."
+//	set strings011[loc_integer01] = "Diffusal Blade and Manta Style are good choices of because they make his images much stronger by adding Agility directly."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[22] = 'Ucrl'
 	set DummyID[22] = 'h04K'
 	//  set integers069[22]='n0A7'
 	set HeroIcon[22] = "ReplaceableTextures\\CommandButtons\\BTNMountainGiant.blp"
 	call SaveHeroWinAnimation(HeroID[22], "spell")
 	call SaveHeroScale(HeroID[22], 0.5, DummyID[22])
-	set strings007[loc_integer01] = "Buy items that give you at least 3 Intelligence or 39 mana in the beginning of the game so that you can use both of your spells at level 2."
-	set strings008[loc_integer01] = "Avalanche and Toss should be the two spells you level first because they make you a force to be reckoned with early game."
-	set strings009[loc_integer01] = "You can sometimes kill a hero outright by casting Avalanche on him, and then Tossing him on the Avalanche area of effect before the animation ends."
-	set strings010[loc_integer01] = "To ensure that you Toss your desired target, isolate him by making him the only one in the area of effect. Kelen's Dagger can help you with placement."
-	set strings011[loc_integer01] = "Tiny deals most of his damage through Avalanche and Toss, so the reduced attack speed from Grow is less important than the bonuses given."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Buy items that give you at least 3 Intelligence or 39 mana in the beginning of the game so that you can use both of your spells at level 2."
+//	set strings008[loc_integer01] = "Avalanche and Toss should be the two spells you level first because they make you a force to be reckoned with early game."
+//	set strings009[loc_integer01] = "You can sometimes kill a hero outright by casting Avalanche on him, and then Tossing him on the Avalanche area of effect before the animation ends."
+//	set strings010[loc_integer01] = "To ensure that you Toss your desired target, isolate him by making him the only one in the area of effect. Kelen's Dagger can help you with placement."
+//	set strings011[loc_integer01] = "Tiny deals most of his damage through Avalanche and Toss, so the reduced attack speed from Grow is less important than the bonuses given."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[23] = 'H00K'
 	set DummyID[23] = 'h04L'
 	//  set integers069[23]='n0A9'
 	set HeroIcon[23] = "ReplaceableTextures\\CommandButtons\\BTNGoblinSapper.blp"
 	call SaveHeroWinAnimation(HeroID[23], "stand 2")
 	call SaveHeroScale(HeroID[23], 1, DummyID[23])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[24] = 'H00A'
 	set DummyID[24] = 'h04M'
 	//  set integers069[24]='n0AB'
 	set HeroIcon[24] = "ReplaceableTextures\\CommandButtons\\BTNHeroFarseer.blp"
 	call SaveHeroWinAnimation(HeroID[24], "spell chain lightning")
 	call SaveHeroScale(HeroID[24], 1, DummyID[24])
-	set strings007[loc_integer01] = "Chen can take control of high level neutral creeps with Holy Persuasion, making him extremely powerful at low levels even without items."
-	set strings008[loc_integer01] = "Neutrals with special abilities usually are more useful, try to find out what has a disable or slow as this will be much better for attacking heroes with."
-	set strings009[loc_integer01] = "When preparing to attack from the forest, start with Penitence to slow enemies. Engage enemies from the side or from behind to catch them off guard."
-	set strings010[loc_integer01] = "Chen excels as a support hero, items that contribute to teammates such as Mekansm usually benefit the team more than damage items."
-	set strings011[loc_integer01] = "Hand of God is really useful early on for helping allies across the map. Later, it can be used to assist with pushing or defending."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Chen can take control of high level neutral creeps with Holy Persuasion, making him extremely powerful at low levels even without items."
+//	set strings008[loc_integer01] = "Neutrals with special abilities usually are more useful, try to find out what has a disable or slow as this will be much better for attacking heroes with."
+//	set strings009[loc_integer01] = "When preparing to attack from the forest, start with Penitence to slow enemies. Engage enemies from the side or from behind to catch them off guard."
+//	set strings010[loc_integer01] = "Chen excels as a support hero, items that contribute to teammates such as Mekansm usually benefit the team more than damage items."
+//	set strings011[loc_integer01] = "Hand of God is really useful early on for helping allies across the map. Later, it can be used to assist with pushing or defending."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[25] = 'E005'
 	set DummyID[25] = 'h04N'
 	//  set integers069[25]='n0BE'
 	set HeroIcon[25] = "ReplaceableTextures\\CommandButtons\\BTNHuntress.blp"
 	call SaveHeroWinAnimation(HeroID[25], "spell")
 	call SaveHeroScale(HeroID[25], 1, DummyID[25])
-	set strings007[loc_integer01] = "The level of Lucent Beam determines the damage of Eclipse, making it the most important spell to get first. "
-	set strings008[loc_integer01] = "Moon Glaives can be useful early if you plan to kill neutral creeps. Lifesteal items like Helm of the Dominator can help you survive against neutral creeps."
-	set strings009[loc_integer01] = "Try to cast Eclipse on enemy heroes when other units are not present to maximize the damage dealt to a single target. "
-	set strings010[loc_integer01] = "Later on with some attack speed, Lunar Blessing and Moon Glaives provide you with both massive damage and pushing power."
-	set strings011[loc_integer01] = "You should also consider items that allow you to land Eclipse successfully and increase your carry potential in battles, such as a Black King Bar."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "The level of Lucent Beam determines the damage of Eclipse, making it the most important spell to get first. "
+//	set strings008[loc_integer01] = "Moon Glaives can be useful early if you plan to kill neutral creeps. Lifesteal items like Helm of the Dominator can help you survive against neutral creeps."
+//	set strings009[loc_integer01] = "Try to cast Eclipse on enemy heroes when other units are not present to maximize the damage dealt to a single target. "
+//	set strings010[loc_integer01] = "Later on with some attack speed, Lunar Blessing and Moon Glaives provide you with both massive damage and pushing power."
+//	set strings011[loc_integer01] = "You should also consider items that allow you to land Eclipse successfully and increase your carry potential in battles, such as a Black King Bar."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[26] = 'Usyl'
 	set DummyID[26] = 'h04O'
 	//  set integers069[26]='n0BD'
 	set HeroIcon[26] = "ReplaceableTextures\\CommandButtons\\BTNRifleman.blp"
 	call SaveHeroWinAnimation(HeroID[26], "spell")
 	call SaveHeroScale(HeroID[26], 1.1, DummyID[26])
-	set strings007[loc_integer01] = "Headshot will provide you with bonus damage and a short stun, making it useful for killing creeps and harassing with his incredible attack animation."
-	set strings008[loc_integer01] = "Sniper usually needs to find a combination of damage, attack speed and survivability that allow him to deal significant damage but survive to do so."
-	set strings009[loc_integer01] = "Sniper is very fragile so he needs to maintain his range. Getting Take Aim and/or Shrapnel can help provide means of staying out of harm's way."
-	set strings010[loc_integer01] = "Shrapenl can also be used for slowing opponents, pushing or defending against large waves of creeps."
-	set strings011[loc_integer01] = "Try to use Assassinate to heavily damage an enemy before the fight even begins to give your team an advantage."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Headshot will provide you with bonus damage and a short stun, making it useful for killing creeps and harassing with his incredible attack animation."
+//	set strings008[loc_integer01] = "Sniper usually needs to find a combination of damage, attack speed and survivability that allow him to deal significant damage but survive to do so."
+//	set strings009[loc_integer01] = "Sniper is very fragile so he needs to maintain his range. Getting Take Aim and/or Shrapnel can help provide means of staying out of harm's way."
+//	set strings010[loc_integer01] = "Shrapenl can also be used for slowing opponents, pushing or defending against large waves of creeps."
+//	set strings011[loc_integer01] = "Try to use Assassinate to heavily damage an enemy before the fight even begins to give your team an advantage."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[27] = 'N016'
 	set DummyID[27] = 'h04P'
 	//  set integers069[27]='n0A8'
@@ -8652,72 +8656,72 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroScale(HeroID[27], 1.25, DummyID[27])
 	call SaveHeroScale('N02B', 1.25, DummyID[27])
 	call SaveHeroScale('N017', 1.25, DummyID[27])
-	set strings007[loc_integer01] = "Berserker's Rage gives Troll the option of melee combat, which gives him many powerful offensive bonuses at the cost of losing his ranged ability."
-	set strings008[loc_integer01] = "roll Warlord generally does not have to worry about attack speed thanks to his set of skills, go for damage or survivability items instead."
-	set strings009[loc_integer01] = "Blind will prevent your opponents from landing all their attacks, making it harder from them to harass you or kill your creeps for gold."
-	set strings010[loc_integer01] = "Play defensively and fight neutral creeps too. Switch to melee form and it will allow you to have an easier time."
-	set strings011[loc_integer01] = "In team battles, it is vital that you cast Blind on the enemy hero that deals the most damage as this will greatly reduce their damage output."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Berserker's Rage gives Troll the option of melee combat, which gives him many powerful offensive bonuses at the cost of losing his ranged ability."
+//	set strings008[loc_integer01] = "roll Warlord generally does not have to worry about attack speed thanks to his set of skills, go for damage or survivability items instead."
+//	set strings009[loc_integer01] = "Blind will prevent your opponents from landing all their attacks, making it harder from them to harass you or kill your creeps for gold."
+//	set strings010[loc_integer01] = "Play defensively and fight neutral creeps too. Switch to melee form and it will allow you to have an easier time."
+//	set strings011[loc_integer01] = "In team battles, it is vital that you cast Blind on the enemy hero that deals the most damage as this will greatly reduce their damage output."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[28] = 'Orkn'
 	set DummyID[28] = 'h057'
 	//  set integers069[28]='n094'
 	set HeroIcon[28] = "ReplaceableTextures\\CommandButtons\\BTNShadowHunter.blp"
 	call SaveHeroWinAnimation(HeroID[28], "stand victory")
 	call SaveHeroScale(HeroID[28], 1, DummyID[28])
-	set strings007[loc_integer01] = "At least one level of Shackles is advised early on for immobilizing opponents. Remember that it is channeling so it can be interrupted or broken by yourself."
-	set strings008[loc_integer01] = "Rhasta needs survivability and the mana to use his spells: Bracers, Null Talismans, Point Booster are examples of items that will help out a lot."
-	set strings009[loc_integer01] = "Forked Lightning is your primary nuke and finisher due to its range and ability to hit multiple targets, so it more effective to get it earlier than later."
-	set strings010[loc_integer01] = "Use Shackles and Voodoo on enemy heroes when casting Mass Serpent Ward. You can even surround an enemy completely with the right timing."
-	set strings011[loc_integer01] = "Mass Serpent Wards can clear creeps quickly and deal a lot of damage over time to buildings, making them really useful for pushing and defending."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "At least one level of Shackles is advised early on for immobilizing opponents. Remember that it is channeling so it can be interrupted or broken by yourself."
+//	set strings008[loc_integer01] = "Rhasta needs survivability and the mana to use his spells: Bracers, Null Talismans, Point Booster are examples of items that will help out a lot."
+//	set strings009[loc_integer01] = "Forked Lightning is your primary nuke and finisher due to its range and ability to hit multiple targets, so it more effective to get it earlier than later."
+//	set strings010[loc_integer01] = "Use Shackles and Voodoo on enemy heroes when casting Mass Serpent Ward. You can even surround an enemy completely with the right timing."
+//	set strings011[loc_integer01] = "Mass Serpent Wards can clear creeps quickly and deal a lot of damage over time to buildings, making them really useful for pushing and defending."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[29] = 'O01F'
 	set DummyID[29] = 'h0CI'
 	//  set integers069[29]='n0KS'
 	set HeroIcon[29] = "ReplaceableTextures\\CommandButtons\\BTNWispHero.blp"
 	call SaveHeroWinAnimation(HeroID[29], "stand 3")
 	call SaveHeroScale(HeroID[29], 1.30, DummyID[29])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[30] = 'Npbm'
 	set DummyID[30] = 'h053'
 	//  set integers069[30]='n0AO'
 	set HeroIcon[30] = "ReplaceableTextures\\CommandButtons\\BTNPandarenBrewmaster.blp"
 	call SaveHeroWinAnimation(HeroID[30], "stand ready")
 	call SaveHeroScale(HeroID[30], 1, DummyID[30])
-	set strings007[loc_integer01] = "Thunder Clap is a great skill early game but you may need to invest in regeneration items such as a Bottle, Magic Stick, Ring of Basilius or Void Stone."
-	set strings008[loc_integer01] = "Drunken Haze works not only as a slow, but the miss chance reduces the damage severely for enemy heroes."
-	set strings009[loc_integer01] = "Primal Split is not only for escaping: Once you master your three Pandas, Earth, Storm and Fire, you can use them offensively as well."
-	set strings010[loc_integer01] = "In Primal Split form, Mangix has two useful disables that can be used against enemies: Storm's Cyclone and Earth's Hurl Boulder."
-	set strings011[loc_integer01] = "Mangix usually initiates for the team, so survivability items are helpful, investing in a Kelen's Dagger to help land Thunder Clap is often a good idea."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Thunder Clap is a great skill early game but you may need to invest in regeneration items such as a Bottle, Magic Stick, Ring of Basilius or Void Stone."
+//	set strings008[loc_integer01] = "Drunken Haze works not only as a slow, but the miss chance reduces the damage severely for enemy heroes."
+//	set strings009[loc_integer01] = "Primal Split is not only for escaping: Once you master your three Pandas, Earth, Storm and Fire, you can use them offensively as well."
+//	set strings010[loc_integer01] = "In Primal Split form, Mangix has two useful disables that can be used against enemies: Storm's Cyclone and Earth's Hurl Boulder."
+//	set strings011[loc_integer01] = "Mangix usually initiates for the team, so survivability items are helpful, investing in a Kelen's Dagger to help land Thunder Clap is often a good idea."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[31] = 'H000'
 	set DummyID[31] = 'h04X'
 	//  set integers069[31]='n0AN'
 	set HeroIcon[31] = "ReplaceableTextures\\CommandButtons\\BTNCentaurKhan.blp"
 	call SaveHeroWinAnimation(HeroID[31], "stand 3")
 	call SaveHeroScale(HeroID[31], 1.75, DummyID[31])
-	set strings007[loc_integer01] = "Return should be leveled if Centaur plans to fight neutral creeps, otherwise Double Edge is more useful in the lane."
-	set strings008[loc_integer01] = "Thanks to a high strength gain and the bonus strength from your ultimate, Centaur is a great at heading into battle first and receiving damage."
-	set strings009[loc_integer01] = "A Hood of Defiance can prove to be just as useful as a Vanguard depending on whether the other team has a lot of magical spells."
-	set strings010[loc_integer01] = "Avoid putting yourself at risk after using Double Edge. You can use it to commit suicide if you are about to die to deny opponents experience and gold."
-	set strings011[loc_integer01] = "Kelen's Dagger is a great way of initiating on opponents and dealing with his slow casting animation of Stomp."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Return should be leveled if Centaur plans to fight neutral creeps, otherwise Double Edge is more useful in the lane."
+//	set strings008[loc_integer01] = "Thanks to a high strength gain and the bonus strength from your ultimate, Centaur is a great at heading into battle first and receiving damage."
+//	set strings009[loc_integer01] = "A Hood of Defiance can prove to be just as useful as a Vanguard depending on whether the other team has a lot of magical spells."
+//	set strings010[loc_integer01] = "Avoid putting yourself at risk after using Double Edge. You can use it to commit suicide if you are about to die to deny opponents experience and gold."
+//	set strings011[loc_integer01] = "Kelen's Dagger is a great way of initiating on opponents and dealing with his slow casting animation of Stomp."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[32] = 'Naka'
 	set DummyID[32] = 'h052'
 	//  set integers069[32]='n0AM'
 	set HeroIcon[32] = "ReplaceableTextures\\CommandButtons\\BTNakama.blp"
 	call SaveHeroWinAnimation(HeroID[32], "stand var4")
 	call SaveHeroScale(HeroID[32], 1.2, DummyID[32])
-	set strings007[loc_integer01] = "Shuriken Toss, Wind Walk and Track are much more useful than Jinada early on."
-	set strings008[loc_integer01] = "You're going to need mana regen: Bottle, Ring Of Basillius and Void Stone are examples of good options. "
-	set strings009[loc_integer01] = "Use Wind Walk cautiously: If you wait until the cooldown is complete before breaking out of invisibility, you can cast it again immediately afterward."
-	set strings010[loc_integer01] = "Shuriken Toss and Wind Walk deal a lot of damage quickly: Search the map often for low HP heroes to hunt. "
-	set strings011[loc_integer01] = "Use Track on a nearby enemy hero to allow you and your allies to outrun them. Also cast it on nearly dead heroes for bonus gold."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Shuriken Toss, Wind Walk and Track are much more useful than Jinada early on."
+//	set strings008[loc_integer01] = "You're going to need mana regen: Bottle, Ring Of Basillius and Void Stone are examples of good options. "
+//	set strings009[loc_integer01] = "Use Wind Walk cautiously: If you wait until the cooldown is complete before breaking out of invisibility, you can cast it again immediately afterward."
+//	set strings010[loc_integer01] = "Shuriken Toss and Wind Walk deal a lot of damage quickly: Search the map often for low HP heroes to hunt. "
+//	set strings011[loc_integer01] = "Use Track on a nearby enemy hero to allow you and your allies to outrun them. Also cast it on nearly dead heroes for bonus gold."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[33] = 'Hlgr'
 	set DummyID[33] = 'h04V'
 	//  set integers069[33]='n0AQ'
@@ -8730,72 +8734,72 @@ function InitHeroes takes nothing returns nothing
 	call Func0383('H00G', 255, 255, 200)
 	call Func0383('H00F', 255, 255, 200)
 	call Func0383('H00G', 255, 200, 200)
-	set strings007[loc_integer01] = "Breath Fire is a strong nuke and farming ability. However, against difficult opponents, Dragon's Blood is very useful."
-	set strings008[loc_integer01] = "Dragon Tail is the longest duration level 1 stun in the game. One point is usually sufficient until later on."
-	set strings009[loc_integer01] = "Thanks to the defensive bonuses on Dragon's Blood, he can often focus on other damage items instead of increasing armor and regeneration."
-	set strings010[loc_integer01] = "Level 1 of Elder Dragon Form has a special passive called Corrosive Attack, which deals significant damage over time against towers."
-	set strings011[loc_integer01] = "The ranged splash damage and slow of his Level 3 ultimate makes him extremely powerful; getting to level 16 is very important for DK."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Breath Fire is a strong nuke and farming ability. However, against difficult opponents, Dragon's Blood is very useful."
+//	set strings008[loc_integer01] = "Dragon Tail is the longest duration level 1 stun in the game. One point is usually sufficient until later on."
+//	set strings009[loc_integer01] = "Thanks to the defensive bonuses on Dragon's Blood, he can often focus on other damage items instead of increasing armor and regeneration."
+//	set strings010[loc_integer01] = "Level 1 of Elder Dragon Form has a special passive called Corrosive Attack, which deals significant damage over time against towers."
+//	set strings011[loc_integer01] = "The ranged splash damage and slow of his Level 3 ultimate makes him extremely powerful; getting to level 16 is very important for DK."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[34] = 'Edem'
 	set DummyID[34] = 'h04T'
 	//  set integers069[34]='n0AR'
 	set HeroIcon[34] = "ReplaceableTextures\\CommandButtons\\BTNHeroDemonHunter.blp"
 	call SaveHeroWinAnimation(HeroID[34], "stand channel")
 	call SaveHeroScale(HeroID[34], 1, DummyID[34])
-	set strings007[loc_integer01] = "Blink is very versatile, allowing you to chase, escape and even avoid certain spells. It is definitely worth at least one point in the beginning."
-	set strings008[loc_integer01] = "You can also use Mana Break to prevent enemy heroes from casting spells on you, but be careful since it forces you to get in melee range to attack."
-	set strings009[loc_integer01] = "Spell Shield might be useful for reducing magic damage, but it does not prevent you from being disabled or status effects (slow, poison, etc.)."
-	set strings010[loc_integer01] = "Offensive items without orb effects such as a Battlefury, Monkey King Bar or Butterfly are usually desired over items that would override your Mana Break."
-	set strings011[loc_integer01] = "Sometimes survivability is just as important as damage, items such as Linken's Sphere or Manta Style offer a good mix of both offense and defense."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Blink is very versatile, allowing you to chase, escape and even avoid certain spells. It is definitely worth at least one point in the beginning."
+//	set strings008[loc_integer01] = "You can also use Mana Break to prevent enemy heroes from casting spells on you, but be careful since it forces you to get in melee range to attack."
+//	set strings009[loc_integer01] = "Spell Shield might be useful for reducing magic damage, but it does not prevent you from being disabled or status effects (slow, poison, etc.)."
+//	set strings010[loc_integer01] = "Offensive items without orb effects such as a Battlefury, Monkey King Bar or Butterfly are usually desired over items that would override your Mana Break."
+//	set strings011[loc_integer01] = "Sometimes survivability is just as important as damage, items such as Linken's Sphere or Manta Style offer a good mix of both offense and defense."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[35] = 'Nbrn'
 	set DummyID[35] = 'h055'
 	//  set integers069[35]='n0AL'
 	set HeroIcon[35] = "ReplaceableTextures\\CommandButtons\\BTNBansheeRanger.tga"
 	call SaveHeroWinAnimation(HeroID[35], "spell")
 	call SaveHeroScale(HeroID[35], 1, DummyID[35])
-	set strings007[loc_integer01] = "Frost Arrows make Drow an excellent chaser early game and allow her to harass opponents safely by manually casting them (clicking 'R' and the target)."
-	set strings008[loc_integer01] = "An early level of Silence is great for preventing opponents from using multiple spells on you or your allies."
-	set strings009[loc_integer01] = "Trueshot Aura and Marksmanship provide Traxex with plenty of damage even with just a few Wraith Bands and Power Treads."
-	set strings010[loc_integer01] = "Lothar's Edge provides damage and an escape mechanism, the latter of which can help Traxex survive."
-	set strings011[loc_integer01] = "Stay out of danger in major battles, only close in on your enemies when you are chasing and finishing off heroes near the end."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Frost Arrows make Drow an excellent chaser early game and allow her to harass opponents safely by manually casting them (clicking 'R' and the target)."
+//	set strings008[loc_integer01] = "An early level of Silence is great for preventing opponents from using multiple spells on you or your allies."
+//	set strings009[loc_integer01] = "Trueshot Aura and Marksmanship provide Traxex with plenty of damage even with just a few Wraith Bands and Power Treads."
+//	set strings010[loc_integer01] = "Lothar's Edge provides damage and an escape mechanism, the latter of which can help Traxex survive."
+//	set strings011[loc_integer01] = "Stay out of danger in major battles, only close in on your enemies when you are chasing and finishing off heroes near the end."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[36] = 'Harf'
 	set DummyID[36] = 'h04Z'
 	//  set integers069[36]='n0AS'
 	set HeroIcon[36] = "ReplaceableTextures\\CommandButtons\\BTNArthas.blp"
 	call SaveHeroWinAnimation(HeroID[36], "stand victory")
 	call SaveHeroScale(HeroID[36], 1.1, DummyID[36])
-	set strings007[loc_integer01] = "Omniknight is a powerful support hero, items that provide mana such as Arcane Ring help make sure that you can use all your spells."
-	set strings008[loc_integer01] = "Purification can be used offensively and defensively: The unit you cast it on will deal damage around it, making it a powerful heal and nuke."
-	set strings009[loc_integer01] = "Degen Aura is a very strong passive slow that is useful both to chase down enemy heroes and help you and your allies escape as well."
-	set strings010[loc_integer01] = "Repel is used to remove buffs from allies and enemies, and to prevent heroes with spells from being interrupted or damage dealers from being disabled."
-	set strings011[loc_integer01] = "Guardian Angel makes a team nearly impervious to physical damage and provides 25/sec HP regeneration, use this time wisely to survive or attack."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Omniknight is a powerful support hero, items that provide mana such as Arcane Ring help make sure that you can use all your spells."
+//	set strings008[loc_integer01] = "Purification can be used offensively and defensively: The unit you cast it on will deal damage around it, making it a powerful heal and nuke."
+//	set strings009[loc_integer01] = "Degen Aura is a very strong passive slow that is useful both to chase down enemy heroes and help you and your allies escape as well."
+//	set strings010[loc_integer01] = "Repel is used to remove buffs from allies and enemies, and to prevent heroes with spells from being interrupted or damage dealers from being disabled."
+//	set strings011[loc_integer01] = "Guardian Angel makes a team nearly impervious to physical damage and provides 25/sec HP regeneration, use this time wisely to survive or attack."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[37] = 'H00D'
 	set DummyID[37] = 'h04S'
 	//  set integers069[37]='n0AK'
 	set HeroIcon[37] = "ReplaceableTextures\\CommandButtons\\BTNBeastMaster.blp"
 	call SaveHeroWinAnimation(HeroID[37], "spell slam")
 	call SaveHeroScale(HeroID[37], 1, DummyID[37])
-	set strings007[loc_integer01] = "Endurance Aura is usually more useful later in the game when your team is fighting together, so get your other skills first."
-	set strings008[loc_integer01] = "Call of the Wild is very powerful: The boar gives damage and slow, while the hawk can provide vision over runes, neutral creeps and other key locations."
-	set strings009[loc_integer01] = "Wild Axes are more useful early game and against heroes with less armor. Destroy trees with Wild Axes to surprise your opponents and for escaping."
-	set strings010[loc_integer01] = "Try casting Wild Axes behind the target to compensate for their movement. You can also manipulate their return path by moving Rexxar."
-	set strings011[loc_integer01] = "Find opportunities to use Roar whenever it is available. It is useful on heroes who have an escape mechanism or are immune to magic."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Endurance Aura is usually more useful later in the game when your team is fighting together, so get your other skills first."
+//	set strings008[loc_integer01] = "Call of the Wild is very powerful: The boar gives damage and slow, while the hawk can provide vision over runes, neutral creeps and other key locations."
+//	set strings009[loc_integer01] = "Wild Axes are more useful early game and against heroes with less armor. Destroy trees with Wild Axes to surprise your opponents and for escaping."
+//	set strings010[loc_integer01] = "Try casting Wild Axes behind the target to compensate for their movement. You can also manipulate their return path by moving Rexxar."
+//	set strings011[loc_integer01] = "Find opportunities to use Roar whenever it is available. It is useful on heroes who have an escape mechanism or are immune to magic."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[38] = 'E00P'
 	set DummyID[38] = 'h04R'
 	//  set integers069[38]='n0AJ'
 	set HeroIcon[38] = "ReplaceableTextures\\CommandButtons\\BTNChimaera.blp"
 	call SaveHeroWinAnimation(HeroID[38], "stand 3")
 	call SaveHeroScale(HeroID[38], 1, DummyID[38])
-	set strings007[loc_integer01] = "Dual Breath and Ice Path help to make Jakiro a strong offensive and defensive support hero. "
-	set strings008[loc_integer01] = "Jakiro can cast his spells immediately by clicking the nearby ground in the desired direction, sometimes this is more effective than clicking on the target."
-	set strings009[loc_integer01] = "A level of Liquid Fire early on can be useful for deterring physical attacks "
-	set strings010[loc_integer01] = "Macropyre is a slow but powerful spell, combine it with other spells (yours or a teammate) to make sure the opponent is standing in the area of effect."
-	set strings011[loc_integer01] = "It is often a good idea to purchase useful support items like Mekansm or Shiva's Guard, two items that also increase his low armor significantly."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Dual Breath and Ice Path help to make Jakiro a strong offensive and defensive support hero. "
+//	set strings008[loc_integer01] = "Jakiro can cast his spells immediately by clicking the nearby ground in the desired direction, sometimes this is more effective than clicking on the target."
+//	set strings009[loc_integer01] = "A level of Liquid Fire early on can be useful for deterring physical attacks "
+//	set strings010[loc_integer01] = "Macropyre is a slow but powerful spell, combine it with other spells (yours or a teammate) to make sure the opponent is standing in the area of effect."
+//	set strings011[loc_integer01] = "It is often a good idea to purchase useful support items like Mekansm or Shiva's Guard, two items that also increase his low armor significantly."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[39] = 'N01I'
 	set DummyID[39] = 'h054'
 	//  set integers069[39]='n0AI'
@@ -8805,108 +8809,108 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroScale('N01J', 1, DummyID[39])
 	call SaveHeroScale('N01H', 1, DummyID[39])
 	call SaveHeroScale('N01T', 1, DummyID[39])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[40] = 'N01V'
 	set DummyID[40] = 'h04W'
 	//  set integers069[40]='n0AH'
 	set HeroIcon[40] = "ReplaceableTextures\\CommandButtons\\BTNPriestessOfTheMoon.blp"
 	call SaveHeroWinAnimation(HeroID[40], "stand ready")
 	call SaveHeroScale(HeroID[40], 1, DummyID[40])
-	set strings007[loc_integer01] = "PotM can be extremely efficient and gank with just a few Wraith Bands, Boots of Speed and a Bottle."
-	set strings008[loc_integer01] = "Getting one level of Leap is usually sufficient early on until Starfall and Elune's Arrow are fully leveled."
-	set strings009[loc_integer01] = "Land your Elune's Arrow by coordinating with allies and predicting enemy movements. You can even hit invisible or faraway targets with practice."
-	set strings010[loc_integer01] = "Starfall hits a second time for half damage to one random enemy within 200 range, get close if you can to deal bonus damage"
-	set strings011[loc_integer01] = "Moonlight Shadow can be used to initiate or escape but sometimes it can be learned later when PotM can use it without compromising her mana pool."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "PotM can be extremely efficient and gank with just a few Wraith Bands, Boots of Speed and a Bottle."
+//	set strings008[loc_integer01] = "Getting one level of Leap is usually sufficient early on until Starfall and Elune's Arrow are fully leveled."
+//	set strings009[loc_integer01] = "Land your Elune's Arrow by coordinating with allies and predicting enemy movements. You can even hit invisible or faraway targets with practice."
+//	set strings010[loc_integer01] = "Starfall hits a second time for half damage to one random enemy within 200 range, get close if you can to deal bonus damage"
+//	set strings011[loc_integer01] = "Moonlight Shadow can be used to initiate or escape but sometimes it can be learned later when PotM can use it without compromising her mana pool."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[41] = 'H00S'
 	set DummyID[41] = 'h04Q'
 	//  set integers069[41]='n0AT'
 	set HeroIcon[41] = "ReplaceableTextures\\CommandButtons\\BTNStorm.blp"
 	call SaveHeroWinAnimation(HeroID[41], "spell")
 	call SaveHeroScale(HeroID[41], 1, DummyID[41])
-	set strings007[loc_integer01] = "Do not get Overload at level 1 since you do not have any spells to activate its effect with."
-	set strings008[loc_integer01] = "Choosing which ability to max first can be difficult, but generally at least one point in all three skills is a good idea."
-	set strings009[loc_integer01] = "You have to wait 1 second after casting Static Remnant before it begins detecting nearby units for its explosion effect."
-	set strings010[loc_integer01] = "In addition to chasing and escaping, Lightning Ball can be used to dodge many spells with the right timing."
-	set strings011[loc_integer01] = "An item like Bloodstone is useful on Storm Spirit because the percentage-based mana cost of Lightning Ball makes regeneration an important asset."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Do not get Overload at level 1 since you do not have any spells to activate its effect with."
+//	set strings008[loc_integer01] = "Choosing which ability to max first can be difficult, but generally at least one point in all three skills is a good idea."
+//	set strings009[loc_integer01] = "You have to wait 1 second after casting Static Remnant before it begins detecting nearby units for its explosion effect."
+//	set strings010[loc_integer01] = "In addition to chasing and escaping, Lightning Ball can be used to dodge many spells with the right timing."
+//	set strings011[loc_integer01] = "An item like Bloodstone is useful on Storm Spirit because the percentage-based mana cost of Lightning Ball makes regeneration an important asset."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[42] = 'H00Q'
 	set DummyID[42] = 'h04Y'
 	//  set integers069[42]='n0AG'
 	set HeroIcon[42] = "ReplaceableTextures\\CommandButtons\\BTNHeadHunterBerserker.blp"
 	call SaveHeroWinAnimation(HeroID[42], "stand alternate 3")
 	call SaveHeroScale(HeroID[42], 1.15, DummyID[42])
-	set strings007[loc_integer01] = "A level of Burning Spears early on is great for harassing enemy heroes. Use it manually by clicking 'R' then the desired target to avoid drawing focus fire."
-	set strings008[loc_integer01] = "Berserker's Blood makes you stronger as you take damage. The bonuses stop when you have 51% HP, so there is little point in taking additional damage."
-	set strings009[loc_integer01] = "Life Break deals damage based on the remaining health of the target, making it strongest at the beginning of a fight. "
-	set strings010[loc_integer01] = "Inner Vitality heals more when you have less than 40% of your life, but avoid making the mistake of casting it too late in battles."
-	set strings011[loc_integer01] = "Survivability while in low health is important for Huskar: Consider items such as Armlet of Mordiggan, Black King Bar, or Heart of Tarrasque."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "A level of Burning Spears early on is great for harassing enemy heroes. Use it manually by clicking 'R' then the desired target to avoid drawing focus fire."
+//	set strings008[loc_integer01] = "Berserker's Blood makes you stronger as you take damage. The bonuses stop when you have 51% HP, so there is little point in taking additional damage."
+//	set strings009[loc_integer01] = "Life Break deals damage based on the remaining health of the target, making it strongest at the beginning of a fight. "
+//	set strings010[loc_integer01] = "Inner Vitality heals more when you have less than 40% of your life, but avoid making the mistake of casting it too late in battles."
+//	set strings011[loc_integer01] = "Survivability while in low health is important for Huskar: Consider items such as Armlet of Mordiggan, Black King Bar, or Heart of Tarrasque."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[43] = 'E01Y'
 	set DummyID[43] = 'h058'
 	//  set integers069[43]='n0AF'
 	set HeroIcon[43] = "ReplaceableTextures\\CommandButtons\\BTNAssassin.blp"
 	call SaveHeroWinAnimation(HeroID[43], "stand victory")
 	call SaveHeroScale(HeroID[43], 1.2, DummyID[43])
-	set strings007[loc_integer01] = "Refraction is a great way of surviving in a lane, just be careful not to get hit by creeps too much."
-	set strings008[loc_integer01] = "Meld starts cooling down when you click the spell, so you can hit him twice with it if you can predict your enemy's movements."
-	set strings009[loc_integer01] = "Traps can be used for vision, most effectively in cramped areas like the end of ramps or at the rune powerup spots."
-	set strings010[loc_integer01] = "You can farm extremely fast by positioning yourself so that the Psi Blades splash on multiple creeps at once."
-	set strings011[loc_integer01] = "Placing a trap or two before engaging a fight can be a good idea, to cut off possible escape and/or chase routes."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Refraction is a great way of surviving in a lane, just be careful not to get hit by creeps too much."
+//	set strings008[loc_integer01] = "Meld starts cooling down when you click the spell, so you can hit him twice with it if you can predict your enemy's movements."
+//	set strings009[loc_integer01] = "Traps can be used for vision, most effectively in cramped areas like the end of ramps or at the rune powerup spots."
+//	set strings010[loc_integer01] = "You can farm extremely fast by positioning yourself so that the Psi Blades splash on multiple creeps at once."
+//	set strings011[loc_integer01] = "Placing a trap or two before engaging a fight can be a good idea, to cut off possible escape and/or chase routes."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[44] = 'N00B'
 	set DummyID[44] = 'h050'
 	//  set integers069[44]='n0AE'
 	set HeroIcon[44] = "ReplaceableTextures\\CommandButtons\\BTNFaerieDragon.blp"
 	call SaveHeroWinAnimation(HeroID[44], "attack spell")
 	call SaveHeroScale(HeroID[44], 1.1, DummyID[44])
-	set strings007[loc_integer01] = "Illusory Orb and Jaunt are used to travel short distances quickly, but if you wait too long to Jaunt, you will lose the opportunity."
-	set strings008[loc_integer01] = "Puck is very fragile early game, some Bracers or Null Talismans and a level of Phase Shift can help you survive."
-	set strings009[loc_integer01] = "Using Phase Shift manually instead of Autocast will prevent stray attacks from triggering it on Autocast. In general you will have better control of its use."
-	set strings010[loc_integer01] = "Waning Rift deals damage and silences, but forces you to be close enough. Use Illusory Orb or Dream Coil to help you land the spell on enemies."
-	set strings011[loc_integer01] = "Puck is a great initiator in fights who offers control of the battle with his spells, allowing allies to join the battle and use their spells or attacks safely."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Illusory Orb and Jaunt are used to travel short distances quickly, but if you wait too long to Jaunt, you will lose the opportunity."
+//	set strings008[loc_integer01] = "Puck is very fragile early game, some Bracers or Null Talismans and a level of Phase Shift can help you survive."
+//	set strings009[loc_integer01] = "Using Phase Shift manually instead of Autocast will prevent stray attacks from triggering it on Autocast. In general you will have better control of its use."
+//	set strings010[loc_integer01] = "Waning Rift deals damage and silences, but forces you to be close enough. Use Illusory Orb or Dream Coil to help you land the spell on enemies."
+//	set strings011[loc_integer01] = "Puck is a great initiator in fights who offers control of the battle with his spells, allowing allies to join the battle and use their spells or attacks safely."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[45] = 'H00T'
 	set DummyID[45] = 'h051'
 	//  set integers069[45]='n0AU'
 	set HeroIcon[45] = "ReplaceableTextures\\CommandButtons\\BTNClockWerkGoblin.blp"
 	call SaveHeroWinAnimation(HeroID[45], "Birth")
 	call SaveHeroScale(HeroID[45], 1.5, DummyID[45])
-	set strings007[loc_integer01] = "You can use Rocket Flare for harassing and killing creeps early on. With the right timing, you can even fire at enemies across the map."
-	set strings008[loc_integer01] = "Power Cogs can be used to trap an enemy, push them away while draining mana, or as an escape mechanism since Rattletrap destroys Cogs in only 1 hit."
-	set strings009[loc_integer01] = "Battery Assault adds a lot of damage and the stuns help you with chasing, use it when no other units are nearby for best results."
-	set strings010[loc_integer01] = "Hookshot's long range and high speed lets you reach enemies from out of sight. Follow up with your other spells quickly so your target cannot escape."
-	set strings011[loc_integer01] = "Rocket Flare also gives vision where it lands, making it very useful for scouting areas such as rune spots, neutral creeps, the enemy base."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "You can use Rocket Flare for harassing and killing creeps early on. With the right timing, you can even fire at enemies across the map."
+//	set strings008[loc_integer01] = "Power Cogs can be used to trap an enemy, push them away while draining mana, or as an escape mechanism since Rattletrap destroys Cogs in only 1 hit."
+//	set strings009[loc_integer01] = "Battery Assault adds a lot of damage and the stuns help you with chasing, use it when no other units are nearby for best results."
+//	set strings010[loc_integer01] = "Hookshot's long range and high speed lets you reach enemies from out of sight. Follow up with your other spells quickly so your target cannot escape."
+//	set strings011[loc_integer01] = "Rocket Flare also gives vision where it lands, making it very useful for scouting areas such as rune spots, neutral creeps, the enemy base."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[46] = 'H06S'
 	set DummyID[46] = 'h06T'
 	//  set integers069[46]='n0EE'
 	set HeroIcon[46] = "ReplaceableTextures\\CommandButtons\\BTNProudmoore.blp"
 	call SaveHeroWinAnimation(HeroID[46], "stand victory")
 	call SaveHeroScale(HeroID[46], 1.1, DummyID[46])
-	set strings007[loc_integer01] = "Tidebringer is extremely useful early game: Use the bonus damage for killing creeps and the cleave effect to harass opponents at the same time."
-	set strings008[loc_integer01] = "The bubble animation from Torrent can only be seen by your team so try to use this to your advantage."
-	set strings009[loc_integer01] = "An ally's assistance or X Marks the Spot is a great way of making sure Torrent and Ghost Ship hit your opponent."
-	set strings010[loc_integer01] = "Escaping enemy heroes is easy by casting X Marks the Spot on them. It also prevents them from getting away."
-	set strings011[loc_integer01] = "The Ghost Ship will crash 1000 range from where you stand when you cast it. Keep your distance when you use it."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Tidebringer is extremely useful early game: Use the bonus damage for killing creeps and the cleave effect to harass opponents at the same time."
+//	set strings008[loc_integer01] = "The bubble animation from Torrent can only be seen by your team so try to use this to your advantage."
+//	set strings009[loc_integer01] = "An ally's assistance or X Marks the Spot is a great way of making sure Torrent and Ghost Ship hit your opponent."
+//	set strings010[loc_integer01] = "Escaping enemy heroes is easy by casting X Marks the Spot on them. It also prevents them from getting away."
+//	set strings011[loc_integer01] = "The Ghost Ship will crash 1000 range from where you stand when you cast it. Keep your distance when you use it."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[47] = 'N0EG'
 	set DummyID[47] = 'h07A'
 	//  set integers069[47]='n0EH'
 	set HeroIcon[47] = "ReplaceableTextures\\CommandButtons\\BTNSylvanusWindrunner.blp"
 	call SaveHeroWinAnimation(HeroID[47], "stand victory")
 	call SaveHeroScale(HeroID[47], 1.2, DummyID[47])
-	set strings007[loc_integer01] = "Powershot deals significant damage, making it ideal to max first. Be sure not to fire through creeps if you want to deal maximum damage to your target."
-	set strings008[loc_integer01] = "An early level of Windrunner can provide you with a quick getaway and chasing tool."
-	set strings009[loc_integer01] = "Shackleshot can either be used on your intended target to bind him to a nearby unit, or to bind the designated target located BEHIND the unit that you fired it at."
-	set strings010[loc_integer01] = "Focus Fire is also a powerful spell to use on buildings and Roshan."
-	set strings011[loc_integer01] = "As long as you do not attack another target, the effect of Focus Fire will stay on. Use your spells and active items to help you fire at your target."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Powershot deals significant damage, making it ideal to max first. Be sure not to fire through creeps if you want to deal maximum damage to your target."
+//	set strings008[loc_integer01] = "An early level of Windrunner can provide you with a quick getaway and chasing tool."
+//	set strings009[loc_integer01] = "Shackleshot can either be used on your intended target to bind him to a nearby unit, or to bind the designated target located BEHIND the unit that you fired it at."
+//	set strings010[loc_integer01] = "Focus Fire is also a powerful spell to use on buildings and Roshan."
+//	set strings011[loc_integer01] = "As long as you do not attack another target, the effect of Focus Fire will stay on. Use your spells and active items to help you fire at your target."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[48] = 'E02N'
 	set DummyID[48] = 'h0CC'
 	//  set integers069[48]='n0KN'
@@ -8914,146 +8918,146 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[48], "stand 3")
 	call SaveHeroScale(HeroID[48], 1.10, DummyID[48])
 	call SaveHeroScale('E02O', 1.10, DummyID[48])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[49] = 'E02J'
 	set DummyID[49] = 'h0CD'
 	//  set integers069[49]='n0KR'
 	set HeroIcon[49] = "ReplaceableTextures\\CommandButtons\\BTNThrall.blp"
 	call SaveHeroWinAnimation(HeroID[49], "stand 3")
 	call SaveHeroScale(HeroID[49], 1.10, DummyID[49])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[50] = 'E02I'
 	set DummyID[50] = 'h0C9'
 	//  set integers069[50]='n0KK'
 	set HeroIcon[50] = "ReplaceableTextures\\CommandButtons\\BTNTuskaarBrown.blp"
 	call SaveHeroWinAnimation(HeroID[50], "stand 3")
 	call SaveHeroScale(HeroID[50], 1.00, DummyID[50])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[51] = 'E02F'
 	set DummyID[51] = 'h0C8'
 	//  set integers069[51]='n0KM'
 	set HeroIcon[51] = "ReplaceableTextures\\CommandButtons\\BTNPhoenix.blp"
 	call SaveHeroWinAnimation(HeroID[51], "stand 3")
 	call SaveHeroScale(HeroID[51], 1.05, DummyID[51])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[52] = 'H008'
 	set DummyID[52] = 'h04U'
 	//  set integers069[52]='n0AC'
 	set HeroIcon[52] = "ReplaceableTextures\\CommandButtons\\BTNRazorback.blp"
 	call SaveHeroWinAnimation(HeroID[52], "stand")
 	call SaveHeroScale(HeroID[52], 1.65, DummyID[52])
-	set strings007[loc_integer01] = "Rigwarl is a known for punishing heroes that attack him and surviving for long times but he still needs armor, regeneration and hit points."
-	set strings008[loc_integer01] = "Quill spray doesn't initially deal much damage, but the stacking effect makes it very powerful over time in battles."
-	set strings009[loc_integer01] = "Sometimes one level of Goo can be enough to slow down an enemy hero early game."
-	set strings010[loc_integer01] = "Rigwarl needs a fair amount of mana early-game, Ring of Basilius, Magic Stick or Bottle can boost his early offensive power immensely."
-	set strings011[loc_integer01] = "You can mitigate a lot of damage if you turn your hero at the right times thanks to your passive Bristleback. Play mind games on your opponent."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Rigwarl is a known for punishing heroes that attack him and surviving for long times but he still needs armor, regeneration and hit points."
+//	set strings008[loc_integer01] = "Quill spray doesn't initially deal much damage, but the stacking effect makes it very powerful over time in battles."
+//	set strings009[loc_integer01] = "Sometimes one level of Goo can be enough to slow down an enemy hero early game."
+//	set strings010[loc_integer01] = "Rigwarl needs a fair amount of mana early-game, Ring of Basilius, Magic Stick or Bottle can boost his early offensive power immensely."
+//	set strings011[loc_integer01] = "You can mitigate a lot of damage if you turn your hero at the right times thanks to your passive Bristleback. Play mind games on your opponent."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[53] = 'E02X'
 	set DummyID[53] = 'h0CT'
 	//  set integers069[53]='n0LK'
 	set HeroIcon[53] = "ReplaceableTextures\\CommandButtons\\BTNMedivh.blp"
 	call SaveHeroWinAnimation(HeroID[53], "stand 3")
 	call SaveHeroScale(HeroID[53], 1.15, DummyID[53])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[54] = 'N0M0'
 	set DummyID[54] = 'h0DG'
 	//  set integers069[54]='n0M1'
 	set HeroIcon[54] = "ReplaceableTextures\\CommandButtons\\BTNFireBrewmaster.blp"
 	call SaveHeroWinAnimation(HeroID[54], "stand 3")
 	call SaveHeroScale(HeroID[54], 1, DummyID[54])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[55] = 'E02K'
 	set DummyID[55] = 'h0CA'
 	//  set integers069[55]='n0KJ'
 	set HeroIcon[55] = "ReplaceableTextures\\CommandButtons\\BTNGarithos.blp"
 	call SaveHeroWinAnimation(HeroID[55], "stand 3")
 	call SaveHeroScale(HeroID[55], 1.3, DummyID[55])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[56] = 'H0DO'
 	set DummyID[56] = 'h0DH'
 	//  set integers069[56]='n0M6'
 	set HeroIcon[56] = "ReplaceableTextures\\CommandButtons\\BTNDragonHawk.blp"
 	call SaveHeroWinAnimation(HeroID[56], "stand 3")
 	call SaveHeroScale(HeroID[56], 1.1, DummyID[56])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[57] = 'E032'
 	set DummyID[57] = 'h0EB'
 	//  set integers069[57]='n0ME'
 	set HeroIcon[57] = "ReplaceableTextures\\CommandButtons\\BTNJunkGolem.blp"
 	call SaveHeroWinAnimation(HeroID[57], "stand 3")
 	call SaveHeroScale(HeroID[57], 1, DummyID[57])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[58] = 'N0MU'
 	set DummyID[58] = 'h0EK'
 	//  set integers069[58]='n0MV'
 	set HeroIcon[58] = "ReplaceableTextures\\CommandButtons\\BTNEarthBrewmaster.blp"
 	call SaveHeroWinAnimation(HeroID[58], "stand 3")
 	call SaveHeroScale(HeroID[58], 1, DummyID[58])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[59] = 'N0MD'
 	set DummyID[59] = 'h0EP'
 	//  set integers069[59]='n0MG'
 	set HeroIcon[59] = "ReplaceableTextures\\CommandButtons\\BTNPriest.blp"
 	call SaveHeroWinAnimation(HeroID[59], "stand victory")
 	call SaveHeroScale(HeroID[59], 1.25, DummyID[59])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set integer040 = 59
-	set loc_integer01 = 60
+//	set loc_integer01 = 60
 	set integer041 = 60
 	set HeroID[60] = 'Ewar'
 	set DummyID[60] = 'h05J'
@@ -9061,12 +9065,12 @@ function InitHeroes takes nothing returns nothing
 	set HeroIcon[60] = "ReplaceableTextures\\CommandButtons\\BTNHeroWarden.blp"
 	call SaveHeroWinAnimation(HeroID[60], "spell slam")
 	call SaveHeroScale(HeroID[60], 1, DummyID[60])
-	set strings007[loc_integer01] = "Stifling Dagger is used for creep-killing and slowing opponents; prevent enemies from escaping by using it with Blink Strike."
-	set strings008[loc_integer01] = "Try to Blink Strike to a nearby allied or enemy unit to make a quick escape when caught in a defensive situation. "
-	set strings009[loc_integer01] = "Be cautious when entering battles with Blink Strike, you could be caught outnumbered or disabled without your escape mechanism."
-	set strings010[loc_integer01] = "Blur can sometimes allow you to surprise opponents if they aren't paying attention."
-	set strings011[loc_integer01] = "Items like Battlefury are useful, but getting a Black King Bar or a Satanic afterward will help you survive long enough to deal damage."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Stifling Dagger is used for creep-killing and slowing opponents; prevent enemies from escaping by using it with Blink Strike."
+//	set strings008[loc_integer01] = "Try to Blink Strike to a nearby allied or enemy unit to make a quick escape when caught in a defensive situation. "
+//	set strings009[loc_integer01] = "Be cautious when entering battles with Blink Strike, you could be caught outnumbered or disabled without your escape mechanism."
+//	set strings010[loc_integer01] = "Blur can sometimes allow you to surprise opponents if they aren't paying attention."
+//	set strings011[loc_integer01] = "Items like Battlefury are useful, but getting a Black King Bar or a Satanic afterward will help you survive long enough to deal damage."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[61] = 'H00V'
 	set DummyID[61] = 'h05K'
 	//  set integers069[61]='n0B6'
@@ -9077,24 +9081,24 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroScale('H08C', 1, DummyID[61])
 	call SaveHeroScale('H084', 1, DummyID[61])
 	call SaveHeroScale('H08B', 1, DummyID[61])
-	set strings007[loc_integer01] = "Mystic Snake is a smart choice to have early game: Its damage and mana drain makes it great for harassing and offsetting its own mana cost."
-	set strings008[loc_integer01] = "Mana Shield will increase your survivability drastically. Use it wisely or it can also leave you with no mana for your other spells."
-	set strings009[loc_integer01] = "Using Split Shot allows you to attack multiple units, but the extra arrows from Split Shot do not gain the properties of orb effects."
-	set strings010[loc_integer01] = "Stone Gaze is an ultimate that is used to slow opponents and remove their buffs, making it easy to escape or attack the purged enemies."
-	set strings011[loc_integer01] = "Items that increase statistics and regeneration like Linkens Sphere will always be a good choice because of Mana Shield."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Mystic Snake is a smart choice to have early game: Its damage and mana drain makes it great for harassing and offsetting its own mana cost."
+//	set strings008[loc_integer01] = "Mana Shield will increase your survivability drastically. Use it wisely or it can also leave you with no mana for your other spells."
+//	set strings009[loc_integer01] = "Using Split Shot allows you to attack multiple units, but the extra arrows from Split Shot do not gain the properties of orb effects."
+//	set strings010[loc_integer01] = "Stone Gaze is an ultimate that is used to slow opponents and remove their buffs, making it easy to escape or attack the purged enemies."
+//	set strings011[loc_integer01] = "Items that increase statistics and regeneration like Linkens Sphere will always be a good choice because of Mana Shield."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[62] = 'Udre'
 	set DummyID[62] = 'h05L'
 	//  set integers069[62]='n0B7'
 	set HeroIcon[62] = "ReplaceableTextures\\CommandButtons\\BTNTichondrius.blp"
 	call SaveHeroWinAnimation(HeroID[62], "spell slam")
 	call SaveHeroScale(HeroID[62], 1, DummyID[62])
-	set strings007[loc_integer01] = "Night Stalker may be passive during the day, but at night his spells make him much more powerful and great for hunting heroes down."
-	set strings008[loc_integer01] = "Void is your primary source of damage early game and can be used to interrupt spells and teleports with its mini-stun."
-	set strings009[loc_integer01] = "While Hunter in the Night does nothing during the day, get it so that during nighttime it will give you massive movement and attack speed."
-	set strings010[loc_integer01] = "Use Crippling Fear when you are hunting heroes so that they cannot disable or slow you while you are chasing them."
-	set strings011[loc_integer01] = "Since Darkness will pause time when activated, casting it at night whenever it is on cooldown will extend the total nighttime."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Night Stalker may be passive during the day, but at night his spells make him much more powerful and great for hunting heroes down."
+//	set strings008[loc_integer01] = "Void is your primary source of damage early game and can be used to interrupt spells and teleports with its mini-stun."
+//	set strings009[loc_integer01] = "While Hunter in the Night does nothing during the day, get it so that during nighttime it will give you massive movement and attack speed."
+//	set strings010[loc_integer01] = "Use Crippling Fear when you are hunting heroes so that they cannot disable or slow you while you are chasing them."
+//	set strings011[loc_integer01] = "Since Darkness will pause time when activated, casting it at night whenever it is on cooldown will extend the total nighttime."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[63] = 'NC00'
 	set DummyID[63] = 'h05M'
 	//  set integers069[63]='n0C0'
@@ -9102,36 +9106,36 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[63], "stand victory")
 	call SaveHeroScale(HeroID[63], 1.8, DummyID[63])
 	call Func0383(HeroID[63], 100, 125, 100)
-	set strings007[loc_integer01] = "Skeleton King is a hero who is known for his ability to reincarnate if focused upon and dealing a lot of damage if he is ignored by opponents. "
-	set strings008[loc_integer01] = "Hellfire Blast is a great spell for the early laning phase and a few levels of Attribute Bonus can give you stat points for additional stuns."
-	set strings009[loc_integer01] = "Critical Strike is generally preferred over Vampiric Aura because its lifesteal is not very effective earlier when Leoric needs more damage."
-	set strings010[loc_integer01] = "Make sure you have enough mana for Hellfire Blasts and especially Reincarnation. Buying a Magic Stick and/or a Bottle can pay off nicely."
-	set strings011[loc_integer01] = "Get cheaper damage items like Armlet of Mordiggan and Desolator. A Black King Bar will allow you to dish out damage without being disabled."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Skeleton King is a hero who is known for his ability to reincarnate if focused upon and dealing a lot of damage if he is ignored by opponents. "
+//	set strings008[loc_integer01] = "Hellfire Blast is a great spell for the early laning phase and a few levels of Attribute Bonus can give you stat points for additional stuns."
+//	set strings009[loc_integer01] = "Critical Strike is generally preferred over Vampiric Aura because its lifesteal is not very effective earlier when Leoric needs more damage."
+//	set strings010[loc_integer01] = "Make sure you have enough mana for Hellfire Blasts and especially Reincarnation. Buying a Magic Stick and/or a Bottle can pay off nicely."
+//	set strings011[loc_integer01] = "Get cheaper damage items like Armlet of Mordiggan and Desolator. A Black King Bar will allow you to dish out damage without being disabled."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[64] = 'UC42'
 	set DummyID[64] = 'h05N'
 	//  set integers069[64]='n0BV'
 	set HeroIcon[64] = "ReplaceableTextures\\CommandButtons\\BTNDoomGuard.blp"
 	call SaveHeroWinAnimation(HeroID[64], "stand victory")
 	call SaveHeroScale(HeroID[64], 1.1, DummyID[64])
-	set strings007[loc_integer01] = "Lucifer can obtain gold very quickly thanks to Devour, so getting regeneration items like Perseverance will help him to cast spells and survive in the lane."
-	set strings008[loc_integer01] = "Devour deals 20 damage per second, so consume creeps with low HP remaining so you can finish digesting the enemy quickly."
-	set strings009[loc_integer01] = "Use the command -ma to find your opponents' level for potential LVL? Death targets. Its mini-stun will also interrupt channeling spells and teleports."
-	set strings010[loc_integer01] = "Doom is usually used in conjunction with LVL? Death for killing enemy heroes; you can also use it on heroes to silence their spells."
-	set strings011[loc_integer01] = "When chasing or escaping with Scorched Earth, cast it in front of you so that you will experience the movement speed bonuses for a longer period of time."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Lucifer can obtain gold very quickly thanks to Devour, so getting regeneration items like Perseverance will help him to cast spells and survive in the lane."
+//	set strings008[loc_integer01] = "Devour deals 20 damage per second, so consume creeps with low HP remaining so you can finish digesting the enemy quickly."
+//	set strings009[loc_integer01] = "Use the command -ma to find your opponents' level for potential LVL? Death targets. Its mini-stun will also interrupt channeling spells and teleports."
+//	set strings010[loc_integer01] = "Doom is usually used in conjunction with LVL? Death for killing enemy heroes; you can also use it on heroes to silence their spells."
+//	set strings011[loc_integer01] = "When chasing or escaping with Scorched Earth, cast it in front of you so that you will experience the movement speed bonuses for a longer period of time."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[65] = 'U000'
 	set DummyID[65] = 'h05O'
 	//  set integers069[65]='n0BU'
 	set HeroIcon[65] = "ReplaceableTextures\\CommandButtons\\BTNHeroCryptLord.tga"
 	call SaveHeroWinAnimation(HeroID[65], "spell throw")
 	call SaveHeroScale(HeroID[65], 0.8, DummyID[65])
-	set strings007[loc_integer01] = "Effective use of Impale and Mana Burn early game requires you to purchase some Null Talismans or Bracers and Bottle."
-	set strings008[loc_integer01] = "Mana Burn is a devastating spell to have in the lane, force opponents to play defensively by preventing them from casting spells."
-	set strings009[loc_integer01] = "Unlike other Agility heroes, Anub'arak is a caster. Getting items like Dagon can be more useful than purchasing damage items."
-	set strings010[loc_integer01] = "Vendetta is a good initiating spell for surprising opponents. Cast it far away so that they cannot hear its sound effect upon activation."
-	set strings011[loc_integer01] = "Be careful when using Vendetta against multiple opponents and going near towers where they can see you while you are invisible."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Effective use of Impale and Mana Burn early game requires you to purchase some Null Talismans or Bracers and Bottle."
+//	set strings008[loc_integer01] = "Mana Burn is a devastating spell to have in the lane, force opponents to play defensively by preventing them from casting spells."
+//	set strings009[loc_integer01] = "Unlike other Agility heroes, Anub'arak is a caster. Getting items like Dagon can be more useful than purchasing damage items."
+//	set strings010[loc_integer01] = "Vendetta is a good initiating spell for surprising opponents. Cast it far away so that they cannot hear its sound effect upon activation."
+//	set strings011[loc_integer01] = "Be careful when using Vendetta against multiple opponents and going near towers where they can see you while you are invisible."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[66] = 'UC91'
 	set DummyID[66] = 'h05P'
 	//  set integers069[66]='n0C1'
@@ -9139,36 +9143,36 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[66], "spell")
 	call SaveHeroScale(HeroID[66], 1, DummyID[66])
 	call Func0383(HeroID[66], 175, 75, 200)
-	set strings007[loc_integer01] = "Slithereen Crush requires good positioning, so do your best to stand next to the hero you are trying to stun."
-	set strings008[loc_integer01] = "Sprint is a great spell for both chasing and escaping but be careful when using it because you will take bonus damage."
-	set strings009[loc_integer01] = "In addition to lowering armor, Amplify Damage provides vision of enemies, even heroes that have the ability to become invisible."
-	set strings010[loc_integer01] = "Bash is usually more effective later in the game when you have more items like Armlet of Mordiggan."
-	set strings011[loc_integer01] = "Slardar's role in battles is to initiate with Slithereen Crush and focus an enemy with Bash and Amplify Damage. Pick off escapees with Sprint."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Slithereen Crush requires good positioning, so do your best to stand next to the hero you are trying to stun."
+//	set strings008[loc_integer01] = "Sprint is a great spell for both chasing and escaping but be careful when using it because you will take bonus damage."
+//	set strings009[loc_integer01] = "In addition to lowering armor, Amplify Damage provides vision of enemies, even heroes that have the ability to become invisible."
+//	set strings010[loc_integer01] = "Bash is usually more effective later in the game when you have more items like Armlet of Mordiggan."
+//	set strings011[loc_integer01] = "Slardar's role in battles is to initiate with Slithereen Crush and focus an enemy with Bash and Amplify Damage. Pick off escapees with Sprint."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[67] = 'UC01'
 	set DummyID[67] = 'h05Q'
 	//  set integers069[67]='n0C2'
 	set HeroIcon[67] = "ReplaceableTextures\\CommandButtons\\BTNBlueDemoness.tga"
 	call SaveHeroWinAnimation(HeroID[67], "spell slam")
 	call SaveHeroScale(HeroID[67], 1.3, DummyID[67])
-	set strings007[loc_integer01] = "Blink provides you with an escape mechanism and spell dodge but on higher levels it becomes a powerful chasing tool as well."
-	set strings008[loc_integer01] = "Scream of Pain is used for killing creeps and harassing opponents, making it more useful than Shadow Strike early game."
-	set strings009[loc_integer01] = "Try to hit as many targets as possible with Sonic Wave by targeting the ground instead of on an enemy hero directly."
-	set strings010[loc_integer01] = "Shadow Strike does decent damage but its primary use is for the slow it provides for chasing and outrunning opponents."
-	set strings011[loc_integer01] = "Her spell reliance, mobility and survivability allows her to buy expensive Intelligence items such as a Guinsoo's Scythe of Vyse."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Blink provides you with an escape mechanism and spell dodge but on higher levels it becomes a powerful chasing tool as well."
+//	set strings008[loc_integer01] = "Scream of Pain is used for killing creeps and harassing opponents, making it more useful than Shadow Strike early game."
+//	set strings009[loc_integer01] = "Try to hit as many targets as possible with Sonic Wave by targeting the ground instead of on an enemy hero directly."
+//	set strings010[loc_integer01] = "Shadow Strike does decent damage but its primary use is for the slow it provides for chasing and outrunning opponents."
+//	set strings011[loc_integer01] = "Her spell reliance, mobility and survivability allows her to buy expensive Intelligence items such as a Guinsoo's Scythe of Vyse."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[68] = 'E004'
 	set DummyID[68] = 'h05R'
 	//  set integers069[68]='n0BW'
 	set HeroIcon[68] = "ReplaceableTextures\\CommandButtons\\BTNSkeletonMage.blp"
 	call SaveHeroWinAnimation(HeroID[68], "stand victory")
 	call SaveHeroScale(HeroID[68], 1, DummyID[68])
-	set strings007[loc_integer01] = "Searing Arrows provide damage for last hitting creeps and harassing enemy heroes by using it manually by clicking 'R' followed by the designated target."
-	set strings008[loc_integer01] = "Wind Walk is commonly used for chasing and escaping but the invisibility and movement speed can help you avoid specific spells with the right timing."
-	set strings009[loc_integer01] = "Cast Death Pact on enemy or neutral creeps instead of allied units whenever possible because it will give you the gold for killing the unit."
-	set strings010[loc_integer01] = "Regeneration items like Orchid Malevolence or a Linkens Sphere will allow liberal use of his abilities in battle and help him against spellcasters and nukers."
-	set strings011[loc_integer01] = "Strafe is usually gotten later, but combined with Searing Arrows, Clinkz can deal a lot of damage quickly, powerful against enemy heroes and buildings."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Searing Arrows provide damage for last hitting creeps and harassing enemy heroes by using it manually by clicking 'R' followed by the designated target."
+//	set strings008[loc_integer01] = "Wind Walk is commonly used for chasing and escaping but the invisibility and movement speed can help you avoid specific spells with the right timing."
+//	set strings009[loc_integer01] = "Cast Death Pact on enemy or neutral creeps instead of allied units whenever possible because it will give you the gold for killing the unit."
+//	set strings010[loc_integer01] = "Regeneration items like Orchid Malevolence or a Linkens Sphere will allow liberal use of his abilities in battle and help him against spellcasters and nukers."
+//	set strings011[loc_integer01] = "Strafe is usually gotten later, but combined with Searing Arrows, Clinkz can deal a lot of damage quickly, powerful against enemy heroes and buildings."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[69] = 'EC45'
 	set DummyID[69] = 'h05S'
 	//  set integers069[69]='n0BS'
@@ -9176,12 +9180,12 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[69], "spell slam")
 	call SaveHeroScale(HeroID[69], 1.3, DummyID[69])
 	call Func0383(HeroID[69], 0, 255, 150)
-	set strings007[loc_integer01] = "Time Walk is your escaping and chasing skill, but it will allow you to avoid spells and damage since you are invulnerable during the animation."
-	set strings008[loc_integer01] = "Get Backtrack early game if you need to play defensively, while Time Lock will allow you to be a little more aggressive."
-	set strings009[loc_integer01] = "Since Darkterror is so fragile, enter battles by using Time Walk and then cast Chronosphere to prevent yourself from being disabled or killed otherwise."
-	set strings010[loc_integer01] = "Chronosphere affects all units that are not controlled by you, including both allies and enemies. Avoid hitting teammates or it could cost them their lives."
-	set strings011[loc_integer01] = "Items such as Power Treads and Butterfly will give both damage and attack speed, which is useful if Void wants to repetitively stun with Time Lock."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Time Walk is your escaping and chasing skill, but it will allow you to avoid spells and damage since you are invulnerable during the animation."
+//	set strings008[loc_integer01] = "Get Backtrack early game if you need to play defensively, while Time Lock will allow you to be a little more aggressive."
+//	set strings009[loc_integer01] = "Since Darkterror is so fragile, enter battles by using Time Walk and then cast Chronosphere to prevent yourself from being disabled or killed otherwise."
+//	set strings010[loc_integer01] = "Chronosphere affects all units that are not controlled by you, including both allies and enemies. Avoid hitting teammates or it could cost them their lives."
+//	set strings011[loc_integer01] = "Items such as Power Treads and Butterfly will give both damage and attack speed, which is useful if Void wants to repetitively stun with Time Lock."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[70] = 'EC77'
 	set DummyID[70] = 'h05T'
 	//  set integers069[70]='n0BR'
@@ -9189,24 +9193,24 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[70], "spell slam")
 	call SaveHeroScale(HeroID[70], 1.2, DummyID[70])
 	call Func0383(HeroID[70], 75, 255, 25)
-	set strings007[loc_integer01] = "Poison Attack allows you to harass an opponent and permanently chase them thanks to a 0 cooldown starting at level 3."
-	set strings008[loc_integer01] = "Prevent creeps and towers from attacking you by casting Poison Attack manually by clicking 'C' and then the designated target."
-	set strings009[loc_integer01] = "Neurotoxin will add bonus damage, useful early for getting the last hit on creeps and also for dealing damage to heroes as well."
-	set strings010[loc_integer01] = "Early HP and movement speed items like Phase Boots or a Point/Vitality Booster can really make a difference."
-	set strings011[loc_integer01] = "Sometimes it is wise to invest in a Lothar's Edge or Kelen's Dagger to provide you with the ability to get in and out of combat safely."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Poison Attack allows you to harass an opponent and permanently chase them thanks to a 0 cooldown starting at level 3."
+//	set strings008[loc_integer01] = "Prevent creeps and towers from attacking you by casting Poison Attack manually by clicking 'C' and then the designated target."
+//	set strings009[loc_integer01] = "Neurotoxin will add bonus damage, useful early for getting the last hit on creeps and also for dealing damage to heroes as well."
+//	set strings010[loc_integer01] = "Early HP and movement speed items like Phase Boots or a Point/Vitality Booster can really make a difference."
+//	set strings011[loc_integer01] = "Sometimes it is wise to invest in a Lothar's Edge or Kelen's Dagger to provide you with the ability to get in and out of combat safely."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[71] = 'E002'
 	set DummyID[71] = 'h05U'
 	//  set integers069[71]='n0BY'
 	set HeroIcon[71] = "ReplaceableTextures\\CommandButtons\\BTNRevenant.blp"
 	call SaveHeroWinAnimation(HeroID[71], "spell")
 	call SaveHeroScale(HeroID[71], 1, DummyID[71])
-	set strings007[loc_integer01] = "Use your attack range to help gauge how far opponents need to be for Plasma Field to deal the most damage."
-	set strings008[loc_integer01] = "Unstable Current will slow opponents who cast spells on you and could be useful to help prevent yourself from being killed."
-	set strings009[loc_integer01] = "Static Link is powerful if you can stay within the range of opponents - getting Unstable Current can sometimes help with that."
-	set strings010[loc_integer01] = "Storm Seeker strikes the target with the lowest health, so use it after creeps have died or when chasing a solitary target."
-	set strings011[loc_integer01] = "Consider increasing your HP along with damage when purchasing items."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Use your attack range to help gauge how far opponents need to be for Plasma Field to deal the most damage."
+//	set strings008[loc_integer01] = "Unstable Current will slow opponents who cast spells on you and could be useful to help prevent yourself from being killed."
+//	set strings009[loc_integer01] = "Static Link is powerful if you can stay within the range of opponents - getting Unstable Current can sometimes help with that."
+//	set strings010[loc_integer01] = "Storm Seeker strikes the target with the lowest health, so use it after creeps have died or when chasing a solitary target."
+//	set strings011[loc_integer01] = "Consider increasing your HP along with damage when purchasing items."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[72] = 'U00C'
 	set DummyID[72] = 'h05V'
 	//  set integers069[72]='n0BQ'
@@ -9214,36 +9218,36 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[72], "victory")
 	call SaveHeroScale(HeroID[72], 1.5, DummyID[72])
 	call Func0383(HeroID[72], 100, 100, 100)
-	set strings007[loc_integer01] = "Open Wounds is a powerful slow that nearly stops enemies in their tracks; it also lets you and your allies heal for attacking that unit.Open Wounds is a powerful slow that nearly stops enemies in their tracks; it also lets you and your allies heal for attacking that unit."
-	set strings008[loc_integer01] = "Feast deals percentage-based damage, which is useful against heroes with high HP and lets Naix fight neutral creeps with ease."
-	set strings009[loc_integer01] = "Rage can be used to avoid spells and to prevent opponents from disabling you while you are attacking them or trying to escape from them."
-	set strings010[loc_integer01] = "Infest can be used for escaping, surprising your opponents, to neutral, or to just gain significant health quickly when necessary."
-	set strings011[loc_integer01] = "Thanks to your physical damage and ability to steal life, Armlet of Mordiggan or Desolator are both solid choices for high-tier items."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Open Wounds is a powerful slow that nearly stops enemies in their tracks; it also lets you and your allies heal for attacking that unit.Open Wounds is a powerful slow that nearly stops enemies in their tracks; it also lets you and your allies heal for attacking that unit."
+//	set strings008[loc_integer01] = "Feast deals percentage-based damage, which is useful against heroes with high HP and lets Naix fight neutral creeps with ease."
+//	set strings009[loc_integer01] = "Rage can be used to avoid spells and to prevent opponents from disabling you while you are attacking them or trying to escape from them."
+//	set strings010[loc_integer01] = "Infest can be used for escaping, surprising your opponents, to neutral, or to just gain significant health quickly when necessary."
+//	set strings011[loc_integer01] = "Thanks to your physical damage and ability to steal life, Armlet of Mordiggan or Desolator are both solid choices for high-tier items."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[73] = 'H00H'
 	set DummyID[73] = 'h05W'
 	//  set integers069[73]='n0BT'
 	set HeroIcon[73] = "ReplaceableTextures\\CommandButtons\\BTNPugna.BLP"
 	call SaveHeroWinAnimation(HeroID[73], "stand ready")
 	call SaveHeroScale(HeroID[73], 1, DummyID[73])
-	set strings007[loc_integer01] = "Nether Blast gives you an incredible skill for killing creeps, harassing heroes and pushing. Use it to score the killing blow to a tower."
-	set strings008[loc_integer01] = "Decrepify can be used on opponents either to increase spell damage from you and your allies or to prevent them from attacking."
-	set strings009[loc_integer01] = "Nether Ward will drain mana and punish opponents for using spells. Just remember to cast it where opponents cannot destroy it easily."
-	set strings010[loc_integer01] = "Aghanim's Scepter, Linkens Sphere and Bloodstone are examples of items that offer survivability while improving his spellcasting abilities."
-	set strings011[loc_integer01] = "Life Drain deals a lot of damage unless opponents disable you or run away. With an Aghanim's Scepter, its cooldown becomes 0."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Nether Blast gives you an incredible skill for killing creeps, harassing heroes and pushing. Use it to score the killing blow to a tower."
+//	set strings008[loc_integer01] = "Decrepify can be used on opponents either to increase spell damage from you and your allies or to prevent them from attacking."
+//	set strings009[loc_integer01] = "Nether Ward will drain mana and punish opponents for using spells. Just remember to cast it where opponents cannot destroy it easily."
+//	set strings010[loc_integer01] = "Aghanim's Scepter, Linkens Sphere and Bloodstone are examples of items that offer survivability while improving his spellcasting abilities."
+//	set strings011[loc_integer01] = "Life Drain deals a lot of damage unless opponents disable you or run away. With an Aghanim's Scepter, its cooldown becomes 0."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[74] = 'Ofar'
 	set DummyID[74] = 'h05X'
 	//  set integers069[74]='n0BP'
 	set HeroIcon[74] = "ReplaceableTextures\\CommandButtons\\BTNSeaGiantGreen.blp"
 	call SaveHeroWinAnimation(HeroID[74], "attack slam")
 	call SaveHeroScale(HeroID[74], 1, DummyID[74])
-	set strings007[loc_integer01] = "Be sure to attack enemies slowed by Gush, the armor reduction means that your hits will deal more damage than normal."
-	set strings008[loc_integer01] = "Anchor Smash is an offensive damage spell that lets you hurt multiple units, good for killing neutral creeps and useful in team battles."
-	set strings009[loc_integer01] = "Kraken Shell gives you some protection against physical damage as well as a debuff removal against certain spells."
-	set strings010[loc_integer01] = "In fights, Tidehunter should be in the middle of the action drawing focus fire and dealing damage because of his skill set and high survivability."
-	set strings011[loc_integer01] = "Ravage has a large area of effect but Kelen's Dagger will allow you to initiate without being disabled and use it in an optimal spot."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Be sure to attack enemies slowed by Gush, the armor reduction means that your hits will deal more damage than normal."
+//	set strings008[loc_integer01] = "Anchor Smash is an offensive damage spell that lets you hurt multiple units, good for killing neutral creeps and useful in team battles."
+//	set strings009[loc_integer01] = "Kraken Shell gives you some protection against physical damage as well as a debuff removal against certain spells."
+//	set strings010[loc_integer01] = "In fights, Tidehunter should be in the middle of the action drawing focus fire and dealing damage because of his skill set and high survivability."
+//	set strings011[loc_integer01] = "Ravage has a large area of effect but Kelen's Dagger will allow you to initiate without being disabled and use it in an optimal spot."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[75] = 'Oshd'
 	set DummyID[75] = 'h05Y'
 	//  set integers069[75]='n0BO'
@@ -9251,48 +9255,48 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[75], "spell")
 	call SaveHeroScale(HeroID[75], 1.5, DummyID[75])
 	call Func0383(HeroID[75], 150, 0, 150)
-	set strings007[loc_integer01] = "High costs and cooldowns give Atropos limited ability use: Cast spells intelligently and get items like Null Talismans and/or Magic Stick for your mana pool."
-	set strings008[loc_integer01] = "Brain Sap is a powerful nuke and heal and deals exact unreduced damage so get it early and always try to use it on enemy heroes when using the spell."
-	set strings009[loc_integer01] = "Use Nightmare to help teammates to aim their spells and remove an opponent from battles temporarily while you fight their allies."
-	set strings010[loc_integer01] = "Enfeeble is usually a skill to get after Brain Sap and Nightmare to use on enemy heroes with high damage to reduce their damage capabilities severely."
-	set strings011[loc_integer01] = "Fiend's Grip will work on Magic Immune units such as those under the active effect of Black King Bar, holding them in place but dealing no damage."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "High costs and cooldowns give Atropos limited ability use: Cast spells intelligently and get items like Null Talismans and/or Magic Stick for your mana pool."
+//	set strings008[loc_integer01] = "Brain Sap is a powerful nuke and heal and deals exact unreduced damage so get it early and always try to use it on enemy heroes when using the spell."
+//	set strings009[loc_integer01] = "Use Nightmare to help teammates to aim their spells and remove an opponent from battles temporarily while you fight their allies."
+//	set strings010[loc_integer01] = "Enfeeble is usually a skill to get after Brain Sap and Nightmare to use on enemy heroes with high damage to reduce their damage capabilities severely."
+//	set strings011[loc_integer01] = "Fiend's Grip will work on Magic Immune units such as those under the active effect of Black King Bar, holding them in place but dealing no damage."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[76] = 'U00E'
 	set DummyID[76] = 'h05Z'
 	//  set integers069[76]='n0B8'
 	set HeroIcon[76] = "ReplaceableTextures\\CommandButtons\\BTNGhostOfKelThuzad.blp"
 	call SaveHeroWinAnimation(HeroID[76], "stand victory")
 	call SaveHeroScale(HeroID[76], 1.3, DummyID[76])
-	set strings007[loc_integer01] = "Death Pulse lets you kill creeps and harass heroes simultaneously, great for pushing and healing allied units because of its low cooldown."
-	set strings008[loc_integer01] = "Sadist will provide you with some early regeneration for killing creeps, while Heartstopper Aura becomes effective as the game goes on."
-	set strings009[loc_integer01] = "Reaper's Scythe is known for its ability to kill heroes outright, allowing you to bring down even high-HP Strength heroes with ease."
-	set strings010[loc_integer01] = "Your ultimate can also be used to stun opponents in certain situations, such as interrupting channeling spells and teleports."
-	set strings011[loc_integer01] = "Items like Bloodstone or Heart of Tarrasque allow you to survive long enough in team battles to make your spells more effective."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Death Pulse lets you kill creeps and harass heroes simultaneously, great for pushing and healing allied units because of its low cooldown."
+//	set strings008[loc_integer01] = "Sadist will provide you with some early regeneration for killing creeps, while Heartstopper Aura becomes effective as the game goes on."
+//	set strings009[loc_integer01] = "Reaper's Scythe is known for its ability to kill heroes outright, allowing you to bring down even high-HP Strength heroes with ease."
+//	set strings010[loc_integer01] = "Your ultimate can also be used to stun opponents in certain situations, such as interrupting channeling spells and teleports."
+//	set strings011[loc_integer01] = "Items like Bloodstone or Heart of Tarrasque allow you to survive long enough in team battles to make your spells more effective."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[77] = 'U00F'
 	set DummyID[77] = 'h060'
 	//  set integers069[77]='n0C5'
 	set HeroIcon[77] = "ReplaceableTextures\\CommandButtons\\BTNAbomination.blp"
 	call SaveHeroWinAnimation(HeroID[77], "stand 3")
 	call SaveHeroScale(HeroID[77], 1.0, DummyID[77])
-	set strings007[loc_integer01] = "Pudge can known for his ability to isolate enemies with Meat Hook and using Rot and Dismember afterward, killing them outright. "
-	set strings008[loc_integer01] = "Early regeneration and movement speed items such as Bottle and Phase Boots help provide Pudge with the means to cast spells and chase his opponents."
-	set strings009[loc_integer01] = "Use Meat Hook from a location where you are not obstructed by any allied or enemy units other than your target to ensure a better chance of landing it."
-	set strings010[loc_integer01] = "A Hood of Defiance will improve your magic resistance to reduce damage from using Rot and getting hit by spells; The massive regeneration is also good."
-	set strings011[loc_integer01] = "Use your spells defensively: Rot can be used to commit suicide if necessary and Meat Hook can be used to rescue an ally from one or more enemies."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Pudge can known for his ability to isolate enemies with Meat Hook and using Rot and Dismember afterward, killing them outright. "
+//	set strings008[loc_integer01] = "Early regeneration and movement speed items such as Bottle and Phase Boots help provide Pudge with the means to cast spells and chase his opponents."
+//	set strings009[loc_integer01] = "Use Meat Hook from a location where you are not obstructed by any allied or enemy units other than your target to ensure a better chance of landing it."
+//	set strings010[loc_integer01] = "A Hood of Defiance will improve your magic resistance to reduce damage from using Rot and getting hit by spells; The massive regeneration is also good."
+//	set strings011[loc_integer01] = "Use your spells defensively: Rot can be used to commit suicide if necessary and Meat Hook can be used to rescue an ally from one or more enemies."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[78] = 'O00J'
 	set DummyID[78] = 'h061'
 	//  set integers069[78]='n0C3'
 	set HeroIcon[78] = "ReplaceableTextures\\CommandButtons\\BTNSpiritWalker.blp"
 	call SaveHeroWinAnimation(HeroID[78], "stand ready")
 	call SaveHeroScale(HeroID[78], 1.2, DummyID[78])
-	set strings007[loc_integer01] = "Empowering Haste is a smart skill to level first, it gives Barathrum movement speed and significant damage for killing creeps and heroes."
-	set strings008[loc_integer01] = "A level of Greater Bash early game can be useful as an extra disable, since the 17% chance is the same for all levels.A level of Greater Bash early game can be useful as an extra disable, since the 17% chance is the same for all levels."
-	set strings009[loc_integer01] = "Get Strength Power Treads because the attack and movement speed benefits your other skills and the boost in HP helps you survive."
-	set strings010[loc_integer01] = "Charge of Darkness gives Barathrum spell immunity after 12 seconds and provides vision of the target for you and your allies."
-	set strings011[loc_integer01] = "Nether Strike puts you from the opposite side of where you were facing, push opponents backwards and into your allies."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Empowering Haste is a smart skill to level first, it gives Barathrum movement speed and significant damage for killing creeps and heroes."
+//	set strings008[loc_integer01] = "A level of Greater Bash early game can be useful as an extra disable, since the 17% chance is the same for all levels.A level of Greater Bash early game can be useful as an extra disable, since the 17% chance is the same for all levels."
+//	set strings009[loc_integer01] = "Get Strength Power Treads because the attack and movement speed benefits your other skills and the boost in HP helps you survive."
+//	set strings010[loc_integer01] = "Charge of Darkness gives Barathrum spell immunity after 12 seconds and provides vision of the target for you and your allies."
+//	set strings011[loc_integer01] = "Nether Strike puts you from the opposite side of where you were facing, push opponents backwards and into your allies."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[79] = 'Ubal'
 	set DummyID[79] = 'h062'
 	//  set integers069[79]='n0BX'
@@ -9300,12 +9304,12 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[79], "attack")
 	call SaveHeroScale(HeroID[79], 1.0, DummyID[79])
 	call Func0383(HeroID[79], 255, 200, 200)
-	set strings007[loc_integer01] = "Take care of Weaver's HP/damage problems with Bracers or Wraith Bands and get regeneration so he can use his spells freely."
-	set strings008[loc_integer01] = "An early level of Watchers can be used to provide vision over the rune powerups. Patrol them to increase their area of detection."
-	set strings009[loc_integer01] = "Shukuchi is used for harassing and chasing opponents offensively, and escaping and avoiding certain projectile spells defensively."
-	set strings010[loc_integer01] = "If your Geminate Attack is not working, make sure that you input an attack command ('A' or right-click) and are not simply auto-attacking."
-	set strings011[loc_integer01] = "Use Time Lapse after taking a lot of recent damage to heal yourself, allowing you to pull off some dangerous moves like diving into towers."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Take care of Weaver's HP/damage problems with Bracers or Wraith Bands and get regeneration so he can use his spells freely."
+//	set strings008[loc_integer01] = "An early level of Watchers can be used to provide vision over the rune powerups. Patrol them to increase their area of detection."
+//	set strings009[loc_integer01] = "Shukuchi is used for harassing and chasing opponents offensively, and escaping and avoiding certain projectile spells defensively."
+//	set strings010[loc_integer01] = "If your Geminate Attack is not working, make sure that you input an attack command ('A' or right-click) and are not simply auto-attacking."
+//	set strings011[loc_integer01] = "Use Time Lapse after taking a lot of recent damage to heal yourself, allowing you to pull off some dangerous moves like diving into towers."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[80] = 'Nfir'
 	set DummyID[80] = 'h063'
 	//  set integers069[80]='n0BN'
@@ -9313,36 +9317,36 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[80], "stand channel")
 	call SaveHeroScale(HeroID[80], 1.15, DummyID[80])
 	call Func0383(HeroID[80], 0, 0, 0)
-	set strings007[loc_integer01] = "Necromastery is important because of its massive damage gain and because your ultimate deals damage based on the number of souls."
-	set strings008[loc_integer01] = "Shadow Raze gives you three powerful nuke spells that should be maxed out first. Gauge the distance correctly and hit multiple times."
-	set strings009[loc_integer01] = "Requiem of Souls deals more damage the closer you are: Placement items like Lothar's Edge and Kelen's Dagger can help you land it."
-	set strings010[loc_integer01] = "After maxing your other two spells, Presence of the Dark Lord will be useful by then, good for pushing and dealing more physical damage."
-	set strings011[loc_integer01] = "If you die, remember to fill up on souls again before major fights when you respawn or you will be much less effective in battles."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Necromastery is important because of its massive damage gain and because your ultimate deals damage based on the number of souls."
+//	set strings008[loc_integer01] = "Shadow Raze gives you three powerful nuke spells that should be maxed out first. Gauge the distance correctly and hit multiple times."
+//	set strings009[loc_integer01] = "Requiem of Souls deals more damage the closer you are: Placement items like Lothar's Edge and Kelen's Dagger can help you land it."
+//	set strings010[loc_integer01] = "After maxing your other two spells, Presence of the Dark Lord will be useful by then, good for pushing and dealing more physical damage."
+//	set strings011[loc_integer01] = "If you die, remember to fill up on souls again before major fights when you respawn or you will be much less effective in battles."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[81] = 'U00K'
 	set DummyID[81] = 'h064'
 	//  set integers069[81]='n0C4'
 	set HeroIcon[81] = "ReplaceableTextures\\CommandButtons\\BTNArachnathidGreen.blp"
 	call SaveHeroWinAnimation(HeroID[81], "attack 3")
 	call SaveHeroScale(HeroID[81], 1, DummyID[81])
-	set strings007[loc_integer01] = "Burrowstrike is both versatile and powerful: It deals damage, stuns and provides you with a useful escape or chasing mechanism."
-	set strings008[loc_integer01] = "Using Sandstorm at the right time will dodge certain projectile spells and can protect you temporarily if it is necessary."
-	set strings009[loc_integer01] = "Getting Kelen's Dagger will give him increased mobility and reach, and also the ability to Blink into battle right after channeling Epicenter."
-	set strings010[loc_integer01] = "While you cannot move while Epicenter is channeling, once the pulses begin you can freely move around (mostly to chase your opponent)."
-	set strings011[loc_integer01] = "Caustic Finale might be an orb effect but it is extremely useful for killing multiple units quickly for fighting neutrals, pushing and defending."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Burrowstrike is both versatile and powerful: It deals damage, stuns and provides you with a useful escape or chasing mechanism."
+//	set strings008[loc_integer01] = "Using Sandstorm at the right time will dodge certain projectile spells and can protect you temporarily if it is necessary."
+//	set strings009[loc_integer01] = "Getting Kelen's Dagger will give him increased mobility and reach, and also the ability to Blink into battle right after channeling Epicenter."
+//	set strings010[loc_integer01] = "While you cannot move while Epicenter is channeling, once the pulses begin you can freely move around (mostly to chase your opponent)."
+//	set strings011[loc_integer01] = "Caustic Finale might be an orb effect but it is extremely useful for killing multiple units quickly for fighting neutrals, pushing and defending."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[82] = 'Opgh'
 	set DummyID[82] = 'h065'
 	//  set integers069[82]='n0BM'
 	set HeroIcon[82] = "ReplaceableTextures\\CommandButtons\\BTNChaosGrom.blp"
 	call SaveHeroWinAnimation(HeroID[82], "stand victory")
 	call SaveHeroScale(HeroID[82], 1, DummyID[82])
-	set strings007[loc_integer01] = "Counter Helix gives Axe the flexibility to both lane and jungle. A Stout Shield will help reduce the damage from taking attacks in order to activate Helix."
-	set strings008[loc_integer01] = "A Vanguard or a Hood of Defiance offers survivability and regeneration, which are usually more useful to Axe than increasing his attack speed or damage."
-	set strings009[loc_integer01] = "Berserker's Call is used to initiate fights and draw focus fire. Using it when there are more enemy units increases the chance of activating Counter Helix."
-	set strings010[loc_integer01] = "Monitor your opponent's HP for the perfect Culling Blade opportunity to finish them off. However, if your enemy has too much HP, it will hardly do anything."
-	set strings011[loc_integer01] = "Kelen's Dagger and/or Phase Boots can help you enter the fight first and get close enough for a Berserker's Call."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Counter Helix gives Axe the flexibility to both lane and jungle. A Stout Shield will help reduce the damage from taking attacks in order to activate Helix."
+//	set strings008[loc_integer01] = "A Vanguard or a Hood of Defiance offers survivability and regeneration, which are usually more useful to Axe than increasing his attack speed or damage."
+//	set strings009[loc_integer01] = "Berserker's Call is used to initiate fights and draw focus fire. Using it when there are more enemy units increases the chance of activating Counter Helix."
+//	set strings010[loc_integer01] = "Monitor your opponent's HP for the perfect Culling Blade opportunity to finish them off. However, if your enemy has too much HP, it will hardly do anything."
+//	set strings011[loc_integer01] = "Kelen's Dagger and/or Phase Boots can help you enter the fight first and get close enough for a Berserker's Call."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[83] = 'Hvsh'
 	set DummyID[83] = 'h066'
 	//  set integers069[83]='n0BZ'
@@ -9350,72 +9354,72 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[83], "stand victory")
 	call SaveHeroScale(HeroID[83], 1.25, DummyID[83])
 	call Func0383(HeroID[83], 250, 150, 150)
-	set strings007[loc_integer01] = "Getting Blood Bath will allow you to take a few hits as you are killing creeps because you will recover your health immediately afterwards."
-	set strings008[loc_integer01] = "An early level of Bloodrage can be useful for silencing enemies temporarily and for dealing a little bit of damage."
-	set strings009[loc_integer01] = "Phase Boots and HP can be just as useful as damage items because they increase his survivability for chasing enemies and other longer battles."
-	set strings010[loc_integer01] = "Use Rupture when your enemy has to either run away or to prevent them from moving, such as when an ally is about to use a powerful spell."
-	set strings011[loc_integer01] = "Both allies and enemies gain the massive damage increase and are silenced from Bloodrage, which can be disastrous if used incorrectly."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Getting Blood Bath will allow you to take a few hits as you are killing creeps because you will recover your health immediately afterwards."
+//	set strings008[loc_integer01] = "An early level of Bloodrage can be useful for silencing enemies temporarily and for dealing a little bit of damage."
+//	set strings009[loc_integer01] = "Phase Boots and HP can be just as useful as damage items because they increase his survivability for chasing enemies and other longer battles."
+//	set strings010[loc_integer01] = "Use Rupture when your enemy has to either run away or to prevent them from moving, such as when an ally is about to use a powerful spell."
+//	set strings011[loc_integer01] = "Both allies and enemies gain the massive damage increase and are silenced from Bloodrage, which can be disastrous if used incorrectly."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[84] = 'Udea'
 	set DummyID[84] = 'h067'
 	//  set integers069[84]='n0BL'
 	set HeroIcon[84] = "ReplaceableTextures\\CommandButtons\\BTNHeroDeathKnight.blp"
 	call SaveHeroWinAnimation(HeroID[84], "stand ready")
 	call SaveHeroScale(HeroID[84], 1, DummyID[84])
-	set strings007[loc_integer01] = "Abbadon's spells can save allies while dealing damage, so support and regeneration items like Vladmir's Offering can be more useful than damage items."
-	set strings008[loc_integer01] = "Death Coil can be used both as a nuke and a heal, just remember that it deals damage to you unless you are using Aphotic Shield or Borrowed Time."
-	set strings009[loc_integer01] = "Aphotic Shield prevents damage but can also be used to remove certain debuffs, such as removing the stun duration effect on an ally."
-	set strings010[loc_integer01] = "Frostmourne is usually gotten later but it is very useful for chasing and helping your allies outrun your opponents."
-	set strings011[loc_integer01] = "Borrowed Time can be cast manually as well. If you know you are going to receive a lot of damage sometimes it can be wiser to use it then."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Abbadon's spells can save allies while dealing damage, so support and regeneration items like Vladmir's Offering can be more useful than damage items."
+//	set strings008[loc_integer01] = "Death Coil can be used both as a nuke and a heal, just remember that it deals damage to you unless you are using Aphotic Shield or Borrowed Time."
+//	set strings009[loc_integer01] = "Aphotic Shield prevents damage but can also be used to remove certain debuffs, such as removing the stun duration effect on an ally."
+//	set strings010[loc_integer01] = "Frostmourne is usually gotten later but it is very useful for chasing and helping your allies outrun your opponents."
+//	set strings011[loc_integer01] = "Borrowed Time can be cast manually as well. If you know you are going to receive a lot of damage sometimes it can be wiser to use it then."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[85] = 'E01B'
 	set DummyID[85] = 'h068'
 	//  set integers069[85]='n0B9'
 	set HeroIcon[85] = "ReplaceableTextures\\CommandButtons\\BTNvengeanceincarnate.blp"
 	call SaveHeroWinAnimation(HeroID[85], "stand ready")
 	call SaveHeroScale(HeroID[85], 0.8, DummyID[85])
-	set strings007[loc_integer01] = "Spectral Dagger is your utility spell. You can use it for chasing people down, scouting dangerous areas and escaping. "
-	set strings008[loc_integer01] = "You also walk through units, trees, even cliffs while you are walking on Spectral Dagger's black path, making it very handy when used properly."
-	set strings009[loc_integer01] = "Desolate is great for dealing target to isolated targets but Dispersion helps you to survive in the lane: Chose whatever combination suits you best."
-	set strings010[loc_integer01] = "Haunt lets you jump into a fight directly from anywhere in the map; just make sure that you pay attention to the actions of your team."
-	set strings011[loc_integer01] = "Getting HP will allow you to withstand and dish out more Dispersion damage, which is extremely powerful in team fights."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Spectral Dagger is your utility spell. You can use it for chasing people down, scouting dangerous areas and escaping. "
+//	set strings008[loc_integer01] = "You also walk through units, trees, even cliffs while you are walking on Spectral Dagger's black path, making it very handy when used properly."
+//	set strings009[loc_integer01] = "Desolate is great for dealing target to isolated targets but Dispersion helps you to survive in the lane: Chose whatever combination suits you best."
+//	set strings010[loc_integer01] = "Haunt lets you jump into a fight directly from anywhere in the map; just make sure that you pay attention to the actions of your team."
+//	set strings011[loc_integer01] = "Getting HP will allow you to withstand and dish out more Dispersion damage, which is extremely powerful in team fights."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[86] = 'E01A'
 	set DummyID[86] = 'h069'
 	//  set integers069[86]='n0BK'
 	set HeroIcon[86] = "ReplaceableTextures\\CommandButtons\\BTNWitchDoctor.blp"
 	call SaveHeroWinAnimation(HeroID[86], "stand victory")
 	call SaveHeroScale(HeroID[86], 1.25, DummyID[86])
-	set strings007[loc_integer01] = "Paralyzing Cask is your initiating spell for your other skills and can effectively keep two nearby units stun-locked at higher levels."
-	set strings008[loc_integer01] = "Maledict drastically reduces the damage needed to kill opponents and is an important spell to land in every fight."
-	set strings009[loc_integer01] = "An early level of Voodoo Restoration can provide a relatively cheap heal if you are forced to play defensively."
-	set strings010[loc_integer01] = "Damaging your opponent immediately after using Maledict is wise because it will deal more bonus damage overall at the 3 ticks."
-	set strings011[loc_integer01] = "Death Ward is a powerful channeling spell if not interrupted. A Black King Bar will help to prevent enemies from disabling you."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Paralyzing Cask is your initiating spell for your other skills and can effectively keep two nearby units stun-locked at higher levels."
+//	set strings008[loc_integer01] = "Maledict drastically reduces the damage needed to kill opponents and is an important spell to land in every fight."
+//	set strings009[loc_integer01] = "An early level of Voodoo Restoration can provide a relatively cheap heal if you are forced to play defensively."
+//	set strings010[loc_integer01] = "Damaging your opponent immediately after using Maledict is wise because it will deal more bonus damage overall at the 3 ticks."
+//	set strings011[loc_integer01] = "Death Ward is a powerful channeling spell if not interrupted. A Black King Bar will help to prevent enemies from disabling you."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[87] = 'U00P'
 	set DummyID[87] = 'h06A'
 	//  set integers069[87]='n0BA'
 	set HeroIcon[87] = "ReplaceableTextures\\CommandButtons\\BTNDestroyer.blp"
 	call SaveHeroWinAnimation(HeroID[87], "stand alternate 2")
 	call SaveHeroScale(HeroID[87], 0.85, DummyID[87])
-	set strings007[loc_integer01] = "Getting Intelligence and mana items is extremely important for Harbringer as the power of Arcane Orb and Sanity's Eclipse rely on this."
-	set strings008[loc_integer01] = "Use Astral Imprisonment to control your opponents' mana, for escaping/chasing, or on yourself and allies to avoid spells."
-	set strings009[loc_integer01] = "Cast Arcane Orb manually early on because you will have a greater chance of activating Essence Aura to use it endlessly."
-	set strings010[loc_integer01] = "Guinsoo's Scythe of Vyse is a great choice because it offers Intelligence, balanced stats and provides Harbringer with a powerful disable."
-	set strings011[loc_integer01] = "Use Sanity's Eclipse early in fights so that you drain casters with high Intelligence of their mana and cripple their ability to cast spells."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Getting Intelligence and mana items is extremely important for Harbringer as the power of Arcane Orb and Sanity's Eclipse rely on this."
+//	set strings008[loc_integer01] = "Use Astral Imprisonment to control your opponents' mana, for escaping/chasing, or on yourself and allies to avoid spells."
+//	set strings009[loc_integer01] = "Cast Arcane Orb manually early on because you will have a greater chance of activating Essence Aura to use it endlessly."
+//	set strings010[loc_integer01] = "Guinsoo's Scythe of Vyse is a great choice because it offers Intelligence, balanced stats and provides Harbringer with a powerful disable."
+//	set strings011[loc_integer01] = "Use Sanity's Eclipse early in fights so that you drain casters with high Intelligence of their mana and cripple their ability to cast spells."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[88] = 'E01C'
 	set DummyID[88] = 'h06C'
 	//  set integers069[88]='n0BB'
 	set HeroIcon[88] = "ReplaceableTextures\\CommandButtons\\BTNGuldan.blp"
 	call SaveHeroWinAnimation(HeroID[88], "spell")
 	call SaveHeroScale(HeroID[88], 1.5, DummyID[88])
-	set strings007[loc_integer01] = "Shadow Word is either a heal or damage over time, definitely the most powerful early game spell to have."
-	set strings008[loc_integer01] = "The affordable Mekansm is a good support item for Warlock, who is not a hero who is reliant on gold and items to be effective."
-	set strings009[loc_integer01] = "Rain of Chaos creates a powerful Infernal that can take on heroes and is also great for killing creeps and pushing buildings."
-	set strings010[loc_integer01] = "Fatal Bonds can deal huge damage if you and your teammates have other area of effect (AoE) spells that would hurt multiple linked units."
-	set strings011[loc_integer01] = "The stun when using Rain of Chaos along with its huge casting range (1200) is great for interrupting spells and initiating battles."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Shadow Word is either a heal or damage over time, definitely the most powerful early game spell to have."
+//	set strings008[loc_integer01] = "The affordable Mekansm is a good support item for Warlock, who is not a hero who is reliant on gold and items to be effective."
+//	set strings009[loc_integer01] = "Rain of Chaos creates a powerful Infernal that can take on heroes and is also great for killing creeps and pushing buildings."
+//	set strings010[loc_integer01] = "Fatal Bonds can deal huge damage if you and your teammates have other area of effect (AoE) spells that would hurt multiple linked units."
+//	set strings011[loc_integer01] = "The stun when using Rain of Chaos along with its huge casting range (1200) is great for interrupting spells and initiating battles."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[89] = 'H00I'
 	set DummyID[89] = 'h06D'
 	//  set integers069[89]='n0BJ'
@@ -9423,36 +9427,36 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[89], "spell")
 	call SaveHeroScale(HeroID[89], 1.4, DummyID[89])
 	call SaveHeroScale('H00J', 1.4, DummyID[89])
-	set strings007[loc_integer01] = "Vladmir's Offering and/or Mekansm provides valuable auras and useful heals that can help support your team and keep your Meepos alive."
-	set strings008[loc_integer01] = "Poof is both a teleport and damage spell and is great against neutrals. Poof to yourself to deal double the damage (from departure and arrival).Poof is both a teleport and damage spell and is great against neutrals. Poof to yourself to deal double the damage (from departure and arrival)."
-	set strings009[loc_integer01] = "Geomancer is an advanced hero: Be sure to monitor their individual health because if one dies, they all will."
-	set strings010[loc_integer01] = "Strength Power Treads are suggested since clones will receive all of the Strength from footwear along with a 2.5 bonus (12.5 total)."
-	set strings011[loc_integer01] = "Time Earthbind with each of your clones. With 4 Meepos and Level 4 Earthbind, you can almost permanently immobilize them."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Vladmir's Offering and/or Mekansm provides valuable auras and useful heals that can help support your team and keep your Meepos alive."
+//	set strings008[loc_integer01] = "Poof is both a teleport and damage spell and is great against neutrals. Poof to yourself to deal double the damage (from departure and arrival).Poof is both a teleport and damage spell and is great against neutrals. Poof to yourself to deal double the damage (from departure and arrival)."
+//	set strings009[loc_integer01] = "Geomancer is an advanced hero: Be sure to monitor their individual health because if one dies, they all will."
+//	set strings010[loc_integer01] = "Strength Power Treads are suggested since clones will receive all of the Strength from footwear along with a 2.5 bonus (12.5 total)."
+//	set strings011[loc_integer01] = "Time Earthbind with each of your clones. With 4 Meepos and Level 4 Earthbind, you can almost permanently immobilize them."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[90] = 'N01W'
 	set DummyID[90] = 'h06E'
 	//  set integers069[90]='n0BI'
 	set HeroIcon[90] = "ReplaceableTextures\\CommandButtons\\BTNDarkTrollShadowPriest.blp"
 	call SaveHeroWinAnimation(HeroID[90], "spell")
 	call SaveHeroScale(HeroID[90], 1.2, DummyID[90])
-	set strings007[loc_integer01] = "An early level of both Shadow Wave and Shallow Grave provides a lot of support before getting Poison Touch to level 3 for its added stun."
-	set strings008[loc_integer01] = "Try to use Shadow Wave to heal and damage opponents at the same time. Surround an enemy with multiple allied units for more damage."
-	set strings009[loc_integer01] = "In addition to slowing and damaging opponents, Poison Touch will allow you to interrupt channeling spells and teleports"
-	set strings010[loc_integer01] = "Dazzle generally does not need many items and can sometimes focus on increasing his spell use with regeneration and support items like Mekansm."
-	set strings011[loc_integer01] = "Weave is a powerful spell, try to hit both allies and enemies with it, and it can also be used to provide vision before major battles occur."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "An early level of both Shadow Wave and Shallow Grave provides a lot of support before getting Poison Touch to level 3 for its added stun."
+//	set strings008[loc_integer01] = "Try to use Shadow Wave to heal and damage opponents at the same time. Surround an enemy with multiple allied units for more damage."
+//	set strings009[loc_integer01] = "In addition to slowing and damaging opponents, Poison Touch will allow you to interrupt channeling spells and teleports"
+//	set strings010[loc_integer01] = "Dazzle generally does not need many items and can sometimes focus on increasing his spell use with regeneration and support items like Mekansm."
+//	set strings011[loc_integer01] = "Weave is a powerful spell, try to hit both allies and enemies with it, and it can also be used to provide vision before major battles occur."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[91] = 'N00R'
 	set DummyID[91] = 'h06F'
 	//  set integers069[91]='n0BC'
 	set HeroIcon[91] = "ReplaceableTextures\\CommandButtons\\BTNPitLord.blp"
 	call SaveHeroWinAnimation(HeroID[91], "stand channel")
 	call SaveHeroScale(HeroID[91], 0.95, DummyID[91])
-	set strings007[loc_integer01] = "Firestorm will be your main ability for killing creeps but it can deal a lot of damage to heroes if you combine it with disables or slows."
-	set strings008[loc_integer01] = "The Pit of Malice is a useful disable that lasts for 10 seconds so it will both ensnare opponents and deter opponents from entering the circle."
-	set strings009[loc_integer01] = "Expulsion is usually used after some creeps have died so the spell lasts longer and will deal damage and mini-stun enemies."
-	set strings010[loc_integer01] = "Pit Lord is played more as a caster, increase his team presence and spell use by obtaining expensive Intelligence items like Shiva's Guard."
-	set strings011[loc_integer01] = "Dark Rift is a great spell for transporting multiple allies to surprise opponents, and more importantly to defend and attack the base."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Firestorm will be your main ability for killing creeps but it can deal a lot of damage to heroes if you combine it with disables or slows."
+//	set strings008[loc_integer01] = "The Pit of Malice is a useful disable that lasts for 10 seconds so it will both ensnare opponents and deter opponents from entering the circle."
+//	set strings009[loc_integer01] = "Expulsion is usually used after some creeps have died so the spell lasts longer and will deal damage and mini-stun enemies."
+//	set strings010[loc_integer01] = "Pit Lord is played more as a caster, increase his team presence and spell use by obtaining expensive Intelligence items like Shiva's Guard."
+//	set strings011[loc_integer01] = "Dark Rift is a great spell for transporting multiple allies to surprise opponents, and more importantly to defend and attack the base."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[92] = 'H00R'
 	set DummyID[92] = 'h06G'
 	//  set integers069[92]='n0BH'
@@ -9460,48 +9464,48 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[92], "stand")
 	call SaveHeroScale(HeroID[92], 2, DummyID[92])
 	call SaveHeroScale('H07I', 1.3, DummyID[92])
-	set strings007[loc_integer01] = "Decay is used to deal damage and make opponents more vulnerable, while increasing the survivability of Dirge temporarily."
-	set strings008[loc_integer01] = "Make sure Dirge is a presence who can cast his spells in fights by buying regeneration items like Vladmir's Offering and Void Stone."
-	set strings009[loc_integer01] = "Soul Rip is a powerful heal or nuke but remember that it will have almost no effect without nearby units. Cast it in crowds."
-	set strings010[loc_integer01] = "Use Tombstone when engaging the enemy because the zombies have a slowing capability and may also help block your opponents."
-	set strings011[loc_integer01] = "Tombstone Zombies become extremely powerful when your opponents have low health and attack and move much faster."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Decay is used to deal damage and make opponents more vulnerable, while increasing the survivability of Dirge temporarily."
+//	set strings008[loc_integer01] = "Make sure Dirge is a presence who can cast his spells in fights by buying regeneration items like Vladmir's Offering and Void Stone."
+//	set strings009[loc_integer01] = "Soul Rip is a powerful heal or nuke but remember that it will have almost no effect without nearby units. Cast it in crowds."
+//	set strings010[loc_integer01] = "Use Tombstone when engaging the enemy because the zombies have a slowing capability and may also help block your opponents."
+//	set strings011[loc_integer01] = "Tombstone Zombies become extremely powerful when your opponents have low health and attack and move much faster."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[93] = 'H00N'
 	set DummyID[93] = 'h06H'
 	//  set integers069[93]='n0BG'
 	set HeroIcon[93] = "ReplaceableTextures\\CommandButtons\\BTNDranaiMage.blp"
 	call SaveHeroWinAnimation(HeroID[93], "spell")
 	call SaveHeroScale(HeroID[93], 1.15, DummyID[93])
-	set strings007[loc_integer01] = "Ion shell is great for killing creeps and dealing damage to heroes, but it will not damage an enemy target if you cast it on them directly."
-	set strings008[loc_integer01] = "A level of Surge early game can help you and allies escape and chase enemies, and works nicely to help you close in on opponents with Ion Shell."
-	set strings009[loc_integer01] = "Vacuum is an extremely powerful skill that can be used for initiating and combining with other spells. It can also interrupt channeling and teleport spells."
-	set strings010[loc_integer01] = "Make sure they are standing closer to the edge of your targeting circle when casting Vacuum to pull your opponents further."
-	set strings011[loc_integer01] = "Use Wall of Replica where multiple heroes will touch it; try using it with Vacuum. Get your allies to run through the wall too."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Ion shell is great for killing creeps and dealing damage to heroes, but it will not damage an enemy target if you cast it on them directly."
+//	set strings008[loc_integer01] = "A level of Surge early game can help you and allies escape and chase enemies, and works nicely to help you close in on opponents with Ion Shell."
+//	set strings009[loc_integer01] = "Vacuum is an extremely powerful skill that can be used for initiating and combining with other spells. It can also interrupt channeling and teleport spells."
+//	set strings010[loc_integer01] = "Make sure they are standing closer to the edge of your targeting circle when casting Vacuum to pull your opponents further."
+//	set strings011[loc_integer01] = "Use Wall of Replica where multiple heroes will touch it; try using it with Vacuum. Get your allies to run through the wall too."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[94] = 'H00U'
 	set DummyID[94] = 'h06B'
 	//  set integers069[94]='n0BF'
 	set HeroIcon[94] = "ReplaceableTextures\\CommandButtons\\BTNHeroBloodElfPrince.blp"
 	call SaveHeroWinAnimation(HeroID[94], "spell")
 	call SaveHeroScale(HeroID[94], 1.25, DummyID[94])
-	set strings007[loc_integer01] = "Having at least one level in Quas, Wex and Exort will give you a larger repertoire of spells. Type -invokelist to obtain a full list of combinations."
-	set strings008[loc_integer01] = "Ghost Walk (QQW) can be used to get yourself out of a tight situation, and also for slowing opponents so that your allies can chase/escape."
-	set strings009[loc_integer01] = "Sunstrike (EEE) is a global-ranged nuke that deals damage based on the level of Exort. When using it, you have to factor in the 1.7 casting time."
-	set strings010[loc_integer01] = "Forge Spirit (EEQ) and Cold Snap (QQQ) can be effective for pushing towers and against heroes with low armor. "
-	set strings011[loc_integer01] = "EMP (WWW) and Tornado (WWQ) can completely drain off heroes with low mana pools and have a impressive casting range."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Having at least one level in Quas, Wex and Exort will give you a larger repertoire of spells. Type -invokelist to obtain a full list of combinations."
+//	set strings008[loc_integer01] = "Ghost Walk (QQW) can be used to get yourself out of a tight situation, and also for slowing opponents so that your allies can chase/escape."
+//	set strings009[loc_integer01] = "Sunstrike (EEE) is a global-ranged nuke that deals damage based on the level of Exort. When using it, you have to factor in the 1.7 casting time."
+//	set strings010[loc_integer01] = "Forge Spirit (EEQ) and Cold Snap (QQQ) can be effective for pushing towers and against heroes with low armor. "
+//	set strings011[loc_integer01] = "EMP (WWW) and Tornado (WWQ) can completely drain off heroes with low mana pools and have a impressive casting range."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[95] = 'Uktl'
 	set DummyID[95] = 'h04D'
 	//  set integers069[95]='n0A6'
 	set HeroIcon[95] = "ReplaceableTextures\\CommandButtons\\BTNSpell_Shadow_SummonVoidWalker.blp"
 	call SaveHeroWinAnimation(HeroID[95], "stand")
 	call SaveHeroScale(HeroID[95], 1.5, DummyID[95])
-	set strings007[loc_integer01] = "Conversion allows Enigma to neutral creep effectively. Target the highest level creep possible and move your low HP Eidolons out of the way to save them."
-	set strings008[loc_integer01] = "In the lane, Conversion can be used on allied creeps to deny your opponents of experience and gold, and for making sure you last hit enemy creeps."
-	set strings009[loc_integer01] = "The multiple stuns on higher levels of Malefice make it useful for preventing an opponent from channeling spells or help you chase/escape them."
-	set strings010[loc_integer01] = "Use Midnight Pulse in conjunction with Black Hole to deal massive damage to enemies. Just make sure that you cast it before Black Hole."
-	set strings011[loc_integer01] = "Kelen's Dagger is great for Black Hole placement, and a Black King Bar will prevent most spells from stopping the channeling effect of the spell."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Conversion allows Enigma to neutral creep effectively. Target the highest level creep possible and move your low HP Eidolons out of the way to save them."
+//	set strings008[loc_integer01] = "In the lane, Conversion can be used on allied creeps to deny your opponents of experience and gold, and for making sure you last hit enemy creeps."
+//	set strings009[loc_integer01] = "The multiple stuns on higher levels of Malefice make it useful for preventing an opponent from channeling spells or help you chase/escape them."
+//	set strings010[loc_integer01] = "Use Midnight Pulse in conjunction with Black Hole to deal massive damage to enemies. Just make sure that you cast it before Black Hole."
+//	set strings011[loc_integer01] = "Kelen's Dagger is great for Black Hole placement, and a Black King Bar will prevent most spells from stopping the channeling effect of the spell."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[96] = 'O016'
 	set DummyID[96] = 'h07R'
 	//  set integers069[96]='n0G9'
@@ -9509,12 +9513,12 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[96], "stand")
 	call SaveHeroScale(HeroID[96], 1.2, DummyID[96])
 	call SaveHeroScale('O017', 1.2, DummyID[96])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[97] = 'N0HP'
 	set DummyID[97] = 'h0B0'
 	//  set integers069[97]='n0HR'
@@ -9522,24 +9526,24 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[97], "stand")
 	call SaveHeroScale(HeroID[97], 1.17, DummyID[97])
 	call SaveHeroScale('N0HP', 1.2, DummyID[97])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[98] = 'H071'
 	set DummyID[98] = 'h072'
 	//  set integers069[98]='n0EF'
 	set HeroIcon[98] = "ReplaceableTextures\\CommandButtons\\BTNMurgulShadowCaster.blp"
 	call SaveHeroWinAnimation(HeroID[98], "stand 3")
 	call SaveHeroScale(HeroID[98], 1.25, DummyID[98])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[99] = 'Eevi'
 	set DummyID[99] = 'h056'
 	//  set integers069[99]='n0AV'
@@ -9550,60 +9554,60 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroScale('E02V', 1, DummyID[99])
 	call SaveHeroScale('E02W', 1, DummyID[99])
 	call SaveHeroScale('E02U', 1, DummyID[99])
-	set strings007[loc_integer01] = "Get Soul Steal if you need healing in the lane."
-	set strings008[loc_integer01] = "Purchase statistic-increasing items like Wraith Bands and later items like Sange and Yasha to benefit both Terrorblade and his images."
-	set strings009[loc_integer01] = "It might be difficult to escape due to the trail you leave behind when walking, you may have to use an image to act as a block or decoy."
-	set strings010[loc_integer01] = "Sunder can turn fights around when you have low health but be careful of disables and high damage spells when trying to swap."
-	set strings011[loc_integer01] = "Creating ranged images in Metamorphosis will allow you to deal damage safely in fights as well as push down buildings very quickly."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Get Soul Steal if you need healing in the lane."
+//	set strings008[loc_integer01] = "Purchase statistic-increasing items like Wraith Bands and later items like Sange and Yasha to benefit both Terrorblade and his images."
+//	set strings009[loc_integer01] = "It might be difficult to escape due to the trail you leave behind when walking, you may have to use an image to act as a block or decoy."
+//	set strings010[loc_integer01] = "Sunder can turn fights around when you have low health but be careful of disables and high damage spells when trying to swap."
+//	set strings011[loc_integer01] = "Creating ranged images in Metamorphosis will allow you to deal damage safely in fights as well as push down buildings very quickly."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[100] = 'Ekee'
 	set DummyID[100] = 'h059'
 	//  set integers069[100]='n0AW'
 	set HeroIcon[100] = "ReplaceableTextures\\CommandButtons\\BTNKeeperGhostBlue.blp"
 	call SaveHeroWinAnimation(HeroID[100], "stand victory")
 	call SaveHeroScale(HeroID[100], 1, DummyID[100])
-	set strings007[loc_integer01] = "Split Earth is a very useful disable while Lightning Storm is taken because of its low cooldown. Both are powerful spells that hit multiple targets."
-	set strings008[loc_integer01] = "By using Lightning Storm to finish low-health creeps with nearby opponents, you can get gold and harass enemy heroes at the same time."
-	set strings009[loc_integer01] = "Diabolic Edict is one of the most powerful spells for destroying buildings. Eliminate the creeps first so that you only have one target."
-	set strings010[loc_integer01] = "Turn off Pulse Nova when you have finished using it because the spell will continue until you have exhausted your entire mana pool."
-	set strings011[loc_integer01] = "Items like Bloodstone or Aghanim's Scepter will allow Leshrac to use his spells more liberally and survive in the midst of battle."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Split Earth is a very useful disable while Lightning Storm is taken because of its low cooldown. Both are powerful spells that hit multiple targets."
+//	set strings008[loc_integer01] = "By using Lightning Storm to finish low-health creeps with nearby opponents, you can get gold and harass enemy heroes at the same time."
+//	set strings009[loc_integer01] = "Diabolic Edict is one of the most powerful spells for destroying buildings. Eliminate the creeps first so that you only have one target."
+//	set strings010[loc_integer01] = "Turn off Pulse Nova when you have finished using it because the spell will continue until you have exhausted your entire mana pool."
+//	set strings011[loc_integer01] = "Items like Bloodstone or Aghanim's Scepter will allow Leshrac to use his spells more liberally and survive in the midst of battle."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[101] = 'E02H'
 	set DummyID[101] = 'h0CB'
 	//  set integers069[101]='n0KL'
 	set HeroIcon[101] = "ReplaceableTextures\\CommandButtons\\BTNArchimonde.blp"
 	call SaveHeroWinAnimation(HeroID[101], "stand 3")
 	call SaveHeroScale(HeroID[101], 1.25, DummyID[101])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[102] = 'Ulic'
 	set DummyID[102] = 'h05A'
 	//  set integers069[102]='n0AX'
 	set HeroIcon[102] = "ReplaceableTextures\\CommandButtons\\BTNLichVersion2.blp"
 	call SaveHeroWinAnimation(HeroID[102], "stand channel")
 	call SaveHeroScale(HeroID[102], 1.3, DummyID[51])
-	set strings007[loc_integer01] = "Dark Ritual is useful for denying allied creeps and provides you with mana to use spells without buying regeneration items."
-	set strings008[loc_integer01] = "Frost Nova is a very powerful spell that allows you to be aggressive. Attack the enemy a few extra times while they are slowed."
-	set strings009[loc_integer01] = "Chain Frost is most effective when used against 2-3 nearby targets (ideally heroes), but will not bounce when used on a lone unit."
-	set strings010[loc_integer01] = "Frost Armor should be cast on multiple teammates when you have the mana for it later on; it works nicely against melee units."
-	set strings011[loc_integer01] = "The first target of your Chain Frost can interrupt channeling and teleport spells if absolutely necessary."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Dark Ritual is useful for denying allied creeps and provides you with mana to use spells without buying regeneration items."
+//	set strings008[loc_integer01] = "Frost Nova is a very powerful spell that allows you to be aggressive. Attack the enemy a few extra times while they are slowed."
+//	set strings009[loc_integer01] = "Chain Frost is most effective when used against 2-3 nearby targets (ideally heroes), but will not bounce when used on a lone unit."
+//	set strings010[loc_integer01] = "Frost Armor should be cast on multiple teammates when you have the mana for it later on; it works nicely against melee units."
+//	set strings011[loc_integer01] = "The first target of your Chain Frost can interrupt channeling and teleport spells if absolutely necessary."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[103] = 'UC76'
 	set DummyID[103] = 'h05B'
 	//  set integers069[103]='n0AY'
 	set HeroIcon[103] = "ReplaceableTextures\\CommandButtons\\BTNBanshee.blp"
 	call SaveHeroWinAnimation(HeroID[103], "spell wail")
 	call SaveHeroScale(HeroID[103], 1.35, DummyID[103])
-	set strings007[loc_integer01] = "Carrion Swarm is your primary nuke and first skill to max. Make use of its range by casting it on the ground instead of on a unit directly."
-	set strings008[loc_integer01] = "An early level of Silence can help prevent you and your allies from being attacked by multiple spells."
-	set strings009[loc_integer01] = "The ghosts of Exorcism will attack whatever you attack, so if you want to direct all attention to a single unit simply focus them and stay nearby."
-	set strings010[loc_integer01] = "Exorcism also makes Krobelus extremely effective for quickly destroying enemy buildings, so be sure to push the enemy base when you can"
-	set strings011[loc_integer01] = "The effect of Exorcism stops if you die in combat: Invest in items that improve your survivability, such as a Bloodstone or a Heart of Tarrasque."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Carrion Swarm is your primary nuke and first skill to max. Make use of its range by casting it on the ground instead of on a unit directly."
+//	set strings008[loc_integer01] = "An early level of Silence can help prevent you and your allies from being attacked by multiple spells."
+//	set strings009[loc_integer01] = "The ghosts of Exorcism will attack whatever you attack, so if you want to direct all attention to a single unit simply focus them and stay nearby."
+//	set strings010[loc_integer01] = "Exorcism also makes Krobelus extremely effective for quickly destroying enemy buildings, so be sure to push the enemy base when you can"
+//	set strings011[loc_integer01] = "The effect of Exorcism stops if you die in combat: Invest in items that improve your survivability, such as a Bloodstone or a Heart of Tarrasque."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[104] = 'UC18'
 	set DummyID[104] = 'h05C'
 	//  set integers069[104]='n0AZ'
@@ -9611,12 +9615,12 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[104], "spell callstorm")
 	call SaveHeroScale(HeroID[104], 1.3, DummyID[104])
 	call Func0383(HeroID[104], 50, 100, 255)
-	set strings007[loc_integer01] = "With plenty of damage and disables, Lion is quite a force to be reckoned with cheap utility items such as Bottle and Phase Boots."
-	set strings008[loc_integer01] = "Impale gives Lion the ability to disable multiple targets and deals decent damage, so it is definitely the most versatile of his three skills for the early game."
-	set strings009[loc_integer01] = "Mana Drain only works on units with mana: Using Mana Drain on enemy heroes will reduce their spell use while replenishing mana."
-	set strings010[loc_integer01] = "Avoid wasting Finger of Death on low-health enemy heroes when a few extra attacks or using another spell like Impale will deal enough damage."
-	set strings011[loc_integer01] = "Wait until the duration of your first disable wears off before using another one for maximum disable time when using Impale and Voodoo."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "With plenty of damage and disables, Lion is quite a force to be reckoned with cheap utility items such as Bottle and Phase Boots."
+//	set strings008[loc_integer01] = "Impale gives Lion the ability to disable multiple targets and deals decent damage, so it is definitely the most versatile of his three skills for the early game."
+//	set strings009[loc_integer01] = "Mana Drain only works on units with mana: Using Mana Drain on enemy heroes will reduce their spell use while replenishing mana."
+//	set strings010[loc_integer01] = "Avoid wasting Finger of Death on low-health enemy heroes when a few extra attacks or using another spell like Impale will deal enough damage."
+//	set strings011[loc_integer01] = "Wait until the duration of your first disable wears off before using another one for maximum disable time when using Impale and Voodoo."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[105] = 'EC57'
 	set DummyID[105] = 'h05D'
 	//  set integers069[105]='n0B0'
@@ -9624,12 +9628,12 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[105], "attack")
 	call SaveHeroScale(HeroID[105], 1.0, DummyID[105])
 	call Func0383(HeroID[105], 150, 200, 255)
-	set strings007[loc_integer01] = "Venomous Gale is a spell that hits multiple opponents and slows them, making it very useful for getting early kills."
-	set strings008[loc_integer01] = "At least one level of Poison Sting is recommended early game for its slow effect."
-	set strings009[loc_integer01] = "Bottle and Magic Stick will help deal with his low HP/mana, while Phase Boots are a cheap way to improve his chasing capabilities."
-	set strings010[loc_integer01] = "Wards are very useful for pushing a lane and killing neutral and enemy creeps, but you can also use it to provide vision."
-	set strings011[loc_integer01] = "Poison Nova deals a lot of damage but you have to combine it with other spells and attacks because it does not deal fatal damage (stops at 1 HP)."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Venomous Gale is a spell that hits multiple opponents and slows them, making it very useful for getting early kills."
+//	set strings008[loc_integer01] = "At least one level of Poison Sting is recommended early game for its slow effect."
+//	set strings009[loc_integer01] = "Bottle and Magic Stick will help deal with his low HP/mana, while Phase Boots are a cheap way to improve his chasing capabilities."
+//	set strings010[loc_integer01] = "Wards are very useful for pushing a lane and killing neutral and enemy creeps, but you can also use it to provide vision."
+//	set strings011[loc_integer01] = "Poison Nova deals a lot of damage but you have to combine it with other spells and attacks because it does not deal fatal damage (stops at 1 HP)."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[106] = 'UC11'
 	set DummyID[106] = 'h05E'
 	//  set integers069[106]='n0A2'
@@ -9637,12 +9641,12 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[106], "stand channel")
 	call SaveHeroScale(HeroID[106], 1, DummyID[106])
 	call Func0383(HeroID[106], 150, 150, 100)
-	set strings007[loc_integer01] = "Bottle and Perseverance help with early regeneration,. while purchasing Kelen's Dagger later will help you to land Reverse Polarity."
-	set strings008[loc_integer01] = "A few Attribute Bonus points can help you cast more spells. Save Mighty Swing for later levels when you have more damage."
-	set strings009[loc_integer01] = "By targeting the ground where you want to fire Shockwave, you can hit both creeps and opponents and make use of its long range."
-	set strings010[loc_integer01] = "Magnus should cast Empower on himself and other allies with high damage before initiating team battles with his ultimate."
-	set strings011[loc_integer01] = "The cleave of Battlefury stacks directly with Mighty Swing, making it a good damage item especially if you already have a Perseverance."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Bottle and Perseverance help with early regeneration,. while purchasing Kelen's Dagger later will help you to land Reverse Polarity."
+//	set strings008[loc_integer01] = "A few Attribute Bonus points can help you cast more spells. Save Mighty Swing for later levels when you have more damage."
+//	set strings009[loc_integer01] = "By targeting the ground where you want to fire Shockwave, you can hit both creeps and opponents and make use of its long range."
+//	set strings010[loc_integer01] = "Magnus should cast Empower on himself and other allies with high damage before initiating team battles with his ultimate."
+//	set strings011[loc_integer01] = "The cleave of Battlefury stacks directly with Mighty Swing, making it a good damage item especially if you already have a Perseverance."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[107] = 'UC60'
 	set DummyID[107] = 'h05F'
 	//  set integers069[107]='n0B1'
@@ -9650,48 +9654,48 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroWinAnimation(HeroID[107], "stand victory")
 	call SaveHeroScale(HeroID[107], 1, DummyID[107])
 	call Func0383(HeroID[107], 150, 150, 150)
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[108] = 'U00A'
 	set DummyID[108] = 'h05G'
 	//  set integers069[108]='n0B2'
 	set HeroIcon[108] = "ReplaceableTextures\\CommandButtons\\BTNChaosWarlord.blp"
 	call SaveHeroWinAnimation(HeroID[108], "stand victory")
 	call SaveHeroScale(HeroID[108], 1.05, DummyID[108])
-	set strings007[loc_integer01] = "Chaos Bolt and Blink Strike are active abilities that are more useful in the lane and for killing opponents than Critical Strike."
-	set strings008[loc_integer01] = "Chaos Bolt is a disable that switches between average and extremely powerful, the sooner you have max out this spell, the better."
-	set strings009[loc_integer01] = "His high natural movement speed (325 - the highest in the game) and Blink Strike make him very difficult for opponents to outrun or chase him."
-	set strings010[loc_integer01] = "If you Blink Strike and then use Chaos Bolt, you can spend more time hitting opponents and less time waiting for his slow casting animation. "
-	set strings011[loc_integer01] = "Make Nessaj and Phantasm stronger by buying Strength items like Armlet of Mordiggan (when activated) and Heart of Tarrasque."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "Chaos Bolt and Blink Strike are active abilities that are more useful in the lane and for killing opponents than Critical Strike."
+//	set strings008[loc_integer01] = "Chaos Bolt is a disable that switches between average and extremely powerful, the sooner you have max out this spell, the better."
+//	set strings009[loc_integer01] = "His high natural movement speed (325 - the highest in the game) and Blink Strike make him very difficult for opponents to outrun or chase him."
+//	set strings010[loc_integer01] = "If you Blink Strike and then use Chaos Bolt, you can spend more time hitting opponents and less time waiting for his slow casting animation. "
+//	set strings011[loc_integer01] = "Make Nessaj and Phantasm stronger by buying Strength items like Armlet of Mordiggan (when activated) and Heart of Tarrasque."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[109] = 'N0M7'
 	set DummyID[109] = 'h0DW'
 	//  set integers069[109]='n0M8'
 	set HeroIcon[109] = "ReplaceableTextures\\CommandButtons\\BTNFrostWyrm.blp"
 	call SaveHeroWinAnimation(HeroID[109], "stand victory")
 	call SaveHeroScale(HeroID[109], 0.9, DummyID[109])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[110] = 'N0MK'
 	set DummyID[110] = 'h0EF'
 	//  set integers069[110]='n0ML'
 	set HeroIcon[110] = "ReplaceableTextures\\CommandButtons\\BTNGnollWarden.blp"
 	call SaveHeroWinAnimation(HeroID[110], "stand victory")
 	call SaveHeroScale(HeroID[110], 1.1, DummyID[110])
-	set strings007[loc_integer01] = ""
-	set strings008[loc_integer01] = ""
-	set strings009[loc_integer01] = ""
-	set strings010[loc_integer01] = ""
-	set strings011[loc_integer01] = ""
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = ""
+//	set strings008[loc_integer01] = ""
+//	set strings009[loc_integer01] = ""
+//	set strings010[loc_integer01] = ""
+//	set strings011[loc_integer01] = ""
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[111] = 'U008'
 	set DummyID[111] = 'h05H'
 	//  set integers069[111]='n0B3'
@@ -9700,24 +9704,24 @@ function InitHeroes takes nothing returns nothing
 	call SaveHeroScale(HeroID[111], 1.2, DummyID[111])
 	call SaveHeroScale('E015', 1, DummyID[111])
 	call Func0383(HeroID[111], 255, 75, 255)
-	set strings007[loc_integer01] = "If you want to neutral creeps, start with Summon Wolves and a Ring of Basilius, which can be used to make Vladmir's Offering later."
-	set strings008[loc_integer01] = "Spirit Wolves gain invisibility at level 4, making them difficult to kill and easy to harass heroes with in the lane."
-	set strings009[loc_integer01] = "Feral Heart make you and your wolves stronger overall, while Howl is an offensive spell used before engaging the enemy."
-	set strings010[loc_integer01] = "Shapeshift makes you incredibly powerful and gives you max movement speed. Avoid being blocked by your wolves when chasing."
-	set strings011[loc_integer01] = "A Black King Bar will prevent enemies from disabling you, making you very fearsome and almost unstoppable when attacking heroes."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "If you want to neutral creeps, start with Summon Wolves and a Ring of Basilius, which can be used to make Vladmir's Offering later."
+//	set strings008[loc_integer01] = "Spirit Wolves gain invisibility at level 4, making them difficult to kill and easy to harass heroes with in the lane."
+//	set strings009[loc_integer01] = "Feral Heart make you and your wolves stronger overall, while Howl is an offensive spell used before engaging the enemy."
+//	set strings010[loc_integer01] = "Shapeshift makes you incredibly powerful and gives you max movement speed. Avoid being blocked by your wolves when chasing."
+//	set strings011[loc_integer01] = "A Black King Bar will prevent enemies from disabling you, making you very fearsome and almost unstoppable when attacking heroes."
+//	set loc_integer01 = loc_integer01 + 1
 	set HeroID[112] = 'U006'
 	set DummyID[112] = 'h05I'
 	//  set integers069[112]='n0B4'
 	set HeroIcon[112] = "ReplaceableTextures\\CommandButtons\\BTNSpiderBlack.blp"
 	call SaveHeroWinAnimation(HeroID[112], "walk")
 	call SaveHeroScale(HeroID[112], 1.36, DummyID[112])
-	set strings007[loc_integer01] = "At least one level in Spin Web early game will increase your survivability greatly. Remember that attacking/using spells will cause you to break invisibility."
-	set strings008[loc_integer01] = "Spawn Spiderlings is both a nuke and pushing spell, so getting items like a Ring of Basilius will provide you with both mana and armor for pushing."
-	set strings009[loc_integer01] = "Incapacitating Bite makes it very difficult for enemies to get away from you, great for chasing and slowing opponents temporarily for your allies."
-	set strings010[loc_integer01] = "Try to space out your webs with least 2 seconds of walking distance so that you can benefit from its bonuses on as much ground as possible."
-	set strings011[loc_integer01] = "With the damage and lifesteal from Insatiable Hunger, sometimes it is best to get items that will prevent you from being disabled, such as a Black King Bar."
-	set loc_integer01 = loc_integer01 + 1
+//	set strings007[loc_integer01] = "At least one level in Spin Web early game will increase your survivability greatly. Remember that attacking/using spells will cause you to break invisibility."
+//	set strings008[loc_integer01] = "Spawn Spiderlings is both a nuke and pushing spell, so getting items like a Ring of Basilius will provide you with both mana and armor for pushing."
+//	set strings009[loc_integer01] = "Incapacitating Bite makes it very difficult for enemies to get away from you, great for chasing and slowing opponents temporarily for your allies."
+//	set strings010[loc_integer01] = "Try to space out your webs with least 2 seconds of walking distance so that you can benefit from its bonuses on as much ground as possible."
+//	set strings011[loc_integer01] = "With the damage and lifesteal from Insatiable Hunger, sometimes it is best to get items that will prevent you from being disabled, such as a Black King Bar."
+//	set loc_integer01 = loc_integer01 + 1
 	set integer042 = 112
 	set integers070[1] = 'Nbrn'
 	set integers070[2] = 'Edem'
@@ -9826,7 +9830,7 @@ function InitHeroes takes nothing returns nothing
 	set integers072[31] = 'N00B'
 	set integers072[32] = 'H00U'
 	set integers072[33] = 'O016'
-	set integers072[34] = HeroID[97]
+	set integers072[34] = 'N0HP'
 	set integers072[35] = 'E02H'
 	set integers072[36] = 'E02J'
 	set integers072[37] = 'E02X'
@@ -9882,7 +9886,7 @@ function InitHeroes takes nothing returns nothing
 	set integers073[46] = 'N01V'
 	set integers073[47] = 'H00Q'
 	set integers073[48] = 'O016'
-	set integers073[49] = HeroID[97]
+	set integers073[49] = 'N0HP'
 	set integers073[50] = 'O01F'
 	set integers073[51] = 'E02H'
 	set integers073[52] = 'E02N'
@@ -11468,7 +11472,7 @@ function Func0470 takes nothing returns nothing
 	if boolean003 == false then
 		call Func0404(GetOwningPlayer(loc_unit01))
 	endif
-	//    if "Language: English"=="Language: English"and(strings007[(GetUnitPointValue(loc_unit01))]!="") then
+//	//    if "Language: English"=="Language: English"and(strings007[(GetUnitPointValue(loc_unit01))]!="") then
 	//        call DisplayTimedTextToPlayer(loc_player01, 0, 0, 4, "A |c006699CC-tips|r command is available if you would like some pointers for this hero")
 	//    endif
 	//    if booleans035[GetPlayerId(loc_player01)] == true then
@@ -13766,8 +13770,8 @@ function Func0550 takes nothing returns boolean
 	local real loc_real01 = GetUnitX(Sentinel_Fountain)
 	local real loc_real02 = GetUnitY(Sentinel_Fountain)
 	if Func0056(GetOwningPlayer(loc_unit01)) then
-		set loc_real01 = real104
-		set loc_real02 = real105
+		set loc_real01 = GetUnitX(unit174)
+		set loc_real02 = GetUnitY(unit174)
 	endif
 	if Func0184(loc_unit01) == false then
 		if Func0141(GetUnitX(loc_unit01), GetUnitY(loc_unit01), loc_real01, loc_real02) < 800 then
@@ -17554,7 +17558,7 @@ function Func0665 takes nothing returns boolean
 	call GroupEnumUnitsInRange(loc_group01, GetUnitX(Sentinel_Fountain), GetUnitY(Sentinel_Fountain), 750, Condition(function Func0663))
 	call KillGroup(loc_group01)
 	set loc_group01 = GetAvailableGroup()
-	call GroupEnumUnitsInRange(loc_group01, real104, real105, 750, Condition(function Func0664))
+	call GroupEnumUnitsInRange(loc_group01, GetUnitX(unit174), GetUnitY(unit174), 750, Condition(function Func0664))
 	call KillGroup(loc_group01)
 	set loc_group01 = null
 	return false
@@ -84363,8 +84367,8 @@ function Func4086 takes nothing returns boolean
 			call SetUnitX(loc_unit02, GetUnitX(Sentinel_Fountain))
 			call SetUnitY(loc_unit02, GetUnitY(Sentinel_Fountain))
 		else
-			call SetUnitX(loc_unit02, real104)
-			call SetUnitY(loc_unit02, real105)
+			call SetUnitX(loc_unit02, GetUnitX(unit174))
+			call SetUnitY(loc_unit02, GetUnitY(unit174))
 		endif
 	endif
 	set loc_trigger01 = null
@@ -87616,9 +87620,9 @@ function main takes nothing returns nothing
 	call SetSoundParamsFromLabel(sound044, "ReviveHuman")
 	call SetSoundDuration(sound044, 3196)
 	call SetSoundChannel(sound044, 8)
-	set sound045 = CreateSound("Sound\\Interface\\SecretFound.wav", false, false, false, 10, 10, "")
-	call SetSoundParamsFromLabel(sound045, "SecretFound")
-	call SetSoundDuration(sound045, 2525)
+	// set sound045 = CreateSound("Sound\\Interface\\SecretFound.wav", false, false, false, 10, 10, "")
+	// call SetSoundParamsFromLabel(sound045, "SecretFound")
+	// call SetSoundDuration(sound045, 2525)
 	set sound046 = CreateSound("Sounds\\UltraKill.mp3", false, false, false, 10, 10, "")
 	call SetSoundDuration(sound046, 1958)
 	call SetSoundChannel(sound046, 0)
@@ -87960,7 +87964,7 @@ function main takes nothing returns nothing
 	call SetUnitColor(unit089, ConvertPlayerColor(0))
 	set unit029 = CreateUnit(loc_player01, 'n01F', -7424.0, -6720.0, 270.000)
 	set unit030 = CreateUnit(loc_player01, 'n01F', -7424.0, -6848.0, 270.000)
-//	set unit031 = CreateUnit(loc_player01, 'nfoh', -7232.0, -7136.0, 270.000)
+	//	set unit031 = CreateUnit(loc_player01, 'nfoh', -7232.0, -7136.0, 270.000)
 	set loc_unit01 = CreateUnit(loc_player01, 'uC74', 3200.0, -64.0, 270.000) //dont delete me
 	set unit005 = CreateUnit(loc_player01, 'n0EO', -6848.0, 6464.0, 270.000)
 	call SetUnitColor(unit005, ConvertPlayerColor(0))
@@ -87969,7 +87973,7 @@ function main takes nothing returns nothing
 	set unit086 = CreateUnit(loc_player01, 'n01F', 7040.0, 5760.0, 270.000)
 	set unit087 = CreateUnit(loc_player01, 'n01F', 7040.0, 6016.0, 270.000)
 	set unit083 = CreateUnit(loc_player01, 'n01F', 7040.0, 6144.0, 270.000)
-	set unit088 = CreateUnit(loc_player01, 'ndfl', 6784.0, 6368.0, 270.000)
+//	set unit088 = CreateUnit(loc_player01, 'ndfl', 6784.0, 6368.0, 270.000)
 	set unit011 = CreateUnit(loc_player01, 'n0EO', -7360.0, 7104.0, 270.000)
 	call SetUnitColor(unit011, ConvertPlayerColor(0))
 	set unit090 = CreateUnit(loc_player01, 'n0EO', -7168.0, 7104.0, 270.000)
@@ -87990,111 +87994,111 @@ function main takes nothing returns nothing
 	set unit120 = CreateUnit(loc_player01, 'n0EO', -6656.0, 6784.0, 270.000)
 	call SetUnitColor(unit120, ConvertPlayerColor(0))
 	// set loc_player01 = Player(0)
-//	set unit032 = CreateUnit(loc_player01, 'nC38', -7264.0, -6880.0, 270.000)
-//	call SetUnitColor(unit032, ConvertPlayerColor(12))
-//	set unit033 = CreateUnit(loc_player01, 'n01K', -7264.0, -6688.0, 270.000)
-//	call SetUnitColor(unit033, ConvertPlayerColor(12))
-//	set unit036 = CreateUnit(loc_player01, 'n009', -6560.0, -6432.0, 270.000)
-//	call SetUnitColor(unit036, ConvertPlayerColor(12))
-//	set unit016 = CreateUnit(loc_player01, 'n00X', -7072.0, -6368.0, 270.000)
-//	call SetUnitColor(unit016, ConvertPlayerColor(1))
-//	set unit014 = CreateUnit(loc_player01, 'n00V', -6816.0, -6368.0, 270.000)
-//	call SetUnitColor(unit014, ConvertPlayerColor(12))
-//	set unit012 = CreateUnit(loc_player01, 'n00W', -7200.0, -6432.0, 270.000)
-//	call SetUnitColor(unit012, ConvertPlayerColor(12))
-//	set unit007 = CreateUnit(loc_player01, 'n002', -6688.0, -6368.0, 270.000)
-//	call SetUnitColor(unit007, ConvertPlayerColor(12))
-//	set unit065 = CreateUnit(loc_player01, 'e025', -6624.0, -7136.0, 270.000)
-//	set unit035 = CreateUnit(loc_player01, 'hC95', -6880.0, -7136.0, 270.000)
-//	call SetUnitColor(unit035, ConvertPlayerColor(0))
-//	set unit004 = CreateUnit(loc_player01, 'etol', -5632.0, -6144.0, 270.000)
-//	set unit042 = CreateUnit(loc_player01, 'e00S', -4448.0, -4960.0, 270.000)
-//	set unit044 = CreateUnit(loc_player01, 'e00S', -5280.0, -6112.0, 270.000)
-//	set unit067 = CreateUnit(loc_player01, 'edob', -6400.0, -5696.0, 270.000)
-//	set unit043 = CreateUnit(loc_player01, 'e00S', -6368.0, -4256.0, 270.000)
-//	set unit045 = CreateUnit(loc_player01, 'e00S', -5600.0, -5728.0, 270.000)
-//	set unit046 = CreateUnit(loc_player01, 'eaom', -6080.0, -4480.0, 270.000)
-//	set unit047 = CreateUnit(loc_player01, 'eaoe', -6656.0, -4480.0, 270.000)
-//	set unit049 = CreateUnit(loc_player01, 'eaom', -4416.0, -5312.0, 270.000)
-//	set unit052 = CreateUnit(loc_player01, 'eaoe', -4864.0, -4992.0, 270.000)
-//	set unit050 = CreateUnit(loc_player01, 'e00S', -3744.0, -6816.0, 270.000)
-//	set unit048 = CreateUnit(loc_player01, 'eaom', -4032.0, -7040.0, 270.000)
-//	set unit051 = CreateUnit(loc_player01, 'eaoe', -4032.0, -6528.0, 270.000)
-//	set unit055 = CreateUnit(loc_player01, 'emow', -5792.0, -5408.0, 270.000)
-//	set unit054 = CreateUnit(loc_player01, 'emow', -6624.0, -5088.0, 270.000)
-//	set unit053 = CreateUnit(loc_player01, 'emow', -5088.0, -5536.0, 270.000)
-//	set unit056 = CreateUnit(loc_player01, 'emow', -5344.0, -3936.0, 270.000)
-//	set unit057 = CreateUnit(loc_player01, 'emow', -5088.0, -4576.0, 270.000)
-//	set unit058 = CreateUnit(loc_player01, 'emow', -3936.0, -5344.0, 270.000)
-//	set unit059 = CreateUnit(loc_player01, 'emow', -4512.0, -7072.0, 270.000)
-//	set unit060 = CreateUnit(loc_player01, 'emow', -4896.0, -6240.0, 270.000)
-//	set unit061 = CreateUnit(loc_player01, 'emow', -3808.0, -5856.0, 270.000)
-//	set unit062 = CreateUnit(loc_player01, 'emow', -5472.0, -4704.0, 270.000)
-//	set unit063 = CreateUnit(loc_player01, 'emow', -4512.0, -5856.0, 270.000)
-//	set unit064 = CreateUnit(loc_player01, 'eaow', -4544.0, -6528.0, 270.000)
-//	set unit041 = CreateUnit(loc_player01, 'e00S', -6112.0, -1248.0, 270.000)
-//	set unit034 = CreateUnit(loc_player01, 'eaow', -6080.0, -5120.0, 270.000)
-//	set unit040 = CreateUnit(loc_player01, 'e00S', -6112.0, 1568.0, 270.000)
-//	set unit039 = CreateUnit(loc_player01, 'e00S', -1504.0, -1824.0, 270.000)
-//	set unit038 = CreateUnit(loc_player01, 'e00S', -544.0, -6688.0, 270.000)
-//	set unit037 = CreateUnit(loc_player01, 'e00S', 4960.0, -6752.0, 270.000)
-//	set unit017 = CreateUnit(loc_player01, 'e00S', -3488.0, -3296.0, 270.000)
-//	set unit066 = CreateUnit(loc_player01, 'edob', -5248.0, -6848.0, 270.000)
-//	set unit116 = CreateUnit(loc_player01, 'n0HE', -6944.0, -6368.0, 270.000)
-//	call SetUnitColor(unit116, ConvertPlayerColor(12))
+	//	set unit032 = CreateUnit(loc_player01, 'nC38', -7264.0, -6880.0, 270.000)
+	//	call SetUnitColor(unit032, ConvertPlayerColor(12))
+	//	set unit033 = CreateUnit(loc_player01, 'n01K', -7264.0, -6688.0, 270.000)
+	//	call SetUnitColor(unit033, ConvertPlayerColor(12))
+	//	set unit036 = CreateUnit(loc_player01, 'n009', -6560.0, -6432.0, 270.000)
+	//	call SetUnitColor(unit036, ConvertPlayerColor(12))
+	//	set unit016 = CreateUnit(loc_player01, 'n00X', -7072.0, -6368.0, 270.000)
+	//	call SetUnitColor(unit016, ConvertPlayerColor(1))
+	//	set unit014 = CreateUnit(loc_player01, 'n00V', -6816.0, -6368.0, 270.000)
+	//	call SetUnitColor(unit014, ConvertPlayerColor(12))
+	//	set unit012 = CreateUnit(loc_player01, 'n00W', -7200.0, -6432.0, 270.000)
+	//	call SetUnitColor(unit012, ConvertPlayerColor(12))
+	//	set unit007 = CreateUnit(loc_player01, 'n002', -6688.0, -6368.0, 270.000)
+	//	call SetUnitColor(unit007, ConvertPlayerColor(12))
+	//	set unit065 = CreateUnit(loc_player01, 'e025', -6624.0, -7136.0, 270.000)
+	//	set unit035 = CreateUnit(loc_player01, 'hC95', -6880.0, -7136.0, 270.000)
+	//	call SetUnitColor(unit035, ConvertPlayerColor(0))
+	//	set unit004 = CreateUnit(loc_player01, 'etol', -5632.0, -6144.0, 270.000)
+	//	set unit042 = CreateUnit(loc_player01, 'e00S', -4448.0, -4960.0, 270.000)
+	//	set unit044 = CreateUnit(loc_player01, 'e00S', -5280.0, -6112.0, 270.000)
+	//	set unit067 = CreateUnit(loc_player01, 'edob', -6400.0, -5696.0, 270.000)
+	//	set unit043 = CreateUnit(loc_player01, 'e00S', -6368.0, -4256.0, 270.000)
+	//	set unit045 = CreateUnit(loc_player01, 'e00S', -5600.0, -5728.0, 270.000)
+	//	set unit046 = CreateUnit(loc_player01, 'eaom', -6080.0, -4480.0, 270.000)
+	//	set unit047 = CreateUnit(loc_player01, 'eaoe', -6656.0, -4480.0, 270.000)
+	//	set unit049 = CreateUnit(loc_player01, 'eaom', -4416.0, -5312.0, 270.000)
+	//	set unit052 = CreateUnit(loc_player01, 'eaoe', -4864.0, -4992.0, 270.000)
+	//	set unit050 = CreateUnit(loc_player01, 'e00S', -3744.0, -6816.0, 270.000)
+	//	set unit048 = CreateUnit(loc_player01, 'eaom', -4032.0, -7040.0, 270.000)
+	//	set unit051 = CreateUnit(loc_player01, 'eaoe', -4032.0, -6528.0, 270.000)
+	//	set unit055 = CreateUnit(loc_player01, 'emow', -5792.0, -5408.0, 270.000)
+	//	set unit054 = CreateUnit(loc_player01, 'emow', -6624.0, -5088.0, 270.000)
+	//	set unit053 = CreateUnit(loc_player01, 'emow', -5088.0, -5536.0, 270.000)
+	//	set unit056 = CreateUnit(loc_player01, 'emow', -5344.0, -3936.0, 270.000)
+	//	set unit057 = CreateUnit(loc_player01, 'emow', -5088.0, -4576.0, 270.000)
+	//	set unit058 = CreateUnit(loc_player01, 'emow', -3936.0, -5344.0, 270.000)
+	//	set unit059 = CreateUnit(loc_player01, 'emow', -4512.0, -7072.0, 270.000)
+	//	set unit060 = CreateUnit(loc_player01, 'emow', -4896.0, -6240.0, 270.000)
+	//	set unit061 = CreateUnit(loc_player01, 'emow', -3808.0, -5856.0, 270.000)
+	//	set unit062 = CreateUnit(loc_player01, 'emow', -5472.0, -4704.0, 270.000)
+	//	set unit063 = CreateUnit(loc_player01, 'emow', -4512.0, -5856.0, 270.000)
+	//	set unit064 = CreateUnit(loc_player01, 'eaow', -4544.0, -6528.0, 270.000)
+	//	set unit041 = CreateUnit(loc_player01, 'e00S', -6112.0, -1248.0, 270.000)
+	//	set unit034 = CreateUnit(loc_player01, 'eaow', -6080.0, -5120.0, 270.000)
+	//	set unit040 = CreateUnit(loc_player01, 'e00S', -6112.0, 1568.0, 270.000)
+	//	set unit039 = CreateUnit(loc_player01, 'e00S', -1504.0, -1824.0, 270.000)
+	//	set unit038 = CreateUnit(loc_player01, 'e00S', -544.0, -6688.0, 270.000)
+	//	set unit037 = CreateUnit(loc_player01, 'e00S', 4960.0, -6752.0, 270.000)
+	//	set unit017 = CreateUnit(loc_player01, 'e00S', -3488.0, -3296.0, 270.000)
+	//	set unit066 = CreateUnit(loc_player01, 'edob', -5248.0, -6848.0, 270.000)
+	//	set unit116 = CreateUnit(loc_player01, 'n0HE', -6944.0, -6368.0, 270.000)
+	//	call SetUnitColor(unit116, ConvertPlayerColor(12))
 	set loc_player01 = Player(6)
-	set unit074 = CreateUnit(loc_player01, 'n002', 5920.0, 5920.0, 270.000)
-	call SetUnitColor(unit074, ConvertPlayerColor(12))
-	set unit075 = CreateUnit(loc_player01, 'n00W', 5984.0, 6432.0, 270.000)
-	call SetUnitColor(unit075, ConvertPlayerColor(12))
-	set unit076 = CreateUnit(loc_player01, 'n00V', 5920.0, 6048.0, 270.000)
-	call SetUnitColor(unit076, ConvertPlayerColor(12))
-	set unit077 = CreateUnit(loc_player01, 'n00X', 5920.0, 6304.0, 270.000)
-	call SetUnitColor(unit077, ConvertPlayerColor(1))
-	set unit082 = CreateUnit(loc_player01, 'nC38', 6496.0, 6368.0, 270.000)
-	call SetUnitColor(unit082, ConvertPlayerColor(12))
-	set unit081 = CreateUnit(loc_player01, 'n01K', 6304.0, 6368.0, 270.000)
-	call SetUnitColor(unit081, ConvertPlayerColor(12))
-	set unit092 = CreateUnit(loc_player01, 'usep', 4352.0, 3584.0, 270.000)
-	set unit079 = CreateUnit(loc_player01, 'n009', 5984.0, 5792.0, 270.000)
-	call SetUnitColor(unit079, ConvertPlayerColor(12))
-	set unit080 = CreateUnit(loc_player01, 'nC35', 6816.0, 5984.0, 270.000)
-	call SetUnitColor(unit080, ConvertPlayerColor(12))
-	set unit078 = CreateUnit(loc_player01, 'u00Q', 6816.0, 5664.0, 270.000)
-	set unit019 = CreateUnit(loc_player01, 'u00M', 6048.0, -2080.0, 270.000)
-	set unit018 = CreateUnit(loc_player01, 'u00D', 6304.0, -96.0, 270.000)
-	set unit102 = CreateUnit(loc_player01, 'uzig', 4384.0, 4256.0, 270.000)
-	set unit096 = CreateUnit(loc_player01, 'unpl', 5184.0, 4864.0, 270.000)
-	set unit097 = CreateUnit(loc_player01, 'utod', 3904.0, 3904.0, 270.000)
-	set unit098 = CreateUnit(loc_player01, 'u00M', 1056.0, -96.0, 270.000)
-	set unit099 = CreateUnit(loc_player01, 'u00D', 2528.0, 1824.0, 270.000)
-	set unit100 = CreateUnit(loc_player01, 'u00N', 3936.0, 3488.0, 270.000)
-	set unit101 = CreateUnit(loc_player01, 'u00T', 4832.0, 4832.0, 270.000)
-	set unit093 = CreateUnit(loc_player01, 'u00T', 5152.0, 4512.0, 270.000)
-	set unit103 = CreateUnit(loc_player01, 'uzig', 3168.0, 4064.0, 270.000)
-	set unit104 = CreateUnit(loc_player01, 'uzig', 5728.0, 4000.0, 270.000)
-	set unit073 = CreateUnit(loc_player01, 'u00N', 2976.0, 5792.0, 270.000)
-	set unit072 = CreateUnit(loc_player01, 'usep', 3392.0, 5504.0, 270.000)
-	set unit071 = CreateUnit(loc_player01, 'utod', 3392.0, 6080.0, 270.000)
-	set unit070 = CreateUnit(loc_player01, 'uzig', 4128.0, 6240.0, 270.000)
-	set unit069 = CreateUnit(loc_player01, 'usap', 3968.0, 5888.0, 270.000)
-	set unit105 = CreateUnit(loc_player01, 'ubon', 4992.0, 5952.0, 270.000)
-	set unit106 = CreateUnit(loc_player01, 'uzig', 2656.0, 4704.0, 270.000)
-	set unit107 = CreateUnit(loc_player01, 'uzig', 5536.0, 2464.0, 270.000)
-	set unit108 = CreateUnit(loc_player01, 'uzig', 4064.0, 5280.0, 270.000)
-	set unit109 = CreateUnit(loc_player01, 'uzig', 3488.0, 4832.0, 270.000)
-	set unit110 = CreateUnit(loc_player01, 'usap', 6400.0, 3584.0, 270.000)
-	set unit111 = CreateUnit(loc_player01, 'utod', 6080.0, 2944.0, 270.000)
-	set unit112 = CreateUnit(loc_player01, 'usep', 6656.0, 2880.0, 270.000)
-	set unit113 = CreateUnit(loc_player01, 'u00N', 6368.0, 2528.0, 270.000)
-	set unit114 = CreateUnit(loc_player01, 'uzig', 5024.0, 3744.0, 270.000)
-	set unit068 = CreateUnit(loc_player01, 'uzig', 6880.0, 3936.0, 270.000)
-	set unit095 = CreateUnit(loc_player01, 'ubon', 6464.0, 4608.0, 270.000)
-	set unit094 = CreateUnit(loc_player01, 'uzig', 4640.0, 2848.0, 270.000)
-	set unit013 = CreateUnit(loc_player01, 'u00M', -4704.0, 5920.0, 270.000)
-	set unit025 = CreateUnit(loc_player01, 'u00D', 32.0, 5920.0, 270.000)
-	set unit020 = CreateUnit(loc_player01, 'n0HE', 5920.0, 6176.0, 270.000)
-	call SetUnitColor(unit020, ConvertPlayerColor(12))
+//	set unit074 = CreateUnit(loc_player01, 'n002', 5920.0, 5920.0, 270.000)
+//	call SetUnitColor(unit074, ConvertPlayerColor(12))
+//	set unit075 = CreateUnit(loc_player01, 'n00W', 5984.0, 6432.0, 270.000)
+//	call SetUnitColor(unit075, ConvertPlayerColor(12))
+//	set unit076 = CreateUnit(loc_player01, 'n00V', 5920.0, 6048.0, 270.000)
+//	call SetUnitColor(unit076, ConvertPlayerColor(12))
+//	set unit077 = CreateUnit(loc_player01, 'n00X', 5920.0, 6304.0, 270.000)
+//	call SetUnitColor(unit077, ConvertPlayerColor(1))
+//	set unit082 = CreateUnit(loc_player01, 'nC38', 6496.0, 6368.0, 270.000)
+//	call SetUnitColor(unit082, ConvertPlayerColor(12))
+//	set unit081 = CreateUnit(loc_player01, 'n01K', 6304.0, 6368.0, 270.000)
+//	call SetUnitColor(unit081, ConvertPlayerColor(12))
+//	set unit092 = CreateUnit(loc_player01, 'usep', 4352.0, 3584.0, 270.000)
+//	set unit079 = CreateUnit(loc_player01, 'n009', 5984.0, 5792.0, 270.000)
+//	call SetUnitColor(unit079, ConvertPlayerColor(12))
+//	set unit080 = CreateUnit(loc_player01, 'nC35', 6816.0, 5984.0, 270.000)
+//	call SetUnitColor(unit080, ConvertPlayerColor(12))
+//	set unit078 = CreateUnit(loc_player01, 'u00Q', 6816.0, 5664.0, 270.000)
+//	set unit019 = CreateUnit(loc_player01, 'u00M', 6048.0, -2080.0, 270.000)
+//	set unit018 = CreateUnit(loc_player01, 'u00D', 6304.0, -96.0, 270.000)
+//	set unit102 = CreateUnit(loc_player01, 'uzig', 4384.0, 4256.0, 270.000)
+//	set unit096 = CreateUnit(loc_player01, 'unpl', 5184.0, 4864.0, 270.000)
+//	set unit097 = CreateUnit(loc_player01, 'utod', 3904.0, 3904.0, 270.000)
+//	set unit098 = CreateUnit(loc_player01, 'u00M', 1056.0, -96.0, 270.000)
+//	set unit099 = CreateUnit(loc_player01, 'u00D', 2528.0, 1824.0, 270.000)
+//	set unit100 = CreateUnit(loc_player01, 'u00N', 3936.0, 3488.0, 270.000)
+//	set unit101 = CreateUnit(loc_player01, 'u00T', 4832.0, 4832.0, 270.000)
+//	set unit093 = CreateUnit(loc_player01, 'u00T', 5152.0, 4512.0, 270.000)
+//	set unit103 = CreateUnit(loc_player01, 'uzig', 3168.0, 4064.0, 270.000)
+//	set unit104 = CreateUnit(loc_player01, 'uzig', 5728.0, 4000.0, 270.000)
+//	set unit073 = CreateUnit(loc_player01, 'u00N', 2976.0, 5792.0, 270.000)
+//	set unit072 = CreateUnit(loc_player01, 'usep', 3392.0, 5504.0, 270.000)
+//	set unit071 = CreateUnit(loc_player01, 'utod', 3392.0, 6080.0, 270.000)
+//	set unit070 = CreateUnit(loc_player01, 'uzig', 4128.0, 6240.0, 270.000)
+//	set unit069 = CreateUnit(loc_player01, 'usap', 3968.0, 5888.0, 270.000)
+//	set unit105 = CreateUnit(loc_player01, 'ubon', 4992.0, 5952.0, 270.000)
+//	set unit106 = CreateUnit(loc_player01, 'uzig', 2656.0, 4704.0, 270.000)
+//	set unit107 = CreateUnit(loc_player01, 'uzig', 5536.0, 2464.0, 270.000)
+//	set unit108 = CreateUnit(loc_player01, 'uzig', 4064.0, 5280.0, 270.000)
+//	set unit109 = CreateUnit(loc_player01, 'uzig', 3488.0, 4832.0, 270.000)
+//	set unit110 = CreateUnit(loc_player01, 'usap', 6400.0, 3584.0, 270.000)
+//	set unit111 = CreateUnit(loc_player01, 'utod', 6080.0, 2944.0, 270.000)
+//	set unit112 = CreateUnit(loc_player01, 'usep', 6656.0, 2880.0, 270.000)
+//	set unit113 = CreateUnit(loc_player01, 'u00N', 6368.0, 2528.0, 270.000)
+//	set unit114 = CreateUnit(loc_player01, 'uzig', 5024.0, 3744.0, 270.000)
+//	set unit068 = CreateUnit(loc_player01, 'uzig', 6880.0, 3936.0, 270.000)
+//	set unit095 = CreateUnit(loc_player01, 'ubon', 6464.0, 4608.0, 270.000)
+//	set unit094 = CreateUnit(loc_player01, 'uzig', 4640.0, 2848.0, 270.000)
+//	set unit013 = CreateUnit(loc_player01, 'u00M', -4704.0, 5920.0, 270.000)
+//	set unit025 = CreateUnit(loc_player01, 'u00D', 32.0, 5920.0, 270.000)
+//	set unit020 = CreateUnit(loc_player01, 'n0HE', 5920.0, 6176.0, 270.000)
+//	call SetUnitColor(unit020, ConvertPlayerColor(12))
 	set loc_player01 = Player(15)
 	set unit008 = CreateUnit(loc_player01, 'e00D', -6005.1, 5458.6, 212.150) //dont delete me
 	set unit015 = CreateUnit(loc_player01, 'e00B', -561.7, -651.7, 325.600) //dont delete me
