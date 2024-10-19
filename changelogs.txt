@@ -1,0 +1,2 @@
+- structure kill no longer grand 1st kill as killer
+- creep spawn wave cooldown from 30s to 60s
