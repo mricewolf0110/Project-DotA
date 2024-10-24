@@ -20,7 +20,7 @@ globals
 	timer GlobalTimer = null
 	real GameStartTime = 0
 	integer array integers018
-	boolean array booleans001
+	boolean array IsHeroPicked
 	integer array integers019
 	integer array integers020
 	integer array integers021
@@ -43,7 +43,7 @@ globals
 	boolean boolean007 = false
 	multiboard multiboard001 = null
 	unit Roshan = null
-	boolean array booleans004
+	boolean array IsRandomizedHero
 	integer integer003 = 0
 	boolean boolean008 = false
 	boolean Mode_NP = false
@@ -107,9 +107,9 @@ globals
 	player Shops = null
 	boolean boolean023 = false
 	leaderboard array leaderboards001
-	integer integer009 = 0
-	integer integer010 = 0
-	integer array integers036
+	// integer integer009 = 0
+	integer AllHeroes_Count = 0
+	integer array AllHeroes_Index
 	player PlayerModeTyper = null
 	unit unit002 = null
 	integer integer011 = 0
@@ -124,7 +124,7 @@ globals
 	integer integer012 = 0
 	location array locations001
 	unit unit003 = null
-	group group001 = null
+	group Groups = null
 	boolean boolean025 = false
 	boolean boolean026 = false
 	boolean boolean027 = false
@@ -134,7 +134,7 @@ globals
 	boolean boolean031 = false
 	boolean boolean032 = false
 	string string001 = ""
-	timer timer002 = null
+	// timer timer002 = null
 	boolean boolean033 = false
 	boolean boolean034 = false
 	item item001 = null
@@ -146,13 +146,13 @@ globals
 	integer integer013 = 0
 	force Force_All = null
 	boolean boolean036 = false
-	real real003 = 0
+	// real 0 = 0
 	boolean boolean037 = false
 	boolean boolean038 = false
 	boolean boolean039 = false
 	boolean boolean040 = false
 	boolean array booleans006
-	string GameMode = ""
+	// string GameMode = ""
 	boolean array booleans007
 	boolean array booleans008
 	boolean boolean041 = false
@@ -163,7 +163,7 @@ globals
 	location location020 = null
 	real real004 = 0
 	string string003 = ""
-	string array strings003
+	string array LeaveAt
 	rect rect001 = null
 	rect rect002 = null
 	rect rect003 = null
@@ -518,13 +518,13 @@ globals
 	trigger trigger044 = null
 	trigger trigger045 = null
 	//	unit unit004 = null
-	unit unit005 = null
+//	unit unit005 = null
 	unit unit006 = null
 	//	unit unit007 = null
 	unit unit008 = null
 	unit unit009 = null
 	unit unit010 = null
-	unit unit011 = null
+//	unit unit011 = null
 	//	unit unit012 = null
 //	unit unit013 = null
 	//	unit unit014 = null
@@ -535,9 +535,9 @@ globals
 //	unit unit019 = null
 //	unit unit020 = null
 	unit unit021 = null
-	unit unit022 = null
-	unit unit023 = null
-	unit unit024 = null
+//	unit unit022 = null
+//	unit unit023 = null
+//	unit unit024 = null
 //	unit unit025 = null
 //	unit unit026 = null
 //	unit unit027 = null
@@ -602,9 +602,9 @@ globals
 //	unit unit086 = null
 //	unit unit087 = null
 //	unit unit088 = null
-	unit unit089 = null
-	unit unit090 = null
-	unit unit091 = null
+//	unit unit089 = null
+//	unit unit090 = null
+//	unit unit091 = null
 //	unit unit092 = null
 //	unit unit093 = null
 //	unit unit094 = null
@@ -628,14 +628,14 @@ globals
 //	unit unit112 = null
 //	unit unit113 = null
 //	unit unit114 = null
-	unit unit115 = null
+//	unit unit115 = null
 	//	unit unit116 = null
 	unit unit117 = null
 	unit unit118 = null
 	unit unit119 = null
-	unit unit120 = null
-	unit unit121 = null
-	unit unit122 = null
+//	unit unit120 = null
+//	unit unit121 = null
+//	unit unit122 = null
 	hashtable HY
 	string string025 = ""
 	unit array units003
@@ -692,7 +692,7 @@ globals
 	image image001 = null
 	unit unit127 = null
 	integer integer025
-	boolean boolean046 = true
+	boolean IsNoHeroLimitOff = true
 	trigger trigger047
 	trigger trigger048
 	region region001
@@ -776,7 +776,7 @@ globals
 	boolean array booleans017
 	weathereffect weathereffect003
 	weathereffect weathereffect004
-	rect rect214
+	// rect rect214
 	boolean boolean064 = false
 	constant playercolor PlayerColor0 = ConvertPlayerColor(0)
 	constant playercolor PlayerColor6 = ConvertPlayerColor(6)
@@ -880,18 +880,18 @@ globals
 	unit Sentinel_ShopArtifacts
 	unit Sentinel_ShopRelics
 	unit Sentinel_ShopProtectorate
-	unit unit141
-	unit unit142
-	unit unit143
-	unit unit144
-	unit unit145
-	unit unit146
-	unit unit147
-	unit unit148
-	unit unit149
-	unit unit150
-	unit unit151
-	unit unit152
+	unit Sentinel_Ancient
+	unit Sentinel_Tower_Top_Level1
+	unit Sentinel_Tower_Mid_Level1
+	unit Sentinel_Tower_Bot_Level1
+	unit Sentinel_Tower_Top_Level2
+	unit Sentinel_Tower_Mid_Level2
+	unit Sentinel_Tower_Bot_Level2
+	unit Sentinel_Tower_Top_Level3
+	unit Sentinel_Tower_Mid_Level3
+	unit Sentinel_Tower_Bot_Level3
+	unit Sentinel_Tower_Ancient_1
+	unit Sentinel_Tower_Ancient_2
 	unit Sentinel_Melee_Top
 	unit Sentinel_Melee_Mid
 	unit Sentinel_Melee_Bot
@@ -1066,20 +1066,20 @@ globals
 	integer array integers067
 	integer array HeroID
 	//  integer array integers069
-	integer integer039
-	integer integer040
-	integer integer041
-	integer integer042
-	integer array integers070
-	integer integer043
-	integer array integers071
-	integer integer044
-	integer array integers072
-	integer integer045
-	integer array integers073
-	integer integer046
-	integer array integers074
-	integer integer047
+	integer FirstSentinelHeroIndexId
+	integer LastSentinelHeroIndexId
+	integer FirstScourgeHeroIndexId
+	integer LastScourgeHeroIndexId
+	integer array AgilityHeroes
+	integer AgilityHeroes_Count
+	integer array StrengthHeroes
+	integer StrengthHeroes_Count
+	integer array InteligentHeroes
+	integer InteligentHeroes_Count
+	integer array RangedHeroes
+	integer RangedHeroes_Count
+	integer array MeleeHeroes
+	integer MeleeHeroes_Count
 	string array HeroIcon
 	integer array DummyID
 //	string array strings007
@@ -2496,7 +2496,7 @@ function ReturnTrue takes nothing returns boolean
 endfunction
 
 function Func0009 takes nothing returns nothing
-	call DisplayTimedTextToPlayer(GetEnumPlayer(), 0, real003, real005, string026)
+	call DisplayTimedTextToPlayer(GetEnumPlayer(), 0, 0, real005, string026)
 endfunction
 
 function Func0010 takes force loc_force01, real loc_real01, string loc_string01 returns nothing
@@ -2867,24 +2867,24 @@ function Func0045 takes unit loc_unit01 returns integer
 	local integer loc_integer02 = GetUnitTypeId(loc_unit01)
 	set loc_integer01 = 1
 	loop
-		exitwhen loc_integer01 > integer043
-		if loc_integer02 == integers070[loc_integer01] then
+		exitwhen loc_integer01 > AgilityHeroes_Count
+		if loc_integer02 == AgilityHeroes[loc_integer01] then
 			return 2
 		endif
 		set loc_integer01 = loc_integer01 + 1
 	endloop
 	set loc_integer01 = 1
 	loop
-		exitwhen loc_integer01 > integer044
-		if loc_integer02 == integers071[loc_integer01] then
+		exitwhen loc_integer01 > StrengthHeroes_Count
+		if loc_integer02 == StrengthHeroes[loc_integer01] then
 			return 3
 		endif
 		set loc_integer01 = loc_integer01 + 1
 	endloop
 	set loc_integer01 = 1
 	loop
-		exitwhen loc_integer01 > integer045
-		if loc_integer02 == integers072[loc_integer01] then
+		exitwhen loc_integer01 > InteligentHeroes_Count
+		if loc_integer02 == InteligentHeroes[loc_integer01] then
 			return 1
 		endif
 		set loc_integer01 = loc_integer01 + 1
@@ -2905,24 +2905,24 @@ function Func0046 takes integer loc_integer01 returns integer
 	local integer loc_integer02
 	set loc_integer02 = 1
 	loop
-		exitwhen loc_integer02 > integer043
-		if loc_integer01 == integers070[loc_integer02] then
+		exitwhen loc_integer02 > AgilityHeroes_Count
+		if loc_integer01 == AgilityHeroes[loc_integer02] then
 			return 2
 		endif
 		set loc_integer02 = loc_integer02 + 1
 	endloop
 	set loc_integer02 = 1
 	loop
-		exitwhen loc_integer02 > integer044
-		if loc_integer01 == integers071[loc_integer02] then
+		exitwhen loc_integer02 > StrengthHeroes_Count
+		if loc_integer01 == StrengthHeroes[loc_integer02] then
 			return 3
 		endif
 		set loc_integer02 = loc_integer02 + 1
 	endloop
 	set loc_integer02 = 1
 	loop
-		exitwhen loc_integer02 > integer045
-		if loc_integer01 == integers072[loc_integer02] then
+		exitwhen loc_integer02 > InteligentHeroes_Count
+		if loc_integer01 == InteligentHeroes[loc_integer02] then
 			return 1
 		endif
 		set loc_integer02 = loc_integer02 + 1
@@ -3026,7 +3026,7 @@ function IsSentinel takes player loc_player01 returns boolean
 	return false
 endfunction
 
-function Func0056 takes player loc_player01 returns boolean
+function IsScourge takes player loc_player01 returns boolean
 	if(loc_player01 == Scourges[0]) then
 		return true
 	endif
@@ -3111,125 +3111,96 @@ function Func0065 takes force loc_force01 returns integer
 	return bj_forceCountPlayers
 endfunction
 
-function Func0066 takes integer loc_integer01, player loc_player01 returns nothing
-	if boolean046 then
-		call SetPlayerTechMaxAllowed(loc_player01, loc_integer01, 0)
-		set booleans001[GetUnitPointValueByType(loc_integer01)] = true
+function RemovePickedHeroFromTavernForPlayer takes integer id, player p returns nothing
+	if IsNoHeroLimitOff then
+		call SetPlayerTechMaxAllowed(p, id, 0)
+		set IsHeroPicked[GetUnitPointValueByType(id)] = true
 	endif
 endfunction
 
-function Func0067 takes integer loc_integer01 returns nothing
-	call Func0066(loc_integer01, Sentinels[1])
-	call Func0066(loc_integer01, Sentinels[2])
-	call Func0066(loc_integer01, Sentinels[3])
-	call Func0066(loc_integer01, Sentinels[4])
-	call Func0066(loc_integer01, Sentinels[5])
-	call Func0066(loc_integer01, Scourges[1])
-	call Func0066(loc_integer01, Scourges[2])
-	call Func0066(loc_integer01, Scourges[3])
-	call Func0066(loc_integer01, Scourges[4])
-	call Func0066(loc_integer01, Scourges[5])
+function RemovePickedHeroFromTavernForAll takes integer id returns nothing
+	call RemovePickedHeroFromTavernForPlayer(id, Sentinels[1])
+	call RemovePickedHeroFromTavernForPlayer(id, Sentinels[2])
+	call RemovePickedHeroFromTavernForPlayer(id, Sentinels[3])
+	call RemovePickedHeroFromTavernForPlayer(id, Sentinels[4])
+	call RemovePickedHeroFromTavernForPlayer(id, Sentinels[5])
+	call RemovePickedHeroFromTavernForPlayer(id, Scourges[1])
+	call RemovePickedHeroFromTavernForPlayer(id, Scourges[2])
+	call RemovePickedHeroFromTavernForPlayer(id, Scourges[3])
+	call RemovePickedHeroFromTavernForPlayer(id, Scourges[4])
+	call RemovePickedHeroFromTavernForPlayer(id, Scourges[5])
 endfunction
 
-function Func0068 takes integer loc_integer01 returns nothing
-	if boolean046 then
-		call SetPlayerTechMaxAllowed(Sentinels[1], loc_integer01, 0)
-		call SetPlayerTechMaxAllowed(Sentinels[2], loc_integer01, 0)
-		call SetPlayerTechMaxAllowed(Sentinels[3], loc_integer01, 0)
-		call SetPlayerTechMaxAllowed(Sentinels[4], loc_integer01, 0)
-		call SetPlayerTechMaxAllowed(Sentinels[5], loc_integer01, 0)
-		call SetPlayerTechMaxAllowed(Scourges[1], loc_integer01, 0)
-		call SetPlayerTechMaxAllowed(Scourges[2], loc_integer01, 0)
-		call SetPlayerTechMaxAllowed(Scourges[3], loc_integer01, 0)
-		call SetPlayerTechMaxAllowed(Scourges[4], loc_integer01, 0)
-		call SetPlayerTechMaxAllowed(Scourges[5], loc_integer01, 0)
+function RemoveHeroFromTavernForAll takes integer id returns nothing
+	if IsNoHeroLimitOff then
+		call SetPlayerTechMaxAllowed(Sentinels[1], id, 0)
+		call SetPlayerTechMaxAllowed(Sentinels[2], id, 0)
+		call SetPlayerTechMaxAllowed(Sentinels[3], id, 0)
+		call SetPlayerTechMaxAllowed(Sentinels[4], id, 0)
+		call SetPlayerTechMaxAllowed(Sentinels[5], id, 0)
+		call SetPlayerTechMaxAllowed(Scourges[1], id, 0)
+		call SetPlayerTechMaxAllowed(Scourges[2], id, 0)
+		call SetPlayerTechMaxAllowed(Scourges[3], id, 0)
+		call SetPlayerTechMaxAllowed(Scourges[4], id, 0)
+		call SetPlayerTechMaxAllowed(Scourges[5], id, 0)
 	endif
 endfunction
 
-function Func0069 takes integer loc_integer01 returns nothing
-	local player loc_player01
-	if boolean046 then
-		set loc_player01 = Sentinels[1]
-		if Players_Hero[GetPlayerId(loc_player01)] == null then
-			call SetPlayerTechMaxAllowed(loc_player01, loc_integer01, 1)
-		endif
-		set loc_player01 = Sentinels[2]
-		if Players_Hero[GetPlayerId(loc_player01)] == null then
-			call SetPlayerTechMaxAllowed(loc_player01, loc_integer01, 1)
-		endif
-		set loc_player01 = Sentinels[3]
-		if Players_Hero[GetPlayerId(loc_player01)] == null then
-			call SetPlayerTechMaxAllowed(loc_player01, loc_integer01, 1)
-		endif
-		set loc_player01 = Sentinels[4]
-		if Players_Hero[GetPlayerId(loc_player01)] == null then
-			call SetPlayerTechMaxAllowed(loc_player01, loc_integer01, 1)
-		endif
-		set loc_player01 = Sentinels[5]
-		if Players_Hero[GetPlayerId(loc_player01)] == null then
-			call SetPlayerTechMaxAllowed(loc_player01, loc_integer01, 1)
-		endif
-		set loc_player01 = Scourges[1]
-		if Players_Hero[GetPlayerId(loc_player01)] == null then
-			call SetPlayerTechMaxAllowed(loc_player01, loc_integer01, 1)
-		endif
-		set loc_player01 = Scourges[2]
-		if Players_Hero[GetPlayerId(loc_player01)] == null then
-			call SetPlayerTechMaxAllowed(loc_player01, loc_integer01, 1)
-		endif
-		set loc_player01 = Scourges[3]
-		if Players_Hero[GetPlayerId(loc_player01)] == null then
-			call SetPlayerTechMaxAllowed(loc_player01, loc_integer01, 1)
-		endif
-		set loc_player01 = Scourges[4]
-		if Players_Hero[GetPlayerId(loc_player01)] == null then
-			call SetPlayerTechMaxAllowed(loc_player01, loc_integer01, 1)
-		endif
-		set loc_player01 = Scourges[5]
-		if Players_Hero[GetPlayerId(loc_player01)] == null then
-			call SetPlayerTechMaxAllowed(loc_player01, loc_integer01, 1)
-		endif
-	endif
-endfunction
-
-function Func0070 takes player loc_player01 returns nothing
-	local integer loc_integer01 = integer039
-	local integer loc_integer02 = integer040
-	if boolean046 then
+function AddHeroToTavernsForAll takes integer id returns nothing
+	local player p
+	local integer i = 1
+	if IsNoHeroLimitOff then
 		loop
-			exitwhen loc_integer01 > loc_integer02
-			call SetPlayerTechMaxAllowed(loc_player01, HeroID[loc_integer01], 0)
-			set loc_integer01 = loc_integer01 + 1
-		endloop
-		set loc_integer01 = integer041
-		set loc_integer02 = integer042
-		loop
-			exitwhen loc_integer01 > loc_integer02
-			call SetPlayerTechMaxAllowed(loc_player01, HeroID[loc_integer01], 0)
-			set loc_integer01 = loc_integer01 + 1
+			exitwhen i > 5
+			set p = Sentinels[i]
+			if Players_Hero[GetPlayerId(p)] == null then
+				call SetPlayerTechMaxAllowed(p, id, 1)
+			endif
+			set p = Scourges[i]
+			if Players_Hero[GetPlayerId(p)] == null then
+				call SetPlayerTechMaxAllowed(p, id, 1)
+			endif
+			set i = i + 1
 		endloop
 	endif
 endfunction
 
-function Func0071 takes nothing returns nothing
-	call Func0070(Sentinels[1])
-	call Func0070(Sentinels[2])
-	call Func0070(Sentinels[3])
-	call Func0070(Sentinels[4])
-	call Func0070(Sentinels[5])
-	call Func0070(Scourges[1])
-	call Func0070(Scourges[2])
-	call Func0070(Scourges[3])
-	call Func0070(Scourges[4])
-	call Func0070(Scourges[5])
+function RemoveHeroesFromTavernsForPlayer takes player p returns nothing
+	local integer i = FirstSentinelHeroIndexId
+	if IsNoHeroLimitOff then
+		loop
+			exitwhen i > LastSentinelHeroIndexId
+			call SetPlayerTechMaxAllowed(p, HeroID[i], 0)
+			set i = i + 1
+		endloop
+		set i = FirstScourgeHeroIndexId
+		loop
+			exitwhen i > LastScourgeHeroIndexId
+			call SetPlayerTechMaxAllowed(p, HeroID[i], 0)
+			set i = i + 1
+		endloop
+	endif
+endfunction
+
+function RemoveHeroesFromTavernsForAll takes nothing returns nothing
+	call RemoveHeroesFromTavernsForPlayer(Sentinels[1])
+	call RemoveHeroesFromTavernsForPlayer(Sentinels[2])
+	call RemoveHeroesFromTavernsForPlayer(Sentinels[3])
+	call RemoveHeroesFromTavernsForPlayer(Sentinels[4])
+	call RemoveHeroesFromTavernsForPlayer(Sentinels[5])
+	call RemoveHeroesFromTavernsForPlayer(Scourges[1])
+	call RemoveHeroesFromTavernsForPlayer(Scourges[2])
+	call RemoveHeroesFromTavernsForPlayer(Scourges[3])
+	call RemoveHeroesFromTavernsForPlayer(Scourges[4])
+	call RemoveHeroesFromTavernsForPlayer(Scourges[5])
 endfunction
 
 function Func0072 takes nothing returns nothing
 	local integer loc_integer01
-	if boolean046 then
-		set loc_integer01 = integer041
+	if IsNoHeroLimitOff then
+		set loc_integer01 = FirstScourgeHeroIndexId
 		loop
-			exitwhen loc_integer01 > integer042
+			exitwhen loc_integer01 > LastScourgeHeroIndexId
 			call SetPlayerTechMaxAllowed(Sentinels[1], HeroID[loc_integer01], 0)
 			call SetPlayerTechMaxAllowed(Sentinels[2], HeroID[loc_integer01], 0)
 			call SetPlayerTechMaxAllowed(Sentinels[3], HeroID[loc_integer01], 0)
@@ -3237,9 +3208,9 @@ function Func0072 takes nothing returns nothing
 			call SetPlayerTechMaxAllowed(Sentinels[5], HeroID[loc_integer01], 0)
 			set loc_integer01 = loc_integer01 + 1
 		endloop
-		set loc_integer01 = integer039
+		set loc_integer01 = FirstSentinelHeroIndexId
 		loop
-			exitwhen loc_integer01 > integer040
+			exitwhen loc_integer01 > LastSentinelHeroIndexId
 			call SetPlayerTechMaxAllowed(Scourges[1], HeroID[loc_integer01], 0)
 			call SetPlayerTechMaxAllowed(Scourges[2], HeroID[loc_integer01], 0)
 			call SetPlayerTechMaxAllowed(Scourges[3], HeroID[loc_integer01], 0)
@@ -3254,45 +3225,42 @@ function Func0073 takes nothing returns boolean
 	return IsUnitAlly(GetFilterUnit(), GetOwningPlayer(unit002)) and GetUnitState(GetFilterUnit(), UNIT_STATE_LIFE) > 0 and(GetOwningPlayer(GetFilterUnit()) == Sentinels[0]) or(GetOwningPlayer(GetFilterUnit()) == Scourges[0])
 endfunction
 
-function Func0074 takes nothing returns nothing
-	local integer loc_integer01
-	local integer loc_integer02
-	local integer loc_integer03 = 0
-	set integer009 = integer039
-	set loc_integer01 = integer039
-	set loc_integer02 = integer040
+function AllHeroesInit takes nothing returns nothing
+	local integer i
+	local integer c = 0
+	// set integer009 = 
+	set i = FirstSentinelHeroIndexId
 	loop
-		exitwhen loc_integer01 > loc_integer02
-		set loc_integer03 = loc_integer03 + 1
-		set integers036[loc_integer03] = loc_integer01
-		set loc_integer01 = loc_integer01 + 1
+		exitwhen i > LastSentinelHeroIndexId
+		set c = c + 1
+		set AllHeroes_Index[c] = i
+		set i = i + 1
 	endloop
-	set loc_integer01 = integer041
-	set loc_integer02 = integer042
+	set i = FirstScourgeHeroIndexId
 	loop
-		exitwhen loc_integer01 > loc_integer02
-		set loc_integer03 = loc_integer03 + 1
-		set integers036[loc_integer03] = loc_integer01
-		set loc_integer01 = loc_integer01 + 1
+		exitwhen i > LastScourgeHeroIndexId
+		set c = c + 1
+		set AllHeroes_Index[c] = i
+		set i = i + 1
 	endloop
-	set integer010 = loc_integer03
+	set AllHeroes_Count = c
 endfunction
 
-function Func0075 takes nothing returns integer
-	local integer loc_integer01 = GetRandomInt(integer009, integer010)
-	local integer loc_integer02 = integers036[loc_integer01]
-	set loc_integer02 = integers036[loc_integer01]
-	if(integer009 == integer010) then
-		set integers036[loc_integer01] = 0
-		return loc_integer02
+function GetSetElement takes nothing returns integer
+	local integer i = GetRandomInt(1, AllHeroes_Count)
+	local integer id = AllHeroes_Index[i]
+	set id = AllHeroes_Index[i]
+	if AllHeroes_Count == 1 then
+		set AllHeroes_Index[i] = 0
+		return id
 	endif
-	if(loc_integer01 == integer010) then
-		set integer010 = integer010 - 1
-		return loc_integer02
+	if i == AllHeroes_Count then
+		set AllHeroes_Count = AllHeroes_Count - 1
+		return id
 	endif
-	set integers036[loc_integer01] = integers036[integer010]
-	set integer010 = integer010 - 1
-	return loc_integer02
+	set AllHeroes_Index[i] = AllHeroes_Index[AllHeroes_Count]
+	set AllHeroes_Count = AllHeroes_Count - 1
+	return id
 endfunction
 
 function Func0076 takes unit loc_unit01 returns boolean
@@ -3411,8 +3379,8 @@ endfunction
 function Func0083 takes integer loc_integer01 returns boolean
 	local integer loc_integer02 = 1
 	loop
-		exitwhen loc_integer02 > integer045
-		if integers072[loc_integer02] == loc_integer01 then
+		exitwhen loc_integer02 > InteligentHeroes_Count
+		if InteligentHeroes[loc_integer02] == loc_integer01 then
 			return true
 		endif
 		set loc_integer02 = loc_integer02 + 1
@@ -3423,8 +3391,8 @@ endfunction
 function Func0084 takes integer loc_integer01 returns boolean
 	local integer loc_integer02 = 1
 	loop
-		exitwhen loc_integer02 > integer043
-		if integers070[loc_integer02] == loc_integer01 then
+		exitwhen loc_integer02 > AgilityHeroes_Count
+		if AgilityHeroes[loc_integer02] == loc_integer01 then
 			return true
 		endif
 		set loc_integer02 = loc_integer02 + 1
@@ -3435,8 +3403,8 @@ endfunction
 function Func0085 takes integer loc_integer01 returns boolean
 	local integer loc_integer02 = 1
 	loop
-		exitwhen loc_integer02 > integer044
-		if integers071[loc_integer02] == loc_integer01 then
+		exitwhen loc_integer02 > StrengthHeroes_Count
+		if StrengthHeroes[loc_integer02] == loc_integer01 then
 			return true
 		endif
 		set loc_integer02 = loc_integer02 + 1
@@ -3450,32 +3418,32 @@ function Func0086 takes player loc_player01 returns nothing
 	local location loc_location01
 	local integer loc_integer03
 	local boolean loc_boolean01 = false
-	set booleans004[GetPlayerId(loc_player01)] = true
+	set IsRandomizedHero[GetPlayerId(loc_player01)] = true
 	if IsSentinel(loc_player01) == true then
-		set loc_integer01 = integer039
-		set loc_integer02 = integer040
+		set loc_integer01 = FirstSentinelHeroIndexId
+		set loc_integer02 = LastSentinelHeroIndexId
 		set loc_location01 = GetRectCenter(rect011)
 	else
-		set loc_integer01 = integer041
-		set loc_integer02 = integer042
+		set loc_integer01 = FirstScourgeHeroIndexId
+		set loc_integer02 = LastScourgeHeroIndexId
 		set loc_location01 = GetRectCenter(rect004)
 	endif
 	if boolean006 then
 		if(GetRandomInt(1, 2) == 1) then
-			set loc_integer01 = integer039
-			set loc_integer02 = integer040
+			set loc_integer01 = FirstSentinelHeroIndexId
+			set loc_integer02 = LastSentinelHeroIndexId
 		else
-			set loc_integer01 = integer041
-			set loc_integer02 = integer042
+			set loc_integer01 = FirstScourgeHeroIndexId
+			set loc_integer02 = LastScourgeHeroIndexId
 		endif
 	endif
 	loop
 		set loc_integer03 = GetRandomInt(loc_integer01, loc_integer02)
-		exitwhen booleans001[loc_integer03] == false and Func0083(HeroID[loc_integer03]) and HeroID[loc_integer03] != 'H00K'
+		exitwhen IsHeroPicked[loc_integer03] == false and Func0083(HeroID[loc_integer03]) and HeroID[loc_integer03] != 'H00K'
 	endloop
 	if boolean028 == false then
-		call Func0068(HeroID[loc_integer03])
-		set booleans001[loc_integer03] = true
+		call RemoveHeroFromTavernForAll(HeroID[loc_integer03])
+		set IsHeroPicked[loc_integer03] = true
 	endif
 	call CreateUnitAtLoc(loc_player01, HeroID[loc_integer03], loc_location01, 0)
 	call RemoveLocation(loc_location01)
@@ -3487,32 +3455,32 @@ function Func0087 takes player loc_player01 returns nothing
 	local location loc_location01
 	local integer loc_integer03
 	local boolean loc_boolean01 = false
-	set booleans004[GetPlayerId(loc_player01)] = true
+	set IsRandomizedHero[GetPlayerId(loc_player01)] = true
 	if IsSentinel(loc_player01) == true then
-		set loc_integer01 = integer039
-		set loc_integer02 = integer040
+		set loc_integer01 = FirstSentinelHeroIndexId
+		set loc_integer02 = LastSentinelHeroIndexId
 		set loc_location01 = GetRectCenter(rect011)
 	else
-		set loc_integer01 = integer041
-		set loc_integer02 = integer042
+		set loc_integer01 = FirstScourgeHeroIndexId
+		set loc_integer02 = LastScourgeHeroIndexId
 		set loc_location01 = GetRectCenter(rect004)
 	endif
 	if boolean006 then
 		if(GetRandomInt(1, 2) == 1) then
-			set loc_integer01 = integer039
-			set loc_integer02 = integer040
+			set loc_integer01 = FirstSentinelHeroIndexId
+			set loc_integer02 = LastSentinelHeroIndexId
 		else
-			set loc_integer01 = integer041
-			set loc_integer02 = integer042
+			set loc_integer01 = FirstScourgeHeroIndexId
+			set loc_integer02 = LastScourgeHeroIndexId
 		endif
 	endif
 	loop
 		set loc_integer03 = GetRandomInt(loc_integer01, loc_integer02)
-		exitwhen booleans001[loc_integer03] == false and Func0085(HeroID[loc_integer03])
+		exitwhen IsHeroPicked[loc_integer03] == false and Func0085(HeroID[loc_integer03])
 	endloop
 	if boolean028 == false then
-		call Func0068(HeroID[loc_integer03])
-		set booleans001[loc_integer03] = true
+		call RemoveHeroFromTavernForAll(HeroID[loc_integer03])
+		set IsHeroPicked[loc_integer03] = true
 	endif
 	call CreateUnitAtLoc(loc_player01, HeroID[loc_integer03], loc_location01, 0)
 	call RemoveLocation(loc_location01)
@@ -3524,32 +3492,32 @@ function Func0088 takes player loc_player01 returns nothing
 	local location loc_location01
 	local integer loc_integer03
 	local boolean loc_boolean01 = false
-	set booleans004[GetPlayerId(loc_player01)] = true
+	set IsRandomizedHero[GetPlayerId(loc_player01)] = true
 	if IsSentinel(loc_player01) == true then
-		set loc_integer01 = integer039
-		set loc_integer02 = integer040
+		set loc_integer01 = FirstSentinelHeroIndexId
+		set loc_integer02 = LastSentinelHeroIndexId
 		set loc_location01 = GetRectCenter(rect011)
 	else
-		set loc_integer01 = integer041
-		set loc_integer02 = integer042
+		set loc_integer01 = FirstScourgeHeroIndexId
+		set loc_integer02 = LastScourgeHeroIndexId
 		set loc_location01 = GetRectCenter(rect004)
 	endif
 	if boolean006 then
 		if(GetRandomInt(1, 2) == 1) then
-			set loc_integer01 = integer039
-			set loc_integer02 = integer040
+			set loc_integer01 = FirstSentinelHeroIndexId
+			set loc_integer02 = LastSentinelHeroIndexId
 		else
-			set loc_integer01 = integer041
-			set loc_integer02 = integer042
+			set loc_integer01 = FirstScourgeHeroIndexId
+			set loc_integer02 = LastScourgeHeroIndexId
 		endif
 	endif
 	loop
 		set loc_integer03 = GetRandomInt(loc_integer01, loc_integer02)
-		exitwhen booleans001[loc_integer03] == false and Func0084(HeroID[loc_integer03])
+		exitwhen IsHeroPicked[loc_integer03] == false and Func0084(HeroID[loc_integer03])
 	endloop
 	if boolean028 == false then
-		call Func0068(HeroID[loc_integer03])
-		set booleans001[loc_integer03] = true
+		call RemoveHeroFromTavernForAll(HeroID[loc_integer03])
+		set IsHeroPicked[loc_integer03] = true
 	endif
 	call CreateUnitAtLoc(loc_player01, HeroID[loc_integer03], loc_location01, 0)
 	call RemoveLocation(loc_location01)
@@ -3561,32 +3529,32 @@ function Func0089 takes player loc_player01 returns nothing
 	local location loc_location01
 	local integer loc_integer03
 	local boolean loc_boolean01 = false
-	set booleans004[GetPlayerId(loc_player01)] = true
+	set IsRandomizedHero[GetPlayerId(loc_player01)] = true
 	if IsSentinel(loc_player01) == true then
-		set loc_integer01 = integer039
-		set loc_integer02 = integer040
+		set loc_integer01 = FirstSentinelHeroIndexId
+		set loc_integer02 = LastSentinelHeroIndexId
 		set loc_location01 = GetRectCenter(rect011)
 	else
-		set loc_integer01 = integer041
-		set loc_integer02 = integer042
+		set loc_integer01 = FirstScourgeHeroIndexId
+		set loc_integer02 = LastScourgeHeroIndexId
 		set loc_location01 = GetRectCenter(rect004)
 	endif
 	if boolean006 then
 		if(GetRandomInt(1, 2) == 1) then
-			set loc_integer01 = integer039
-			set loc_integer02 = integer040
+			set loc_integer01 = FirstSentinelHeroIndexId
+			set loc_integer02 = LastSentinelHeroIndexId
 		else
-			set loc_integer01 = integer041
-			set loc_integer02 = integer042
+			set loc_integer01 = FirstScourgeHeroIndexId
+			set loc_integer02 = LastScourgeHeroIndexId
 		endif
 	endif
 	loop
 		set loc_integer03 = GetRandomInt(loc_integer01, loc_integer02)
-		exitwhen booleans001[loc_integer03] == false
+		exitwhen IsHeroPicked[loc_integer03] == false
 	endloop
 	if boolean028 == false then
-		call Func0068(HeroID[loc_integer03])
-		set booleans001[loc_integer03] = true
+		call RemoveHeroFromTavernForAll(HeroID[loc_integer03])
+		set IsHeroPicked[loc_integer03] = true
 	endif
 	call CreateUnitAtLoc(loc_player01, HeroID[loc_integer03], loc_location01, 0)
 	call RemoveLocation(loc_location01)
@@ -3597,18 +3565,18 @@ function Func0090 takes boolean loc_boolean01, boolean loc_boolean02 returns int
 	local integer loc_integer02
 	if loc_boolean01 and loc_boolean02 then
 		if(GetRandomInt(1, 2) == 1) then
-			set loc_integer01 = integer039
-			set loc_integer02 = integer040
+			set loc_integer01 = FirstSentinelHeroIndexId
+			set loc_integer02 = LastSentinelHeroIndexId
 		else
-			set loc_integer01 = integer041
-			set loc_integer02 = integer042
+			set loc_integer01 = FirstScourgeHeroIndexId
+			set loc_integer02 = LastScourgeHeroIndexId
 		endif
 	elseif loc_boolean01 then
-		set loc_integer01 = integer039
-		set loc_integer02 = integer040
+		set loc_integer01 = FirstSentinelHeroIndexId
+		set loc_integer02 = LastSentinelHeroIndexId
 	else
-		set loc_integer01 = integer041
-		set loc_integer02 = integer042
+		set loc_integer01 = FirstScourgeHeroIndexId
+		set loc_integer02 = LastScourgeHeroIndexId
 	endif
 	return GetRandomInt(loc_integer01, loc_integer02)
 endfunction
@@ -3671,7 +3639,7 @@ endfunction
 function Func0101 takes integer loc_integer01 returns integer
 	local integer loc_integer02 = 0
 	loop
-		exitwhen loc_integer02 > integer042
+		exitwhen loc_integer02 > LastScourgeHeroIndexId
 		if DummyID[loc_integer02] == loc_integer01 then
 			return HeroID[loc_integer02]
 		endif
@@ -3683,7 +3651,7 @@ endfunction
 function Func0102 takes integer loc_integer01 returns integer
 	local integer loc_integer02 = 1
 	loop
-		exitwhen loc_integer02 > integer042
+		exitwhen loc_integer02 > LastScourgeHeroIndexId
 		if loc_integer01 == HeroID[loc_integer02] then
 			return loc_integer02
 		endif
@@ -3952,52 +3920,49 @@ function Func0127 takes nothing returns nothing
 	call KillDestructable(GetEnumDestructable())
 endfunction
 
-function Func0128 takes unit loc_unit01 returns nothing
-	call SaveBoolean(HY, (GetHandleId(loc_unit01)), (38), (false))
-	call FlushChildHashtable(HY, (GetHandleId(loc_unit01)))
-	call RemoveUnit(loc_unit01)
+function RemoveHero takes unit u returns nothing
+	local integer h = GetHandleId(u)
+	call SaveBoolean(HY, h, 38, false)
+	call FlushChildHashtable(HY, h)
+	call RemoveUnit(u)
 endfunction
 
-function Func0129 takes unit loc_unit01, integer loc_integer01, integer loc_integer02 returns nothing
-	if GetUnitAbilityLevel(loc_unit01, loc_integer01) == 0 then
-		call UnitAddAbility(loc_unit01, loc_integer01)
+function UnitAddAbilityLevel takes unit u, integer id, integer lvl returns nothing
+	if GetUnitAbilityLevel(u, id) == 0 then
+		call UnitAddAbility(u, id)
 	endif
-	call SetUnitAbilityLevel(loc_unit01, loc_integer01, loc_integer02)
+	call SetUnitAbilityLevel(u, id, lvl)
 endfunction
 
-function Func0130 takes integer loc_integer01, integer loc_integer02 returns integer
-	if(loc_integer01 < loc_integer02) then
-		return loc_integer01
+function GetMinInt takes integer i1, integer i2 returns integer
+	if i1 < i2 then
+		return i1
 	else
-		return loc_integer02
-	endif
-endfunction
-
-function Func0131 takes integer loc_integer01, integer loc_integer02 returns integer
-	if(loc_integer01 < loc_integer02) then
-		return loc_integer02
-	else
-		return loc_integer01
+		return i2
 	endif
 endfunction
 
-function Func0132 takes integer loc_integer01, integer loc_integer02, integer loc_integer03 returns integer
-	return Func0131(Func0130(loc_integer01, loc_integer03), loc_integer02)
-endfunction
-
-function Func0133 takes real loc_real01, real loc_real02 returns real
-	if(loc_real01 < loc_real02) then
-		return loc_real01
+function GetMaxInt takes integer i1, integer i2 returns integer
+	if i1 < i2 then
+		return i2
 	else
-		return loc_real02
+		return i1
 	endif
 endfunction
 
-function Func0134 takes real loc_real01, real loc_real02 returns real
-	if(loc_real01 < loc_real02) then
-		return loc_real02
+function GetMinReal takes real r1, real r2 returns real
+	if r1 < r2 then
+		return r1
 	else
-		return loc_real01
+		return r2
+	endif
+endfunction
+
+function GetMaxReal takes real r1, real r2 returns real
+	if r1 < r2 then
+		return r2
+	else
+		return r1
 	endif
 endfunction
 
@@ -4080,7 +4045,7 @@ function Func0142 takes unit loc_unit01 returns nothing
 endfunction
 
 function Func0143 takes nothing returns nothing
-	call DisplayTimedTextToPlayer(GetEnumPlayer(), 0, real003, real005, string026)
+	call DisplayTimedTextToPlayer(GetEnumPlayer(), 0, 0, real005, string026)
 endfunction
 
 function Func0144 takes force loc_force01, real loc_real01, string loc_string01 returns nothing
@@ -4091,7 +4056,7 @@ endfunction
 
 function Func0145 takes nothing returns nothing
 	if booleans012[GetPlayerId(GetEnumPlayer())] then
-		call DisplayTimedTextToPlayer(GetEnumPlayer(), 0, real003, real005, string026)
+		call DisplayTimedTextToPlayer(GetEnumPlayer(), 0, 0, real005, string026)
 	endif
 endfunction
 
@@ -4951,7 +4916,7 @@ function Func0225 takes player loc_player01 returns nothing
 endfunction
 
 function Func0226 takes unit loc_unit01, real loc_real01 returns nothing
-	call SetUnitState(loc_unit01, UNIT_STATE_LIFE, Func0134(GetUnitState(loc_unit01, UNIT_STATE_LIFE) -loc_real01, 1))
+	call SetUnitState(loc_unit01, UNIT_STATE_LIFE, GetMaxReal(GetUnitState(loc_unit01, UNIT_STATE_LIFE) -loc_real01, 1))
 endfunction
 
 function Func0227 takes integer loc_integer01 returns nothing
@@ -5524,37 +5489,37 @@ function Func0264 takes unit loc_unit01 returns boolean
 	if loc_unit01 == Scourge_Ranged_Bot then
 		return true
 	endif
-	if loc_unit01 == unit142 then
+	if loc_unit01 == Sentinel_Tower_Top_Level1 then
 		return true
 	endif
-	if loc_unit01 == unit143 then
+	if loc_unit01 == Sentinel_Tower_Mid_Level1 then
 		return true
 	endif
-	if loc_unit01 == unit144 then
+	if loc_unit01 == Sentinel_Tower_Bot_Level1 then
 		return true
 	endif
-	if loc_unit01 == unit145 then
+	if loc_unit01 == Sentinel_Tower_Top_Level2 then
 		return true
 	endif
-	if loc_unit01 == unit146 then
+	if loc_unit01 == Sentinel_Tower_Mid_Level2 then
 		return true
 	endif
-	if loc_unit01 == unit147 then
+	if loc_unit01 == Sentinel_Tower_Bot_Level2 then
 		return true
 	endif
-	if loc_unit01 == unit148 then
+	if loc_unit01 == Sentinel_Tower_Top_Level3 then
 		return true
 	endif
-	if loc_unit01 == unit149 then
+	if loc_unit01 == Sentinel_Tower_Mid_Level3 then
 		return true
 	endif
-	if loc_unit01 == unit150 then
+	if loc_unit01 == Sentinel_Tower_Bot_Level3 then
 		return true
 	endif
-	if loc_unit01 == unit151 then
+	if loc_unit01 == Sentinel_Tower_Ancient_1 then
 		return true
 	endif
-	if loc_unit01 == unit152 then
+	if loc_unit01 == Sentinel_Tower_Ancient_2 then
 		return true
 	endif
 	if loc_unit01 == Sentinel_Melee_Top then
@@ -7244,13 +7209,12 @@ endfunction
 function InitMap takes nothing returns nothing
 	set HY = InitHashtable()
 	set GlobalTimer = CreateTimer()
-	set rect214 = Rect(-7040, -7680, 7040, 7168)
 	call SetFloatGameState(GAME_STATE_TIME_OF_DAY, 6.00)
 	call SuspendTimeOfDay(false)
 	call SetTimeOfDayScale(0.5)
 	call SetSkyModel("Environment\\Sky\\FoggedSky\\FoggedSky.mdl")
 	call SetCreepCampFilterState(true)
-	set GameMode = "Normal Mode"
+	// set GameMode = "Normal Mode"
 	call TimerStart(GlobalTimer, 99999.00, false, null)
 	set weathereffect002 = AddWeatherEffect(bj_mapInitialPlayableArea, 'RAhr')
 	set weathereffect001 = AddWeatherEffect(bj_mapInitialPlayableArea, 'SNbs')
@@ -7270,6 +7234,21 @@ function InitMap takes nothing returns nothing
 	set Scourges[5] = Player(11)
 	set Neutrals = Player(12)
 	set Shops = Player(15)
+	set unit021 = CreateUnit(Shops, 'u010', -7296.0, 4416.0, 270.000)
+	call SetUnitColor(unit021, ConvertPlayerColor(12))
+	set unit119 = CreateUnit(Shops, 'u010', 7360.0, -4224.0, 270.000)
+	call SetUnitColor(unit119, ConvertPlayerColor(12))
+	set unit118 = CreateUnit(Shops, 'u00Z', 7360.0, -4416.0, 270.000)
+	call SetUnitColor(unit118, ConvertPlayerColor(12))
+	set unit117 = CreateUnit(Shops, 'u00Z', -7296.0, 4224.0, 270.000)
+	call SetUnitColor(unit117, ConvertPlayerColor(12))
+	call CreateUnit(Shops, 'uC74', -4544.0, 1152.0, 270.000)
+	call CreateUnit(Shops, 'uC74', 3200.0, -64.0, 270.000)
+	set unit008 = CreateUnit(Shops, 'e00D', -6005.1, 5458.6, 212.150)
+	set unit015 = CreateUnit(Shops, 'e00B', -561.7, -651.7, 325.600)
+	set unit010 = CreateUnit(Shops, 'e00A', 5613.5, -6070.9, 64.000)
+	set unit009 = CreateUnit(Shops, 'e008', -5467.9, -5891.1, 307.304)
+	set unit006 = CreateUnit(Shops, 'e001', 4901.8, 4536.6, 212.110)
 	call SetUnitPathing(unit009, false)
 	call SetUnitPathing(unit010, false)
 	call SetUnitPathing(unit015, false)
@@ -7327,18 +7306,18 @@ function InitSentinels takes nothing returns nothing
 	set Sentinel_ShopArtifacts = CreateStructure(Shops, 'n00X', -7072, -6368, 270)
 	set Sentinel_ShopRelics = CreateStructure(Shops, 'n009', -6560, -6432, 270)
 	set Sentinel_ShopProtectorate = CreateStructure(Shops, 'n0HE', -6944, -6368, 270)
-	set unit141 = CreateStructure(Sentinels[0], 'etol', -5632, -6144, 270)
-	set unit142 = CreateStructure(Sentinels[0], 'e00R', -6112, 1568, 90)
-	set unit143 = CreateStructure(Sentinels[0], 'e00R', -1504, -1824, 45)
-	set unit144 = CreateStructure(Sentinels[0], 'e00R', 4960, -6752, 0)
-	set unit145 = CreateStructure(Sentinels[0], 'e011', -6112, -1248, 90)
-	set unit146 = CreateStructure(Sentinels[0], 'e011', -3488, -3296, 45)
-	set unit147 = CreateStructure(Sentinels[0], 'e011', -544, -6688, 0)
-	set unit148 = CreateStructure(Sentinels[0], 'e00S', -6368, -4256, 90)
-	set unit149 = CreateStructure(Sentinels[0], 'e00S', -4448, -4960, 45)
-	set unit150 = CreateStructure(Sentinels[0], 'e00S', -3744, -6816, 0)
-	set unit151 = CreateStructure(Sentinels[0], 'e019', -5600, -5728, 45)
-	set unit152 = CreateStructure(Sentinels[0], 'e019', -5280, -6112, 45)
+	set Sentinel_Ancient = CreateStructure(Sentinels[0], 'etol', -5632, -6144, 270)
+	set Sentinel_Tower_Top_Level1 = CreateStructure(Sentinels[0], 'e00R', -6112, 1568, 90)
+	set Sentinel_Tower_Mid_Level1 = CreateStructure(Sentinels[0], 'e00R', -1504, -1824, 45)
+	set Sentinel_Tower_Bot_Level1 = CreateStructure(Sentinels[0], 'e00R', 4960, -6752, 0)
+	set Sentinel_Tower_Top_Level2 = CreateStructure(Sentinels[0], 'e011', -6112, -1248, 90)
+	set Sentinel_Tower_Mid_Level2 = CreateStructure(Sentinels[0], 'e011', -3488, -3296, 45)
+	set Sentinel_Tower_Bot_Level2 = CreateStructure(Sentinels[0], 'e011', -544, -6688, 0)
+	set Sentinel_Tower_Top_Level3 = CreateStructure(Sentinels[0], 'e00S', -6368, -4256, 90)
+	set Sentinel_Tower_Mid_Level3 = CreateStructure(Sentinels[0], 'e00S', -4448, -4960, 45)
+	set Sentinel_Tower_Bot_Level3 = CreateStructure(Sentinels[0], 'e00S', -3744, -6816, 0)
+	set Sentinel_Tower_Ancient_1 = CreateStructure(Sentinels[0], 'e019', -5600, -5728, 45)
+	set Sentinel_Tower_Ancient_2 = CreateStructure(Sentinels[0], 'e019', -5280, -6112, 45)
 	set Sentinel_Melee_Top = CreateStructure(Sentinels[0], 'eaom', -6080, -4480, 90)
 	set Sentinel_Melee_Mid = CreateStructure(Sentinels[0], 'eaom', -4416, -5312, 45)
 	set Sentinel_Melee_Bot = CreateStructure(Sentinels[0], 'eaom', -4032, -7040, 0)
@@ -7371,18 +7350,18 @@ function InitSentinels takes nothing returns nothing
 	call SetUnitColor(Sentinel_ShopArtifacts, PlayerColor12)
 	call SetUnitColor(Sentinel_ShopRelics, PlayerColor12)
 	call SetUnitInvulnerable(Sentinel_Fountain, true)
-	call SetUnitInvulnerable(unit142, true)
-	call SetUnitInvulnerable(unit143, true)
-	call SetUnitInvulnerable(unit144, true)
-	call SetUnitInvulnerable(unit145, true)
-	call SetUnitInvulnerable(unit146, true)
-	call SetUnitInvulnerable(unit147, true)
-	call SetUnitInvulnerable(unit148, true)
-	call SetUnitInvulnerable(unit149, true)
-	call SetUnitInvulnerable(unit150, true)
-	call SetUnitInvulnerable(unit151, true)
-	call SetUnitInvulnerable(unit152, true)
-	call SetUnitInvulnerable(unit141, true)
+	call SetUnitInvulnerable(Sentinel_Tower_Top_Level1, true)
+	call SetUnitInvulnerable(Sentinel_Tower_Mid_Level1, true)
+	call SetUnitInvulnerable(Sentinel_Tower_Bot_Level1, true)
+	call SetUnitInvulnerable(Sentinel_Tower_Top_Level2, true)
+	call SetUnitInvulnerable(Sentinel_Tower_Mid_Level2, true)
+	call SetUnitInvulnerable(Sentinel_Tower_Bot_Level2, true)
+	call SetUnitInvulnerable(Sentinel_Tower_Top_Level3, true)
+	call SetUnitInvulnerable(Sentinel_Tower_Mid_Level3, true)
+	call SetUnitInvulnerable(Sentinel_Tower_Bot_Level3, true)
+	call SetUnitInvulnerable(Sentinel_Tower_Ancient_1, true)
+	call SetUnitInvulnerable(Sentinel_Tower_Ancient_2, true)
+	call SetUnitInvulnerable(Sentinel_Ancient, true)
 	call SetUnitInvulnerable(Sentinel_Melee_Top, true)
 	call SetUnitInvulnerable(Sentinel_Melee_Mid, true)
 	call SetUnitInvulnerable(Sentinel_Melee_Bot, true)
@@ -7846,7 +7825,7 @@ endfunction
 
 function InitHeroes takes nothing returns nothing
 //	local integer loc_integer01 = 1
-	set integer039 = 1
+	set FirstSentinelHeroIndexId = 1
 	set HeroID[1] = 'Hvwd'
 	set DummyID[1] = 'h03Z'
 	//  set integers069[1]='n09U'
@@ -8577,9 +8556,9 @@ function InitHeroes takes nothing returns nothing
 //	set strings010[loc_integer01] = ""
 //	set strings011[loc_integer01] = ""
 //	set loc_integer01 = loc_integer01 + 1
-	set integer040 = 59
+	set LastSentinelHeroIndexId = 59
 //	set loc_integer01 = 60
-	set integer041 = 60
+	set FirstScourgeHeroIndexId = 60
 	set HeroID[60] = 'Ewar'
 	set DummyID[60] = 'h05J'
 	//  set integers069[60]='n0B5'
@@ -9243,237 +9222,237 @@ function InitHeroes takes nothing returns nothing
 //	set strings010[loc_integer01] = "Try to space out your webs with least 2 seconds of walking distance so that you can benefit from its bonuses on as much ground as possible."
 //	set strings011[loc_integer01] = "With the damage and lifesteal from Insatiable Hunger, sometimes it is best to get items that will prevent you from being disabled, such as a Black King Bar."
 //	set loc_integer01 = loc_integer01 + 1
-	set integer042 = 112
-	set integers070[1] = 'Nbrn'
-	set integers070[2] = 'Edem'
-	set integers070[3] = 'N016'
-	set integers070[4] = 'Nbbc'
-	set integers070[5] = 'Naka'
-	set integers070[6] = 'O00P'
-	set integers070[7] = 'Usyl'
-	set integers070[8] = 'E005'
-	set integers070[9] = 'N01O'
-	set integers070[10] = 'HC92'
-	set integers070[11] = 'Hvwd'
-	set integers070[12] = 'HC49'
-	set integers070[13] = 'Huth'
-	set integers070[14] = 'Ogrh'
-	set integers070[15] = 'U006'
-	set integers070[16] = 'EC57'
-	set integers070[17] = 'Eevi'
-	set integers070[18] = 'Ubal'
-	set integers070[19] = 'E004'
-	set integers070[20] = 'EC77'
-	set integers070[21] = 'Hvsh'
-	set integers070[22] = 'Nfir'
-	set integers070[23] = 'E002'
-	set integers070[24] = 'EC45'
-	set integers070[25] = 'Ewar'
-	set integers070[26] = 'U000'
-	set integers070[27] = 'H00V'
-	set integers070[28] = 'E01B'
-	set integers070[29] = 'N01V'
-	set integers070[30] = 'H00I'
-	set integers070[31] = 'E01Y'
-	set integers070[32] = 'H071'
-	set integers070[33] = 'E02N'
-	set integers070[34] = 'N0M0'
-	set integers070[35] = 'N0MK'
-	set integer043 = 35
-	set integers071[1] = 'Npbm'
-	set integers071[2] = 'Hlgr'
-	set integers071[3] = 'Harf'
-	set integers071[4] = 'H000'
-	set integers071[5] = 'H001'
-	set integers071[6] = 'Hamg'
-	set integers071[7] = 'H008'
-	set integers071[8] = 'Ucrl'
-	set integers071[9] = 'Otch'
-	set integers071[10] = 'NC00'
-	set integers071[11] = 'Udre'
-	set integers071[12] = 'UC11'
-	set integers071[13] = 'Ofar'
-	set integers071[14] = 'U00F'
-	set integers071[15] = 'U00K'
-	set integers071[16] = 'O00J'
-	set integers071[17] = 'Udea'
-	set integers071[18] = 'Opgh'
-	set integers071[19] = 'U00A'
-	set integers071[20] = 'U00C'
-	set integers071[21] = 'UC91'
-	set integers071[22] = 'UC42'
-	set integers071[23] = 'U008'
-	set integers071[24] = 'H00D'
-	set integers071[25] = 'N01I'
-	set integers071[26] = 'H00Q'
-	set integers071[27] = 'N00R'
-	set integers071[28] = 'H00T'
-	set integers071[29] = 'H06S'
-	set integers071[30] = 'H00R'
-	set integers071[31] = 'O015'
-	set integers071[32] = 'E02I'
-	set integers071[33] = 'E02F'
-	set integers071[34] = 'O01F'
-	set integers071[35] = 'E032'
-	set integers071[36] = 'E02K'
-	set integers071[37] = 'N0MU'
-	set integer044 = 37
-	set integers072[1] = 'Orkn'
-	set integers072[2] = 'Emoo'
-	set integers072[3] = 'Emns'
-	set integers072[4] = 'H004'
-	set integers072[5] = 'Hjai'
-	set integers072[6] = 'Uktl'
-	set integers072[7] = 'Hmbr'
-	set integers072[8] = 'H00K'
-	set integers072[9] = 'Ntin'
-	set integers072[10] = 'Hmkg'
-	set integers072[11] = 'Hblm'
-	set integers072[12] = 'N01A'
-	set integers072[13] = 'H00A'
-	set integers072[14] = 'Ulic'
-	set integers072[15] = 'Ekee'
-	set integers072[16] = 'UC76'
-	set integers072[17] = 'UC18'
-	set integers072[18] = 'UC01'
-	set integers072[19] = 'UC60'
-	set integers072[20] = 'H00H'
-	set integers072[21] = 'Oshd'
-	set integers072[22] = 'U00E'
-	set integers072[23] = 'E01A'
-	set integers072[24] = 'U00P'
-	set integers072[25] = 'E00P'
-	set integers072[26] = 'E01C'
-	set integers072[27] = 'N01W'
-	set integers072[28] = 'H00N'
-	set integers072[29] = 'N0EG'
-	set integers072[30] = 'H00S'
-	set integers072[31] = 'N00B'
-	set integers072[32] = 'H00U'
-	set integers072[33] = 'O016'
-	set integers072[34] = 'N0HP'
-	set integers072[35] = 'E02H'
-	set integers072[36] = 'E02J'
-	set integers072[37] = 'E02X'
-	set integers072[38] = 'H0DO'
-	set integers072[39] = 'N0M7'
-	set integers072[40] = 'N0MD'
-	set integer045 = 40
-	set integers073[1] = 'Orkn'
-	set integers073[2] = 'Emoo'
-	set integers073[3] = 'Emns'
-	set integers073[4] = 'H004'
-	set integers073[5] = 'Hjai'
-	set integers073[6] = 'Uktl'
-	set integers073[7] = 'Hmbr'
-	set integers073[8] = 'H00K'
-	set integers073[9] = 'Ntin'
-	set integers073[10] = 'Nbrn'
-	set integers073[11] = 'Hblm'
-	set integers073[12] = 'N01A'
-	set integers073[13] = 'H00A'
-	set integers073[14] = 'Ulic'
-	set integers073[15] = 'Ekee'
-	set integers073[16] = 'UC76'
-	set integers073[17] = 'UC18'
-	set integers073[18] = 'UC01'
-	set integers073[19] = 'UC60'
-	set integers073[20] = 'H00H'
-	set integers073[21] = 'Oshd'
-	set integers073[22] = 'U00E'
-	set integers073[23] = 'E01A'
-	set integers073[24] = 'U00P'
-	set integers073[25] = 'E00P'
-	set integers073[26] = 'E01C'
-	set integers073[27] = 'N01W'
-	set integers073[28] = 'N0EG'
-	set integers073[29] = 'H00S'
-	set integers073[30] = 'N00B'
-	set integers073[31] = 'H00U'
-	set integers073[32] = 'N016'
-	set integers073[33] = 'O00P'
-	set integers073[34] = 'Usyl'
-	set integers073[35] = 'E005'
-	set integers073[36] = 'N01O'
-	set integers073[37] = 'E01Y'
-	set integers073[38] = 'Hvwd'
-	set integers073[39] = 'EC57'
-	set integers073[40] = 'Ubal'
-	set integers073[41] = 'E004'
-	set integers073[42] = 'EC77'
-	set integers073[43] = 'Nfir'
-	set integers073[44] = 'E002'
-	set integers073[45] = 'H00V'
-	set integers073[46] = 'N01V'
-	set integers073[47] = 'H00Q'
-	set integers073[48] = 'O016'
-	set integers073[49] = 'N0HP'
-	set integers073[50] = 'O01F'
-	set integers073[51] = 'E02H'
-	set integers073[52] = 'E02N'
-	set integers073[53] = 'E02J'
-	set integers073[54] = 'E02F'
-	set integers073[55] = 'E02X'
-	set integers073[56] = 'H0DO'
-	set integers073[57] = 'N0MK'
-	set integers073[58] = 'N0M7'
-	set integers073[59] = 'N0MD'
-	set integer046 = 59
-	set integers074[1] = 'Hmkg'
-	set integers074[2] = 'H00N'
-	set integers074[3] = 'Edem'
-	set integers074[4] = 'Nbbc'
-	set integers074[5] = 'Naka'
-	set integers074[6] = 'HC49'
-	set integers074[7] = 'Huth'
-	set integers074[8] = 'Ogrh'
-	set integers074[9] = 'U006'
-	set integers074[10] = 'Eevi'
-	set integers074[11] = 'Hvsh'
-	set integers074[12] = 'EC45'
-	set integers074[13] = 'Ewar'
-	set integers074[14] = 'U000'
-	set integers074[15] = 'E01B'
-	set integers074[16] = 'H00I'
-	set integers074[17] = 'HC92'
-	set integers074[18] = 'Npbm'
-	set integers074[19] = 'Hlgr'
-	set integers074[20] = 'Harf'
-	set integers074[21] = 'H000'
-	set integers074[22] = 'H001'
-	set integers074[23] = 'Hamg'
-	set integers074[24] = 'H008'
-	set integers074[25] = 'Ucrl'
-	set integers074[26] = 'Otch'
-	set integers074[27] = 'NC00'
-	set integers074[28] = 'Udre'
-	set integers074[29] = 'UC11'
-	set integers074[30] = 'Ofar'
-	set integers074[31] = 'U00F'
-	set integers074[32] = 'U00K'
-	set integers074[33] = 'O00J'
-	set integers074[34] = 'Udea'
-	set integers074[35] = 'Opgh'
-	set integers074[36] = 'U00A'
-	set integers074[37] = 'U00C'
-	set integers074[38] = 'UC91'
-	set integers074[39] = 'UC42'
-	set integers074[40] = 'U008'
-	set integers074[41] = 'H00D'
-	set integers074[42] = 'N01I'
-	set integers074[43] = 'N00R'
-	set integers074[44] = 'H00T'
-	set integers074[45] = 'H06S'
-	set integers074[46] = 'H00R'
-	set integers074[47] = 'O015'
-	set integers074[48] = 'H071'
-	set integers074[49] = 'E02I'
-	set integers074[50] = 'N0M0'
-	set integers074[51] = 'E032'
-	set integers074[52] = 'E02K'
-	set integers074[53] = 'N0MU'
-	set integer047 = 53
-	call Func0074()
+	set LastScourgeHeroIndexId = 112
+	set AgilityHeroes[1] = 'Nbrn'
+	set AgilityHeroes[2] = 'Edem'
+	set AgilityHeroes[3] = 'N016'
+	set AgilityHeroes[4] = 'Nbbc'
+	set AgilityHeroes[5] = 'Naka'
+	set AgilityHeroes[6] = 'O00P'
+	set AgilityHeroes[7] = 'Usyl'
+	set AgilityHeroes[8] = 'E005'
+	set AgilityHeroes[9] = 'N01O'
+	set AgilityHeroes[10] = 'HC92'
+	set AgilityHeroes[11] = 'Hvwd'
+	set AgilityHeroes[12] = 'HC49'
+	set AgilityHeroes[13] = 'Huth'
+	set AgilityHeroes[14] = 'Ogrh'
+	set AgilityHeroes[15] = 'U006'
+	set AgilityHeroes[16] = 'EC57'
+	set AgilityHeroes[17] = 'Eevi'
+	set AgilityHeroes[18] = 'Ubal'
+	set AgilityHeroes[19] = 'E004'
+	set AgilityHeroes[20] = 'EC77'
+	set AgilityHeroes[21] = 'Hvsh'
+	set AgilityHeroes[22] = 'Nfir'
+	set AgilityHeroes[23] = 'E002'
+	set AgilityHeroes[24] = 'EC45'
+	set AgilityHeroes[25] = 'Ewar'
+	set AgilityHeroes[26] = 'U000'
+	set AgilityHeroes[27] = 'H00V'
+	set AgilityHeroes[28] = 'E01B'
+	set AgilityHeroes[29] = 'N01V'
+	set AgilityHeroes[30] = 'H00I'
+	set AgilityHeroes[31] = 'E01Y'
+	set AgilityHeroes[32] = 'H071'
+	set AgilityHeroes[33] = 'E02N'
+	set AgilityHeroes[34] = 'N0M0'
+	set AgilityHeroes[35] = 'N0MK'
+	set AgilityHeroes_Count = 35
+	set StrengthHeroes[1] = 'Npbm'
+	set StrengthHeroes[2] = 'Hlgr'
+	set StrengthHeroes[3] = 'Harf'
+	set StrengthHeroes[4] = 'H000'
+	set StrengthHeroes[5] = 'H001'
+	set StrengthHeroes[6] = 'Hamg'
+	set StrengthHeroes[7] = 'H008'
+	set StrengthHeroes[8] = 'Ucrl'
+	set StrengthHeroes[9] = 'Otch'
+	set StrengthHeroes[10] = 'NC00'
+	set StrengthHeroes[11] = 'Udre'
+	set StrengthHeroes[12] = 'UC11'
+	set StrengthHeroes[13] = 'Ofar'
+	set StrengthHeroes[14] = 'U00F'
+	set StrengthHeroes[15] = 'U00K'
+	set StrengthHeroes[16] = 'O00J'
+	set StrengthHeroes[17] = 'Udea'
+	set StrengthHeroes[18] = 'Opgh'
+	set StrengthHeroes[19] = 'U00A'
+	set StrengthHeroes[20] = 'U00C'
+	set StrengthHeroes[21] = 'UC91'
+	set StrengthHeroes[22] = 'UC42'
+	set StrengthHeroes[23] = 'U008'
+	set StrengthHeroes[24] = 'H00D'
+	set StrengthHeroes[25] = 'N01I'
+	set StrengthHeroes[26] = 'H00Q'
+	set StrengthHeroes[27] = 'N00R'
+	set StrengthHeroes[28] = 'H00T'
+	set StrengthHeroes[29] = 'H06S'
+	set StrengthHeroes[30] = 'H00R'
+	set StrengthHeroes[31] = 'O015'
+	set StrengthHeroes[32] = 'E02I'
+	set StrengthHeroes[33] = 'E02F'
+	set StrengthHeroes[34] = 'O01F'
+	set StrengthHeroes[35] = 'E032'
+	set StrengthHeroes[36] = 'E02K'
+	set StrengthHeroes[37] = 'N0MU'
+	set StrengthHeroes_Count = 37
+	set InteligentHeroes[1] = 'Orkn'
+	set InteligentHeroes[2] = 'Emoo'
+	set InteligentHeroes[3] = 'Emns'
+	set InteligentHeroes[4] = 'H004'
+	set InteligentHeroes[5] = 'Hjai'
+	set InteligentHeroes[6] = 'Uktl'
+	set InteligentHeroes[7] = 'Hmbr'
+	set InteligentHeroes[8] = 'H00K'
+	set InteligentHeroes[9] = 'Ntin'
+	set InteligentHeroes[10] = 'Hmkg'
+	set InteligentHeroes[11] = 'Hblm'
+	set InteligentHeroes[12] = 'N01A'
+	set InteligentHeroes[13] = 'H00A'
+	set InteligentHeroes[14] = 'Ulic'
+	set InteligentHeroes[15] = 'Ekee'
+	set InteligentHeroes[16] = 'UC76'
+	set InteligentHeroes[17] = 'UC18'
+	set InteligentHeroes[18] = 'UC01'
+	set InteligentHeroes[19] = 'UC60'
+	set InteligentHeroes[20] = 'H00H'
+	set InteligentHeroes[21] = 'Oshd'
+	set InteligentHeroes[22] = 'U00E'
+	set InteligentHeroes[23] = 'E01A'
+	set InteligentHeroes[24] = 'U00P'
+	set InteligentHeroes[25] = 'E00P'
+	set InteligentHeroes[26] = 'E01C'
+	set InteligentHeroes[27] = 'N01W'
+	set InteligentHeroes[28] = 'H00N'
+	set InteligentHeroes[29] = 'N0EG'
+	set InteligentHeroes[30] = 'H00S'
+	set InteligentHeroes[31] = 'N00B'
+	set InteligentHeroes[32] = 'H00U'
+	set InteligentHeroes[33] = 'O016'
+	set InteligentHeroes[34] = 'N0HP'
+	set InteligentHeroes[35] = 'E02H'
+	set InteligentHeroes[36] = 'E02J'
+	set InteligentHeroes[37] = 'E02X'
+	set InteligentHeroes[38] = 'H0DO'
+	set InteligentHeroes[39] = 'N0M7'
+	set InteligentHeroes[40] = 'N0MD'
+	set InteligentHeroes_Count = 40
+	set RangedHeroes[1] = 'Orkn'
+	set RangedHeroes[2] = 'Emoo'
+	set RangedHeroes[3] = 'Emns'
+	set RangedHeroes[4] = 'H004'
+	set RangedHeroes[5] = 'Hjai'
+	set RangedHeroes[6] = 'Uktl'
+	set RangedHeroes[7] = 'Hmbr'
+	set RangedHeroes[8] = 'H00K'
+	set RangedHeroes[9] = 'Ntin'
+	set RangedHeroes[10] = 'Nbrn'
+	set RangedHeroes[11] = 'Hblm'
+	set RangedHeroes[12] = 'N01A'
+	set RangedHeroes[13] = 'H00A'
+	set RangedHeroes[14] = 'Ulic'
+	set RangedHeroes[15] = 'Ekee'
+	set RangedHeroes[16] = 'UC76'
+	set RangedHeroes[17] = 'UC18'
+	set RangedHeroes[18] = 'UC01'
+	set RangedHeroes[19] = 'UC60'
+	set RangedHeroes[20] = 'H00H'
+	set RangedHeroes[21] = 'Oshd'
+	set RangedHeroes[22] = 'U00E'
+	set RangedHeroes[23] = 'E01A'
+	set RangedHeroes[24] = 'U00P'
+	set RangedHeroes[25] = 'E00P'
+	set RangedHeroes[26] = 'E01C'
+	set RangedHeroes[27] = 'N01W'
+	set RangedHeroes[28] = 'N0EG'
+	set RangedHeroes[29] = 'H00S'
+	set RangedHeroes[30] = 'N00B'
+	set RangedHeroes[31] = 'H00U'
+	set RangedHeroes[32] = 'N016'
+	set RangedHeroes[33] = 'O00P'
+	set RangedHeroes[34] = 'Usyl'
+	set RangedHeroes[35] = 'E005'
+	set RangedHeroes[36] = 'N01O'
+	set RangedHeroes[37] = 'E01Y'
+	set RangedHeroes[38] = 'Hvwd'
+	set RangedHeroes[39] = 'EC57'
+	set RangedHeroes[40] = 'Ubal'
+	set RangedHeroes[41] = 'E004'
+	set RangedHeroes[42] = 'EC77'
+	set RangedHeroes[43] = 'Nfir'
+	set RangedHeroes[44] = 'E002'
+	set RangedHeroes[45] = 'H00V'
+	set RangedHeroes[46] = 'N01V'
+	set RangedHeroes[47] = 'H00Q'
+	set RangedHeroes[48] = 'O016'
+	set RangedHeroes[49] = 'N0HP'
+	set RangedHeroes[50] = 'O01F'
+	set RangedHeroes[51] = 'E02H'
+	set RangedHeroes[52] = 'E02N'
+	set RangedHeroes[53] = 'E02J'
+	set RangedHeroes[54] = 'E02F'
+	set RangedHeroes[55] = 'E02X'
+	set RangedHeroes[56] = 'H0DO'
+	set RangedHeroes[57] = 'N0MK'
+	set RangedHeroes[58] = 'N0M7'
+	set RangedHeroes[59] = 'N0MD'
+	set RangedHeroes_Count = 59
+	set MeleeHeroes[1] = 'Hmkg'
+	set MeleeHeroes[2] = 'H00N'
+	set MeleeHeroes[3] = 'Edem'
+	set MeleeHeroes[4] = 'Nbbc'
+	set MeleeHeroes[5] = 'Naka'
+	set MeleeHeroes[6] = 'HC49'
+	set MeleeHeroes[7] = 'Huth'
+	set MeleeHeroes[8] = 'Ogrh'
+	set MeleeHeroes[9] = 'U006'
+	set MeleeHeroes[10] = 'Eevi'
+	set MeleeHeroes[11] = 'Hvsh'
+	set MeleeHeroes[12] = 'EC45'
+	set MeleeHeroes[13] = 'Ewar'
+	set MeleeHeroes[14] = 'U000'
+	set MeleeHeroes[15] = 'E01B'
+	set MeleeHeroes[16] = 'H00I'
+	set MeleeHeroes[17] = 'HC92'
+	set MeleeHeroes[18] = 'Npbm'
+	set MeleeHeroes[19] = 'Hlgr'
+	set MeleeHeroes[20] = 'Harf'
+	set MeleeHeroes[21] = 'H000'
+	set MeleeHeroes[22] = 'H001'
+	set MeleeHeroes[23] = 'Hamg'
+	set MeleeHeroes[24] = 'H008'
+	set MeleeHeroes[25] = 'Ucrl'
+	set MeleeHeroes[26] = 'Otch'
+	set MeleeHeroes[27] = 'NC00'
+	set MeleeHeroes[28] = 'Udre'
+	set MeleeHeroes[29] = 'UC11'
+	set MeleeHeroes[30] = 'Ofar'
+	set MeleeHeroes[31] = 'U00F'
+	set MeleeHeroes[32] = 'U00K'
+	set MeleeHeroes[33] = 'O00J'
+	set MeleeHeroes[34] = 'Udea'
+	set MeleeHeroes[35] = 'Opgh'
+	set MeleeHeroes[36] = 'U00A'
+	set MeleeHeroes[37] = 'U00C'
+	set MeleeHeroes[38] = 'UC91'
+	set MeleeHeroes[39] = 'UC42'
+	set MeleeHeroes[40] = 'U008'
+	set MeleeHeroes[41] = 'H00D'
+	set MeleeHeroes[42] = 'N01I'
+	set MeleeHeroes[43] = 'N00R'
+	set MeleeHeroes[44] = 'H00T'
+	set MeleeHeroes[45] = 'H06S'
+	set MeleeHeroes[46] = 'H00R'
+	set MeleeHeroes[47] = 'O015'
+	set MeleeHeroes[48] = 'H071'
+	set MeleeHeroes[49] = 'E02I'
+	set MeleeHeroes[50] = 'N0M0'
+	set MeleeHeroes[51] = 'E032'
+	set MeleeHeroes[52] = 'E02K'
+	set MeleeHeroes[53] = 'N0MU'
+	set MeleeHeroes_Count = 53
+	call AllHeroesInit()
 endfunction
 
 function InitUnits takes nothing returns nothing
@@ -9494,56 +9473,18 @@ function InitUnits takes nothing returns nothing
 endfunction
 
 function InitTaverns takes nothing returns nothing
-	local trigger loc_trigger01 = CreateTrigger()
-	local player loc_player01 = Player(15)
-	local real loc_real01 = GetUnitX(unit091)
-	local real loc_real02 = GetUnitY(unit091)
-	local real loc_real03 = GetUnitX(unit023)
-	local real loc_real04 = GetUnitY(unit023)
-	local real loc_real05 = GetUnitX(unit089)
-	local real loc_real06 = GetUnitY(unit089)
-	local real loc_real07 = GetUnitX(unit120)
-	local real loc_real08 = GetUnitY(unit120)
-	local real loc_real09 = GetUnitX(unit022)
-	local real loc_real10 = GetUnitY(unit022)
-	local real loc_real11 = GetUnitX(unit024)
-	local real loc_real12 = GetUnitY(unit024)
-	local real loc_real13 = GetUnitX(unit005)
-	local real loc_real14 = GetUnitY(unit005)
-	local real loc_real15 = GetUnitX(unit122)
-	local real loc_real16 = GetUnitY(unit122)
-	local real loc_real17 = GetUnitX(unit011)
-	local real loc_real18 = GetUnitY(unit011)
-	local real loc_real19 = GetUnitX(unit090)
-	local real loc_real20 = GetUnitY(unit090)
-	local real loc_real21 = GetUnitX(unit115)
-	local real loc_real22 = GetUnitY(unit115)
-	local real loc_real23 = GetUnitX(unit121)
-	local real loc_real24 = GetUnitY(unit121)
-	call RemoveUnit(unit091)
-	call RemoveUnit(unit024)
-	call RemoveUnit(unit023)
-	call RemoveUnit(unit022)
-	call RemoveUnit(unit089)
-	call RemoveUnit(unit005)
-	call RemoveUnit(unit011)
-	call RemoveUnit(unit090)
-	call RemoveUnit(unit115)
-	call RemoveUnit(unit120)
-	call RemoveUnit(unit122)
-	call RemoveUnit(unit121)
-	set unit228 = CreateUnit(loc_player01, 'n008', loc_real09, loc_real10, 270)
-	set unit229 = CreateUnit(loc_player01, 'n0GJ', loc_real11, loc_real12, 270)
-	set unit230 = CreateUnit(loc_player01, 'n01D', loc_real13, loc_real14, 270)
-	set unit231 = CreateUnit(loc_player01, 'n0LH', loc_real15, loc_real16, 270)
-	set unit232 = CreateUnit(loc_player01, 'n01N', loc_real01, loc_real02, 270)
-	set unit233 = CreateUnit(loc_player01, 'n007', loc_real03, loc_real04, 270)
-	set unit234 = CreateUnit(loc_player01, 'n005', loc_real05, loc_real06, 270)
-	set unit235 = CreateUnit(loc_player01, 'n0LI', loc_real07, loc_real08, 270)
-	set unit236 = CreateUnit(loc_player01, 'n01B', loc_real17, loc_real18, 270)
-	set unit237 = CreateUnit(loc_player01, 'n01P', loc_real19, loc_real20, 270)
-	set unit238 = CreateUnit(loc_player01, 'n0GK', loc_real21, loc_real22, 270)
-	set unit239 = CreateUnit(loc_player01, 'n0LJ', loc_real23, loc_real24, 270)
+	set unit228 = CreateStructure(Shops, 'n008', -7360, 6464, 270)
+	set unit229 = CreateStructure(Shops, 'n0GJ', -7168, 6464, 270)
+	set unit230 = CreateStructure(Shops, 'n01D', -6848, 6464, 270)
+	set unit231 = CreateStructure(Shops, 'n0LH', -6656, 6464, 270)
+	set unit232 = CreateStructure(Shops, 'n01N', -7360, 6784, 270)
+	set unit233 = CreateStructure(Shops, 'n007', -7168, 6784, 270)
+	set unit234 = CreateStructure(Shops, 'n005', -6848, 6784, 270)
+	set unit235 = CreateStructure(Shops, 'n0LI', -6656, 6784, 270)
+	set unit236 = CreateStructure(Shops, 'n01B', -7360, 7104, 270)
+	set unit237 = CreateStructure(Shops, 'n01P', -7168, 7104, 270)
+	set unit238 = CreateStructure(Shops, 'n0GK', -6848, 7104, 270)
+	set unit239 = CreateStructure(Shops, 'n0LJ', -6656, 7104, 270)
 	call SetUnitColor(unit228, ConvertPlayerColor(1))
 	call SetUnitColor(unit229, ConvertPlayerColor(1))
 	call SetUnitColor(unit230, ConvertPlayerColor(9))
@@ -9556,7 +9497,6 @@ function InitTaverns takes nothing returns nothing
 	call SetUnitColor(unit237, ConvertPlayerColor(0))
 	call SetUnitColor(unit238, ConvertPlayerColor(11))
 	call SetUnitColor(unit239, ConvertPlayerColor(11))
-	set loc_trigger01 = null
 endfunction
 
 function Func0431 takes integer loc_integer01 returns boolean
@@ -9966,7 +9906,7 @@ function Func0445 takes nothing returns nothing
 		set loc_string01 = I2S(integer001) + ":" + I2S(integer002)
 	endif
 	if boolean036 == false then
-		set strings003[GetPlayerId(GetTriggerPlayer())] = "|c00555555" + loc_string01 + "|r"
+		set LeaveAt[GetPlayerId(GetTriggerPlayer())] = "|c00555555" + loc_string01 + "|r"
 		call Func0144(bj_FORCE_ALL_PLAYERS, 25.00, Players_Color[GetPlayerId(GetTriggerPlayer())] + (strings005[GetPlayerId((GetTriggerPlayer()))]) + " (" + s + ")|r|c00ff0303 " + "has left the game" + "|r")
 		if(IsSentinel(GetTriggerPlayer()) == true) then
 			set loc_integer03 = 1
@@ -9993,7 +9933,7 @@ function Func0445 takes nothing returns nothing
 				set loc_integer03 = loc_integer03 + 1
 			endloop
 		endif
-		if IsSentinel(GetTriggerPlayer()) or Func0056(GetTriggerPlayer()) then
+		if IsSentinel(GetTriggerPlayer()) or IsScourge(GetTriggerPlayer()) then
 			set integer050 = integer050 + 1
 		endif
 		call Traffic_RegisterData("C" + "K" + I2S(integers003[GetPlayerId(GetTriggerPlayer())]) + "D" + I2S(integers004[GetPlayerId(GetTriggerPlayer())]) + "N" + I2S((LoadInteger(HY, (400 + GetPlayerId(GetTriggerPlayer())), (79)))), GetPlayerId(GetTriggerPlayer()))
@@ -10016,7 +9956,7 @@ function Func0445 takes nothing returns nothing
 			set boolean092 = false
 		endif
 	else
-		set strings003[GetPlayerId(GetTriggerPlayer())] = "|c00555555End|r"
+		set LeaveAt[GetPlayerId(GetTriggerPlayer())] = "|c00555555End|r"
 		call ExecuteFunc("Func0983")
 	endif
 endfunction
@@ -10417,7 +10357,7 @@ function Func0455 takes unit loc_unit01 returns nothing
 			call UnitAddItem(loc_unit02, UnitItemInSlot(loc_unit01, 4))
 			call UnitAddItem(loc_unit02, UnitItemInSlot(loc_unit01, 5))
 		endif
-		call Func0128(loc_unit01)
+		call RemoveHero(loc_unit01)
 		call EnableTrigger(Trig_ManipulateItem)
 		call SetUnitPathing(loc_unit02, true)
 		call ClearSelectionForPlayer(GetOwningPlayer(loc_unit02))
@@ -10876,7 +10816,7 @@ endfunction
 
 function Func0456 takes player loc_player01, string loc_string01 returns nothing
 	if IsPlayerInForce(GetLocalPlayer(), Func0004(loc_player01)) then
-		call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, real003, 40, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r " + loc_string01)
+		call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 40, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r " + loc_string01)
 	endif
 endfunction
 
@@ -10958,7 +10898,7 @@ function Func0468 takes nothing returns boolean
 	local trigger loc_trigger01 = GetTriggeringTrigger()
 	local integer loc_integer01 = GetHandleId(loc_trigger01)
 	local integer loc_integer02 = (LoadInteger(HY, (loc_integer01), (86)))
-	call Func0067(loc_integer02)
+	call RemovePickedHeroFromTavernForAll(loc_integer02)
 	call FlushChildHashtable(HY, (loc_integer01))
 	call CleanTrigger(loc_trigger01)
 	set loc_trigger01 = null
@@ -11038,14 +10978,14 @@ function Func0470 takes nothing returns nothing
 	endif
 	call Traffic_RegisterPlayerData(loc_player01, "9", GetUnitTypeId(loc_unit01))
 	if boolean040 and boolean041 == false then
-		call Func0070(loc_player02)
+		call RemoveHeroesFromTavernsForPlayer(loc_player02)
 	else
-		call Func0070(loc_player01)
+		call RemoveHeroesFromTavernsForPlayer(loc_player01)
 	endif
 	call SaveBoolean(HY, (GetHandleId(loc_unit01)), (85), (true))
 	if not boolean028 then
-		set booleans001[GetUnitPointValue(loc_unit01)] = true
-		call Func0067(GetUnitTypeId(loc_unit01))
+		set IsHeroPicked[GetUnitPointValue(loc_unit01)] = true
+		call RemovePickedHeroFromTavernForAll(GetUnitTypeId(loc_unit01))
 	endif
 	if boolean003 then
 		if IsSentinel(loc_player01) then
@@ -11068,7 +11008,7 @@ function Func0470 takes nothing returns nothing
 			if Func0449(units002[GetPlayerId(GetOwningPlayer(loc_unit01))]) then
 				call Func0451(units002[GetPlayerId(GetOwningPlayer(loc_unit01))])
 			else
-				call Func0128(units002[GetPlayerId(GetOwningPlayer(loc_unit01))])
+				call RemoveHero(units002[GetPlayerId(GetOwningPlayer(loc_unit01))])
 			endif
 		endif
 	endif
@@ -11076,7 +11016,7 @@ function Func0470 takes nothing returns nothing
 		if boolean040 then
 			if TimerGetElapsed(GlobalTimer) > 60 then
 				call Func0456(loc_player01, "has been automatically assigned" + " " + GetUnitName(loc_unit01))
-			elseif booleans004[GetPlayerId(loc_player02)] == true then
+			elseif IsRandomizedHero[GetPlayerId(loc_player02)] == true then
 				call Func0456(loc_player01, Func0469(loc_unit01, loc_player02))
 			else
 				call SetPlayerState(loc_player02, PLAYER_STATE_RESOURCE_GOLD, GetPlayerState(loc_player02, PLAYER_STATE_RESOURCE_GOLD) + 250)
@@ -11085,36 +11025,36 @@ function Func0470 takes nothing returns nothing
 		elseif boolean033 == false or loc_player01 == PlayerModeTyper then
 			if(booleans003[GetPlayerId(GetOwningPlayer(loc_unit01))] == true and boolean033 == false) then
 				call Func0456(loc_player01, "has repicked into" + " " + GetUnitName(loc_unit01) + ".")
-			elseif((booleans004[GetPlayerId(loc_player01)] == true and boolean003 == false) or boolean004 or boolean005 or boolean035) then
+			elseif((IsRandomizedHero[GetPlayerId(loc_player01)] == true and boolean003 == false) or boolean004 or boolean005 or boolean035) then
 				call Func0456(loc_player01, "has randomed" + " " + GetUnitName(loc_unit01) + ".")
 			else
 				call Func0456(loc_player01, "has chosen" + " " + GetUnitName(loc_unit01) + ".")
 			endif
 		endif
 	endif
-	if boolean046 then
+	if IsNoHeroLimitOff then
 		if boolean040 then
 			call Func0463(loc_player02)
 		else
 			call Func0463(loc_player01)
 		endif
 	endif
-	if(boolean106 or boolean060) and boolean046 then
+	if(boolean106 or boolean060) and IsNoHeroLimitOff then
 		call Func0463(loc_player01)
 	endif
 	call Func0467(loc_player01)
 	if(GetUnitTypeId(loc_unit01) == 'E005') then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 60.00, " ")
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 60.00, "|c00ff0303" + "Do not buy the following items for Luna: " + "Stygian Desolator, Maelstrom and Mjollnir" + " " + "The orb effects from these items will cause Luna's attack to malfunction" + "|r")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 60.00, " ")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 60.00, "|c00ff0303" + "Do not buy the following items for Luna: " + "Stygian Desolator, Maelstrom and Mjollnir" + " " + "The orb effects from these items will cause Luna's attack to malfunction" + "|r")
 	elseif GetUnitTypeId(loc_unit01) == 'O00J' or GetUnitTypeId(loc_unit01) == 'N016' or GetUnitTypeId(loc_unit01) == 'UC91' or GetUnitTypeId(loc_unit01) == 'EC45' then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 10.00, " ")
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 10.00, "|c00ff0303" + "Cranium Basher does not stack with your hero's bash" + "|r")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 10.00, " ")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 10.00, "|c00ff0303" + "Cranium Basher does not stack with your hero's bash" + "|r")
 	endif
 	if(GetUnitTypeId(loc_unit01) == 'E01B') then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 30.00, " ")
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 30.00, "|c00ff0303" + "Droppable Items do not drop while phased." + " " + "Activated items on death (like aegis) will not trigger while phased on unpathable terrain." + "|r")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 30.00, " ")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 30.00, "|c00ff0303" + "Droppable Items do not drop while phased." + " " + "Activated items on death (like aegis) will not trigger while phased on unpathable terrain." + "|r")
 	endif
-	if(booleans004[GetPlayerId(loc_player01)] == false) then
+	if(IsRandomizedHero[GetPlayerId(loc_player01)] == false) then
 		if(boolean034) then
 			call SetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD, 175 + GetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD))
 		endif
@@ -11138,7 +11078,7 @@ endfunction
 function Func0472 takes nothing returns nothing
 	local unit loc_unit01 = GetSoldUnit()
 	local player loc_player01 = GetOwningPlayer(loc_unit01)
-	call Func0070(loc_player01)
+	call RemoveHeroesFromTavernsForPlayer(loc_player01)
 endfunction
 
 function Func0473 takes nothing returns boolean
@@ -11846,8 +11786,8 @@ function Func0485 takes unit loc_unit01, unit loc_unit02, real loc_real01 return
 	endloop
 endfunction
 
-function Func0486 takes nothing returns nothing
-endfunction
+//// function Func0486 takes nothing returns nothing
+// endfunction
 
 function Func0487 takes nothing returns nothing
 	local integer loc_integer01 = GetUnitTypeId(GetTriggerUnit())
@@ -11926,7 +11866,7 @@ function Func0487 takes nothing returns nothing
 			set integers003[GetPlayerId(GetOwningPlayer(GetKillingUnit()))] = integers003[GetPlayerId(GetOwningPlayer(GetKillingUnit()))] + 1
 		endif
 	endif
-	call Func0486()
+//	call Func0486()
 endfunction
 
 function Func0488 takes integer loc_integer01 returns nothing
@@ -12035,7 +11975,7 @@ function Func0495 takes integer loc_integer01 returns nothing
 	local boolean loc_boolean01 = booleans019[loc_integer01]
 	local player loc_player01 = GetOwningPlayer(loc_unit01)
 	local location loc_location01
-	if Func0056(loc_player01) then
+	if IsScourge(loc_player01) then
 		set loc_location01 = GetRectCenter(rect004)
 	else
 		set loc_location01 = GetRectCenter(rect011)
@@ -12386,7 +12326,7 @@ function Func0519 takes nothing returns boolean
 endfunction
 
 function Func0520 takes player loc_player01, player loc_player02, unit loc_unit01 returns boolean
-	return loc_unit01 == null or GetKillingUnit() == null or(IsSentinel(loc_player01) and IsSentinel(loc_player02)) or(Func0056(loc_player01) and Func0056(loc_player02))
+	return loc_unit01 == null or GetKillingUnit() == null or(IsSentinel(loc_player01) and IsSentinel(loc_player02)) or(IsScourge(loc_player01) and IsScourge(loc_player02))
 endfunction
 
 function Func0521 takes nothing returns nothing
@@ -12569,7 +12509,7 @@ function Func0524 takes nothing returns nothing
 			else
 				call Func0144(Force_All, 10.00, Func0391(loc_player02, loc_player01))
 			endif
-		elseif Func0056(loc_player01) then
+		elseif IsScourge(loc_player01) then
 			set loc_boolean02 = true
 			set integers002[GetPlayerId(Sentinels[0])] = integers002[GetPlayerId(Sentinels[0])] + 1
 			set integers001[GetPlayerId(Scourges[0])] = integers001[GetPlayerId(Scourges[0])] + 1
@@ -12581,8 +12521,8 @@ function Func0524 takes nothing returns nothing
 			endif
 		endif
 	endif
-	if Func0056(loc_player02) then
-		if Func0056(loc_player01) then
+	if IsScourge(loc_player02) then
+		if IsScourge(loc_player01) then
 			set loc_boolean01 = true
 			if(loc_player01 == loc_player02) then
 				call Func0144(Force_All, 10.00, (Players_Color[GetPlayerId(loc_player02)] + (strings005[GetPlayerId((loc_player02))]) + "|r " + "has killed himself!"))
@@ -12799,7 +12739,7 @@ function Func0524 takes nothing returns nothing
 		if(IsSentinel(loc_player02)) then
 			set integers024[0] = integers024[0] + 1
 		endif
-		if Func0056(loc_player02) then
+		if IsScourge(loc_player02) then
 			set integers024[1] = integers024[1] + 1
 		endif
 		set units002[GetPlayerId(loc_player02)] = loc_unit01
@@ -13047,7 +12987,7 @@ function Roshan_Death takes nothing returns nothing
 		call AdjustPlayerStateBJ(200, Sentinels[4], PLAYER_STATE_RESOURCE_GOLD)
 		call AdjustPlayerStateBJ(200, Sentinels[5], PLAYER_STATE_RESOURCE_GOLD)
 	endif
-	if Func0056(p) then
+	if IsScourge(p) then
 		call Traffic_RegisterData("Roshan", 1)
 		call Func0144(bj_FORCE_ALL_PLAYERS, 10.00, Roshan_Death_GetText("|c00004000" + "Scourge" + "|r", "Scourge"))
 		call AdjustPlayerStateBJ(200, Scourges[1], PLAYER_STATE_RESOURCE_GOLD)
@@ -13282,7 +13222,7 @@ function Func0550 takes nothing returns boolean
 	local unit loc_unit01 = (LoadUnitHandle(HY, (loc_integer01), (2)))
 	local real loc_real01 = GetUnitX(Sentinel_Fountain)
 	local real loc_real02 = GetUnitY(Sentinel_Fountain)
-	if Func0056(GetOwningPlayer(loc_unit01)) then
+	if IsScourge(GetOwningPlayer(loc_unit01)) then
 		set loc_real01 = GetUnitX(unit174)
 		set loc_real02 = GetUnitY(unit174)
 	endif
@@ -15615,7 +15555,7 @@ function Func0598 takes unit loc_unit01, item loc_item01 returns boolean
 		set loc_boolean01 = false
 	endif
 	if(loc_integer02 == integer186 or loc_integer02 == integer187 or loc_integer02 == integer188 or loc_integer02 == integer189 or loc_integer02 == integer190 or loc_integer02 == integer191) and loc_integer01 == 'U00C' then
-		call DisplayTimedTextToPlayer(GetOwningPlayer(loc_unit02), 0, real003, 10, "|c00ff0303" + "Do not use two avatars in right after each other, there is a warcraft engine bug with this" + "|r")
+		call DisplayTimedTextToPlayer(GetOwningPlayer(loc_unit02), 0, 0, 10, "|c00ff0303" + "Do not use two avatars in right after each other, there is a warcraft engine bug with this" + "|r")
 	endif
 	call EnableTrigger(Trig_ManipulateItem)
 	if loc_boolean01 then
@@ -17060,7 +17000,7 @@ function Func0663 takes nothing returns boolean
 endfunction
 
 function Func0664 takes nothing returns boolean
-	if UnitInventorySize(GetFilterUnit()) > 0 and Func0056(GetOwningPlayer(GetFilterUnit())) and IsUnitIllusion(GetFilterUnit()) == false and Func0184(GetFilterUnit()) == false then
+	if UnitInventorySize(GetFilterUnit()) > 0 and IsScourge(GetOwningPlayer(GetFilterUnit())) and IsUnitIllusion(GetFilterUnit()) == false and Func0184(GetFilterUnit()) == false then
 		call Func0662()
 	endif
 	return false
@@ -17464,7 +17404,7 @@ function Func0683 takes nothing returns boolean
 		call CleanTrigger(loc_trigger01)
 	elseif GetTriggerEventId() != EVENT_UNIT_DROP_ITEM then
 		if((LoadInteger(HY, (GetHandleId((loc_unit01))), ((4310)))) == 1) == false then
-			call SetUnitState(loc_unit01, UNIT_STATE_LIFE, Func0134(GetUnitState(loc_unit01, UNIT_STATE_LIFE) -real197, 1))
+			call SetUnitState(loc_unit01, UNIT_STATE_LIFE, GetMaxReal(GetUnitState(loc_unit01, UNIT_STATE_LIFE) -real197, 1))
 		endif
 	endif
 	set loc_trigger01 = null
@@ -19594,14 +19534,14 @@ function Func0772 takes nothing returns nothing
 					if GetItemCharges(UnitItemInSlot(loc_unit01, loc_integer01)) == 15 then
 						call Func0771(GetTriggerUnit(), loc_unit01)
 					endif
-					call Func0768(loc_unit01, Func0130(GetItemCharges(UnitItemInSlot(loc_unit01, loc_integer01)) + 1, 15))
-					call SetItemCharges(UnitItemInSlot(loc_unit01, loc_integer01), Func0130(GetItemCharges(UnitItemInSlot(loc_unit01, loc_integer01)) + 1, 15))
+					call Func0768(loc_unit01, GetMinInt(GetItemCharges(UnitItemInSlot(loc_unit01, loc_integer01)) + 1, 15))
+					call SetItemCharges(UnitItemInSlot(loc_unit01, loc_integer01), GetMinInt(GetItemCharges(UnitItemInSlot(loc_unit01, loc_integer01)) + 1, 15))
 				else
 					if GetItemCharges(UnitItemInSlot(loc_unit01, loc_integer01)) == 10 then
 						call Func0771(GetTriggerUnit(), loc_unit01)
 					endif
-					call Func0768(loc_unit01, Func0130(GetItemCharges(UnitItemInSlot(loc_unit01, loc_integer01)) + 1, 10))
-					call SetItemCharges(UnitItemInSlot(loc_unit01, loc_integer01), Func0130(GetItemCharges(UnitItemInSlot(loc_unit01, loc_integer01)) + 1, 10))
+					call Func0768(loc_unit01, GetMinInt(GetItemCharges(UnitItemInSlot(loc_unit01, loc_integer01)) + 1, 10))
+					call SetItemCharges(UnitItemInSlot(loc_unit01, loc_integer01), GetMinInt(GetItemCharges(UnitItemInSlot(loc_unit01, loc_integer01)) + 1, 10))
 				endif
 				call DestroyEffect(AddSpecialEffectTarget("Abilities\\Spells\\Undead\\ReplenishMana\\SpiritTouchTarget.mdl", loc_unit01, "chest"))
 				set loc_integer01 = 5
@@ -21542,7 +21482,7 @@ function Func0886 takes nothing returns boolean
 		set item002 = Func0382(GetTriggerUnit(), Item_Real[integer231], loc_integer01)
 		call SetItemPlayer(item002, player005, false)
 		call SetItemUserData(item002, 1)
-		call SetUnitState(GetTriggerUnit(), UNIT_STATE_LIFE, Func0134(GetUnitState(GetTriggerUnit(), UNIT_STATE_MAX_LIFE) -loc_real01, 1))
+		call SetUnitState(GetTriggerUnit(), UNIT_STATE_LIFE, GetMaxReal(GetUnitState(GetTriggerUnit(), UNIT_STATE_MAX_LIFE) -loc_real01, 1))
 		call Func0044(GetTriggerUnit(), 4298, 0.04)
 	endif
 	if Func0372(GetManipulatedItem()) == integer231 then
@@ -21553,7 +21493,7 @@ function Func0886 takes nothing returns boolean
 		set item002 = Func0382(GetTriggerUnit(), Item_Real[integer232], loc_integer01)
 		call SetItemPlayer(item002, player005, false)
 		call SetItemUserData(item002, 1)
-		call SetUnitState(GetTriggerUnit(), UNIT_STATE_LIFE, Func0134(GetUnitState(GetTriggerUnit(), UNIT_STATE_MAX_LIFE) -loc_real01, 1))
+		call SetUnitState(GetTriggerUnit(), UNIT_STATE_LIFE, GetMaxReal(GetUnitState(GetTriggerUnit(), UNIT_STATE_MAX_LIFE) -loc_real01, 1))
 	endif
 	call EnableTrigger(Trig_ManipulateItem)
 	return false
@@ -21935,14 +21875,14 @@ function SpawnLaneCreeps takes nothing returns nothing
 		call UnitResetCooldown(CirclesOfPower[9])
 		call UnitResetCooldown(CirclesOfPower[10])
 		call UnitResetCooldown(CirclesOfPower[11])
-		call SetUnitInvulnerable(unit142, false)
-		call SetUnitInvulnerable(unit143, false)
-		call SetUnitInvulnerable(unit144, false)
+		call SetUnitInvulnerable(Sentinel_Tower_Top_Level1, false)
+		call SetUnitInvulnerable(Sentinel_Tower_Mid_Level1, false)
+		call SetUnitInvulnerable(Sentinel_Tower_Bot_Level1, false)
 		call SetUnitInvulnerable(unit186, false)
 		call SetUnitInvulnerable(unit187, false)
 		call SetUnitInvulnerable(unit188, false)
 	elseif c == 1 and boolean119 == true then
-		call SetUnitInvulnerable(unit143, false)
+		call SetUnitInvulnerable(Sentinel_Tower_Mid_Level1, false)
 		call SetUnitInvulnerable(unit187, false)
 	endif
 	if c == 1 then
@@ -22605,24 +22545,24 @@ endfunction
 
 function Func0964 takes nothing returns nothing
 	if GetUnitAbilityLevel(GetEnumUnit(), 'A0P4') != 0 then
-		call GroupRemoveUnit(group001, GetEnumUnit())
+		call GroupRemoveUnit(Groups, GetEnumUnit())
 	endif
 	if GetUnitTypeId(GetEnumUnit()) == 'o003' then
-		call GroupRemoveUnit(group001, GetEnumUnit())
+		call GroupRemoveUnit(Groups, GetEnumUnit())
 	endif
 	if GetUnitTypeId(GetEnumUnit()) == 'o01X' then
-		call GroupRemoveUnit(group001, GetEnumUnit())
+		call GroupRemoveUnit(Groups, GetEnumUnit())
 	endif
 	if Func0184(GetEnumUnit()) == true then
-		call GroupRemoveUnit(group001, GetEnumUnit())
+		call GroupRemoveUnit(Groups, GetEnumUnit())
 	endif
 	if Func0093(GetEnumUnit()) == true then
-		call GroupRemoveUnit(group001, GetEnumUnit())
+		call GroupRemoveUnit(Groups, GetEnumUnit())
 	endif
 endfunction
 
 function Func0965 takes group loc_group01 returns boolean
-	set group001 = loc_group01
+	set Groups = loc_group01
 	call ForGroup(loc_group01, function Func0964)
 	return FirstOfGroup(loc_group01) == null
 endfunction
@@ -23008,7 +22948,7 @@ function Func0968 takes nothing returns nothing
 	endif
 	call Func0017(multiboard001, 7, 1, false, true)
 	call Func0016(multiboard001, 7, 1, "UI\\Feedback\\Resources\\ResourceGold.blp")
-	call Func0486()
+//	call Func0486()
 	if integer395 > 1 then
 		call TriggerExecute(trigger026)
 	endif
@@ -23477,10 +23417,10 @@ function Func0983 takes nothing returns nothing
 	local multiboarditem loc_multiboarditem01
 	loop
 		exitwhen loc_integer01 > integer400
-		if(strings003[GetPlayerId((players007[loc_integer01]))]) != "Here" then
+		if(LeaveAt[GetPlayerId((players007[loc_integer01]))]) != "Here" then
 			set loc_multiboarditem01 = MultiboardGetItem(multiboard002, integers107[loc_integer01], integers108[loc_integer01])
 			call MultiboardSetItemStyle(loc_multiboarditem01, true, false)
-			call MultiboardSetItemValue(loc_multiboarditem01, "|c00555555" + (strings003[GetPlayerId((players007[loc_integer01]))]) + "|r")
+			call MultiboardSetItemValue(loc_multiboarditem01, "|c00555555" + (LeaveAt[GetPlayerId((players007[loc_integer01]))]) + "|r")
 			call MultiboardSetItemWidth(loc_multiboarditem01, 0.07)
 			call MultiboardReleaseItem(loc_multiboarditem01)
 		endif
@@ -23694,7 +23634,7 @@ function Func1003 takes nothing returns nothing
 	local player array loc_players02
 	local integer loc_integer03
 	local integer loc_integer04
-	local integer loc_integer05 = 21 + Func0131(loc_integer01, loc_integer02) + 1
+	local integer loc_integer05 = 21 + GetMaxInt(loc_integer01, loc_integer02) + 1
 	local integer loc_integer06 = 1 + (loc_integer01 + loc_integer02) * 2
 	local multiboarditem loc_multiboarditem01
 	local integer loc_integer07
@@ -24445,7 +24385,7 @@ function Func1003 takes nothing returns nothing
 		set loc_integer04 = loc_integer04 + 1
 		set loc_multiboarditem01 = MultiboardGetItem(multiboard002, loc_integer03, loc_integer04)
 		call MultiboardSetItemStyle(loc_multiboarditem01, true, false)
-		call MultiboardSetItemValue(loc_multiboarditem01, (strings003[GetPlayerId((loc_players01[loc_integer07]))]))
+		call MultiboardSetItemValue(loc_multiboarditem01, (LeaveAt[GetPlayerId((loc_players01[loc_integer07]))]))
 		call MultiboardSetItemWidth(loc_multiboarditem01, 0.07)
 		call MultiboardReleaseItem(loc_multiboarditem01)
 		set integer400 = integer400 + 1
@@ -24460,7 +24400,7 @@ function Func1003 takes nothing returns nothing
 		set loc_integer04 = loc_integer04 + 1
 		set loc_multiboarditem01 = MultiboardGetItem(multiboard002, loc_integer03, loc_integer04)
 		call MultiboardSetItemStyle(loc_multiboarditem01, true, false)
-		call MultiboardSetItemValue(loc_multiboarditem01, (strings003[GetPlayerId((loc_players02[loc_integer07]))]))
+		call MultiboardSetItemValue(loc_multiboarditem01, (LeaveAt[GetPlayerId((loc_players02[loc_integer07]))]))
 		call MultiboardSetItemWidth(loc_multiboarditem01, 0.07)
 		call MultiboardReleaseItem(loc_multiboarditem01)
 		set integer400 = integer400 + 1
@@ -24576,7 +24516,7 @@ function Func1013 takes nothing returns nothing
 	local player array loc_players02
 	local integer loc_integer03
 	local integer loc_integer04
-	local integer loc_integer05 = 1 + 21 + Func0131(loc_integer01, loc_integer02)
+	local integer loc_integer05 = 1 + 21 + GetMaxInt(loc_integer01, loc_integer02)
 	local integer loc_integer06 = 1 + (loc_integer01 + loc_integer02) * 2
 	local multiboarditem loc_multiboarditem01
 	local integer loc_integer07
@@ -25648,7 +25588,7 @@ function BackDoor_HealUnit takes nothing returns boolean
 	local real health
 	local unit u
 	if Sentinel_BackDoor_Disabled_Top == false then
-		set u = unit145
+		set u = Sentinel_Tower_Top_Level2
 		if u != null then
 			set curHealth = GetUnitState(u, UNIT_STATE_LIFE)
 			set health = curHealth + BackDoorRegenValue
@@ -25658,7 +25598,7 @@ function BackDoor_HealUnit takes nothing returns boolean
 		endif
 	endif
 	if Sentinel_BackDoor_Disabled_Mid == false then
-		set u = unit146
+		set u = Sentinel_Tower_Mid_Level2
 		if u != null then
 			set curHealth = GetUnitState(u, UNIT_STATE_LIFE)
 			set health = curHealth + BackDoorRegenValue
@@ -25668,7 +25608,7 @@ function BackDoor_HealUnit takes nothing returns boolean
 		endif
 	endif
 	if Sentinel_BackDoor_Disabled_Bot == false then
-		set u = unit147
+		set u = Sentinel_Tower_Bot_Level2
 		if u != null then
 			set curHealth = GetUnitState(u, UNIT_STATE_LIFE)
 			set health = curHealth + BackDoorRegenValue
@@ -25678,7 +25618,7 @@ function BackDoor_HealUnit takes nothing returns boolean
 		endif
 	endif
 	if Sentinel_BackDoor_Disabled_Base == false then
-		set u = unit148
+		set u = Sentinel_Tower_Top_Level3
 		if u != null then
 			set curHealth = GetUnitState(u, UNIT_STATE_LIFE)
 			set health = curHealth + BackDoorRegenValue
@@ -25686,7 +25626,7 @@ function BackDoor_HealUnit takes nothing returns boolean
 				call SetUnitState(u, UNIT_STATE_LIFE, health)
 			endif
 		endif
-		set u = unit149
+		set u = Sentinel_Tower_Mid_Level3
 		if u != null then
 			set curHealth = GetUnitState(u, UNIT_STATE_LIFE)
 			set health = curHealth + BackDoorRegenValue
@@ -25694,7 +25634,7 @@ function BackDoor_HealUnit takes nothing returns boolean
 				call SetUnitState(u, UNIT_STATE_LIFE, health)
 			endif
 		endif
-		set u = unit150
+		set u = Sentinel_Tower_Bot_Level3
 		if u != null then
 			set curHealth = GetUnitState(u, UNIT_STATE_LIFE)
 			set health = curHealth + BackDoorRegenValue
@@ -25702,7 +25642,7 @@ function BackDoor_HealUnit takes nothing returns boolean
 				call SetUnitState(u, UNIT_STATE_LIFE, health)
 			endif
 		endif
-		set u = unit151
+		set u = Sentinel_Tower_Ancient_1
 		if u != null then
 			set curHealth = GetUnitState(u, UNIT_STATE_LIFE)
 			set health = curHealth + BackDoorRegenValue
@@ -25710,7 +25650,7 @@ function BackDoor_HealUnit takes nothing returns boolean
 				call SetUnitState(u, UNIT_STATE_LIFE, health)
 			endif
 		endif
-		set u = unit152
+		set u = Sentinel_Tower_Ancient_2
 		if u != null then
 			set curHealth = GetUnitState(u, UNIT_STATE_LIFE)
 			set health = curHealth + BackDoorRegenValue
@@ -25766,7 +25706,7 @@ function BackDoor_HealUnit takes nothing returns boolean
 				call SetUnitState(u, UNIT_STATE_LIFE, health)
 			endif
 		endif
-		set u = unit141
+		set u = Sentinel_Ancient
 		if u != null then
 			set curHealth = GetUnitState(u, UNIT_STATE_LIFE)
 			set health = curHealth + BackDoorRegenValue
@@ -26648,122 +26588,122 @@ function Func1072 takes nothing returns boolean
 	return false
 endfunction
 
-function Func1073 takes nothing returns boolean
-	local unit loc_unit01
-	local real loc_real01
-	local boolean loc_boolean01 = Func0118()
-	set loc_unit01 = unit159
-	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
-		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
-		if loc_boolean01 then
-			set loc_real01 = Func0134(loc_real01 - 25, 0)
-		else
-			set loc_real01 = Func0133(loc_real01 + 5, 300)
-		endif
-		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
-	endif
-	set loc_unit01 = unit160
-	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
-		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
-		if loc_boolean01 then
-			set loc_real01 = Func0134(loc_real01 - 25, 0)
-		else
-			set loc_real01 = Func0133(loc_real01 + 5, 300)
-		endif
-		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
-	endif
-	set loc_unit01 = unit161
-	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
-		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
-		if loc_boolean01 then
-			set loc_real01 = Func0134(loc_real01 - 25, 0)
-		else
-			set loc_real01 = Func0133(loc_real01 + 5, 300)
-		endif
-		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
-	endif
-	set loc_unit01 = unit162
-	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
-		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
-		if loc_boolean01 then
-			set loc_real01 = Func0134(loc_real01 - 25, 0)
-		else
-			set loc_real01 = Func0133(loc_real01 + 5, 300)
-		endif
-		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
-	endif
-	set loc_unit01 = unit163
-	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
-		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
-		if loc_boolean01 then
-			set loc_real01 = Func0134(loc_real01 - 25, 0)
-		else
-			set loc_real01 = Func0133(loc_real01 + 5, 300)
-		endif
-		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
-	endif
-	set loc_unit01 = unit164
-	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
-		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
-		if loc_boolean01 then
-			set loc_real01 = Func0134(loc_real01 - 25, 0)
-		else
-			set loc_real01 = Func0133(loc_real01 + 5, 300)
-		endif
-		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
-	endif
-	set loc_unit01 = unit165
-	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
-		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
-		if loc_boolean01 then
-			set loc_real01 = Func0134(loc_real01 - 25, 0)
-		else
-			set loc_real01 = Func0133(loc_real01 + 5, 300)
-		endif
-		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
-	endif
-	set loc_unit01 = unit166
-	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
-		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
-		if loc_boolean01 then
-			set loc_real01 = Func0134(loc_real01 - 25, 0)
-		else
-			set loc_real01 = Func0133(loc_real01 + 5, 300)
-		endif
-		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
-	endif
-	set loc_unit01 = unit167
-	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
-		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
-		if loc_boolean01 then
-			set loc_real01 = Func0134(loc_real01 - 25, 0)
-		else
-			set loc_real01 = Func0133(loc_real01 + 5, 300)
-		endif
-		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
-	endif
-	set loc_unit01 = unit168
-	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
-		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
-		if loc_boolean01 then
-			set loc_real01 = Func0134(loc_real01 - 25, 0)
-		else
-			set loc_real01 = Func0133(loc_real01 + 5, 300)
-		endif
-		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
-	endif
-	set loc_unit01 = unit169
-	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
-		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
-		if loc_boolean01 then
-			set loc_real01 = Func0134(loc_real01 - 25, 0)
-		else
-			set loc_real01 = Func0133(loc_real01 + 5, 300)
-		endif
-		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
-	endif
-	return false
-endfunction
+// function Func1073 takes nothing returns boolean
+// 	local unit loc_unit01
+// 	local real loc_real01
+// 	local boolean loc_boolean01 = Func0118()
+// 	set loc_unit01 = unit159
+// 	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
+// 		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
+// 		if loc_boolean01 then
+// 			set loc_real01 = GetMaxReal(loc_real01 - 25, 0)
+// 		else
+// 			set loc_real01 = GetMinReal(loc_real01 + 5, 300)
+// 		endif
+// 		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
+// 	endif
+// 	set loc_unit01 = unit160
+// 	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
+// 		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
+// 		if loc_boolean01 then
+// 			set loc_real01 = GetMaxReal(loc_real01 - 25, 0)
+// 		else
+// 			set loc_real01 = GetMinReal(loc_real01 + 5, 300)
+// 		endif
+// 		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
+// 	endif
+// 	set loc_unit01 = unit161
+// 	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
+// 		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
+// 		if loc_boolean01 then
+// 			set loc_real01 = GetMaxReal(loc_real01 - 25, 0)
+// 		else
+// 			set loc_real01 = GetMinReal(loc_real01 + 5, 300)
+// 		endif
+// 		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
+// 	endif
+// 	set loc_unit01 = unit162
+// 	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
+// 		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
+// 		if loc_boolean01 then
+// 			set loc_real01 = GetMaxReal(loc_real01 - 25, 0)
+// 		else
+// 			set loc_real01 = GetMinReal(loc_real01 + 5, 300)
+// 		endif
+// 		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
+// 	endif
+// 	set loc_unit01 = unit163
+// 	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
+// 		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
+// 		if loc_boolean01 then
+// 			set loc_real01 = GetMaxReal(loc_real01 - 25, 0)
+// 		else
+// 			set loc_real01 = GetMinReal(loc_real01 + 5, 300)
+// 		endif
+// 		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
+// 	endif
+// 	set loc_unit01 = unit164
+// 	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
+// 		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
+// 		if loc_boolean01 then
+// 			set loc_real01 = GetMaxReal(loc_real01 - 25, 0)
+// 		else
+// 			set loc_real01 = GetMinReal(loc_real01 + 5, 300)
+// 		endif
+// 		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
+// 	endif
+// 	set loc_unit01 = unit165
+// 	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
+// 		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
+// 		if loc_boolean01 then
+// 			set loc_real01 = GetMaxReal(loc_real01 - 25, 0)
+// 		else
+// 			set loc_real01 = GetMinReal(loc_real01 + 5, 300)
+// 		endif
+// 		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
+// 	endif
+// 	set loc_unit01 = unit166
+// 	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
+// 		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
+// 		if loc_boolean01 then
+// 			set loc_real01 = GetMaxReal(loc_real01 - 25, 0)
+// 		else
+// 			set loc_real01 = GetMinReal(loc_real01 + 5, 300)
+// 		endif
+// 		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
+// 	endif
+// 	set loc_unit01 = unit167
+// 	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
+// 		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
+// 		if loc_boolean01 then
+// 			set loc_real01 = GetMaxReal(loc_real01 - 25, 0)
+// 		else
+// 			set loc_real01 = GetMinReal(loc_real01 + 5, 300)
+// 		endif
+// 		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
+// 	endif
+// 	set loc_unit01 = unit168
+// 	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
+// 		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
+// 		if loc_boolean01 then
+// 			set loc_real01 = GetMaxReal(loc_real01 - 25, 0)
+// 		else
+// 			set loc_real01 = GetMinReal(loc_real01 + 5, 300)
+// 		endif
+// 		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
+// 	endif
+// 	set loc_unit01 = unit169
+// 	if loc_unit01 != null and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 1 then
+// 		set loc_real01 = GetUnitState(loc_unit01, UNIT_STATE_MANA)
+// 		if loc_boolean01 then
+// 			set loc_real01 = GetMaxReal(loc_real01 - 25, 0)
+// 		else
+// 			set loc_real01 = GetMinReal(loc_real01 + 5, 300)
+// 		endif
+// 		call SetUnitState(loc_unit01, UNIT_STATE_MANA, loc_real01)
+// 	endif
+// 	return false
+// endfunction
 
 function Func1074 takes nothing returns boolean
 	local real loc_real01
@@ -26843,14 +26783,14 @@ function Func1078 takes nothing returns boolean
 endfunction
 
 function Func1079 takes nothing returns nothing
-	call Func0067('E02F')
-	call Func0067('N00R')
-	call Func0067('N0M7')
-	call Func0067('N0MK')
-	call Func0067('H00V')
-	call Func0067('H00Q')
-	call Func0067('N0MD')
-	call Func0067('N0MU')
+	call RemovePickedHeroFromTavernForAll('E02F')
+	call RemovePickedHeroFromTavernForAll('N00R')
+	call RemovePickedHeroFromTavernForAll('N0M7')
+	call RemovePickedHeroFromTavernForAll('N0MK')
+	call RemovePickedHeroFromTavernForAll('H00V')
+	call RemovePickedHeroFromTavernForAll('H00Q')
+	call RemovePickedHeroFromTavernForAll('N0MD')
+	call RemovePickedHeroFromTavernForAll('N0MU')
 endfunction
 
 function Func1080 takes nothing returns nothing
@@ -27256,20 +27196,20 @@ function Func1110 takes nothing returns boolean
 endfunction
 
 function Func1111 takes nothing returns boolean
-	if(not(GetDyingUnit() == unit151)) then
+	if(not(GetDyingUnit() == Sentinel_Tower_Ancient_1)) then
 		return false
 	endif
-	if(not(Func0184(unit152) == true)) then
+	if(not(Func0184(Sentinel_Tower_Ancient_2) == true)) then
 		return false
 	endif
 	return true
 endfunction
 
 function Func1112 takes nothing returns boolean
-	if(not(GetDyingUnit() == unit152)) then
+	if(not(GetDyingUnit() == Sentinel_Tower_Ancient_2)) then
 		return false
 	endif
-	if(not(Func0184(unit151) == true)) then
+	if(not(Func0184(Sentinel_Tower_Ancient_1) == true)) then
 		return false
 	endif
 	return true
@@ -27279,43 +27219,43 @@ function Func1113 takes nothing returns nothing
 	if IsUnitEnemy(GetTriggerUnit(), GetOwningPlayer(GetKillingUnit())) then
 		set integers016[GetPlayerId(GetOwningPlayer(GetKillingUnit()))] = integers016[GetPlayerId(GetOwningPlayer(GetKillingUnit()))] + 1
 	endif
-	if(GetDyingUnit() == unit142) then
+	if(GetDyingUnit() == Sentinel_Tower_Top_Level1) then
 		call Traffic_RegisterData("Tower" + I2S(0) + I2S(1) + I2S(0), GetPlayerId(GetOwningPlayer(GetKillingUnit())))
-		call SetUnitInvulnerable(unit145, false)
+		call SetUnitInvulnerable(Sentinel_Tower_Top_Level2, false)
 		call Func0082(GetKillingUnit(), 1)
 	endif
-	if(GetDyingUnit() == unit143) then
+	if(GetDyingUnit() == Sentinel_Tower_Mid_Level1) then
 		call Traffic_RegisterData("Tower" + I2S(0) + I2S(1) + I2S(1), GetPlayerId(GetOwningPlayer(GetKillingUnit())))
-		call SetUnitInvulnerable(unit146, false)
+		call SetUnitInvulnerable(Sentinel_Tower_Mid_Level2, false)
 		call Func0082(GetKillingUnit(), 1)
 	endif
-	if(GetDyingUnit() == unit144) then
+	if(GetDyingUnit() == Sentinel_Tower_Bot_Level1) then
 		call Traffic_RegisterData("Tower" + I2S(0) + I2S(1) + I2S(2), GetPlayerId(GetOwningPlayer(GetKillingUnit())))
-		call SetUnitInvulnerable(unit147, false)
+		call SetUnitInvulnerable(Sentinel_Tower_Bot_Level2, false)
 		call Func0082(GetKillingUnit(), 1)
 	endif
-	if(GetDyingUnit() == unit145) then
+	if(GetDyingUnit() == Sentinel_Tower_Top_Level2) then
 		call Traffic_RegisterData("Tower" + I2S(0) + I2S(2) + I2S(0), GetPlayerId(GetOwningPlayer(GetKillingUnit())))
-		call SetUnitInvulnerable(unit148, false)
+		call SetUnitInvulnerable(Sentinel_Tower_Top_Level3, false)
 		call Func0082(GetKillingUnit(), 2)
 	endif
-	if(GetDyingUnit() == unit146) then
+	if(GetDyingUnit() == Sentinel_Tower_Mid_Level2) then
 		call Traffic_RegisterData("Tower" + I2S(0) + I2S(2) + I2S(1), GetPlayerId(GetOwningPlayer(GetKillingUnit())))
-		call SetUnitInvulnerable(unit149, false)
+		call SetUnitInvulnerable(Sentinel_Tower_Mid_Level3, false)
 		call Func0082(GetKillingUnit(), 2)
 	endif
-	if(GetDyingUnit() == unit147) then
+	if(GetDyingUnit() == Sentinel_Tower_Bot_Level2) then
 		call Traffic_RegisterData("Tower" + I2S(0) + I2S(2) + I2S(2), GetPlayerId(GetOwningPlayer(GetKillingUnit())))
-		call SetUnitInvulnerable(unit150, false)
+		call SetUnitInvulnerable(Sentinel_Tower_Bot_Level3, false)
 		call Func0082(GetKillingUnit(), 2)
 	endif
-	if(GetDyingUnit() == unit148) then
+	if(GetDyingUnit() == Sentinel_Tower_Top_Level3) then
 		call Traffic_RegisterData("Tower" + I2S(0) + I2S(3) + I2S(0), GetPlayerId(GetOwningPlayer(GetKillingUnit())))
 		call Func0082(GetKillingUnit(), 3)
 		call SetUnitInvulnerable(Sentinel_Melee_Top, false)
 		call SetUnitInvulnerable(Sentinel_Ranged_Top, false)
-		call SetUnitInvulnerable(unit151, false)
-		call SetUnitInvulnerable(unit152, false)
+		call SetUnitInvulnerable(Sentinel_Tower_Ancient_1, false)
+		call SetUnitInvulnerable(Sentinel_Tower_Ancient_2, false)
 		call SetUnitInvulnerable(unit170, false)
 		call SetUnitInvulnerable(unit171, false)
 		call SetUnitInvulnerable(unit172, false)
@@ -27332,13 +27272,13 @@ function Func1113 takes nothing returns nothing
 		call SetUnitInvulnerable(unit168, false)
 		call SetUnitInvulnerable(unit169, false)
 	endif
-	if(GetDyingUnit() == unit149) then
+	if(GetDyingUnit() == Sentinel_Tower_Mid_Level3) then
 		call Traffic_RegisterData("Tower" + I2S(0) + I2S(3) + I2S(1), GetPlayerId(GetOwningPlayer(GetKillingUnit())))
 		call Func0082(GetKillingUnit(), 3)
 		call SetUnitInvulnerable(Sentinel_Melee_Mid, false)
 		call SetUnitInvulnerable(Sentinel_Ranged_Mid, false)
-		call SetUnitInvulnerable(unit151, false)
-		call SetUnitInvulnerable(unit152, false)
+		call SetUnitInvulnerable(Sentinel_Tower_Ancient_1, false)
+		call SetUnitInvulnerable(Sentinel_Tower_Ancient_2, false)
 		call SetUnitInvulnerable(unit170, false)
 		call SetUnitInvulnerable(unit171, false)
 		call SetUnitInvulnerable(unit172, false)
@@ -27355,13 +27295,13 @@ function Func1113 takes nothing returns nothing
 		call SetUnitInvulnerable(unit168, false)
 		call SetUnitInvulnerable(unit169, false)
 	endif
-	if(GetDyingUnit() == unit150) then
+	if(GetDyingUnit() == Sentinel_Tower_Bot_Level3) then
 		call Traffic_RegisterData("Tower" + I2S(0) + I2S(3) + I2S(2), GetPlayerId(GetOwningPlayer(GetKillingUnit())))
 		call Func0082(GetKillingUnit(), 3)
 		call SetUnitInvulnerable(Sentinel_Melee_Bot, false)
 		call SetUnitInvulnerable(Sentinel_Ranged_Bot, false)
-		call SetUnitInvulnerable(unit151, false)
-		call SetUnitInvulnerable(unit152, false)
+		call SetUnitInvulnerable(Sentinel_Tower_Ancient_1, false)
+		call SetUnitInvulnerable(Sentinel_Tower_Ancient_2, false)
 		call SetUnitInvulnerable(unit170, false)
 		call SetUnitInvulnerable(unit171, false)
 		call SetUnitInvulnerable(unit172, false)
@@ -27378,15 +27318,15 @@ function Func1113 takes nothing returns nothing
 		call SetUnitInvulnerable(unit168, false)
 		call SetUnitInvulnerable(unit169, false)
 	endif
-	if GetDyingUnit() == unit151 or GetDyingUnit() == unit152 then
+	if GetDyingUnit() == Sentinel_Tower_Ancient_1 or GetDyingUnit() == Sentinel_Tower_Ancient_2 then
 		call Traffic_RegisterData("Tower" + I2S(0) + I2S(4) + I2S(1), GetPlayerId(GetOwningPlayer(GetKillingUnit())))
 		call Func0082(GetKillingUnit(), 4)
 	endif
 	if(Func1111()) then
-		call SetUnitInvulnerable(unit141, false)
+		call SetUnitInvulnerable(Sentinel_Ancient, false)
 	endif
 	if(Func1112()) then
-		call SetUnitInvulnerable(unit141, false)
+		call SetUnitInvulnerable(Sentinel_Ancient, false)
 	endif
 endfunction
 
@@ -27592,8 +27532,8 @@ function Func1122 takes nothing returns nothing
 	set IsCreepSpawnOff = true
 endfunction
 
-function Func1123 takes nothing returns nothing
-	set boolean046 = false
+function Cmd_NoHeroLimit takes nothing returns nothing
+	set IsNoHeroLimitOff = false
 endfunction
 
 function Func1124 takes nothing returns boolean
@@ -27642,7 +27582,7 @@ endfunction
 
 function Func1130 takes nothing returns boolean
 	if IsUnitType(GetFilterUnit(), UNIT_TYPE_HERO) == true then
-		call SetHeroLevel(GetFilterUnit(), GetHeroLevel(GetFilterUnit()) + Func0131(integer022, 1), true)
+		call SetHeroLevel(GetFilterUnit(), GetHeroLevel(GetFilterUnit()) + GetMaxInt(integer022, 1), true)
 	endif
 	return false
 endfunction
@@ -27710,7 +27650,7 @@ function Func1138 takes nothing returns nothing
 	local unit loc_unit01 = Players_Hero[GetPlayerId(GetTriggerPlayer())]
 	local player loc_player01 = GetTriggerPlayer()
 	local location loc_location01
-	if Func0056(loc_player01) then
+	if IsScourge(loc_player01) then
 		set loc_location01 = GetRectCenter(rect004)
 	else
 		set loc_location01 = GetRectCenter(rect011)
@@ -27735,7 +27675,7 @@ function Func1139 takes nothing returns nothing
 	local unit loc_unit02
 	local real loc_real01 = GetRectCenterX(rect050)
 	local real loc_real02 = GetRectCenterX(rect050)
-	if Func0056(GetOwningPlayer(loc_unit01)) then
+	if IsScourge(GetOwningPlayer(loc_unit01)) then
 		set loc_player01 = Sentinels[1]
 	else
 		set loc_player01 = Scourges[1]
@@ -27916,7 +27856,7 @@ function Func1144 takes nothing returns nothing
 	call TriggerRegisterPlayerChatEvent(loc_trigger01, Scourges[3], "-noherolimit", true)
 	call TriggerRegisterPlayerChatEvent(loc_trigger01, Scourges[4], "-noherolimit", true)
 	call TriggerRegisterPlayerChatEvent(loc_trigger01, Scourges[5], "-noherolimit", true)
-	call TriggerAddAction(loc_trigger01, function Func1123)
+	call TriggerAddAction(loc_trigger01, function Cmd_NoHeroLimit)
 	set loc_trigger01 = CreateTrigger()
 	call TriggerRegisterPlayerChatEvent(loc_trigger01, Sentinels[1], "-trees", true)
 	call TriggerRegisterPlayerChatEvent(loc_trigger01, Sentinels[2], "-trees", true)
@@ -28034,7 +27974,7 @@ endfunction
 function Func1148 takes nothing returns nothing
 	local trigger loc_trigger01 = GetTriggeringTrigger()
 	local integer loc_integer01 = Func0062(Force_Sentinels) + Func0062(Force_Scourges)
-	local integer loc_integer02 = Func0130(loc_integer01, loc_integer01 / 2 + 1)
+	local integer loc_integer02 = GetMinInt(loc_integer01, loc_integer01 / 2 + 1)
 	local integer loc_integer03 = GetHandleId(loc_trigger01)
 	if boolean101 == false then
 		set boolean095 = true
@@ -28725,7 +28665,7 @@ function Func1186 takes nothing returns boolean
 	if boolean038 == false then
 		return false
 	endif
-	if booleans004[GetPlayerId(player004)] == true then
+	if IsRandomizedHero[GetPlayerId(player004)] == true then
 		return false
 	endif
 	if boolean002 == false then
@@ -28753,7 +28693,7 @@ function Func1187 takes nothing returns boolean
 	local string loc_string01 = (LoadStr(HY, (loc_integer01), (146)))
 	set player004 = loc_player01
 	if Func1186() then
-		set booleans004[GetPlayerId(loc_player01)] = true
+		set IsRandomizedHero[GetPlayerId(loc_player01)] = true
 		if loc_string01 == "-random int" then
 			call Func0086(loc_player01)
 			call SetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD, GetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD) -100)
@@ -28767,7 +28707,7 @@ function Func1187 takes nothing returns boolean
 			call Func0089(loc_player01)
 		endif
 	else
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 10, "You cannot be assigned a random hero.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 10, "You cannot be assigned a random hero.")
 	endif
 	set loc_trigger01 = null
 	set loc_player01 = null
@@ -28780,8 +28720,8 @@ function Func1188 takes nothing returns nothing
 	set player004 = loc_player01
 	if Func1186() and booleans008[GetPlayerId(loc_player01)] == false then
 		set booleans008[GetPlayerId(loc_player01)] = true
-		call Func0070(loc_player01)
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 10, "You will be given a random hero soon.")
+		call RemoveHeroesFromTavernsForPlayer(loc_player01)
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 10, "You will be given a random hero soon.")
 		set loc_trigger01 = CreateTrigger()
 		call TriggerRegisterTimerEvent(loc_trigger01, 6, false)
 		call TriggerAddCondition(loc_trigger01, Condition(function Func1187))
@@ -28799,7 +28739,7 @@ function Func1189 takes nothing returns boolean
 	endif
 	if boolean039 == false then
 		if boolean110 == false and boolean035 == false and boolean106 == false and boolean060 == false and boolean112 == false and boolean114 == false and boolean040 == false and boolean027 == false then
-			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "-repick " + "is disabled for a few seconds")
+			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "-repick " + "is disabled for a few seconds")
 		endif
 		return false
 	endif
@@ -28813,19 +28753,19 @@ function Func1189 takes nothing returns boolean
 		return false
 	endif
 	if(boolean042 == true) then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Too late to repick")
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Too late to repick")
 		return false
 	endif
 	if(GetPlayerState(GetTriggerPlayer(), PLAYER_STATE_RESOURCE_GOLD) < integer003) then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Not enough gold to repick")
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Not enough gold to repick")
 		return false
 	endif
 	if GetPlayerState(GetTriggerPlayer(), PLAYER_STATE_RESOURCE_GOLD) < 350 and boolean006 or boolean034 then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Not enough gold to repick and buy a new hero")
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Not enough gold to repick and buy a new hero")
 		return false
 	endif
 	if GetUnitState(loc_unit01, UNIT_STATE_MANA) != GetUnitState(loc_unit01, UNIT_STATE_MAX_MANA) or GetUnitState(loc_unit01, UNIT_STATE_LIFE) != GetUnitState(loc_unit01, UNIT_STATE_MAX_LIFE) then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "You cannot repick without full hp and mana")
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "You cannot repick without full hp and mana")
 		return false
 	endif
 	return true
@@ -28871,21 +28811,21 @@ function Func1191 takes nothing returns nothing
 	set bj_groupEnumOwningPlayer = loc_player01
 	call GroupEnumUnitsInRect(loc_group01, GetWorldBounds(), filterGetUnitsInRectOfPlayer)
 	if(IsSentinel(loc_player01) == true) then
-		set loc_integer01 = integer039
-		set loc_integer02 = integer040
+		set loc_integer01 = FirstSentinelHeroIndexId
+		set loc_integer02 = LastSentinelHeroIndexId
 		set loc_location01 = GetRectCenter(rect017)
 	else
-		set loc_integer01 = integer041
-		set loc_integer02 = integer042
+		set loc_integer01 = FirstScourgeHeroIndexId
+		set loc_integer02 = LastScourgeHeroIndexId
 		set loc_location01 = GetRectCenter(rect016)
 	endif
 	if boolean004 then
 		if(GetRandomInt(1, 2) == 1) then
-			set loc_integer01 = integer039
-			set loc_integer02 = integer040
+			set loc_integer01 = FirstSentinelHeroIndexId
+			set loc_integer02 = LastSentinelHeroIndexId
 		else
-			set loc_integer01 = integer041
-			set loc_integer02 = integer042
+			set loc_integer01 = FirstScourgeHeroIndexId
+			set loc_integer02 = LastScourgeHeroIndexId
 		endif
 	endif
 	if boolean006 or boolean034 then
@@ -28898,21 +28838,21 @@ function Func1191 takes nothing returns nothing
 	call AdjustPlayerStateBJ(-1 * integer003, loc_player01, PLAYER_STATE_RESOURCE_GOLD)
 	set booleans003[GetPlayerId(loc_player01)] = true
 	call ForGroup(loc_group01, function Func1190)
-	if booleans004[GetPlayerId(loc_player01)] == true then
-		call Func0069(GetUnitTypeId(Players_Hero[GetPlayerId(loc_player01)]))
+	if IsRandomizedHero[GetPlayerId(loc_player01)] then
+		call AddHeroToTavernsForAll(GetUnitTypeId(Players_Hero[GetPlayerId(loc_player01)]))
 	endif
-	call Func0128(Players_Hero[GetPlayerId(loc_player01)])
+	call RemoveHero(Players_Hero[GetPlayerId(loc_player01)])
 	set Players_Hero[GetPlayerId(GetTriggerPlayer())] = null
 	if boolean006 or boolean034 then
 		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 60, GetObjectName('N05Y'))
 		if boolean006 then
-			set loc_integer04 = integer039
-			set loc_integer05 = integer042
+			set loc_integer04 = FirstSentinelHeroIndexId
+			set loc_integer05 = LastScourgeHeroIndexId
 		endif
 		if IsSentinel(loc_player01) then
 			if boolean034 then
-				set loc_integer04 = integer039
-				set loc_integer05 = integer040
+				set loc_integer04 = FirstSentinelHeroIndexId
+				set loc_integer05 = LastSentinelHeroIndexId
 				call CreateUnitAtLoc(loc_player01, 'n00C', loc_location02, bj_UNIT_FACING)
 			else
 				call CreateUnitAtLoc(loc_player01, 'n00C', loc_location02, bj_UNIT_FACING)
@@ -28921,8 +28861,8 @@ function Func1191 takes nothing returns nothing
 			call PanCameraToTimedLocForPlayer(loc_player01, loc_location02, 0)
 		else
 			if boolean034 then
-				set loc_integer04 = integer041
-				set loc_integer05 = integer042
+				set loc_integer04 = FirstScourgeHeroIndexId
+				set loc_integer05 = LastScourgeHeroIndexId
 				call CreateUnitAtLoc(loc_player01, 'n00C', loc_location03, bj_UNIT_FACING)
 			else
 				call CreateUnitAtLoc(loc_player01, 'n00C', loc_location02, bj_UNIT_FACING)
@@ -28932,7 +28872,7 @@ function Func1191 takes nothing returns nothing
 		endif
 		loop
 			exitwhen loc_integer04 > loc_integer05
-			if booleans001[loc_integer04] == false then
+			if IsHeroPicked[loc_integer04] == false then
 				call SetPlayerTechMaxAllowed(loc_player01, HeroID[loc_integer04], 1)
 			endif
 			set loc_integer04 = loc_integer04 + 1
@@ -28943,10 +28883,10 @@ function Func1191 takes nothing returns nothing
 	endif
 	loop
 		set loc_integer03 = GetRandomInt(loc_integer01, loc_integer02)
-		if(booleans001[loc_integer03] == false) then
-			set booleans001[loc_integer03] = true
+		if(IsHeroPicked[loc_integer03] == false) then
+			set IsHeroPicked[loc_integer03] = true
 			set Players_Hero[GetPlayerId(loc_player01)] = CreateUnitAtLoc(loc_player01, HeroID[loc_integer03], loc_location01, bj_UNIT_FACING)
-			call Func0067(HeroID[loc_integer03])
+			call RemovePickedHeroFromTavernForAll(HeroID[loc_integer03])
 		endif
 		exitwhen Players_Hero[GetPlayerId(GetTriggerPlayer())] != null
 	endloop
@@ -28966,124 +28906,124 @@ function Func1193 takes nothing returns nothing
 	local player loc_player01 = GetTriggerPlayer()
 	local string loc_string01 = "|c006699CC"
 	if boolean112 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "League Mode" + "|r:      " + "Both Sides will take turns picking heroes.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "League Mode" + "|r:      " + "Both Sides will take turns picking heroes.")
 	endif
 	if boolean114 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Extended League" + "|r:      " + "Both Sides will take turns picking heroes.")
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, "                                 " + "Each team captain can pick 4 heroes to remove from the pool.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Extended League" + "|r:      " + "Both Sides will take turns picking heroes.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, "                                 " + "Each team captain can pick 4 heroes to remove from the pool.")
 	endif
 	if boolean003 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Death Match" + "|r:        " + "When you die, you must pick a new hero.")
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, "                              " + "You will lose when your team uses up all" + " " + I2S(Func0130(integer040, integer042 - integer041 + 1)) + " " + "heroes.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Death Match" + "|r:        " + "When you die, you must pick a new hero.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, "                              " + "You will lose when your team uses up all" + " " + I2S(GetMinInt(LastSentinelHeroIndexId, LastScourgeHeroIndexId - FirstScourgeHeroIndexId + 1)) + " " + "heroes.")
 	endif
 	if boolean027 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Mirror Match" + "|r:       " + "After one minute, each team will have the same heroes.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Mirror Match" + "|r:       " + "After one minute, each team will have the same heroes.")
 	endif
 	if boolean006 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "All Pick" + "|r:                 " + "You may pick a hero from any tavern.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "All Pick" + "|r:                 " + "You may pick a hero from any tavern.")
 	endif
 	if boolean106 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Random Draft" + "|r:                 " + "You may pick a hero draft style from the heroes available.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Random Draft" + "|r:                 " + "You may pick a hero draft style from the heroes available.")
 	endif
 	if boolean110 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Single Draft" + "|r:                 " + "You may pick a hero from one of the three options.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Single Draft" + "|r:                 " + "You may pick a hero from one of the three options.")
 	endif
 	if boolean004 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "All Random" + "|r:          " + "You will be given a random hero from any tavern.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "All Random" + "|r:          " + "You will be given a random hero from any tavern.")
 	endif
 	if boolean035 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Vote Random" + "|r:         " + "You will be given a random hero from the voted groupset.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Vote Random" + "|r:         " + "You will be given a random hero from the voted groupset.")
 	endif
 	if boolean005 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Team Random" + "|r:     " + "You will be given a random hero from your taverns.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Team Random" + "|r:     " + "You will be given a random hero from your taverns.")
 	endif
 	if boolean040 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Reverse" + "|r:                 " + "You pick a hero for your opponent.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Reverse" + "|r:                 " + "You pick a hero for your opponent.")
 	endif
 	if boolean023 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Shuffle Players" + "|r:     " + "All players will be shuffled across both sides.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Shuffle Players" + "|r:     " + "All players will be shuffled across both sides.")
 	endif
 	if boolean030 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "All Agility" + "|r:             " + "Only Agility heroes will be allowed.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "All Agility" + "|r:             " + "Only Agility heroes will be allowed.")
 	endif
 	if boolean032 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "All Strength" + "|r:         " + "Only Strength heroes will be allowed.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "All Strength" + "|r:         " + "Only Strength heroes will be allowed.")
 	endif
 	if boolean031 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "All Intelligence" + "|r:    " + "Only Intelligence heroes will be allowed.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "All Intelligence" + "|r:    " + "Only Intelligence heroes will be allowed.")
 	endif
 	if boolean118 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Range Only" + "|r:    " + "Only range heroes are available")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Range Only" + "|r:    " + "Only range heroes are available")
 	endif
 	if boolean117 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Melee Only" + "|r:    " + "Only melee heroes are available")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Melee Only" + "|r:    " + "Only melee heroes are available")
 	endif
 	if boolean028 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Duplicate Mode" + "|r:   " + "The same heroes may be picked or randomed multiple times.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Duplicate Mode" + "|r:   " + "The same heroes may be picked or randomed multiple times.")
 	endif
 	if boolean007 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Item Drop" + "|r:             " + "When you die, a random inventory slot will drop an item.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Item Drop" + "|r:             " + "When you die, a random inventory slot will drop an item.")
 	endif
 	if Mode_NP then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "No Powerups" + "|r:        " + "Powerups are disabled.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "No Powerups" + "|r:        " + "Powerups are disabled.")
 	endif
 	if boolean010 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Super Creeps" + "|r:        " + "Siege Golems, Scary Fish, and Ancient Hydras")
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, "                             " + "can spawn randomly with creep spawns.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Super Creeps" + "|r:        " + "Siege Golems, Scary Fish, and Ancient Hydras")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, "                             " + "can spawn randomly with creep spawns.")
 	endif
 	if boolean008 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Easy Mode" + "|r:           " + "Towers are weaker. Heroes gain more xp and gold.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Easy Mode" + "|r:           " + "Towers are weaker. Heroes gain more xp and gold.")
 	endif
 	if boolean033 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Same Hero" + "|r:           " + "All players will be given the same hero that" + " " + (strings005[GetPlayerId((PlayerModeTyper))]) + "|r" + " " + "has.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Same Hero" + "|r:           " + "All players will be given the same hero that" + " " + (strings005[GetPlayerId((PlayerModeTyper))]) + "|r" + " " + "has.")
 	endif
 	if boolean119 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Only Mid" + "|r:           " + "Only middle towers can be destroyed")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Only Mid" + "|r:           " + "Only middle towers can be destroyed")
 	endif
 	if boolean121 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "No Bot" + "|r:           " + "Creeps won't spawn from the bottom lane")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "No Bot" + "|r:           " + "Creeps won't spawn from the bottom lane")
 	endif
 	if boolean123 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "No Mid" + "|r:           " + "Creeps won't spawn from the middle lane")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "No Mid" + "|r:           " + "Creeps won't spawn from the middle lane")
 	endif
 	if boolean124 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "No Top" + "|r:           " + "Creeps won't spawn from the top lane")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "No Top" + "|r:           " + "Creeps won't spawn from the top lane")
 	endif
 	if boolean051 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "No Swap" + "|r:           " + "Swapping heroes is not allowed")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "No Swap" + "|r:           " + "Swapping heroes is not allowed")
 	endif
 	if boolean051 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "No Repick" + "|r:           " + "Repicking heroes is not allowed")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "No Repick" + "|r:           " + "Repicking heroes is not allowed")
 	endif
 	if boolean054 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Pool Mode" + "|r:           " + "Allows allies to pool each other items")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Pool Mode" + "|r:           " + "Allows allies to pool each other items")
 	endif
 	if boolean126 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Observer Info" + "|r:           " + "Disables extra information for Observers")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Observer Info" + "|r:           " + "Disables extra information for Observers")
 	endif
 	if boolean127 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Mini Hereos" + "|r:           " + "Creates minature models of the heroes")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Mini Hereos" + "|r:           " + "Creates minature models of the heroes")
 	endif
 	if boolean128 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Fast Respawn" + "|r:           " + "Reduces death times by 50%")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Fast Respawn" + "|r:           " + "Reduces death times by 50%")
 	endif
 	if boolean061 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Captains Mode" + "|r:           " + "A captain from each side will ban and pick heroes.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Captains Mode" + "|r:           " + "A captain from each side will ban and pick heroes.")
 	endif
 	if Mode_ER then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Experimental Runes" + "|r:           " + "A different system for spawning runes")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Experimental Runes" + "|r:           " + "A different system for spawning runes")
 	endif
 	if boolean060 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Captains Draft" + "|r:           " + "Captains draft heroes from a limited pool")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Captains Draft" + "|r:           " + "Captains draft heroes from a limited pool")
 	endif
 	if boolean130 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Capture Point" + "|r:           " + "Capture Points will appear at the 10 minute mark. The more heroes the faster the capture rate.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Capture Point" + "|r:           " + "Capture Points will appear at the 10 minute mark. The more heroes the faster the capture rate.")
 	endif
 	if boolean129 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Capture Point" + "|r:           " + "Observers will view the game from a zoomed out state.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Capture Point" + "|r:           " + "Observers will view the game from a zoomed out state.")
 	endif
 	if boolean034 then
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 20, loc_string01 + "Normal Mode" + "|r:        " + "No mode has been specified")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 20, loc_string01 + "Normal Mode" + "|r:        " + "No mode has been specified")
 	endif
 endfunction
 
@@ -29103,21 +29043,21 @@ function Func1195 takes unit loc_unit01, unit loc_unit02 returns nothing
 	local group loc_group01
 	local item loc_item01
 	local integer loc_integer01
-	if booleans004[GetPlayerId(loc_player01)] == true then
+	if IsRandomizedHero[GetPlayerId(loc_player01)] == true then
 		if GetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD) < 100 then
 			return
 		endif
 	endif
-	if booleans004[GetPlayerId(loc_player02)] == true then
+	if IsRandomizedHero[GetPlayerId(loc_player02)] == true then
 		if GetPlayerState(loc_player02, PLAYER_STATE_RESOURCE_GOLD) < 100 then
 			return
 		endif
 	endif
-	if booleans004[GetPlayerId(loc_player01)] == true and booleans003[GetPlayerId(loc_player01)] == false and integers110[GetPlayerId(loc_player01)] == 0 then
+	if IsRandomizedHero[GetPlayerId(loc_player01)] == true and booleans003[GetPlayerId(loc_player01)] == false and integers110[GetPlayerId(loc_player01)] == 0 then
 		set integers110[GetPlayerId(loc_player01)] = 1
 		call SetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD, GetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD) -100)
 	endif
-	if booleans004[GetPlayerId(loc_player02)] == true and booleans003[GetPlayerId(loc_player02)] == false and integers110[GetPlayerId(loc_player02)] == 0 then
+	if IsRandomizedHero[GetPlayerId(loc_player02)] == true and booleans003[GetPlayerId(loc_player02)] == false and integers110[GetPlayerId(loc_player02)] == 0 then
 		set integers110[GetPlayerId(loc_player02)] = 1
 		call SetPlayerState(loc_player02, PLAYER_STATE_RESOURCE_GOLD, GetPlayerState(loc_player02, PLAYER_STATE_RESOURCE_GOLD) -100)
 	endif
@@ -29329,13 +29269,13 @@ function Func1199 takes unit loc_unit01, unit loc_unit02, boolean loc_boolean01 
 		call Func1195(loc_unit01, loc_unit02)
 		return true
 	else
-		call DisplayTimedTextToPlayer(GetOwningPlayer(loc_unit02), 0, real003, 30, "  ")
-		call DisplayTimedTextToPlayer(GetOwningPlayer(loc_unit02), 0, real003, 30, "                         " + Players_Color[GetPlayerId(GetOwningPlayer(loc_unit01))] + GetUnitName(loc_unit01) + "|r |cff99ccff" + "wants to swap with you." + " " + "Type" + "|r |c00ff0303-swap " + I2S(Func1198(GetOwningPlayer(loc_unit01))) + "|r |cff99ccff" + "to accept" + "|r")
-		call DisplayTimedTextToPlayer(GetOwningPlayer(loc_unit02), 0, real003, 30, "  ")
+		call DisplayTimedTextToPlayer(GetOwningPlayer(loc_unit02), 0, 0, 30, "  ")
+		call DisplayTimedTextToPlayer(GetOwningPlayer(loc_unit02), 0, 0, 30, "                         " + Players_Color[GetPlayerId(GetOwningPlayer(loc_unit01))] + GetUnitName(loc_unit01) + "|r |cff99ccff" + "wants to swap with you." + " " + "Type" + "|r |c00ff0303-swap " + I2S(Func1198(GetOwningPlayer(loc_unit01))) + "|r |cff99ccff" + "to accept" + "|r")
+		call DisplayTimedTextToPlayer(GetOwningPlayer(loc_unit02), 0, 0, 30, "  ")
 		if loc_boolean01 then
-			call DisplayTimedTextToPlayer(GetOwningPlayer(loc_unit01), 0, real003, 30, "  ")
-			call DisplayTimedTextToPlayer(GetOwningPlayer(loc_unit01), 0, real003, 30, "|cff99ccff" + "You have requested to swap with" + " |r" + Players_Color[GetPlayerId(GetOwningPlayer(loc_unit02))] + GetUnitName(loc_unit02) + "|r")
-			call DisplayTimedTextToPlayer(GetOwningPlayer(loc_unit01), 0, real003, 30, "  ")
+			call DisplayTimedTextToPlayer(GetOwningPlayer(loc_unit01), 0, 0, 30, "  ")
+			call DisplayTimedTextToPlayer(GetOwningPlayer(loc_unit01), 0, 0, 30, "|cff99ccff" + "You have requested to swap with" + " |r" + Players_Color[GetPlayerId(GetOwningPlayer(loc_unit02))] + GetUnitName(loc_unit02) + "|r")
+			call DisplayTimedTextToPlayer(GetOwningPlayer(loc_unit01), 0, 0, 30, "  ")
 		endif
 	endif
 	return false
@@ -29388,8 +29328,8 @@ function Func1201 takes nothing returns nothing
 	if GetLocalPlayer() == GetTriggerPlayer() then
 		call ClearTextMessages()
 	endif
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 45, "|cff99ccff" + "Swap Hero Options:" + "|r")
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 45, " ")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 45, "|cff99ccff" + "Swap Hero Options:" + "|r")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 45, " ")
 	set loc_integer01 = 1
 	loop
 		exitwhen loc_integer01 > 5
@@ -29400,7 +29340,7 @@ function Func1201 takes nothing returns nothing
 			if Func1196(Players_Hero[GetPlayerId(GetTriggerPlayer())], loc_unit01) then
 				set loc_string01 = " |c00ff0303(" + "Requested Swap With You" + ")|r"
 			endif
-			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 45, Players_Color[GetPlayerId(loc_player01)] + I2S(loc_integer01) + "|r" + " - " + "|cff99ccff" + GetUnitName(loc_unit01) + "|r" + loc_string01)
+			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 45, Players_Color[GetPlayerId(loc_player01)] + I2S(loc_integer01) + "|r" + " - " + "|cff99ccff" + GetUnitName(loc_unit01) + "|r" + loc_string01)
 		endif
 		set loc_player01 = Scourges[loc_integer01]
 		set loc_unit01 = Players_Hero[GetPlayerId(loc_player01)]
@@ -29409,13 +29349,13 @@ function Func1201 takes nothing returns nothing
 			if Func1196(Players_Hero[GetPlayerId(GetTriggerPlayer())], loc_unit01) then
 				set loc_string01 = " |c00ff0303(" + "Requested Swap With You" + ")|r"
 			endif
-			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 45, Players_Color[GetPlayerId(loc_player01)] + I2S(loc_integer01) + "|r" + " - " + "|cff99ccff" + GetUnitName(loc_unit01) + "|r" + loc_string01)
+			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 45, Players_Color[GetPlayerId(loc_player01)] + I2S(loc_integer01) + "|r" + " - " + "|cff99ccff" + GetUnitName(loc_unit01) + "|r" + loc_string01)
 		endif
 		set loc_integer01 = loc_integer01 + 1
 	endloop
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 45, " ")
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 45, "|cff99ccff" + "Type" + "|r |c00ff0303-swap #|r |cff99ccff" + "to make a choice or" + " -swapcancel " + "to cancel swap requests" + "|r")
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 45, " ")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 45, " ")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 45, "|cff99ccff" + "Type" + "|r |c00ff0303-swap #|r |cff99ccff" + "to make a choice or" + " -swapcancel " + "to cancel swap requests" + "|r")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 45, " ")
 endfunction
 
 function Func1202 takes player loc_player01 returns boolean
@@ -29443,25 +29383,25 @@ endfunction
 
 function Func1203 takes nothing returns boolean
 	if boolean051 or boolean052 == false then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "-swaphero " + "has been disabled.")
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "-swaphero " + "has been disabled.")
 		return false
 	endif
-	if booleans004[GetPlayerId(GetTriggerPlayer())] == true then
+	if IsRandomizedHero[GetPlayerId(GetTriggerPlayer())] == true then
 		if GetPlayerState(GetTriggerPlayer(), PLAYER_STATE_RESOURCE_GOLD) < 100 then
-			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, GetObjectName('N0MT'))
+			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, GetObjectName('N0MT'))
 			return false
 		endif
 	endif
 	if GetUnitState(Players_Hero[GetPlayerId(GetTriggerPlayer())], UNIT_STATE_LIFE) < 1 then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "You must have a living hero in order to swap with someone.")
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "You must have a living hero in order to swap with someone.")
 		return false
 	endif
 	if IsGameStarted == true then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Too late to use" + " -swaphero.")
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Too late to use" + " -swaphero.")
 		return false
 	endif
 	if Func1202(GetTriggerPlayer()) == false then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "No hero available to swap with.")
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "No hero available to swap with.")
 		return false
 	endif
 	return true
@@ -29544,7 +29484,7 @@ function Func1207 takes nothing returns nothing
 		call Func1206('A06V', GetTriggerUnit(), loc_unit01)
 		call Func1206('A06X', GetTriggerUnit(), loc_unit01)
 	endif
-	call Func0128(GetTriggerUnit())
+	call RemoveHero(GetTriggerUnit())
 	call RemoveLocation(loc_location01)
 	set Players_Hero[GetPlayerId(GetOwningPlayer(loc_unit01))] = loc_unit01
 endfunction
@@ -29558,7 +29498,7 @@ function Func1209 takes nothing returns nothing
 	local unit loc_unit01 = Players_Hero[GetPlayerId(GetTriggerPlayer())]
 	call UnitAddAbility(loc_unit01, 'A0FI')
 	call IssueImmediateOrder(loc_unit01, "chemicalrage")
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 120.00, "|c00ff0303" + "Recreate is being performed on" + " " + Func0040(GetEnumUnit()) + ". " + "Please wait about 2 minutes" + "|r")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 120.00, "|c00ff0303" + "Recreate is being performed on" + " " + Func0040(GetEnumUnit()) + ". " + "Please wait about 2 minutes" + "|r")
 endfunction
 
 function Func1210 takes nothing returns nothing
@@ -29601,7 +29541,7 @@ function Func1212 takes player loc_player01 returns nothing
 	local trigger loc_trigger01
 	if Func0184(loc_unit01) == false then
 		set loc_trigger01 = CreateTrigger()
-		call DisplayTimedTextToPlayer(loc_player01, 0, real003, 30.0, "You are using unstuck. You will be sent to your base in 60 seconds.")
+		call DisplayTimedTextToPlayer(loc_player01, 0, 0, 30.0, "You are using unstuck. You will be sent to your base in 60 seconds.")
 		call UnitRemoveBuffs(loc_unit01, true, false)
 		call UnitRemoveAbility(loc_unit01, 'Bcyc')
 		call UnitRemoveAbility(loc_unit01, 'Bcy2')
@@ -29650,8 +29590,8 @@ function Func1214 takes nothing returns nothing
 endfunction
 
 function Func1215 takes player loc_player01 returns string
-	local string loc_string01 = strings003[GetPlayerId(loc_player01)]
-	if strings003[GetPlayerId(loc_player01)] != "Here" then
+	local string loc_string01 = LeaveAt[GetPlayerId(loc_player01)]
+	if LeaveAt[GetPlayerId(loc_player01)] != "Here" then
 		return " |c00ff0303(" + "Left" + " at " + SubString(loc_string01, 10, StringLength(loc_string01)) + "|c00ff0303)|r"
 	endif
 	return " "
@@ -29661,13 +29601,13 @@ function Func1216 takes nothing returns nothing
 	local integer loc_integer01 = 1
 	local integer loc_integer02 = 5
 	local integer loc_integer03
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 20, " ")
-	if(Func0056(GetTriggerPlayer()) == true) then
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 20, " ")
+	if(IsScourge(GetTriggerPlayer()) == true) then
 		loop
 			exitwhen loc_integer01 > loc_integer02
 			set loc_integer03 = GetPlayerId(Sentinels[loc_integer01])
 			if(Players_Hero[loc_integer03] != null) then
-				call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 20, Players_Color[loc_integer03] + (strings005[GetPlayerId((Sentinels[loc_integer01]))]) + "|r " + "controls" + " " + GetUnitName(Players_Hero[loc_integer03]) + " (" + "Level" + " " + I2S(GetUnitLevel(Players_Hero[loc_integer03])) + ")" + Func1215(Sentinels[loc_integer01]))
+				call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 20, Players_Color[loc_integer03] + (strings005[GetPlayerId((Sentinels[loc_integer01]))]) + "|r " + "controls" + " " + GetUnitName(Players_Hero[loc_integer03]) + " (" + "Level" + " " + I2S(GetUnitLevel(Players_Hero[loc_integer03])) + ")" + Func1215(Sentinels[loc_integer01]))
 			endif
 			set loc_integer01 = loc_integer01 + 1
 		endloop
@@ -29676,12 +29616,12 @@ function Func1216 takes nothing returns nothing
 			exitwhen loc_integer01 > loc_integer02
 			set loc_integer03 = GetPlayerId(Scourges[loc_integer01])
 			if(Players_Hero[loc_integer03] != null) then
-				call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 20, Players_Color[loc_integer03] + (strings005[GetPlayerId((Scourges[loc_integer01]))]) + "|r " + "controls" + " " + GetUnitName(Players_Hero[loc_integer03]) + " (" + "Level" + " " + I2S(GetUnitLevel(Players_Hero[loc_integer03])) + ")" + Func1215(Scourges[loc_integer01]))
+				call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 20, Players_Color[loc_integer03] + (strings005[GetPlayerId((Scourges[loc_integer01]))]) + "|r " + "controls" + " " + GetUnitName(Players_Hero[loc_integer03]) + " (" + "Level" + " " + I2S(GetUnitLevel(Players_Hero[loc_integer03])) + ")" + Func1215(Scourges[loc_integer01]))
 			endif
 			set loc_integer01 = loc_integer01 + 1
 		endloop
 	endif
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 20, " ")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 20, " ")
 endfunction
 
 function Func1217 takes unit loc_unit01 returns boolean
@@ -29697,13 +29637,13 @@ function Func1219 takes nothing returns nothing
 	local unit loc_unit01
 	local integer loc_integer01 = 0
 	if(Players_Hero[GetPlayerId(GetTriggerPlayer())] == null) then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, "No Hero is selected")
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, "No Hero is selected")
 	else
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, GetUnitName(Players_Hero[GetPlayerId(GetTriggerPlayer())]) + " " + "movespeed is" + " " + I2S(R2I(0.5 + GetUnitMoveSpeed(Players_Hero[GetPlayerId(GetTriggerPlayer())]))))
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, GetUnitName(Players_Hero[GetPlayerId(GetTriggerPlayer())]) + " " + "movespeed is" + " " + I2S(R2I(0.5 + GetUnitMoveSpeed(Players_Hero[GetPlayerId(GetTriggerPlayer())]))))
 		if Func1217(Players_Hero[GetPlayerId(GetTriggerPlayer())]) then
 			set loc_unit01 = Func1218(Players_Hero[GetPlayerId(GetTriggerPlayer())])
 			if loc_unit01 != null then
-				call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, GetUnitName(loc_unit01) + " " + "movespeed is" + " " + I2S(R2I(0.5 + GetUnitMoveSpeed(loc_unit01))))
+				call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, GetUnitName(loc_unit01) + " " + "movespeed is" + " " + I2S(R2I(0.5 + GetUnitMoveSpeed(loc_unit01))))
 			endif
 		endif
 	endif
@@ -29713,20 +29653,20 @@ function Func1220 takes nothing returns nothing
 	local unit loc_unit01
 	local integer loc_integer01 = 0
 	if(Players_Hero[GetPlayerId(GetTriggerPlayer())] == null) then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, "No Hero is selected")
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, "No Hero is selected")
 	else
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, GetUnitName(Players_Hero[GetPlayerId(GetTriggerPlayer())]) + " " + "movespeed is" + " " + I2S(R2I(0.5 + GetUnitMoveSpeed(Players_Hero[GetPlayerId(GetTriggerPlayer())]))))
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, GetUnitName(Players_Hero[GetPlayerId(GetTriggerPlayer())]) + " " + "movespeed is" + " " + I2S(R2I(0.5 + GetUnitMoveSpeed(Players_Hero[GetPlayerId(GetTriggerPlayer())]))))
 		if Func1217(Players_Hero[GetPlayerId(GetTriggerPlayer())]) then
 			set loc_unit01 = Func1218(Players_Hero[GetPlayerId(GetTriggerPlayer())])
 			if loc_unit01 != null then
-				call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, GetUnitName(loc_unit01) + " " + "movespeed is" + " " + I2S(R2I(0.5 + GetUnitMoveSpeed(loc_unit01))))
+				call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, GetUnitName(loc_unit01) + " " + "movespeed is" + " " + I2S(R2I(0.5 + GetUnitMoveSpeed(loc_unit01))))
 			endif
 		endif
 		loop
 			exitwhen loc_integer01 > 16
 			set loc_unit01 = Players_Hero[loc_integer01]
 			if loc_unit01 != null and loc_unit01 != Players_Hero[GetPlayerId(GetTriggerPlayer())] and IsUnitAlly(loc_unit01, GetTriggerPlayer()) == true then
-				call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, GetUnitName(loc_unit01) + " " + "movespeed is" + " " + I2S(R2I(0.5 + GetUnitMoveSpeed(loc_unit01))))
+				call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, GetUnitName(loc_unit01) + " " + "movespeed is" + " " + I2S(R2I(0.5 + GetUnitMoveSpeed(loc_unit01))))
 			endif
 			set loc_integer01 = loc_integer01 + 1
 		endloop
@@ -29735,16 +29675,16 @@ endfunction
 
 function Func1221 takes nothing returns nothing
 	call SaveBoolean(HY, (GetHandleId(GetTriggerPlayer())), (139), (true))
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Disallowing help from certain abilities.")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Disallowing help from certain abilities.")
 endfunction
 
 function Func1222 takes nothing returns nothing
 	call SaveBoolean(HY, (GetHandleId(GetTriggerPlayer())), (139), (false))
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Allowing help from certain abilities.")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Allowing help from certain abilities.")
 endfunction
 
 function Func1223 takes nothing returns nothing
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, "   " + "Creeps Killed:" + " " + I2S(integers003[GetPlayerId(GetTriggerPlayer())]) + " " + "Creeps Denied:" + " " + I2S(integers004[GetPlayerId(GetTriggerPlayer())]) + " " + "Neutrals Killed:" + " " + I2S(integers005[GetPlayerId(GetTriggerPlayer())]))
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, "   " + "Creeps Killed:" + " " + I2S(integers003[GetPlayerId(GetTriggerPlayer())]) + " " + "Creeps Denied:" + " " + I2S(integers004[GetPlayerId(GetTriggerPlayer())]) + " " + "Neutrals Killed:" + " " + I2S(integers005[GetPlayerId(GetTriggerPlayer())]))
 endfunction
 
 function Func1224 takes nothing returns nothing
@@ -29756,7 +29696,7 @@ function Func1224 takes nothing returns nothing
 		set booleans014[loc_integer01] = false
 		set booleans028[loc_integer01] = false
 	endif
-	call Func0486()
+//	call Func0486()
 endfunction
 
 function Func1225 takes nothing returns boolean
@@ -29835,7 +29775,7 @@ function Func1229 takes nothing returns nothing
 				endif
 			endif
 		else
-			if Func0056(Player(loc_integer01)) and IsPlayer(Player(loc_integer01)) then
+			if IsScourge(Player(loc_integer01)) and IsPlayer(Player(loc_integer01)) then
 				set loc_integer04 = loc_integer04 + 1
 				if booleans026[loc_integer01] then
 					set loc_integer03 = loc_integer03 + 1
@@ -29960,10 +29900,10 @@ function Func1232 takes nothing returns nothing
 	local integer loc_integer01 = GetPlayerId(GetTriggerPlayer())
 	if GetEventPlayerChatString() == "-don" or GetEventPlayerChatString() == "-deathon" then
 		set booleans027[loc_integer01] = true
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "The death timer will show up when you die.")
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "The death timer will show up when you die.")
 	else
 		set booleans027[loc_integer01] = false
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "The death timer will not show up when you die.")
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "The death timer will not show up when you die.")
 	endif
 endfunction
 
@@ -30000,12 +29940,12 @@ endfunction
 
 function Func1237 takes nothing returns nothing
 	call ForceRemovePlayer(Force_All, GetTriggerPlayer())
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "You are now hiding messages.")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "You are now hiding messages.")
 endfunction
 
 function Func1238 takes nothing returns nothing
 	call ForceAddPlayer(Force_All, GetTriggerPlayer())
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "You are now showing messages.")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "You are now showing messages.")
 endfunction
 
 function Func1239 takes nothing returns boolean
@@ -30137,9 +30077,9 @@ endfunction
 function Func1243 takes nothing returns nothing
 	local integer loc_integer01
 	if GetRandomInt(1, 2) == 1 then
-		set loc_integer01 = GetRandomInt(integer041, integer042)
+		set loc_integer01 = GetRandomInt(FirstScourgeHeroIndexId, LastScourgeHeroIndexId)
 	else
-		set loc_integer01 = GetRandomInt(integer039, integer040)
+		set loc_integer01 = GetRandomInt(FirstSentinelHeroIndexId, LastSentinelHeroIndexId)
 	endif
 	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "You randomly rolled" + " " + Func0041(loc_integer01))
 endfunction
@@ -30175,7 +30115,7 @@ function Func1246 takes nothing returns nothing
 endfunction
 
 function Func1247 takes nothing returns nothing
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Hero names in chat will now be hidden.")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Hero names in chat will now be hidden.")
 	set booleans030[GetPlayerId(GetTriggerPlayer())] = true
 	if GetLocalPlayer() == GetTriggerPlayer() then
 		call SetPlayerName(Sentinels[1], (strings005[GetPlayerId((Sentinels[1]))]))
@@ -30220,16 +30160,16 @@ function Func1251 takes nothing returns nothing
 		set loc_player01 = Sentinels[loc_integer01]
 		if IsPlayer(loc_player01) then
 			set loc_real01 = integers017[GetPlayerId(loc_player01)] / (TimerGetElapsed(GlobalTimer)) * 60
-			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has an APM of" + " " + R2S(loc_real01))
+			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has an APM of" + " " + R2S(loc_real01))
 		endif
 		set loc_player01 = Scourges[loc_integer01]
 		if IsPlayer(loc_player01) then
 			set loc_real01 = integers017[GetPlayerId(loc_player01)] / (TimerGetElapsed(GlobalTimer)) * 60
-			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has an APM of" + " " + R2S(loc_real01))
+			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has an APM of" + " " + R2S(loc_real01))
 		endif
 		set loc_integer01 = loc_integer01 + 1
 	endloop
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 15.00, " ")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 15.00, " ")
 	set loc_player01 = null
 endfunction
 
@@ -30283,24 +30223,24 @@ function Func1256 takes nothing returns nothing
 				set loc_player01 = Sentinels[loc_integer02]
 				if IsPlayer(loc_player01) and((TimerGetElapsed(GlobalTimer)) -reals001[GetPlayerId(loc_player01)]) > 300.0 and booleans032[GetPlayerId(loc_player01)] == false then
 					set booleans032[GetPlayerId(loc_player01)] = true
-					call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has been afk for more than" + " " + R2S(((TimerGetElapsed(GlobalTimer)) -reals001[GetPlayerId(loc_player01)]) / 60) + " " + GetObjectName('N05F'))
-					call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 15.00, "You may type" + " |cff99ccff-kickafk " + I2S(GetPlayerId(loc_player01)) + " |r " + "to boot this player from the game")
-					call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 15.00, " ")
+					call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has been afk for more than" + " " + R2S(((TimerGetElapsed(GlobalTimer)) -reals001[GetPlayerId(loc_player01)]) / 60) + " " + GetObjectName('N05F'))
+					call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 15.00, "You may type" + " |cff99ccff-kickafk " + I2S(GetPlayerId(loc_player01)) + " |r " + "to boot this player from the game")
+					call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 15.00, " ")
 				endif
 				set loc_player01 = Scourges[loc_integer02]
 				if IsPlayer(loc_player01) and((TimerGetElapsed(GlobalTimer)) -reals001[GetPlayerId(loc_player01)]) > 300.0 and booleans032[GetPlayerId(loc_player01)] == false then
 					set booleans032[GetPlayerId(loc_player01)] = true
-					call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has been afk for more than" + " " + R2S(((TimerGetElapsed(GlobalTimer)) -reals001[GetPlayerId(loc_player01)]) / 60) + " " + GetObjectName('N05F'))
-					call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 15.00, "You may type" + " |cff99ccff-kickafk " + I2S(GetPlayerId(loc_player01)) + " |r " + "to boot this player from the game")
-					call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 15.00, " ")
+					call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has been afk for more than" + " " + R2S(((TimerGetElapsed(GlobalTimer)) -reals001[GetPlayerId(loc_player01)]) / 60) + " " + GetObjectName('N05F'))
+					call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 15.00, "You may type" + " |cff99ccff-kickafk " + I2S(GetPlayerId(loc_player01)) + " |r " + "to boot this player from the game")
+					call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 15.00, " ")
 				endif
 				set loc_integer02 = loc_integer02 + 1
 			endloop
-			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 15.00, " ")
+			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 15.00, " ")
 		elseif IsPlayer(Player(loc_integer01)) == true and IsPlayerAlly(GetTriggerPlayer(), Player(loc_integer01)) == true then
-			call DisplayTimedTextToPlayer(Player(loc_integer01), 0, real003, 3600, "|c00ff0303" + "has been booted for being afk too long!" + "|r")
+			call DisplayTimedTextToPlayer(Player(loc_integer01), 0, 0, 3600, "|c00ff0303" + "has been booted for being afk too long!" + "|r")
 			call Func0444(Player(loc_integer01))
-			set strings003[GetPlayerId(Player(loc_integer01))] = "|c00555555" + loc_string01 + "|r"
+			set LeaveAt[GetPlayerId(Player(loc_integer01))] = "|c00555555" + loc_string01 + "|r"
 			call RemovePlayer(Player(loc_integer01), PLAYER_GAME_RESULT_DEFEAT)
 			call Func1255(Player(loc_integer01))
 			if boolean057 then
@@ -30323,19 +30263,19 @@ function Func1257 takes nothing returns nothing
 			set loc_player01 = Sentinels[loc_integer01]
 			if IsPlayer(loc_player01) and((TimerGetElapsed(GlobalTimer)) -reals001[GetPlayerId(loc_player01)]) / 60 > 0.2 then
 				set loc_integer02 = loc_integer02 + 1
-				call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has been afk for" + " " + R2S(((TimerGetElapsed(GlobalTimer)) -reals001[GetPlayerId(loc_player01)]) / 60) + " " + GetObjectName('N05F'))
+				call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has been afk for" + " " + R2S(((TimerGetElapsed(GlobalTimer)) -reals001[GetPlayerId(loc_player01)]) / 60) + " " + GetObjectName('N05F'))
 			endif
 			set loc_player01 = Scourges[loc_integer01]
 			if IsPlayer(loc_player01) and((TimerGetElapsed(GlobalTimer)) -reals001[GetPlayerId(loc_player01)]) / 60 > 0.2 then
 				set loc_integer02 = loc_integer02 + 1
-				call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has been afk for" + " " + R2S(((TimerGetElapsed(GlobalTimer)) -reals001[GetPlayerId(loc_player01)]) / 60) + " " + GetObjectName('N05F'))
+				call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has been afk for" + " " + R2S(((TimerGetElapsed(GlobalTimer)) -reals001[GetPlayerId(loc_player01)]) / 60) + " " + GetObjectName('N05F'))
 			endif
 			set loc_integer01 = loc_integer01 + 1
 		endloop
 		if loc_integer02 < 1 then
-			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 15.00, GetObjectName('N05Q'))
+			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 15.00, GetObjectName('N05Q'))
 		else
-			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 15.00, " ")
+			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 15.00, " ")
 		endif
 	endif
 endfunction
@@ -30478,16 +30418,16 @@ function Func1268 takes nothing returns nothing
 endfunction
 
 function Func1269 takes nothing returns nothing
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Sun Strike" + " [|cffff0000E|r|cffff0000E|r|cffff0000E|r] - [|cffffcc00T|r]")
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Chaos Meteor" + " [|cffff0000E|r|cffff0000E|r|cff00ffffW|r] - [|cffffcc00D|r]")
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Forge Spirit" + " [|cffff0000E|r|cffff0000E|r|cff0000ffQ|r] - [|cffffcc00F|r]")
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Cold Snap" + " [|cff0000ffQ|r|cff0000ffQ|r|cff0000ffQ|r] - [|cffffcc00Y|r]")
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Ghost Walk" + " [|cff0000ffQ|r|cff0000ffQ|r|cff00ffffW|r] - [|cffffcc00V|r]")
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Ice Wall" + " [|cff0000ffQ|r|cff0000ffQ|r|cffff0000E|r] - [|cffffcc00G|r]")
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Alacrity" + " [|cff00ffffW|r|cff00ffffW|r|cffff0000E|r] - [|cffffcc00Z|r]")
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Tornado" + " [|cff00ffffW|r|cff00ffffW|r|cff0000ffQ|r] - [|cffffcc00X|r]")
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "EMP" + " [|cff00ffffW|r|cff00ffffW|r|cff00ffffW|r] - [|cffffcc00C|r]")
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Deafening Blast" + " [|cff0000ffQ|r|cff00ffffW|r|cffff0000E|r] - [|cffffcc00B|r]")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Sun Strike" + " [|cffff0000E|r|cffff0000E|r|cffff0000E|r] - [|cffffcc00T|r]")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Chaos Meteor" + " [|cffff0000E|r|cffff0000E|r|cff00ffffW|r] - [|cffffcc00D|r]")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Forge Spirit" + " [|cffff0000E|r|cffff0000E|r|cff0000ffQ|r] - [|cffffcc00F|r]")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Cold Snap" + " [|cff0000ffQ|r|cff0000ffQ|r|cff0000ffQ|r] - [|cffffcc00Y|r]")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Ghost Walk" + " [|cff0000ffQ|r|cff0000ffQ|r|cff00ffffW|r] - [|cffffcc00V|r]")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Ice Wall" + " [|cff0000ffQ|r|cff0000ffQ|r|cffff0000E|r] - [|cffffcc00G|r]")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Alacrity" + " [|cff00ffffW|r|cff00ffffW|r|cffff0000E|r] - [|cffffcc00Z|r]")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Tornado" + " [|cff00ffffW|r|cff00ffffW|r|cff0000ffQ|r] - [|cffffcc00X|r]")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "EMP" + " [|cff00ffffW|r|cff00ffffW|r|cff00ffffW|r] - [|cffffcc00C|r]")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Deafening Blast" + " [|cff0000ffQ|r|cff00ffffW|r|cffff0000E|r] - [|cffffcc00B|r]")
 endfunction
 
 function Func1270 takes string loc_string01 returns nothing
@@ -30548,8 +30488,8 @@ function Func1271 takes nothing returns nothing
 		elseif loc_string01 == "-music special" then
 			call Func1270(string035)
 		else
-			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Command is used by typing -music theme. Where theme is one of the following:" + " ")
-			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "off, random, nightelf1, nightelf2, nightelf3, human1, human2, human3, orc1, orc2, orc3, undead1, undead2, undead3, other1, other2, other3, other4, other5, other6, other7, other8, other9, special")
+			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Command is used by typing -music theme. Where theme is one of the following:" + " ")
+			call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "off, random, nightelf1, nightelf2, nightelf3, human1, human2, human3, orc1, orc2, orc3, undead1, undead2, undead3, other1, other2, other3, other4, other5, other6, other7, other8, other9, special")
 		endif
 	endif
 endfunction
@@ -30672,17 +30612,17 @@ function PlayerCommand_Water takes nothing returns nothing
 endfunction
 
 // function Func1276 takes nothing returns nothing
-// 	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 15.00, "This command has been temporarily disabled")
+// 	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 15.00, "This command has been temporarily disabled")
 // endfunction
 
 function Func1277 takes nothing returns boolean
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, "Total Bonus XP/Gold: " + I2S(integers081[GetPlayerId(GetTriggerPlayer())]) + "/" + I2S(integers082[GetPlayerId(GetTriggerPlayer())]))
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, "Total Bonus XP/Gold: " + I2S(integers081[GetPlayerId(GetTriggerPlayer())]) + "/" + I2S(integers082[GetPlayerId(GetTriggerPlayer())]))
 	return false
 endfunction
 
 function Func1278 takes nothing returns boolean
 	if integer436 > 0 then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, "Total Bounty Gold" + ": " + I2S(integer436))
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, "Total Bounty Gold" + ": " + I2S(integer436))
 	endif
 	return false
 endfunction
@@ -30707,7 +30647,7 @@ endfunction
 // 	local integer loc_integer02 = 1
 // 	if loc_integer01<1 or loc_integer01>integer412 then
 // 		set loc_integer01 = GetRandomInt(1, integer412)
-// 		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "You have randomed quote number "+" "+I2S(loc_integer01))
+// 		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "You have randomed quote number "+" "+I2S(loc_integer01))
 // 	endif
 // 	if boolean100 then
 // 		loop
@@ -31708,578 +31648,547 @@ function Func1320 takes string loc_string01 returns string
 	return loc_string03
 endfunction
 
-function Func1321 takes string loc_string01, integer loc_integer01 returns nothing
-	local string loc_string02 = Func1320(loc_string01)
-	local string array loc_strings01
-	local string array loc_strings02
-	local string array loc_strings03
-	local boolean array loc_booleans01
-	local integer loc_integer02
-	local integer loc_integer03 = StringLength(loc_string02)
-	local integer loc_integer04 = 0
-	local integer loc_integer05 = 0
-	local integer loc_integer06 = 0
-	local boolean loc_boolean01
-	local boolean loc_boolean02
-	local boolean loc_boolean03
-	local boolean loc_boolean04
-	local boolean loc_boolean05
-	local boolean loc_boolean06
-	local boolean loc_boolean07
-	local boolean loc_boolean08
-	local boolean loc_boolean09
-	local boolean loc_boolean10
-	local boolean loc_boolean11
-	local boolean loc_boolean12
-	local boolean loc_boolean13
-	local boolean loc_boolean14
-	local boolean loc_boolean15
-	local boolean loc_boolean16
-	local boolean loc_boolean17
-	local boolean loc_boolean18
-	local boolean loc_boolean19
-	local boolean loc_boolean20
-	local boolean loc_boolean21
-	local boolean loc_boolean22
-	local boolean loc_boolean23
-	local boolean loc_boolean24
-	local boolean loc_boolean25
-	local boolean loc_boolean26
-	local boolean loc_boolean27
-	local boolean loc_boolean28
-	local boolean loc_boolean29
-	local boolean loc_boolean30
-	local boolean loc_boolean31
-	local boolean loc_boolean32
-	local boolean loc_boolean33
-	local boolean loc_boolean34
-	local boolean loc_boolean35
-	local boolean loc_boolean36
-	local boolean loc_boolean37
-	local boolean loc_boolean38
-	local boolean loc_boolean39
-	local boolean loc_boolean40
-	local boolean loc_boolean41
-	local boolean loc_boolean42
-	local boolean loc_boolean43
-	set loc_strings01[1] = "allpick"
-	set loc_strings02[1] = "ap"
-	set loc_strings01[2] = "allrandom"
-	set loc_strings02[2] = "ar"
-	set loc_strings01[3] = "leaguemode"
-	set loc_strings02[3] = "lm"
-	set loc_strings01[4] = "mirrormatch"
-	set loc_strings02[4] = "mm"
-	set loc_strings01[5] = "teamrandom"
-	set loc_strings02[5] = "tr"
-	set loc_strings01[6] = "deathmatch"
-	set loc_strings02[6] = "dm"
-	set loc_strings01[7] = "moderandom"
-	set loc_strings02[7] = "mr"
-	set loc_strings01[8] = "shuffleplayers"
-	set loc_strings02[8] = "sp"
-	set loc_strings01[9] = "allagility"
-	set loc_strings02[9] = "aa"
-	set loc_strings01[10] = "allintelligence"
-	set loc_strings02[10] = "ai"
-	set loc_strings01[11] = "allstrength"
-	set loc_strings02[11] = "as"
-	set loc_strings01[12] = "itemdrop"
-	set loc_strings02[12] = "id"
-	set loc_strings01[13] = "nopowerups"
-	set loc_strings02[13] = "np"
-	set loc_strings01[14] = "supercreeps"
-	set loc_strings02[14] = "sc"
-	set loc_strings01[15] = "easymode"
-	set loc_strings02[15] = "em"
-	set loc_strings01[16] = "duplicatemode"
-	set loc_strings02[16] = "du"
-	set loc_strings01[17] = "samehero"
-	set loc_strings02[17] = "sh"
-	set loc_strings01[18] = "voterandom"
-	set loc_strings02[18] = "vr"
-	set loc_strings01[19] = "reverse"
-	set loc_strings02[19] = "rv"
-	set loc_strings01[20] = "randomdraft"
-	set loc_strings02[20] = "rd"
-	set loc_strings01[21] = "onlymid"
-	set loc_strings02[21] = "om"
-	set loc_strings01[22] = "extendedleague"
-	set loc_strings02[22] = "xl"
-	set loc_strings01[23] = "nomid"
-	set loc_strings02[23] = "nm"
-	set loc_strings01[24] = "notop"
-	set loc_strings02[24] = "nt"
-	set loc_strings01[25] = "nobot"
-	set loc_strings02[25] = "nb"
-	set loc_strings01[26] = "noswap"
-	set loc_strings02[26] = "ns"
-	set loc_strings01[27] = "norepick"
-	set loc_strings02[27] = "nr"
-	set loc_strings01[28] = "captainsdraft"
-	set loc_strings02[28] = "cd"
-	set loc_strings01[29] = "singledraft"
-	set loc_strings02[29] = "sd"
-	set loc_strings01[30] = "poolingmode"
-	set loc_strings02[30] = "pm"
-	set loc_strings01[31] = "observerinfo"
-	set loc_strings02[31] = "oi"
-	set loc_strings01[32] = "miniheroes"
-	set loc_strings02[32] = "mi"
-	set loc_strings01[33] = "captainsmode"
-	set loc_strings02[33] = "cm"
-	set loc_strings01[34] = "fastrespawn"
-	set loc_strings02[34] = "fr"
-	set loc_strings01[35] = "meleeonly"
-	set loc_strings02[35] = "mo"
-	set loc_strings01[36] = "rangeonly"
-	set loc_strings02[36] = "ro"
-	set loc_strings01[37] = "experimentalrunes"
-	set loc_strings02[37] = "er"
-	set loc_strings01[38] = "randomside"
-	set loc_strings02[38] = "rs"
-	set loc_strings01[39] = "switchon"
-	set loc_strings02[39] = "so"
-	set loc_strings01[40] = "zoommode"
-	set loc_strings02[40] = "zm"
-	set loc_strings01[41] = "capturepoint"
-	set loc_strings02[41] = "cp"
-	set loc_strings01[42] = "unban"
-	set loc_strings02[42] = "ub"
-	set loc_strings01[43] = "tagteam"
-	set loc_strings02[43] = "tt"
-	set loc_integer02 = 43
-	set loc_integer04 = -1
-	loop
-		exitwhen loc_integer04 == loc_integer03 - 1
-		set loc_integer04 = loc_integer04 + 1
-		set loc_integer05 = loc_integer04
-		loop
-			exitwhen loc_integer05 == loc_integer03
-			set loc_integer05 = loc_integer05 + 1
-			set loc_integer06 = 1
-			loop
-				exitwhen loc_integer06 > loc_integer02
-				if loc_strings01[loc_integer06] == SubString(loc_string02, loc_integer04, loc_integer05) then
-					set loc_booleans01[loc_integer06] = true
-					set loc_integer06 = loc_integer02 + 1
-					set loc_string02 = Func1319(loc_string02, loc_integer04, loc_integer05)
-					set loc_integer04 = -1
-					set loc_integer03 = StringLength(loc_string02)
-					set loc_integer05 = loc_integer03
-				else
-					set loc_integer06 = loc_integer06 + 1
-				endif
-			endloop
-		endloop
-	endloop
-	set loc_integer04 = -1
-	loop
-		exitwhen loc_integer04 == loc_integer03 - 1
-		set loc_integer04 = loc_integer04 + 1
-		set loc_integer05 = loc_integer04
-		loop
-			exitwhen loc_integer05 == loc_integer03
-			set loc_integer05 = loc_integer05 + 1
-			set loc_integer06 = 1
-			loop
-				exitwhen loc_integer06 > loc_integer02
-				if loc_strings02[loc_integer06] == SubString(loc_string02, loc_integer04, loc_integer05) then
-					set loc_booleans01[loc_integer06] = true
-					set loc_integer06 = loc_integer02 + 1
-					set loc_string02 = Func1319(loc_string02, loc_integer04, loc_integer05)
-					set loc_integer04 = -1
-					set loc_integer03 = StringLength(loc_string02)
-					set loc_integer05 = loc_integer03
-				else
-					set loc_integer06 = loc_integer06 + 1
-				endif
-			endloop
-		endloop
-	endloop
-	set loc_boolean01 = loc_booleans01[1]
-	set loc_boolean02 = loc_booleans01[2]
-	set loc_boolean03 = loc_booleans01[3]
-	set loc_boolean04 = loc_booleans01[4]
-	set loc_boolean05 = loc_booleans01[5]
-	set loc_boolean06 = loc_booleans01[6]
-	set loc_boolean07 = loc_booleans01[7]
-	set loc_boolean08 = loc_booleans01[8]
-	set loc_boolean09 = loc_booleans01[9]
-	set loc_boolean10 = loc_booleans01[10]
-	set loc_boolean11 = loc_booleans01[11]
-	set loc_boolean12 = loc_booleans01[12]
-	set loc_boolean13 = loc_booleans01[13]
-	set loc_boolean14 = loc_booleans01[14]
-	set loc_boolean15 = loc_booleans01[15]
-	set loc_boolean16 = loc_booleans01[16]
-	set loc_boolean17 = loc_booleans01[17]
-	set loc_boolean18 = loc_booleans01[18]
-	set loc_boolean19 = loc_booleans01[19]
-	set loc_boolean20 = loc_booleans01[20]
-	set loc_boolean21 = loc_booleans01[21]
-	set loc_boolean28 = loc_booleans01[22]
-	set loc_boolean24 = loc_booleans01[23]
-	set loc_boolean22 = loc_booleans01[24]
-	set loc_boolean23 = loc_booleans01[25]
-	set loc_boolean25 = loc_booleans01[26]
-	set loc_boolean27 = loc_booleans01[27]
-	set loc_boolean38 = loc_booleans01[28]
-	set loc_boolean29 = loc_booleans01[29]
-	set loc_boolean30 = loc_booleans01[30]
-	set loc_boolean31 = loc_booleans01[31]
-	set loc_boolean32 = loc_booleans01[32]
-	set loc_boolean33 = loc_booleans01[33]
-	set loc_boolean34 = loc_booleans01[34]
-	set loc_boolean35 = loc_booleans01[35]
-	set loc_boolean36 = loc_booleans01[36]
-	set loc_boolean37 = loc_booleans01[37]
-	set loc_boolean39 = loc_booleans01[38]
-	set loc_boolean26 = loc_booleans01[39]
-	set loc_boolean41 = loc_booleans01[40]
-	set loc_boolean40 = loc_booleans01[41]
-	set loc_boolean42 = loc_booleans01[42]
-	set loc_boolean43 = loc_booleans01[43]
-	if loc_string02 != "" or Func1316(loc_string01) then
-		return
-	endif
-	if(loc_boolean02 and(loc_boolean33 or loc_boolean01 or loc_boolean05 or loc_boolean03 or loc_boolean07 or loc_boolean19 or loc_boolean20 or loc_boolean38 or loc_boolean29 or loc_boolean43)) or(loc_boolean01 and(loc_boolean05 or loc_boolean07)) or(loc_boolean05 and(loc_boolean03 or loc_boolean07)) or(loc_boolean03 and loc_boolean07) or(loc_boolean04 and loc_boolean17) then
-		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!")
-		return
-	endif
-	if(loc_boolean09 and(loc_boolean10 or loc_boolean11 or loc_boolean06)) or(loc_boolean11 and(loc_boolean10 or loc_boolean06)) or(loc_boolean10 and loc_boolean06) then
-		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!")
-		return
-	endif
-	if(loc_boolean36 and(loc_boolean35 or loc_boolean06)) or(loc_boolean35 and loc_boolean06) then
-		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!")
-		return
-	endif
-	if loc_boolean19 and(loc_boolean33 or loc_boolean02 or loc_boolean05 or loc_boolean07 or loc_boolean03 or loc_boolean06 or loc_boolean17 or loc_boolean43) then
-		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!")
-		return
-	endif
-	if(loc_boolean06 and(loc_boolean33 or loc_boolean05 or loc_boolean03 or loc_boolean07 or loc_boolean17 or loc_boolean19 or loc_boolean20 or loc_boolean38 or loc_boolean29 or loc_boolean43)) or(loc_boolean04 and loc_boolean06) or(loc_boolean17 and loc_boolean06) then
-		call Func0114(PlayerModeTyper, "Deathmatch is not compatible with these modes!")
-		return
-	endif
-	if loc_boolean03 and(loc_boolean43 or loc_boolean33 or loc_boolean01 or loc_boolean20 or loc_boolean38 or loc_boolean02 or loc_boolean29 or loc_boolean04 or loc_boolean05 or loc_boolean06 or loc_boolean07 or loc_boolean09 or loc_boolean10 or loc_boolean11 or loc_boolean12 or loc_boolean13 or loc_boolean14 or loc_boolean15 or loc_boolean16 or loc_boolean17 or loc_boolean19 or loc_boolean21 or loc_boolean23 or loc_boolean24 or loc_boolean22 or loc_boolean28 or loc_boolean35 or loc_boolean36) then
-		call Func0114(PlayerModeTyper, "League Mode is not compatible with these modes!")
-		return
-	endif
-	if loc_boolean28 and(loc_boolean43 or loc_boolean33 or loc_boolean01 or loc_boolean20 or loc_boolean38 or loc_boolean02 or loc_boolean29 or loc_boolean04 or loc_boolean05 or loc_boolean06 or loc_boolean07 or loc_boolean09 or loc_boolean10 or loc_boolean11 or loc_boolean12 or loc_boolean13 or loc_boolean14 or loc_boolean15 or loc_boolean16 or loc_boolean17 or loc_boolean19 or loc_boolean21 or loc_boolean23 or loc_boolean24 or loc_boolean22 or loc_boolean03 or loc_boolean36 or loc_boolean35) then
-		call Func0114(PlayerModeTyper, "Melee Only")
-		return
-	endif
-	if loc_boolean33 and(loc_boolean43 or loc_boolean08 or loc_boolean28 or loc_boolean01 or loc_boolean20 or loc_boolean38 or loc_boolean02 or loc_boolean29 or loc_boolean04 or loc_boolean05 or loc_boolean06 or loc_boolean07 or loc_boolean09 or loc_boolean10 or loc_boolean11 or loc_boolean12 or loc_boolean13 or loc_boolean14 or loc_boolean15 or loc_boolean16 or loc_boolean17 or loc_boolean19 or loc_boolean21 or loc_boolean23 or loc_boolean24 or loc_boolean22 or loc_boolean03 or loc_boolean35 or loc_boolean36) then
-		call Func0114(PlayerModeTyper, "Melee Only")
-		return
-	endif
-	if loc_boolean20 and(loc_boolean43 or loc_boolean38 or loc_boolean33 or loc_boolean01 or loc_boolean03 or loc_boolean02 or loc_boolean29 or loc_boolean04 or loc_boolean05 or loc_boolean06 or loc_boolean07 or loc_boolean09 or loc_boolean10 or loc_boolean11 or loc_boolean17 or loc_boolean19 or loc_boolean36 or loc_boolean35) then
-		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!")
-		return
-	endif
-	if loc_boolean38 and(loc_boolean43 or loc_boolean20 or loc_boolean33 or loc_boolean01 or loc_boolean03 or loc_boolean02 or loc_boolean29 or loc_boolean04 or loc_boolean05 or loc_boolean06 or loc_boolean07 or loc_boolean09 or loc_boolean10 or loc_boolean11 or loc_boolean17 or loc_boolean19 or loc_boolean36 or loc_boolean35) then
-		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!")
-		return
-	endif
-	if loc_boolean07 and(loc_boolean43 or loc_boolean33 or loc_boolean01 or loc_boolean03 or loc_boolean02 or loc_boolean29 or loc_boolean04 or loc_boolean05 or loc_boolean06 or loc_boolean09 or loc_boolean10 or loc_boolean11 or loc_boolean17 or loc_boolean19 or loc_boolean36 or loc_boolean35) then
-		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!")
-		return
-	endif
-	if loc_boolean29 and(loc_boolean43 or loc_boolean33 or loc_boolean01 or loc_boolean03 or loc_boolean02 or loc_boolean20 or loc_boolean38 or loc_boolean04 or loc_boolean05 or loc_boolean06 or loc_boolean07 or loc_boolean09 or loc_boolean10 or loc_boolean11 or loc_boolean17 or loc_boolean19 or loc_boolean36 or loc_boolean35) then
-		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!")
-		return
-	endif
-	if loc_boolean18 and(loc_boolean43 or loc_boolean33 or loc_boolean03 or loc_boolean20 or loc_boolean38 or loc_boolean29 or loc_boolean02 or loc_boolean04 or loc_boolean05 or loc_boolean06 or loc_boolean07 or loc_boolean09 or loc_boolean10 or loc_boolean11 or loc_boolean17 or loc_boolean19 or loc_boolean36 or loc_boolean35) then
-		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!")
-		return
-	endif
-	if loc_boolean43 and(loc_boolean26 or loc_boolean18 or loc_boolean33 or loc_boolean03 or loc_boolean20 or loc_boolean38 or loc_boolean29 or loc_boolean02 or loc_boolean04 or loc_boolean05 or loc_boolean06 or loc_boolean07 or loc_boolean09 or loc_boolean10 or loc_boolean11 or loc_boolean17 or loc_boolean19 or loc_boolean36 or loc_boolean35) then
-		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!")
-		return
-	endif
-	if loc_boolean04 and Func0062(Force_Sentinels) != Func0062(Force_Scourges) then
-		call Func0114(PlayerModeTyper, "The game must have an even number of players")
-		return
-	endif
-	if loc_boolean18 and Func0062(Force_Sentinels) != Func0062(Force_Scourges) then
-		call Func0114(PlayerModeTyper, "The game must have an even number of players")
-		return
-	endif
-	if loc_boolean19 and Func0062(Force_Sentinels) != Func0062(Force_Scourges) then
-		call Func0114(PlayerModeTyper, "The game must have an even number of players")
-		return
-	endif
-	if loc_boolean03 and not(IsPlayer(Sentinels[1]) and IsPlayer(Sentinels[2]) and IsPlayer(Sentinels[3]) and IsPlayer(Sentinels[4]) and IsPlayer(Sentinels[5]) and IsPlayer(Scourges[1]) and IsPlayer(Scourges[2]) and IsPlayer(Scourges[3]) and IsPlayer(Scourges[4]) and IsPlayer(Scourges[5])) then
-	endif
-	if loc_boolean28 and not(IsPlayer(Sentinels[1]) and IsPlayer(Sentinels[2]) and IsPlayer(Sentinels[3]) and IsPlayer(Sentinels[4]) and IsPlayer(Sentinels[5]) and IsPlayer(Scourges[1]) and IsPlayer(Scourges[2]) and IsPlayer(Scourges[3]) and IsPlayer(Scourges[4]) and IsPlayer(Scourges[5])) then
-	endif
-	if loc_boolean43 or loc_boolean41 or loc_boolean40 or loc_boolean34 or loc_boolean33 or loc_boolean01 or loc_boolean02 or loc_boolean03 or loc_boolean04 or loc_boolean05 or loc_boolean06 or loc_boolean07 or loc_boolean08 or loc_boolean09 or loc_boolean10 or loc_boolean11 or loc_boolean12 or loc_boolean13 or loc_boolean14 or loc_boolean16 or loc_boolean15 or loc_boolean17 or loc_boolean18 or loc_boolean19 or loc_boolean20 or loc_boolean38 or loc_boolean21 or loc_boolean23 or loc_boolean24 or loc_boolean22 or loc_boolean25 or loc_boolean27 or loc_boolean28 or loc_boolean29 or loc_boolean30 or loc_boolean31 or loc_boolean32 or loc_boolean35 or loc_boolean36 or loc_boolean37 or loc_boolean39 or loc_boolean26 then
-		call DisableTrigger(trigger063)
-	else
-		return
-	endif
-	if loc_boolean33 == false then
-		call Func0968()
-		call Func1014()
-	endif
-	if loc_boolean03 == false and loc_boolean28 == false then
-		call Func1233()
-	endif
-	set string028 = Func1320(loc_string01)
-	if boolean101 then
-		call Traffic_RegisterData("Mode" + string028, 0)
-	else
-		call Traffic_RegisterData("Mode" + string028, GetPlayerId(PlayerModeTyper))
-	endif
-	set boolean034 = false
-	if loc_boolean03 then
-		set GameMode = "Leaguemode"
-	elseif loc_boolean28 then
-		set GameMode = "Extended League"
-	elseif loc_boolean20 then
-		set GameMode = "Randomdraft"
-	elseif loc_boolean38 then
-		set GameMode = "Captainsdraft"
-	elseif loc_boolean04 then
-		set GameMode = "Mirrormatch"
-	elseif loc_boolean06 then
-		set GameMode = "Deathmatch"
-	elseif loc_boolean19 then
-		set GameMode = "Reverse"
-	elseif loc_boolean01 then
-		set GameMode = "Allpick"
-	elseif loc_boolean02 then
-		set GameMode = "Allrandom"
-	elseif loc_boolean05 then
-		set GameMode = "Teamrandom"
-	elseif loc_boolean07 then
-		set GameMode = "Moderandom"
-	elseif loc_boolean18 then
-		set GameMode = "Voterandom"
-	elseif loc_boolean29 then
-		set GameMode = "Singledraft"
-	elseif loc_boolean33 then
-		set GameMode = "Captainsmode"
-	elseif loc_boolean43 then
-		set GameMode = "Teamteam"
-	endif
-	if loc_boolean33 then
-		call Func1318("Captains Mode")
-	endif
-	if loc_boolean43 then
-		call Func1318("Tag Team")
-	endif
-	if loc_boolean03 then
-		call Func1318("League Mode")
-	endif
-	if loc_boolean28 then
-		call Func1318("Extended League")
-	endif
-	if loc_boolean20 then
-		call Func1318("Random Draft")
-	endif
-	if loc_boolean38 then
-		call Func1318("Captains Draft")
-	endif
-	if loc_boolean06 then
-		call Func1318("Death Match")
-	endif
-	if loc_boolean04 then
-		call Func1318("Mirror Match")
-	endif
-	if loc_boolean01 then
-		call Func1318("All Pick")
-	endif
-	if loc_boolean02 then
-		call Func1318("All Random")
-	endif
-	if loc_boolean18 then
-		call Func1318("Vote Random")
-	endif
-	if loc_boolean07 then
-		call Func1318("Mode Random")
-	endif
-	if loc_boolean05 then
-		call Func1318("Team Random")
-	endif
-	if loc_boolean08 then
-		call Func1318("Shuffle Players")
-	endif
-	if loc_boolean09 then
-		call Func1318("All Agility")
-	endif
-	if loc_boolean11 then
-		call Func1318("All Strength")
-	endif
-	if loc_boolean10 then
-		call Func1318("All Intelligence")
-	endif
-	if loc_boolean36 then
-		call Func1318("Range Only")
-	endif
-	if loc_boolean35 then
-		call Func1318("Melee Only")
-	endif
-	if loc_boolean16 then
-		call Func1318("Duplicate Mode")
-	endif
-	if loc_boolean12 then
-		call Func1318("Item Drop")
-	endif
-	if loc_boolean13 then
-		call Func1318("No Powerups")
-	endif
-	if loc_boolean14 then
-		call Func1318("Super Creeps")
-	endif
-	if loc_boolean15 then
-		call Func1318("Easy Mode")
-	endif
-	if loc_boolean17 then
-		call Func1318("Same Hero")
-	endif
-	if loc_boolean19 then
-		call Func1318("Reverse")
-	endif
-	if loc_boolean21 then
-		call Func1318("Only Mid")
-	endif
-	if loc_boolean24 then
-		call Func1318("No Mid")
-	endif
-	if loc_boolean23 then
-		call Func1318("No Bot")
-	endif
-	if loc_boolean22 then
-		call Func1318("No Top")
-	endif
-	if loc_boolean25 then
-		call Func1318("No Swap")
-	endif
-	if loc_boolean27 then
-		call Func1318("No Repick")
-	endif
-	if loc_boolean29 then
-		call Func1318("Single Draft")
-	endif
-	if loc_boolean30 then
-		call Func1318("Pooling Mode")
-	endif
-	if loc_boolean31 then
-		call Func1318("Observer Info")
-	endif
-	if loc_boolean32 then
-		call Func1318("Mini Heores")
-	endif
-	if loc_boolean34 then
-		call Func1318("Fast Respawn")
-	endif
-	if loc_boolean37 then
-		call Func1318("Experimental Runes")
-	endif
-	if loc_boolean39 then
-		call Func1318("Random Side")
-	endif
-	if loc_boolean26 then
-		call Func1318("Switch On")
-	endif
-	if loc_boolean41 then
-		call Func1318("Zoom Mode")
-	endif
-	if loc_boolean40 then
-		call Func1318("Capture Point")
-	endif
-	if loc_boolean42 then
-		call Func1318("Unban")
-	endif
-	call Func0144(bj_FORCE_ALL_PLAYERS, 20.00, " ")
-	if loc_integer01 == 1 then
-		call Func0144(bj_FORCE_ALL_PLAYERS, 20.00, Players_Color[GetPlayerId(PlayerModeTyper)] + (strings005[GetPlayerId((PlayerModeTyper))]) + "|r" + " " + "has selected" + " " + string001)
-	else
-		call Func0144(bj_FORCE_ALL_PLAYERS, 20.00, "Game mode automatically set to" + " " + string001)
-	endif
-	call Func0144(bj_FORCE_ALL_PLAYERS, 20.00, "For more information about the game modes use" + " -gameinfo.")
-	call Func0144(bj_FORCE_ALL_PLAYERS, 20.00, " ")
-	call RunIfTrue("Func1445", loc_boolean08)
-	call RunIfTrue("Func1446", loc_boolean39)
-	call RunIfTrue("Func1464", loc_boolean42)
-	call RunIfTrue("Func1442", loc_boolean06)
-	call RunIfTrue("Func1435", loc_boolean04)
-	call RunIfTrue("Func1450", loc_boolean17)
-	call RunIfTrue("Func1447", loc_boolean09)
-	call RunIfTrue("Func1452", loc_boolean10)
-	call RunIfTrue("Func1451", loc_boolean11)
-	call RunIfTrue("Func1454", loc_boolean36)
-	call RunIfTrue("Func1453", loc_boolean35)
-	call RunIfTrue("Func1444", loc_boolean16)
-	call RunIfTrue("Func1405", loc_boolean02)
-	call RunIfTrue("Func1412", loc_boolean18)
-	call RunIfTrue("Func1324", loc_boolean01)
-	call RunIfTrue("Func1436", loc_boolean05)
-	call RunIfTrue("Func1427", loc_boolean19)
-	call RunIfTrue("Func1417", loc_boolean03)
-	call RunIfTrue("Func1424", loc_boolean28)
-	call RunIfTrue("Func1360", loc_boolean33)
-	call RunIfTrue("Func1382", loc_boolean20)
-	call RunIfTrue("Func1403", loc_boolean29)
-	call RunIfTrue("Func1443", loc_boolean07)
-	call RunIfTrue("Func1455", loc_boolean12)
-	call RunIfTrue("Func1457", loc_boolean13)
-	call RunIfTrue("Func1458", loc_boolean14)
-	call RunIfTrue("Func1456", loc_boolean15)
-	call RunIfTrue("Func1462", loc_boolean21)
-	call RunIfTrue("Func1463", loc_boolean23)
-	call RunIfTrue("Func1466", loc_boolean22)
-	call RunIfTrue("Func1465", loc_boolean24)
-	call RunIfTrue("Func1469", loc_boolean26)
-	call RunIfTrue("Func1467", loc_boolean25)
-	call RunIfTrue("Func1468", loc_boolean27)
-	call RunIfTrue("Func1470", loc_boolean30)
-	call RunIfTrue("Func1473", loc_boolean31)
-	call RunIfTrue("Func1476", loc_boolean32)
-	call RunIfTrue("Func1477", loc_boolean34)
-	call RunIfTrue("Func1478", loc_boolean37)
-	call RunIfTrue("Func1398", loc_boolean38)
-	call RunIfTrue("Func1480", loc_boolean41)
-	call RunIfTrue("Func1488", loc_boolean40)
-	call RunIfTrue("Func1507", loc_boolean43)
-	set IsModePickedByPlayer = true
-	call SetTime(0, 0)
-	if boolean061 == false and boolean060 == false then
-		call GameStarts()
-	endif
-	call Func0486()
-	if loc_boolean26 == false then
-		set booleans025[0] = true
-		set booleans025[1] = true
-		set booleans025[2] = true
-		set booleans025[3] = true
-		set booleans025[4] = true
-		set booleans025[5] = true
-		set booleans025[6] = true
-		set booleans025[7] = true
-		set booleans025[8] = true
-		set booleans025[9] = true
-		set booleans025[10] = true
-		set booleans025[11] = true
-		set booleans025[12] = true
-		set booleans025[13] = true
-		set booleans025[14] = true
-		set booleans025[15] = true
-		set booleans025[16] = true
-	endif
-endfunction
+function PickMode takes string BW2, integer G6O returns nothing 
+	local string RJO = Func1320(BW2) 
+	local string array BX2 
+	local string array BY2 
+	local string array GameModeString 
+	local boolean array BJ2 
+	local integer BK2 
+	local integer B11 = StringLength(RJO) 
+	local integer x = 0 
+	local integer y = 0 
+	local integer z = 0 
+	local boolean AP 
+	local boolean AR 
+	local boolean LM 
+	local boolean MM 
+	local boolean TR 
+	local boolean DM 
+	local boolean MR 
+	local boolean SP 
+	local boolean AA 
+	local boolean AI 
+	local boolean AS 
+	local boolean ID 
+	local boolean NP 
+	local boolean SC 
+	local boolean EM 
+	local boolean DU 
+	local boolean SH 
+	local boolean VR 
+	local boolean RV 
+	local boolean RD 
+	local boolean OM 
+	local boolean NT 
+	local boolean NB 
+	local boolean NM 
+	local boolean NS 
+	local boolean SO 
+	local boolean NR 
+	local boolean XL 
+	local boolean SD 
+	local boolean PM 
+	local boolean OI 
+	local boolean MI 
+	local boolean CM 
+	local boolean FR 
+	local boolean MO 
+	local boolean RO 
+	local boolean ER 
+	local boolean CD 
+	local boolean RS 
+	local boolean CP 
+	local boolean ZM 
+	local boolean UB 
+	local boolean TT 
+	set BX2[1] = "allpick" 
+	set BY2[1] = "ap" 
+	set BX2[2] = "allrandom" 
+	set BY2[2] = "ar" 
+	set BX2[3] = "leaguemode" 
+	set BY2[3] = "lm" 
+	set BX2[4] = "mirrormatch" 
+	set BY2[4] = "mm" 
+	set BX2[5] = "teamrandom" 
+	set BY2[5] = "tr" 
+	set BX2[6] = "deathmatch" 
+	set BY2[6] = "dm" 
+	set BX2[7] = "moderandom" 
+	set BY2[7] = "mr" 
+	set BX2[8] = "shuffleplayers" 
+	set BY2[8] = "sp" 
+	set BX2[9] = "allagility" 
+	set BY2[9] = "aa" 
+	set BX2[10] = "allintelligence" 
+	set BY2[10] = "ai" 
+	set BX2[11] = "allstrength" 
+	set BY2[11] = "as" 
+	set BX2[12] = "itemdrop" 
+	set BY2[12] = "id" 
+	set BX2[13] = "nopowerups" 
+	set BY2[13] = "np" 
+	set BX2[14] = "supercreeps" 
+	set BY2[14] = "sc" 
+	set BX2[15] = "easymode" 
+	set BY2[15] = "em" 
+	set BX2[16] = "duplicatemode" 
+	set BY2[16] = "du" 
+	set BX2[17] = "samehero" 
+	set BY2[17] = "sh" 
+	set BX2[18] = "voterandom" 
+	set BY2[18] = "vr" 
+	set BX2[19] = "reverse" 
+	set BY2[19] = "rv" 
+	set BX2[20] = "randomdraft" 
+	set BY2[20] = "rd" 
+	set BX2[21] = "onlymid" 
+	set BY2[21] = "om" 
+	set BX2[22] = "extendedleague" 
+	set BY2[22] = "xl" 
+	set BX2[23] = "nomid" 
+	set BY2[23] = "nm" 
+	set BX2[24] = "notop" 
+	set BY2[24] = "nt" 
+	set BX2[25] = "nobot" 
+	set BY2[25] = "nb" 
+	set BX2[26] = "noswap" 
+	set BY2[26] = "ns" 
+	set BX2[27] = "norepick" 
+	set BY2[27] = "nr" 
+	set BX2[28] = "captainsdraft" 
+	set BY2[28] = "cd" 
+	set BX2[29] = "singledraft" 
+	set BY2[29] = "sd" 
+	set BX2[30] = "poolingmode" 
+	set BY2[30] = "pm" 
+	set BX2[31] = "observerinfo" 
+	set BY2[31] = "oi" 
+	set BX2[32] = "miniheroes" 
+	set BY2[32] = "mi" 
+	set BX2[33] = "captainsmode" 
+	set BY2[33] = "cm" 
+	set BX2[34] = "fastrespawn" 
+	set BY2[34] = "fr" 
+	set BX2[35] = "meleeonly" 
+	set BY2[35] = "mo" 
+	set BX2[36] = "rangeonly" 
+	set BY2[36] = "ro" 
+	set BX2[37] = "experimentalrunes" 
+	set BY2[37] = "er" 
+	set BX2[38] = "randomside" 
+	set BY2[38] = "rs" 
+	set BX2[39] = "switchon" 
+	set BY2[39] = "so" 
+	set BX2[40] = "zoommode" 
+	set BY2[40] = "zm" 
+	set BX2[41] = "capturepoint" 
+	set BY2[41] = "cp" 
+	set BX2[42] = "unban" 
+	set BY2[42] = "ub" 
+	set BX2[43] = "tagteam" 
+	set BY2[43] = "tt" 
+	set BK2 = 43 
+	set x = -1 
+	loop 
+		exitwhen x == B11 - 1 
+		set x = x + 1 
+		set y = x 
+		loop 
+			exitwhen y == B11 
+			set y = y + 1 
+			set z = 1 
+			loop 
+				exitwhen z > BK2 
+				if BX2[z] == SubString(RJO, x, y) then 
+					set BJ2[z] = true 
+					set z = BK2 + 1 
+					set RJO = Func1319(RJO, x, y) 
+					set x = -1 
+					set B11 = StringLength(RJO) 
+					set y = B11 
+				else 
+					set z = z + 1 
+				endif 
+			endloop 
+		endloop 
+	endloop 
+	set x = -1 
+	loop 
+		exitwhen x == B11 - 1 
+		set x = x + 1 
+		set y = x 
+		loop 
+			exitwhen y == B11 
+			set y = y + 1 
+			set z = 1 
+			loop 
+				exitwhen z > BK2 
+				if BY2[z] == SubString(RJO, x, y) then 
+					set BJ2[z] = true 
+					set z = BK2 + 1 
+					set RJO = Func1319(RJO, x, y) 
+					set x = -1 
+					set B11 = StringLength(RJO) 
+					set y = B11 
+				else 
+					set z = z + 1 
+				endif 
+			endloop 
+		endloop 
+	endloop 
+	set AP = BJ2[1] 
+	set AR = BJ2[2] 
+	set LM = BJ2[3] 
+	set MM = BJ2[4] 
+	set TR = BJ2[5] 
+	set DM = BJ2[6] 
+	set MR = BJ2[7] 
+	set SP = BJ2[8] 
+	set AA = BJ2[9] 
+	set AI = BJ2[10] 
+	set AS = BJ2[11] 
+	set ID = BJ2[12] 
+	set NP = BJ2[13] 
+	set SC = BJ2[14] 
+	set EM = BJ2[15] 
+	set DU = BJ2[16] 
+	set SH = BJ2[17] 
+	set VR = BJ2[18] 
+	set RV = BJ2[19] 
+	set RD = BJ2[20] 
+	set OM = BJ2[21] 
+	set XL = BJ2[22] 
+	set NM = BJ2[23] 
+	set NT = BJ2[24] 
+	set NB = BJ2[25] 
+	set NS = BJ2[26] 
+	set NR = BJ2[27] 
+	set CD = BJ2[28] 
+	set SD = BJ2[29] 
+	set PM = BJ2[30] 
+	set OI = BJ2[31] 
+	set MI = BJ2[32] 
+	set CM = BJ2[33] 
+	set FR = BJ2[34] 
+	set MO = BJ2[35] 
+	set RO = BJ2[36] 
+	set ER = BJ2[37] 
+	set RS = BJ2[38] 
+	set SO = BJ2[39] 
+	set ZM = BJ2[40] 
+	set CP = BJ2[41] 
+	set UB = BJ2[42] 
+	set TT = BJ2[43] 
+	if RJO != "" or Func1316(BW2) then 
+		return 
+	endif 
+	if(AR and(CM or AP or TR or LM or MR or RV or RD or CD or SD or TT)) or(AP and(TR or MR)) or(TR and(LM or MR)) or(LM and MR) or(MM and SH) then 
+		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!") 
+		return 
+	endif 
+	if(AA and(AI or AS or DM)) or(AS and(AI or DM)) or(AI and DM) then 
+		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!") 
+		return 
+	endif 
+	if(RO and(MO or DM)) or(MO and DM) then 
+		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!") 
+		return 
+	endif 
+	if RV and(CM or AR or TR or MR or LM or DM or SH or TT) then 
+		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!") 
+		return 
+	endif 
+	if(DM and(CM or TR or LM or MR or SH or RV or RD or CD or SD or TT)) or(MM and DM) or(SH and DM) then 
+		call Func0114(PlayerModeTyper, "Deathmatch is not compatible with these modes!") 
+		return 
+	endif 
+	if LM and(TT or CM or AP or RD or CD or AR or SD or MM or TR or DM or MR or AA or AI or AS or ID or NP or SC or EM or DU or SH or RV or OM or NB or NM or NT or XL or MO or RO) then 
+		call Func0114(PlayerModeTyper, "League Mode is not compatible with these modes!") 
+		return 
+	endif 
+	if XL and(TT or CM or AP or RD or CD or AR or SD or MM or TR or DM or MR or AA or AI or AS or ID or NP or SC or EM or DU or SH or RV or OM or NB or NM or NT or LM or RO or MO) then 
+		call Func0114(PlayerModeTyper, "Melee Only") 
+		return 
+	endif 
+	if CM and(TT or SP or XL or AP or RD or CD or AR or SD or MM or TR or DM or MR or AA or AI or AS or ID or NP or SC or EM or DU or SH or RV or OM or NB or NM or NT or LM or MO or RO) then 
+		call Func0114(PlayerModeTyper, "Melee Only") 
+		return 
+	endif 
+	if RD and(TT or CD or CM or AP or LM or AR or SD or MM or TR or DM or MR or AA or AI or AS or SH or RV or RO or MO) then 
+		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!") 
+		return 
+	endif 
+	if CD and(TT or RD or CM or AP or LM or AR or SD or MM or TR or DM or MR or AA or AI or AS or SH or RV or RO or MO) then 
+		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!") 
+		return 
+	endif 
+	if MR and(TT or CM or AP or LM or AR or SD or MM or TR or DM or AA or AI or AS or SH or RV or RO or MO) then 
+		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!") 
+		return 
+	endif 
+	if SD and(TT or CM or AP or LM or AR or RD or CD or MM or TR or DM or MR or AA or AI or AS or SH or RV or RO or MO) then 
+		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!") 
+		return 
+	endif 
+	if VR and(TT or CM or LM or RD or CD or SD or AR or MM or TR or DM or MR or AA or AI or AS or SH or RV or RO or MO) then 
+		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!") 
+		return 
+	endif 
+	if TT and(SO or VR or CM or LM or RD or CD or SD or AR or MM or TR or DM or MR or AA or AI or AS or SH or RV or RO or MO) then 
+		call Func0114(PlayerModeTyper, "Invalid Game Mode Combination!") 
+		return 
+	endif 
+	if MM and Func0062(Force_Sentinels) != Func0062(Force_Scourges) then 
+		call Func0114(PlayerModeTyper, "The game must have an even number of players") 
+		return 
+	endif 
+	if VR and Func0062(Force_Sentinels) != Func0062(Force_Scourges) then 
+		call Func0114(PlayerModeTyper, "The game must have an even number of players") 
+		return 
+	endif 
+	if RV and Func0062(Force_Sentinels) != Func0062(Force_Scourges) then 
+		call Func0114(PlayerModeTyper, "The game must have an even number of players") 
+		return 
+	endif 
+	if LM and not(IsPlayer(Sentinels[1]) and IsPlayer(Sentinels[2]) and IsPlayer(Sentinels[3]) and IsPlayer(Sentinels[4]) and IsPlayer(Sentinels[5]) and IsPlayer(Scourges[1]) and IsPlayer(Scourges[2]) and IsPlayer(Scourges[3]) and IsPlayer(Scourges[4]) and IsPlayer(Scourges[5])) then 
+	endif 
+	if XL and not(IsPlayer(Sentinels[1]) and IsPlayer(Sentinels[2]) and IsPlayer(Sentinels[3]) and IsPlayer(Sentinels[4]) and IsPlayer(Sentinels[5]) and IsPlayer(Scourges[1]) and IsPlayer(Scourges[2]) and IsPlayer(Scourges[3]) and IsPlayer(Scourges[4]) and IsPlayer(Scourges[5])) then 
+	endif 
+	if TT or ZM or CP or FR or CM or AP or AR or LM or MM or TR or DM or MR or SP or AA or AI or AS or ID or NP or SC or DU or EM or SH or VR or RV or RD or CD or OM or NB or NM or NT or NS or NR or XL or SD or PM or OI or MI or MO or RO or ER or RS or SO then 
+		call DisableTrigger(trigger063) 
+	else 
+		return 
+	endif 
+	if CM == false then 
+		call Func0968() 
+		call Func1014() 
+	endif 
+	if LM == false and XL == false then 
+		call Func1233() 
+	endif 
+	set string028 = Func1320(BW2) 
+	if boolean101 then 
+		call Traffic_RegisterData("Mode" + string028, 0) 
+	else 
+		call Traffic_RegisterData("Mode" + string028, GetPlayerId(PlayerModeTyper)) 
+	endif 
+	set boolean034 = false 
+	if CM then 
+		call Func1318("Captains Mode") 
+	endif 
+	if TT then 
+		call Func1318("Tag Team") 
+	endif 
+	if LM then 
+		call Func1318("League Mode") 
+	endif 
+	if XL then 
+		call Func1318("Extended League") 
+	endif 
+	if RD then 
+		call Func1318("Random Draft") 
+	endif 
+	if CD then 
+		call Func1318("Captains Draft") 
+	endif 
+	if DM then 
+		call Func1318("Death Match") 
+	endif 
+	if MM then 
+		call Func1318("Mirror Match") 
+	endif 
+	if AP then 
+		call Func1318("All Pick") 
+	endif 
+	if AR then 
+		call Func1318("All Random") 
+	endif 
+	if VR then 
+		call Func1318("Vote Random") 
+	endif 
+	if MR then 
+		call Func1318("Mode Random") 
+	endif 
+	if TR then 
+		call Func1318("Team Random") 
+	endif 
+	if SP then 
+		call Func1318("Shuffle Players") 
+	endif 
+	if AA then 
+		call Func1318("All Agility") 
+	endif 
+	if AS then 
+		call Func1318("All Strength") 
+	endif 
+	if AI then 
+		call Func1318("All Intelligence") 
+	endif 
+	if RO then 
+		call Func1318("Range Only") 
+	endif 
+	if MO then 
+		call Func1318("Melee Only") 
+	endif 
+	if DU then 
+		call Func1318("Duplicate Mode") 
+	endif 
+	if ID then 
+		call Func1318("Item Drop") 
+	endif 
+	if NP then 
+		call Func1318("No Powerups") 
+	endif 
+	if SC then 
+		call Func1318("Super Creeps") 
+	endif 
+	if EM then 
+		call Func1318("Easy Mode") 
+	endif 
+	if SH then 
+		call Func1318("Same Hero") 
+	endif 
+	if RV then 
+		call Func1318("Reverse") 
+	endif 
+	if OM then 
+		call Func1318("Only Mid") 
+	endif 
+	if NM then 
+		call Func1318("No Mid") 
+	endif 
+	if NB then 
+		call Func1318("No Bot") 
+	endif 
+	if NT then 
+		call Func1318("No Top") 
+	endif 
+	if NS then 
+		call Func1318("No Swap") 
+	endif 
+	if NR then 
+		call Func1318("No Repick") 
+	endif 
+	if SD then 
+		call Func1318("Single Draft") 
+	endif 
+	if PM then 
+		call Func1318("Pooling Mode") 
+	endif 
+	if OI then 
+		call Func1318("Observer Info") 
+	endif 
+	if MI then 
+		call Func1318("Mini Heores") 
+	endif 
+	if FR then 
+		call Func1318("Fast Respawn") 
+	endif 
+	if ER then 
+		call Func1318("Experimental Runes") 
+	endif 
+	if RS then 
+		call Func1318("Random Side") 
+	endif 
+	if SO then 
+		call Func1318("Switch On") 
+	endif 
+	if ZM then 
+		call Func1318("Zoom Mode") 
+	endif 
+	if CP then 
+		call Func1318("Capture Point") 
+	endif 
+	if UB then 
+		call Func1318("Unban") 
+	endif 
+	call Func0144(bj_FORCE_ALL_PLAYERS, 20.00, " ") 
+	if G6O == 1 then 
+		call Func0144(bj_FORCE_ALL_PLAYERS, 20.00, Players_Color[GetPlayerId(PlayerModeTyper)] + (strings005[GetPlayerId((PlayerModeTyper))]) + "|r" + " " + "has selected" + " " + string001) 
+	else 
+		call Func0144(bj_FORCE_ALL_PLAYERS, 20.00, "Game mode automatically set to" + " " + string001) 
+	endif 
+	call Func0144(bj_FORCE_ALL_PLAYERS, 20.00, "For more information about the game modes use" + " -gameinfo.") 
+	call Func0144(bj_FORCE_ALL_PLAYERS, 20.00, " ") 
+	call RunIfTrue("Func1445", SP) 
+	call RunIfTrue("Func1446", RS) 
+	call RunIfTrue("Func1464", UB) 
+	call RunIfTrue("Func1442", DM) 
+	call RunIfTrue("Func1435", MM) 
+	call RunIfTrue("Func1450", SH) 
+	call RunIfTrue("Func1447", AA) 
+	call RunIfTrue("Func1452", AI) 
+	call RunIfTrue("Func1451", AS) 
+	call RunIfTrue("Func1454", RO) 
+	call RunIfTrue("Func1453", MO) 
+	call RunIfTrue("Func1444", DU) 
+	call RunIfTrue("Func1405", AR) 
+	call RunIfTrue("Func1412", VR) 
+	call RunIfTrue("Func1324", AP) 
+	call RunIfTrue("Func1436", TR) 
+	call RunIfTrue("Func1427", RV) 
+	call RunIfTrue("Func1417", LM) 
+	call RunIfTrue("Func1424", XL) 
+	call RunIfTrue("Func1360", CM) 
+	call RunIfTrue("Func1382", RD) 
+	call RunIfTrue("Func1403", SD) 
+	call RunIfTrue("Func1443", MR) 
+	call RunIfTrue("Func1455", ID) 
+	call RunIfTrue("Func1457", NP) 
+	call RunIfTrue("Func1458", SC) 
+	call RunIfTrue("Func1456", EM) 
+	call RunIfTrue("Func1462", OM) 
+	call RunIfTrue("Func1463", NB) 
+	call RunIfTrue("Func1466", NT) 
+	call RunIfTrue("Func1465", NM) 
+	call RunIfTrue("Func1469", SO) 
+	call RunIfTrue("Func1467", NS) 
+	call RunIfTrue("Func1468", NR) 
+	call RunIfTrue("Func1470", PM) 
+	call RunIfTrue("Func1473", OI) 
+	call RunIfTrue("Func1476", MI) 
+	call RunIfTrue("Func1477", FR) 
+	call RunIfTrue("Func1478", ER) 
+	call RunIfTrue("Func1398", CD) 
+	call RunIfTrue("Func1480", ZM) 
+	call RunIfTrue("Func1488", CP) 
+	call RunIfTrue("Func1507", TT) 
+	set IsModePickedByPlayer = true 
+	call SetTime(0, 0) 
+	if boolean061 == false and boolean060 == false then 
+		call GameStarts() 
+	endif 
+	// call Func0486() 
+	if SO == false then 
+		set booleans025[0] = true 
+		set booleans025[1] = true 
+		set booleans025[2] = true 
+		set booleans025[3] = true 
+		set booleans025[4] = true 
+		set booleans025[5] = true 
+		set booleans025[6] = true 
+		set booleans025[7] = true 
+		set booleans025[8] = true 
+		set booleans025[9] = true 
+		set booleans025[10] = true 
+		set booleans025[11] = true 
+		set booleans025[12] = true 
+		set booleans025[13] = true 
+		set booleans025[14] = true 
+		set booleans025[15] = true 
+		set booleans025[16] = true 
+	endif 
+endfunction 
 
 function Func1322 takes nothing returns nothing
-	call Func1321(GetEventPlayerChatString(), 1)
+	call PickMode(GetEventPlayerChatString(), 1)
 endfunction
 
 function Func1323 takes nothing returns boolean
 	if(string025) != "" and IsModePickedByPlayer == false then
 		set boolean101 = true
-		call Func1321("-" + (string025), 2)
+		call PickMode("-" + (string025), 2)
 	else
 		call TriggerRegisterPlayerChatEvent(trigger063, PlayerModeTyper, "-", false)
 	endif
@@ -32836,7 +32745,7 @@ function Func1333 takes nothing returns boolean
 	call DestroyMultiboard(multiboard004)
 	call Func0968()
 	call Func1014()
-	call Func0486()
+//	call Func0486()
 	return false
 endfunction
 
@@ -32896,14 +32805,14 @@ function Func1335 takes nothing returns boolean
 	call TriggerAddCondition(loc_trigger01, Condition(function Func1333))
 	set GameStartsCooldown = 90
 	call GameStarts()
-	call Func0071()
+	call RemoveHeroesFromTavernsForAll()
 	set loc_trigger01 = null
 	set loc_unit01 = null
 	return false
 endfunction
 
 function Func1336 takes integer loc_integer01, integer loc_integer02 returns nothing
-	call Func0067(HeroID[loc_integer02])
+	call RemovePickedHeroFromTavernForAll(HeroID[loc_integer02])
 	if loc_integer01 == 1 then
 		set integers116[integer420] = loc_integer02
 		set integer420 = integer420 + 1
@@ -32914,10 +32823,10 @@ function Func1336 takes integer loc_integer01, integer loc_integer02 returns not
 endfunction
 
 function Func1337 takes integer loc_integer01 returns nothing
-	local integer loc_integer02 = Func0075()
+	local integer loc_integer02 = GetSetElement()
 	loop
-		if booleans001[loc_integer02] == false then
-			set booleans001[loc_integer02] = true
+		if IsHeroPicked[loc_integer02] == false then
+			set IsHeroPicked[loc_integer02] = true
 			call Func1336(loc_integer01, loc_integer02)
 			return
 		endif
@@ -32926,7 +32835,7 @@ endfunction
 
 function Func1338 takes integer loc_integer01, integer loc_integer02 returns nothing
 	call Traffic_RegisterData("Ban" + I2S(GetPlayerId(GetOwningPlayer(GetSoldUnit()))), HeroID[loc_integer02])
-	call Func0067(HeroID[loc_integer02])
+	call RemovePickedHeroFromTavernForAll(HeroID[loc_integer02])
 	if loc_integer01 == 1 then
 		set integers114[integer418] = loc_integer02
 		set integer418 = integer418 + 1
@@ -34105,13 +34014,13 @@ function Func1371 takes player loc_player01, integer loc_integer01, boolean loc_
 	endif
 	if IsSentinel(loc_player01) then
 		call SetUnitPosition(units012[loc_integer01], reals015[loc_integer02], reals016[loc_integer02])
-		set loc_real01 = Func0134(Func0050(units012[loc_integer01]) -0.3, 0.5)
+		set loc_real01 = GetMaxReal(Func0050(units012[loc_integer01]) -0.3, 0.5)
 		call SetUnitScale(units012[loc_integer01], loc_real01, loc_real01, loc_real01)
 		call SetUnitFacing(units012[loc_integer01], 270)
 		call UnitRemoveAbility(units012[loc_integer01], 'Amov')
 	else
 		call SetUnitPosition(units012[loc_integer01], reals017[loc_integer02], reals018[loc_integer02])
-		set loc_real01 = Func0134(Func0050(units012[loc_integer01]) -0.3, 0.5)
+		set loc_real01 = GetMaxReal(Func0050(units012[loc_integer01]) -0.3, 0.5)
 		call SetUnitScale(units012[loc_integer01], loc_real01, loc_real01, loc_real01)
 		call SetUnitFacing(units012[loc_integer01], 90)
 		call UnitRemoveAbility(units012[loc_integer01], 'Amov')
@@ -34736,7 +34645,7 @@ function Func1382 takes nothing returns nothing
 		call TriggerRegisterUnitEvent(trigger064, units012[loc_integer01], EVENT_UNIT_SELL)
 		set loc_integer01 = loc_integer01 + 1
 	endloop
-	call Func0071()
+	call RemoveHeroesFromTavernsForAll()
 	set loc_trigger01 = null
 	set loc_player01 = null
 endfunction
@@ -35372,7 +35281,7 @@ function Func1398 takes nothing returns nothing
 		endif
 	endloop
 	call TriggerAddCondition(trigger065, Condition(function Func1394))
-	call Func0071()
+	call RemoveHeroesFromTavernsForAll()
 endfunction
 
 function Func1399 takes player loc_player01, integer loc_integer01 returns nothing
@@ -35436,11 +35345,11 @@ endfunction
 function Func1401 takes integer loc_integer01 returns integer
 	local integer loc_integer02
 	if loc_integer01 == 1 then
-		set loc_integer02 = GetUnitPointValueByType(integers070[GetRandomInt(1, integer043)])
+		set loc_integer02 = GetUnitPointValueByType(AgilityHeroes[GetRandomInt(1, AgilityHeroes_Count)])
 	elseif loc_integer01 == 2 then
-		set loc_integer02 = GetUnitPointValueByType(integers071[GetRandomInt(1, integer044)])
+		set loc_integer02 = GetUnitPointValueByType(StrengthHeroes[GetRandomInt(1, StrengthHeroes_Count)])
 	elseif loc_integer01 == 3 then
-		set loc_integer02 = GetUnitPointValueByType(integers072[GetRandomInt(1, integer045)])
+		set loc_integer02 = GetUnitPointValueByType(InteligentHeroes[GetRandomInt(1, InteligentHeroes_Count)])
 	endif
 	return loc_integer02
 endfunction
@@ -35454,10 +35363,10 @@ function Func1402 takes integer loc_integer01, integer loc_integer02, integer lo
 		return loc_integer06
 	endif
 	loop
-		exitwhen booleans001[loc_integer06] == false and loc_integer01 != loc_integer06 and loc_integer02 != loc_integer06
+		exitwhen IsHeroPicked[loc_integer06] == false and loc_integer01 != loc_integer06 and loc_integer02 != loc_integer06
 		set loc_integer06 = Func1401(loc_integer03)
 	endloop
-	set booleans001[loc_integer06] = true
+	set IsHeroPicked[loc_integer06] = true
 	return loc_integer06
 endfunction
 
@@ -35507,11 +35416,11 @@ function Func1403 takes nothing returns nothing
 			call ClearSelectionForPlayer(loc_player01)
 			call SelectUnitAddForPlayer(CirclesOfPower[GetPlayerId(loc_player01)], loc_player01)
 			call PanCameraToTimedForPlayer(loc_player01, GetRectCenterX(rect011), GetRectCenterY(rect011), 0)
-			call DisplayTimedTextToPlayer(loc_player01, 0, real003, 15, " ")
-			call DisplayTimedTextToPlayer(loc_player01, 0, real003, 15, " ")
-			call DisplayTimedTextToPlayer(loc_player01, 0, real003, 15, " ")
-			call DisplayTimedTextToPlayer(loc_player01, 0, real003, 15, "|cff99ccff" + "Three hero choices are now available at your Circle of Power" + "|r")
-			call DisplayTimedTextToPlayer(loc_player01, 0, real003, 15, " ")
+			call DisplayTimedTextToPlayer(loc_player01, 0, 0, 15, " ")
+			call DisplayTimedTextToPlayer(loc_player01, 0, 0, 15, " ")
+			call DisplayTimedTextToPlayer(loc_player01, 0, 0, 15, " ")
+			call DisplayTimedTextToPlayer(loc_player01, 0, 0, 15, "|cff99ccff" + "Three hero choices are now available at your Circle of Power" + "|r")
+			call DisplayTimedTextToPlayer(loc_player01, 0, 0, 15, " ")
 		endif
 		set loc_player01 = Scourges[loc_integer01]
 		set loc_integer02 = 0
@@ -35533,11 +35442,11 @@ function Func1403 takes nothing returns nothing
 			call ClearSelectionForPlayer(loc_player01)
 			call SelectUnitAddForPlayer(CirclesOfPower[GetPlayerId(loc_player01)], loc_player01)
 			call PanCameraToTimedForPlayer(loc_player01, GetRectCenterX(rect004), GetRectCenterY(rect004), 0)
-			call DisplayTimedTextToPlayer(loc_player01, 0, real003, 15, " ")
-			call DisplayTimedTextToPlayer(loc_player01, 0, real003, 15, " ")
-			call DisplayTimedTextToPlayer(loc_player01, 0, real003, 15, " ")
-			call DisplayTimedTextToPlayer(loc_player01, 0, real003, 15, "|cff99ccff" + "Three hero choices are now available at your Circle of Power" + "|r")
-			call DisplayTimedTextToPlayer(loc_player01, 0, real003, 15, " ")
+			call DisplayTimedTextToPlayer(loc_player01, 0, 0, 15, " ")
+			call DisplayTimedTextToPlayer(loc_player01, 0, 0, 15, " ")
+			call DisplayTimedTextToPlayer(loc_player01, 0, 0, 15, " ")
+			call DisplayTimedTextToPlayer(loc_player01, 0, 0, 15, "|cff99ccff" + "Three hero choices are now available at your Circle of Power" + "|r")
+			call DisplayTimedTextToPlayer(loc_player01, 0, 0, 15, " ")
 		endif
 		set loc_integer01 = loc_integer01 + 1
 	endloop
@@ -35570,10 +35479,10 @@ function Func1404 takes nothing returns boolean
 		if IsPlayer(loc_player01) then
 			loop
 				exitwhen Players_Hero[GetPlayerId(loc_player01)] != null
-				set loc_integer03 = Func0075()
-				if booleans001[loc_integer03] == false then
+				set loc_integer03 = GetSetElement()
+				if IsHeroPicked[loc_integer03] == false then
 					if not boolean028 then
-						set booleans001[loc_integer03] = true
+						set IsHeroPicked[loc_integer03] = true
 					endif
 					set Players_Hero[GetPlayerId(loc_player01)] = CreateUnitAtLoc(loc_player01, HeroID[loc_integer03], loc_location01, bj_UNIT_FACING)
 				endif
@@ -35585,10 +35494,10 @@ function Func1404 takes nothing returns boolean
 		if IsPlayer(loc_player01) then
 			loop
 				exitwhen Players_Hero[GetPlayerId(loc_player01)] != null
-				set loc_integer03 = Func0075()
-				if booleans001[loc_integer03] == false then
+				set loc_integer03 = GetSetElement()
+				if IsHeroPicked[loc_integer03] == false then
 					if not boolean028 then
-						set booleans001[loc_integer03] = true
+						set IsHeroPicked[loc_integer03] = true
 					endif
 					set Players_Hero[GetPlayerId(loc_player01)] = CreateUnitAtLoc(loc_player01, HeroID[loc_integer03], loc_location02, bj_UNIT_FACING)
 				endif
@@ -35616,7 +35525,7 @@ function Func1405 takes nothing returns nothing
 	set boolean004 = true
 	set boolean038 = false
 	if not boolean028 then
-		call Func0071()
+		call RemoveHeroesFromTavernsForAll()
 	endif
 	set integer003 = 400
 	call PanCameraToTimedLocForPlayer(Sentinels[1], loc_location03, 0)
@@ -35631,8 +35540,8 @@ function Func1405 takes nothing returns nothing
 	call PanCameraToTimedLocForPlayer(Scourges[5], loc_location04, 0)
 	if boolean033 then
 		loop
-			set loc_integer03 = Func0075()
-			exitwhen booleans001[loc_integer03] == false
+			set loc_integer03 = GetSetElement()
+			exitwhen IsHeroPicked[loc_integer03] == false
 		endloop
 		if IsSentinel(PlayerModeTyper) then
 			set Players_Hero[GetPlayerId(PlayerModeTyper)] = CreateUnit(PlayerModeTyper, HeroID[loc_integer03], GetLocationX(loc_location01), GetLocationY(loc_location01), 270)
@@ -36289,15 +36198,15 @@ endfunction
 
 function Func1408 takes integer loc_integer01 returns integer
 	if loc_integer01 == 1 then
-		return Func0102(integers072[GetRandomInt(1, integer045)])
+		return Func0102(InteligentHeroes[GetRandomInt(1, InteligentHeroes_Count)])
 	elseif loc_integer01 == 2 then
-		return Func0102(integers070[GetRandomInt(1, integer043)])
+		return Func0102(AgilityHeroes[GetRandomInt(1, AgilityHeroes_Count)])
 	elseif loc_integer01 == 3 then
-		return Func0102(integers071[GetRandomInt(1, integer044)])
+		return Func0102(StrengthHeroes[GetRandomInt(1, StrengthHeroes_Count)])
 	elseif loc_integer01 == 4 then
-		return Func0102(integers074[GetRandomInt(1, integer047)])
+		return Func0102(MeleeHeroes[GetRandomInt(1, MeleeHeroes_Count)])
 	elseif loc_integer01 == 5 then
-		return Func0102(integers073[GetRandomInt(1, integer046)])
+		return Func0102(RangedHeroes[GetRandomInt(1, RangedHeroes_Count)])
 	endif
 	return 0
 endfunction
@@ -36319,9 +36228,9 @@ function Func1409 takes integer loc_integer01 returns integer
 endfunction
 
 function Func1410 takes nothing returns nothing
-	local integer loc_integer01 = integer039
+	local integer loc_integer01 = FirstSentinelHeroIndexId
 	loop
-		exitwhen loc_integer01 > integer042
+		exitwhen loc_integer01 > LastScourgeHeroIndexId
 		set booleans005[loc_integer01] = false
 		set loc_integer01 = loc_integer01 + 1
 	endloop
@@ -36354,7 +36263,7 @@ function Func1411 takes nothing returns boolean
 	else
 		call SaveInteger(HY, (2001), (128), (1 + (LoadInteger(HY, (2001), (128)))))
 	endif
-	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 20, "You have chosen" + " Option " + I2S(loc_integer02) + ".")
+	call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 20, "You have chosen" + " Option " + I2S(loc_integer02) + ".")
 	return false
 endfunction
 
@@ -36373,7 +36282,7 @@ function Func1412 takes nothing returns nothing
 	set boolean035 = true
 	set boolean038 = false
 	set boolean039 = false
-	call Func0071()
+	call RemoveHeroesFromTavernsForAll()
 	call PanCameraToTimedLocForPlayer(Sentinels[1], loc_location03, 0)
 	call PanCameraToTimedLocForPlayer(Sentinels[2], loc_location03, 0)
 	call PanCameraToTimedLocForPlayer(Sentinels[3], loc_location03, 0)
@@ -36551,7 +36460,7 @@ function Func1415 takes nothing returns boolean
 			set loc_player02 = Sentinels[2]
 			set loc_player03 = Scourges[1]
 		endif
-		call Func0070(loc_player03)
+		call RemoveHeroesFromTavernsForPlayer(loc_player03)
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player02)] + (strings005[GetPlayerId((loc_player02))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call SetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD, integers131[GetPlayerId(loc_player01)])
@@ -36573,8 +36482,8 @@ function Func1415 takes nothing returns boolean
 			set loc_player03 = Sentinels[1]
 			set loc_player04 = Sentinels[2]
 		endif
-		call Func0070(loc_player03)
-		call Func0070(loc_player04)
+		call RemoveHeroesFromTavernsForPlayer(loc_player03)
+		call RemoveHeroesFromTavernsForPlayer(loc_player04)
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player02)] + (strings005[GetPlayerId((loc_player02))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call SetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD, integers131[GetPlayerId(loc_player01)])
@@ -36596,8 +36505,8 @@ function Func1415 takes nothing returns boolean
 			set loc_player03 = Scourges[2]
 			set loc_player04 = Scourges[3]
 		endif
-		call Func0070(loc_player03)
-		call Func0070(loc_player04)
+		call RemoveHeroesFromTavernsForPlayer(loc_player03)
+		call RemoveHeroesFromTavernsForPlayer(loc_player04)
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player02)] + (strings005[GetPlayerId((loc_player02))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call SetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD, integers131[GetPlayerId(loc_player01)])
@@ -36619,8 +36528,8 @@ function Func1415 takes nothing returns boolean
 			set loc_player03 = Sentinels[3]
 			set loc_player04 = Sentinels[4]
 		endif
-		call Func0070(loc_player03)
-		call Func0070(loc_player04)
+		call RemoveHeroesFromTavernsForPlayer(loc_player03)
+		call RemoveHeroesFromTavernsForPlayer(loc_player04)
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player02)] + (strings005[GetPlayerId((loc_player02))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call SetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD, integers131[GetPlayerId(loc_player01)])
@@ -36640,8 +36549,8 @@ function Func1415 takes nothing returns boolean
 			set loc_player03 = Scourges[4]
 			set loc_player04 = Scourges[5]
 		endif
-		call Func0070(loc_player03)
-		call Func0070(loc_player04)
+		call RemoveHeroesFromTavernsForPlayer(loc_player03)
+		call RemoveHeroesFromTavernsForPlayer(loc_player04)
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call SetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD, integers131[GetPlayerId(loc_player01)])
 		if GetLocalPlayer() == loc_player01 then
@@ -36655,7 +36564,7 @@ function Func1415 takes nothing returns boolean
 		else
 			set loc_player03 = Sentinels[5]
 		endif
-		call Func0070(loc_player03)
+		call RemoveHeroesFromTavernsForPlayer(loc_player03)
 		call LeaderboardDisplay(leaderboard001, false)
 		call SuspendTimeOfDay(false)
 	endif
@@ -36797,7 +36706,7 @@ function Func1420 takes nothing returns boolean
 			set loc_player02 = Sentinels[2]
 			set loc_player03 = Scourges[1]
 		endif
-		call Func0070(loc_player03)
+		call RemoveHeroesFromTavernsForPlayer(loc_player03)
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player02)] + (strings005[GetPlayerId((loc_player02))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call SetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD, integers132[GetPlayerId(loc_player01)])
@@ -36819,8 +36728,8 @@ function Func1420 takes nothing returns boolean
 			set loc_player03 = Sentinels[1]
 			set loc_player04 = Sentinels[2]
 		endif
-		call Func0070(loc_player03)
-		call Func0070(loc_player04)
+		call RemoveHeroesFromTavernsForPlayer(loc_player03)
+		call RemoveHeroesFromTavernsForPlayer(loc_player04)
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player02)] + (strings005[GetPlayerId((loc_player02))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call SetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD, integers132[GetPlayerId(loc_player01)])
@@ -36842,8 +36751,8 @@ function Func1420 takes nothing returns boolean
 			set loc_player03 = Scourges[2]
 			set loc_player04 = Scourges[3]
 		endif
-		call Func0070(loc_player03)
-		call Func0070(loc_player04)
+		call RemoveHeroesFromTavernsForPlayer(loc_player03)
+		call RemoveHeroesFromTavernsForPlayer(loc_player04)
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player02)] + (strings005[GetPlayerId((loc_player02))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call SetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD, integers132[GetPlayerId(loc_player01)])
@@ -36865,8 +36774,8 @@ function Func1420 takes nothing returns boolean
 			set loc_player03 = Sentinels[3]
 			set loc_player04 = Sentinels[4]
 		endif
-		call Func0070(loc_player03)
-		call Func0070(loc_player04)
+		call RemoveHeroesFromTavernsForPlayer(loc_player03)
+		call RemoveHeroesFromTavernsForPlayer(loc_player04)
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player02)] + (strings005[GetPlayerId((loc_player02))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call SetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD, integers132[GetPlayerId(loc_player01)])
@@ -36886,8 +36795,8 @@ function Func1420 takes nothing returns boolean
 			set loc_player03 = Scourges[4]
 			set loc_player04 = Scourges[5]
 		endif
-		call Func0070(loc_player03)
-		call Func0070(loc_player04)
+		call RemoveHeroesFromTavernsForPlayer(loc_player03)
+		call RemoveHeroesFromTavernsForPlayer(loc_player04)
 		call Func0144(bj_FORCE_ALL_PLAYERS, 15.00, Players_Color[GetPlayerId(loc_player01)] + (strings005[GetPlayerId((loc_player01))]) + "|r" + " " + "has 20 seconds to pick a hero")
 		call SetPlayerState(loc_player01, PLAYER_STATE_RESOURCE_GOLD, integers132[GetPlayerId(loc_player01)])
 		if GetLocalPlayer() == loc_player01 then
@@ -36901,7 +36810,7 @@ function Func1420 takes nothing returns boolean
 		else
 			set loc_player03 = Sentinels[5]
 		endif
-		call Func0070(loc_player03)
+		call RemoveHeroesFromTavernsForPlayer(loc_player03)
 		call LeaderboardDisplay(leaderboard002, false)
 		call SuspendTimeOfDay(false)
 	endif
@@ -36955,7 +36864,7 @@ function Func1422 takes nothing returns boolean
 	local unit loc_unit01 = GetSoldUnit()
 	local string loc_string01 = Players_Color[GetPlayerId(GetOwningPlayer(GetSoldUnit()))] + (strings005[GetPlayerId((GetOwningPlayer(GetSoldUnit())))]) + "|r"
 	call Func0144(bj_FORCE_ALL_PLAYERS, 20, loc_string01 + " " + "has removed" + " " + GetUnitName(loc_unit01) + " " + "from the available hero pool.")
-	call Func0067(GetUnitTypeId(GetSoldUnit()))
+	call RemovePickedHeroFromTavernForAll(GetUnitTypeId(GetSoldUnit()))
 	call Traffic_RegisterData("Ban" + I2S(GetPlayerId(GetOwningPlayer(GetSoldUnit()))), GetUnitTypeId(GetSoldUnit()))
 	call RemoveUnit(GetSoldUnit())
 	set loc_unit01 = null
@@ -37090,7 +36999,7 @@ endfunction
 function Func1426 takes nothing returns boolean
 	set boolean038 = false
 	set boolean039 = false
-	call Func0071()
+	call RemoveHeroesFromTavernsForAll()
 	return false
 endfunction
 
@@ -37159,7 +37068,7 @@ function Func1427 takes nothing returns nothing
 endfunction
 
 function Func1428 takes nothing returns nothing
-	call Func0128(GetEnumUnit())
+	call RemoveHero(GetEnumUnit())
 endfunction
 
 function Func1429 takes unit loc_unit01 returns nothing
@@ -37193,7 +37102,7 @@ function Func1430 takes player loc_player01, player loc_player02 returns integer
 		endif
 	endif
 	call Func0144(bj_FORCE_ALL_PLAYERS, 15, Players_Color[GetPlayerId(Sentinels[0])] + (strings005[GetPlayerId((loc_player01))]) + " " + "and" + " " + (strings005[GetPlayerId((loc_player02))]) + " " + "have not picked a hero. They will be given a random hero!")
-	return Func0075()
+	return GetSetElement()
 endfunction
 
 function Func1431 takes nothing returns nothing
@@ -37322,7 +37231,7 @@ endfunction
 function Func1434 takes nothing returns boolean
 	set boolean039 = false
 	set boolean038 = false
-	call Func0071()
+	call RemoveHeroesFromTavernsForAll()
 	return false
 endfunction
 
@@ -37331,7 +37240,7 @@ function Func1435 takes nothing returns nothing
 	call Func0144(Force_All, 10, "Your hero might change at the 60 second mark.")
 	call Func0144(Force_All, 10, "It is recommended to not purchase items until then.")
 	set boolean027 = true
-	call Func0067('H00I')
+	call RemovePickedHeroFromTavernForAll('H00I')
 	call TriggerRegisterTimerEvent(loc_trigger01, 60 - TimerGetElapsed(GlobalTimer), false)
 	call TriggerAddCondition(loc_trigger01, Condition(function Func1432))
 	set loc_trigger01 = CreateTrigger()
@@ -37352,7 +37261,7 @@ function Func1436 takes nothing returns nothing
 	local integer loc_integer02
 	local integer loc_integer03
 	if not boolean028 then
-		call Func0071()
+		call RemoveHeroesFromTavernsForAll()
 	endif
 	set boolean005 = true
 	set integer003 = 400
@@ -37370,14 +37279,14 @@ function Func1436 takes nothing returns nothing
 	if boolean033 then
 		if IsSentinel(PlayerModeTyper) then
 			loop
-				set loc_integer03 = GetRandomInt(integer039, integer040)
-				exitwhen booleans001[loc_integer03] == false
+				set loc_integer03 = GetRandomInt(FirstSentinelHeroIndexId, LastSentinelHeroIndexId)
+				exitwhen IsHeroPicked[loc_integer03] == false
 			endloop
 			set Players_Hero[GetPlayerId(PlayerModeTyper)] = CreateUnit(PlayerModeTyper, HeroID[loc_integer03], GetLocationX(loc_location01), GetLocationY(loc_location01), 270)
 		else
 			loop
-				set loc_integer03 = GetRandomInt(integer041, integer042)
-				exitwhen booleans001[loc_integer03] == false
+				set loc_integer03 = GetRandomInt(FirstScourgeHeroIndexId, LastScourgeHeroIndexId)
+				exitwhen IsHeroPicked[loc_integer03] == false
 			endloop
 			set Players_Hero[GetPlayerId(PlayerModeTyper)] = CreateUnit(PlayerModeTyper, HeroID[loc_integer03], GetLocationX(loc_location02), GetLocationY(loc_location02), 270)
 		endif
@@ -37395,10 +37304,10 @@ function Func1436 takes nothing returns nothing
 		set Players_Hero[GetPlayerId(Sentinels[loc_integer01])] = null
 		if(IsPlayer(Sentinels[loc_integer01])) then
 			loop
-				set loc_integer03 = GetRandomInt(integer039, integer040)
-				if(booleans001[loc_integer03] == false) then
+				set loc_integer03 = GetRandomInt(FirstSentinelHeroIndexId, LastSentinelHeroIndexId)
+				if(IsHeroPicked[loc_integer03] == false) then
 					if not boolean028 then
-						set booleans001[loc_integer03] = true
+						set IsHeroPicked[loc_integer03] = true
 					endif
 					set Players_Hero[GetPlayerId(Sentinels[loc_integer01])] = CreateUnitAtLoc(Sentinels[loc_integer01], HeroID[loc_integer03], loc_location01, bj_UNIT_FACING)
 				endif
@@ -37414,10 +37323,10 @@ function Func1436 takes nothing returns nothing
 		set Players_Hero[GetPlayerId(Scourges[loc_integer01])] = null
 		if(IsPlayer(Scourges[loc_integer01])) then
 			loop
-				set loc_integer03 = GetRandomInt(integer041, integer042)
-				if(booleans001[loc_integer03] == false) then
+				set loc_integer03 = GetRandomInt(FirstScourgeHeroIndexId, LastScourgeHeroIndexId)
+				if(IsHeroPicked[loc_integer03] == false) then
 					if not boolean028 then
-						set booleans001[loc_integer03] = true
+						set IsHeroPicked[loc_integer03] = true
 					endif
 					set Players_Hero[GetPlayerId(Scourges[loc_integer01])] = CreateUnitAtLoc(Scourges[loc_integer01], HeroID[loc_integer03], loc_location02, bj_UNIT_FACING)
 				endif
@@ -37462,7 +37371,7 @@ function Func1440 takes nothing returns nothing
 	local trigger loc_trigger01 = CreateTrigger()
 	local trigger loc_trigger02 = CreateTrigger()
 	local trigger loc_trigger03 = CreateTrigger()
-	set integer028 = Func0130(integer040, integer042 - integer041 + 1)
+	set integer028 = GetMinInt(LastSentinelHeroIndexId, LastScourgeHeroIndexId - FirstScourgeHeroIndexId + 1)
 	call Func0144(bj_FORCE_ALL_PLAYERS, 10.00, " ")
 	call Func0144(bj_FORCE_ALL_PLAYERS, 10.00, "Extra commands:" + " -nd " + "and" + " -lives xx " + "can be entered in the following 15 seconds. ")
 	call Func0144(bj_FORCE_ALL_PLAYERS, 10.00, "Current DM lives are" + " " + I2S(integer028))
@@ -37488,17 +37397,17 @@ function Func1441 takes nothing returns nothing
 		return
 	endif
 	if IsSentinel(Player(loc_integer01)) then
-		set loc_integer02 = integer039
-		set loc_integer03 = integer040
+		set loc_integer02 = FirstSentinelHeroIndexId
+		set loc_integer03 = LastSentinelHeroIndexId
 		set loc_integer05 = 0
 	else
-		set loc_integer02 = integer041
-		set loc_integer03 = integer042
+		set loc_integer02 = FirstScourgeHeroIndexId
+		set loc_integer03 = LastScourgeHeroIndexId
 		set loc_integer05 = 1
 	endif
 	if boolean006 then
-		set loc_integer02 = integer039
-		set loc_integer03 = integer042
+		set loc_integer02 = FirstSentinelHeroIndexId
+		set loc_integer03 = LastScourgeHeroIndexId
 		if IsSentinel(Player(loc_integer01)) then
 			call CreateUnitAtLoc(Player(loc_integer01), 'n00C', loc_location01, bj_UNIT_FACING)
 			call CreateUnitAtLoc(Player(loc_integer01), 'n00C', loc_location02, bj_UNIT_FACING)
@@ -37507,8 +37416,8 @@ function Func1441 takes nothing returns nothing
 			call CreateUnitAtLoc(Player(loc_integer01), 'n00C', loc_location02, bj_UNIT_FACING)
 		endif
 	else
-		set loc_integer02 = integer039
-		set loc_integer03 = integer042
+		set loc_integer02 = FirstSentinelHeroIndexId
+		set loc_integer03 = LastScourgeHeroIndexId
 		if IsSentinel(Player(loc_integer01)) then
 			call CreateUnitAtLoc(Player(loc_integer01), 'n00C', loc_location01, bj_UNIT_FACING)
 		else
@@ -37518,7 +37427,7 @@ function Func1441 takes nothing returns nothing
 	if not boolean004 then
 		loop
 			exitwhen loc_integer02 > loc_integer03
-			if booleans001[loc_integer02] == false then
+			if IsHeroPicked[loc_integer02] == false then
 				call SetPlayerTechMaxAllowed(Player(loc_integer01), HeroID[loc_integer02], 1)
 			endif
 			set loc_integer02 = loc_integer02 + 1
@@ -37530,9 +37439,9 @@ function Func1441 takes nothing returns nothing
 		set Players_Hero[loc_integer01] = null
 		if IsPlayer(Player(loc_integer01)) then
 			loop
-				set loc_integer04 = Func0075()
-				if booleans001[loc_integer04] == false then
-					set booleans001[loc_integer04] = true
+				set loc_integer04 = GetSetElement()
+				if IsHeroPicked[loc_integer04] == false then
+					set IsHeroPicked[loc_integer04] = true
 					if IsSentinel(Player(loc_integer01)) then
 						set Players_Hero[loc_integer01] = CreateUnitAtLoc(Player(loc_integer01), HeroID[loc_integer04], loc_location01, bj_UNIT_FACING)
 					else
@@ -37556,7 +37465,7 @@ function Func1442 takes nothing returns nothing
 	local integer loc_integer01
 	local integer loc_integer02
 	set boolean003 = true
-	call Func0067('H00I')
+	call RemovePickedHeroFromTavernForAll('H00I')
 	set loc_integer02 = 1
 	loop
 		exitwhen loc_integer02 > 5
@@ -37613,8 +37522,8 @@ endfunction
 
 function Func1444 takes nothing returns nothing
 	set boolean028 = true
-	call Func0067('H00I')
-	call Func0067('N0MU')
+	call RemovePickedHeroFromTavernForAll('H00I')
+	call RemovePickedHeroFromTavernForAll('N0MU')
 endfunction
 
 function Func1445 takes nothing returns nothing
@@ -38006,17 +37915,17 @@ function Func1447 takes nothing returns nothing
 	local integer loc_integer02
 	set boolean030 = true
 	set loc_integer01 = 1
-	set loc_integer02 = integer045
+	set loc_integer02 = InteligentHeroes_Count
 	loop
 		exitwhen loc_integer01 > loc_integer02
-		call Func0067(integers072[loc_integer01])
+		call RemovePickedHeroFromTavernForAll(InteligentHeroes[loc_integer01])
 		set loc_integer01 = loc_integer01 + 1
 	endloop
 	set loc_integer01 = 1
-	set loc_integer02 = integer044
+	set loc_integer02 = StrengthHeroes_Count
 	loop
 		exitwhen loc_integer01 > loc_integer02
-		call Func0067(integers071[loc_integer01])
+		call RemovePickedHeroFromTavernForAll(StrengthHeroes[loc_integer01])
 		set loc_integer01 = loc_integer01 + 1
 	endloop
 endfunction
@@ -38055,7 +37964,7 @@ function Func1449 takes nothing returns nothing
 	local integer loc_integer03
 	if(GetOwningPlayer(loc_unit01) == PlayerModeTyper and IsUnitType(loc_unit01, UNIT_TYPE_HERO) == true) then
 		call DisableTrigger(GetTriggeringTrigger())
-		if booleans004[GetPlayerId(PlayerModeTyper)] == false and boolean004 == false and boolean005 == false then
+		if IsRandomizedHero[GetPlayerId(PlayerModeTyper)] == false and boolean004 == false and boolean005 == false then
 			call SetPlayerState(PlayerModeTyper, PLAYER_STATE_RESOURCE_GOLD, 250 + GetPlayerState(PlayerModeTyper, PLAYER_STATE_RESOURCE_GOLD))
 		endif
 		set booleans003[GetPlayerId(PlayerModeTyper)] = true
@@ -38075,18 +37984,18 @@ function Func1450 takes nothing returns nothing
 	local trigger loc_trigger01 = CreateTrigger()
 	local region loc_region01 = CreateRegion()
 	set boolean033 = true
-	call Func0067('H00I')
-	call Func0067('N0MU')
+	call RemovePickedHeroFromTavernForAll('H00I')
+	call RemovePickedHeroFromTavernForAll('N0MU')
 	loop
 		exitwhen loc_integer01 > 5
 		if(Sentinels[loc_integer01] != PlayerModeTyper) then
-			call Func0070(Sentinels[loc_integer01])
-			set booleans004[GetPlayerId(Sentinels[loc_integer01])] = true
+			call RemoveHeroesFromTavernsForPlayer(Sentinels[loc_integer01])
+			set IsRandomizedHero[GetPlayerId(Sentinels[loc_integer01])] = true
 			set booleans003[GetPlayerId(Sentinels[loc_integer01])] = true
 		endif
 		if(Scourges[loc_integer01] != PlayerModeTyper) then
-			call Func0070(Scourges[loc_integer01])
-			set booleans004[GetPlayerId(Scourges[loc_integer01])] = true
+			call RemoveHeroesFromTavernsForPlayer(Scourges[loc_integer01])
+			set IsRandomizedHero[GetPlayerId(Scourges[loc_integer01])] = true
 			set booleans003[GetPlayerId(Scourges[loc_integer01])] = true
 		endif
 		set loc_integer01 = loc_integer01 + 1
@@ -38101,17 +38010,17 @@ function Func1451 takes nothing returns nothing
 	local integer loc_integer02
 	set boolean032 = true
 	set loc_integer01 = 1
-	set loc_integer02 = integer045
+	set loc_integer02 = InteligentHeroes_Count
 	loop
 		exitwhen loc_integer01 > loc_integer02
-		call Func0067(integers072[loc_integer01])
+		call RemovePickedHeroFromTavernForAll(InteligentHeroes[loc_integer01])
 		set loc_integer01 = loc_integer01 + 1
 	endloop
 	set loc_integer01 = 1
-	set loc_integer02 = integer043
+	set loc_integer02 = AgilityHeroes_Count
 	loop
 		exitwhen loc_integer01 > loc_integer02
-		call Func0067(integers070[loc_integer01])
+		call RemovePickedHeroFromTavernForAll(AgilityHeroes[loc_integer01])
 		set loc_integer01 = loc_integer01 + 1
 	endloop
 endfunction
@@ -38121,17 +38030,17 @@ function Func1452 takes nothing returns nothing
 	local integer loc_integer02
 	set boolean031 = true
 	set loc_integer01 = 1
-	set loc_integer02 = integer043
+	set loc_integer02 = AgilityHeroes_Count
 	loop
 		exitwhen loc_integer01 > loc_integer02
-		call Func0067(integers070[loc_integer01])
+		call RemovePickedHeroFromTavernForAll(AgilityHeroes[loc_integer01])
 		set loc_integer01 = loc_integer01 + 1
 	endloop
 	set loc_integer01 = 1
-	set loc_integer02 = integer044
+	set loc_integer02 = StrengthHeroes_Count
 	loop
 		exitwhen loc_integer01 > loc_integer02
-		call Func0067(integers071[loc_integer01])
+		call RemovePickedHeroFromTavernForAll(StrengthHeroes[loc_integer01])
 		set loc_integer01 = loc_integer01 + 1
 	endloop
 endfunction
@@ -38141,10 +38050,10 @@ function Func1453 takes nothing returns nothing
 	local integer loc_integer02
 	set boolean117 = true
 	set loc_integer01 = 1
-	set loc_integer02 = integer046
+	set loc_integer02 = RangedHeroes_Count
 	loop
 		exitwhen loc_integer01 > loc_integer02
-		call Func0067(integers073[loc_integer01])
+		call RemovePickedHeroFromTavernForAll(RangedHeroes[loc_integer01])
 		set loc_integer01 = loc_integer01 + 1
 	endloop
 endfunction
@@ -38154,10 +38063,10 @@ function Func1454 takes nothing returns nothing
 	local integer loc_integer02
 	set boolean118 = true
 	set loc_integer01 = 1
-	set loc_integer02 = integer047
+	set loc_integer02 = MeleeHeroes_Count
 	loop
 		exitwhen loc_integer01 > loc_integer02
-		call Func0067(integers074[loc_integer01])
+		call RemovePickedHeroFromTavernForAll(MeleeHeroes[loc_integer01])
 		set loc_integer01 = loc_integer01 + 1
 	endloop
 endfunction
@@ -38341,7 +38250,7 @@ function Func1481 takes nothing returns boolean
 endfunction
 
 function Func1482 takes nothing returns boolean
-	return Func0056(GetOwningPlayer(GetFilterUnit())) and Func0100(GetFilterUnit()) == true and GetUnitTypeId(GetFilterUnit()) != 'H00J'
+	return IsScourge(GetOwningPlayer(GetFilterUnit())) and Func0100(GetFilterUnit()) == true and GetUnitTypeId(GetFilterUnit()) != 'H00J'
 endfunction
 
 function Func1483 takes nothing returns nothing
@@ -38675,7 +38584,7 @@ function Func1494 takes unit loc_unit01 returns nothing
 	local unit loc_unit02 = loc_unit01
 	local player loc_player01 = GetOwningPlayer(loc_unit01)
 	local location loc_location01
-	if Func0056(loc_player01) then
+	if IsScourge(loc_player01) then
 		set loc_location01 = GetRectCenter(rect004)
 	else
 		set loc_location01 = GetRectCenter(rect011)
@@ -38831,9 +38740,9 @@ function Func1504 takes nothing returns boolean
 	local trigger loc_trigger01
 	local integer loc_integer02
 	if(loc_real01 - reals027[loc_integer01]) < 180 then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Tag Team is on cooldown" + ": " + I2S(R2I(180 - (loc_real01 - reals027[loc_integer01]))))
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Tag Team is on cooldown" + ": " + I2S(R2I(180 - (loc_real01 - reals027[loc_integer01]))))
 	elseif Func1502(loc_integer01) == false then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10, "Your heroes must be in the fountain area")
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10, "Your heroes must be in the fountain area")
 	else
 		set reals027[loc_integer01] = loc_real01
 		set loc_trigger01 = CreateTrigger()
@@ -38906,10 +38815,10 @@ function Func1506 takes nothing returns boolean
 		if IsPlayer(loc_player01) then
 			loop
 				exitwhen Players_Hero[GetPlayerId(loc_player01)] != null
-				set loc_integer03 = Func0075()
-				if booleans001[loc_integer03] == false then
+				set loc_integer03 = GetSetElement()
+				if IsHeroPicked[loc_integer03] == false then
 					if not boolean028 then
-						set booleans001[loc_integer03] = true
+						set IsHeroPicked[loc_integer03] = true
 					endif
 					set Players_Hero[loc_integer04] = CreateUnitAtLoc(loc_player01, HeroID[loc_integer03], loc_location01, bj_UNIT_FACING)
 					set units019[loc_integer04] = Players_Hero[loc_integer04]
@@ -38923,10 +38832,10 @@ function Func1506 takes nothing returns boolean
 		if IsPlayer(loc_player01) then
 			loop
 				exitwhen Players_Hero[loc_integer04] != null
-				set loc_integer03 = Func0075()
-				if booleans001[loc_integer03] == false then
+				set loc_integer03 = GetSetElement()
+				if IsHeroPicked[loc_integer03] == false then
 					if not boolean028 then
-						set booleans001[loc_integer03] = true
+						set IsHeroPicked[loc_integer03] = true
 					endif
 					set Players_Hero[loc_integer04] = CreateUnitAtLoc(loc_player01, HeroID[loc_integer03], loc_location02, bj_UNIT_FACING)
 					set units019[loc_integer04] = Players_Hero[loc_integer04]
@@ -38946,10 +38855,10 @@ function Func1506 takes nothing returns boolean
 		if IsPlayer(loc_player01) then
 			loop
 				exitwhen Players_Hero[loc_integer04] != null
-				set loc_integer03 = Func0075()
-				if booleans001[loc_integer03] == false and Func1496(loc_integer03, units019[loc_integer04]) then
+				set loc_integer03 = GetSetElement()
+				if IsHeroPicked[loc_integer03] == false and Func1496(loc_integer03, units019[loc_integer04]) then
 					if not boolean028 then
-						set booleans001[loc_integer03] = true
+						set IsHeroPicked[loc_integer03] = true
 					endif
 					set Players_Hero[loc_integer04] = CreateUnitAtLoc(loc_player01, HeroID[loc_integer03], loc_location01, bj_UNIT_FACING)
 					set units020[loc_integer04] = Players_Hero[loc_integer04]
@@ -38966,10 +38875,10 @@ function Func1506 takes nothing returns boolean
 		if IsPlayer(loc_player01) then
 			loop
 				exitwhen Players_Hero[loc_integer04] != null
-				set loc_integer03 = Func0075()
-				if booleans001[loc_integer03] == false and Func1496(loc_integer03, units019[loc_integer04]) then
+				set loc_integer03 = GetSetElement()
+				if IsHeroPicked[loc_integer03] == false and Func1496(loc_integer03, units019[loc_integer04]) then
 					if not boolean028 then
-						set booleans001[loc_integer03] = true
+						set IsHeroPicked[loc_integer03] = true
 					endif
 					set Players_Hero[loc_integer04] = CreateUnitAtLoc(loc_player01, HeroID[loc_integer03], loc_location02, bj_UNIT_FACING)
 					set units020[loc_integer04] = Players_Hero[loc_integer04]
@@ -38998,9 +38907,9 @@ function Func1507 takes nothing returns nothing
 	set boolean131 = true
 	set boolean039 = false
 	set boolean052 = false
-	call Func0067('H00I')
-	call Func0067('O00P')
-	call Func0067('H00U')
+	call RemovePickedHeroFromTavernForAll('H00I')
+	call RemovePickedHeroFromTavernForAll('O00P')
+	call RemovePickedHeroFromTavernForAll('H00U')
 	loop
 		exitwhen loc_integer01 > 5
 		set loc_integer02 = GetPlayerId(Sentinels[loc_integer01])
@@ -39094,15 +39003,16 @@ endfunction
 
 function Func1519 takes nothing returns boolean
 	if boolean034 then
-		call Func0072()
-		call Func0144(bj_FORCE_ALL_PLAYERS, 20.00, Players_Color[GetPlayerId(PlayerModeTyper)] + (strings005[GetPlayerId((PlayerModeTyper))]) + "|r" + " " + "has defaulted to Normal Mode. You will get 175 gold refunded when you pick a hero.")
-		call Func0144(bj_FORCE_ALL_PLAYERS, 20.00, " ")
-		set IsModePickedByPlayer = true
-		call GameStarts()
-		call Func1233()
-		call Func0968()
-		call Func1014()
-		call Func0486()
+		call PickMode("-ap", 0)
+		// call Func0072()
+		// call Func0144(bj_FORCE_ALL_PLAYERS, 20.00, Players_Color[GetPlayerId(PlayerModeTyper)] + (strings005[GetPlayerId((PlayerModeTyper))]) + "|r" + " " + "has defaulted to Normal Mode. You will get 175 gold refunded when you pick a hero.")
+		// call Func0144(bj_FORCE_ALL_PLAYERS, 20.00, " ")
+		// set IsModePickedByPlayer = true
+		// call GameStarts()
+		// call Func1233()
+		// call Func0968()
+		// call Func1014()
+//		call Func0486()
 	endif
 	call Func1518()
 	call CleanTrigger(GetTriggeringTrigger())
@@ -39571,7 +39481,7 @@ function Func1543 takes nothing returns boolean
 			if loc_player01 == null then
 				set loc_integer02 = loc_integer03
 			else
-				call SetUnitState(loc_unit01, UNIT_STATE_LIFE, Func0134(1, GetUnitState(loc_unit01, UNIT_STATE_LIFE) -loc_real01 / loc_integer04))
+				call SetUnitState(loc_unit01, UNIT_STATE_LIFE, GetMaxReal(1, GetUnitState(loc_unit01, UNIT_STATE_LIFE) -loc_real01 / loc_integer04))
 			endif
 			set loc_integer02 = loc_integer02 + 1
 		endloop
@@ -39911,7 +39821,7 @@ function Func1558 takes nothing returns boolean
 	local real loc_real01 = (LoadReal(HY, (loc_integer01), (442)))
 	local real loc_real02 = (TimerGetElapsed(GlobalTimer))
 	local real loc_real03 = 5.0 - (loc_real02 - loc_real01)
-	local real loc_real04 = Func0133(loc_real02 - loc_real01, 5.0)
+	local real loc_real04 = GetMinReal(loc_real02 - loc_real01, 5.0)
 	local integer loc_integer02 = (LoadInteger(HY, (loc_integer01), (34))) + 1
 	if GetTriggerEventId() == EVENT_UNIT_DEATH then
 		call Func1553(loc_unit01, loc_unit01, 5.0)
@@ -40028,7 +39938,7 @@ function Func1564 takes nothing returns nothing
 	local integer loc_integer02 = (LoadInteger(HY, (loc_integer01), (27)))
 	local integer loc_integer03 = GetUnitAbilityLevel(loc_unit01, 'A0O3')
 	local integer loc_integer04 = loc_integer02 * loc_integer03
-	local integer loc_integer05 = Func0130(loc_integer04 + loc_integer03 * 2 + 2, 30)
+	local integer loc_integer05 = GetMinInt(loc_integer04 + loc_integer03 * 2 + 2, 30)
 	local texttag loc_texttag01 = CreateTextTag()
 	local player loc_player01 = GetOwningPlayer(loc_unit01)
 	local trigger loc_trigger01 = CreateTrigger()
@@ -40056,7 +39966,7 @@ endfunction
 function Func1565 takes nothing returns boolean
 	local integer loc_integer01 = integers135[GetPlayerId(GetTriggerPlayer())]
 	if(GetUnitTypeId(Players_Hero[GetPlayerId(GetTriggerPlayer())]) == 'N01I' or GetUnitTypeId(Players_Hero[GetPlayerId(GetTriggerPlayer())]) == 'N01H' or GetUnitTypeId(Players_Hero[GetPlayerId(GetTriggerPlayer())]) == 'N01T' or GetUnitTypeId(Players_Hero[GetPlayerId(GetTriggerPlayer())]) == 'N01J') and loc_integer01 > 0 then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, "Goblins Greed:" + " " + I2S(loc_integer01))
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, "Goblins Greed:" + " " + I2S(loc_integer01))
 	endif
 	return false
 endfunction
@@ -41390,7 +41300,7 @@ function Func1641 takes nothing returns boolean
 	local integer loc_integer01 = GetHandleId(loc_unit01)
 	local integer loc_integer02 = GetUnitAbilityLevel(loc_unit01, ('A0FV'))
 	local integer loc_integer03 = (LoadInteger(HY, (loc_integer01), (315))) -1
-	local integer loc_integer04 = Func0132(loc_integer03, 0, 5)
+	local integer loc_integer04 = GetMaxInt(GetMinInt(loc_integer03, 5), 0)
 	local unit loc_unit02 = (LoadUnitHandle(HY, (loc_integer01), (316)))
 	local integer loc_integer05
 	if loc_integer02 == 1 then
@@ -41424,7 +41334,7 @@ function Func1642 takes nothing returns nothing
 	local unit loc_unit02 = (LoadUnitHandle(HY, (loc_integer01), (316)))
 	local integer loc_integer02 = GetUnitAbilityLevel(loc_unit01, ('A0FV'))
 	local integer loc_integer03 = (LoadInteger(HY, (loc_integer01), (315))) + 1
-	local integer loc_integer04 = Func0132(loc_integer03, 0, 5)
+	local integer loc_integer04 = GetMaxInt(GetMinInt(loc_integer03, 5), 0)
 	local integer loc_integer05 = Func1637(loc_integer02, loc_integer04)
 	local trigger loc_trigger01 = CreateTrigger()
 	local integer loc_integer06
@@ -41482,7 +41392,7 @@ endfunction
 function Func1648 takes nothing returns nothing
 	local integer loc_integer01 = GetHandleId(GetEnumUnit())
 	local integer loc_integer02 = (LoadInteger(HY, (integer437), (loc_integer01)))
-	local real loc_real01 = Func0133(real002 + loc_integer02 * 30, 400)
+	local real loc_real01 = GetMinReal(real002 + loc_integer02 * 30, 400)
 	call UnitDamageTarget(unit002, GetEnumUnit(), loc_real01, false, true, ATTACK_TYPE_HERO, DAMAGE_TYPE_NORMAL, WEAPON_TYPE_WHOKNOWS)
 	call SaveInteger(HY, (integer437), (loc_integer01), (loc_integer02 + 1))
 endfunction
@@ -42392,7 +42302,7 @@ function Func1714 takes nothing returns boolean
 		call CleanTrigger(loc_trigger01)
 		call SaveInteger(HY, (GetHandleId((loc_unit01))), ((4260)), (2))
 		call Func0109(loc_unit02, loc_unit01, 1, I2R(loc_integer03))
-		call SetUnitState(loc_unit01, UNIT_STATE_MANA, Func0134(GetUnitState(loc_unit01, UNIT_STATE_MANA) -loc_integer03, 0))
+		call SetUnitState(loc_unit01, UNIT_STATE_MANA, GetMaxReal(GetUnitState(loc_unit01, UNIT_STATE_MANA) -loc_integer03, 0))
 	else
 		call DestroyEffect(AddSpecialEffect("Abilities\\Spells\\Human\\ManaFlare\\ManaFlareBoltImpact.mdl", loc_real02, loc_real03))
 		call Func0172(loc_real02, loc_real03, 150)
@@ -42555,7 +42465,7 @@ endfunction
 function Func1722 takes nothing returns nothing
 	local integer loc_integer01 = (40 + 40 * integer440) / 2
 	call Func0109(unit269, GetEnumUnit(), 1, I2R(loc_integer01))
-	call SetUnitState(GetEnumUnit(), UNIT_STATE_MANA, Func0134(GetUnitState(GetEnumUnit(), UNIT_STATE_MANA) -loc_integer01, 0))
+	call SetUnitState(GetEnumUnit(), UNIT_STATE_MANA, GetMaxReal(GetUnitState(GetEnumUnit(), UNIT_STATE_MANA) -loc_integer01, 0))
 endfunction
 
 function Func1723 takes nothing returns boolean
@@ -43619,7 +43529,7 @@ function Func1783 takes nothing returns nothing
 		call SaveReal(HY, (loc_integer01), (197), ((loc_real01) * 1.0))
 		call SaveReal(HY, (loc_integer01), (198), ((loc_real02) * 1.0))
 		call SaveReal(HY, (loc_integer01), (199), ((0) * 1.0))
-		call SaveInteger(HY, (loc_integer01), (194), (Func0131(R2I(SquareRoot((loc_real03 - loc_real01) * (loc_real03 - loc_real01) + (loc_real04 - loc_real02) * (loc_real04 - loc_real02)) / (25 + 25 * loc_integer02)), 1)))
+		call SaveInteger(HY, (loc_integer01), (194), (GetMaxInt(R2I(SquareRoot((loc_real03 - loc_real01) * (loc_real03 - loc_real01) + (loc_real04 - loc_real02) * (loc_real04 - loc_real02)) / (25 + 25 * loc_integer02)), 1)))
 		call SaveEffectHandle(HY, (loc_integer01), (32), (AddSpecialEffectTarget("effects\\Lightning_Ball_Tail_FX.mdx", loc_unit03, "origin")))
 		call TriggerRegisterTimerEvent(loc_trigger01, 0.04, true)
 		call TriggerAddCondition(loc_trigger01, Condition(function Func1782))
@@ -44708,7 +44618,7 @@ function Func1872 takes nothing returns nothing
 	local unit loc_unit03 = CreateUnit(GetOwningPlayer(loc_unit01), 'u004', loc_real01, loc_real02, 0)
 	call RemoveLocation(loc_location01)
 	call SetUnitAbilityLevel(loc_unit03, 'A0C0', GetUnitAbilityLevel(loc_unit01, 'A1BX'))
-	if Func0056(GetOwningPlayer(loc_unit01)) then
+	if IsScourge(GetOwningPlayer(loc_unit01)) then
 		call UnitAddPermanentAbility(loc_unit02, 'A0X4')
 	else
 		call UnitAddPermanentAbility(loc_unit02, 'A0X3')
@@ -45564,7 +45474,7 @@ endfunction
 function Func1928 takes nothing returns boolean
 	local real loc_real01
 	if GetUnitAbilityLevel(GetTriggerUnit(), 'B081') > 0 and GetUnitAbilityLevel(GetEventDamageSource(), 'A0QN') > 0 and(LoadUnitHandle(HY, (GetHandleId(GetTriggeringTrigger())), (2))) == GetEventDamageSource() then
-		call SetUnitState(GetEventDamageSource(), UNIT_STATE_LIFE, Func0134(GetUnitState(GetEventDamageSource(), UNIT_STATE_LIFE) -15, 1))
+		call SetUnitState(GetEventDamageSource(), UNIT_STATE_LIFE, GetMaxReal(GetUnitState(GetEventDamageSource(), UNIT_STATE_LIFE) -15, 1))
 		call UnitRemoveAbility(GetTriggerUnit(), 'B081')
 		call Func1927(GetEventDamageSource(), GetTriggerUnit())
 		call DisableTrigger(GetTriggeringTrigger())
@@ -45663,7 +45573,7 @@ function Func1935 takes nothing returns boolean
 	local boolean loc_boolean01 = (LoadBoolean(HY, (loc_integer01), (319)))
 	if IsUnitType(loc_unit01, UNIT_TYPE_HERO) == true and loc_integer04 > 0 then
 		set loc_integer02 = R2I(100 * GetUnitState(loc_unit01, UNIT_STATE_LIFE) / GetUnitState(loc_unit01, UNIT_STATE_MAX_LIFE))
-		set loc_integer03 = Func0131(Func0130(R2I(100 - loc_integer02) / 7, 14), 1)
+		set loc_integer03 = GetMaxInt(GetMinInt(R2I(100 - loc_integer02) / 7, 14), 1)
 		if Func0184(loc_unit01) == false then
 			call Func0394(loc_unit01, (4 + loc_integer04 * 4) * loc_integer03)
 			call Func1934(loc_unit01, (3 + loc_integer04) * loc_integer03)
@@ -47616,7 +47526,7 @@ function Func2055 takes nothing returns nothing
 	if loc_real07 > loc_real06 then
 		set loc_real07 = loc_real06 * 2 - loc_real07
 	endif
-	call SetUnitFlyHeight(loc_unit01, Func0134(loc_real07, 0), 0)
+	call SetUnitFlyHeight(loc_unit01, GetMaxReal(loc_real07, 0), 0)
 	call SetUnitX(loc_unit01, Func0120(loc_real04))
 	call SetUnitY(loc_unit01, Func0122(loc_real05))
 	call SetUnitFacing(loc_unit01, loc_real03)
@@ -47757,7 +47667,7 @@ endfunction
 
 function Func2065 takes real loc_real01, real loc_real02, real loc_real03, real loc_real04 returns integer
 	local real loc_real05 = SquareRoot((loc_real03 - loc_real01) * (loc_real03 - loc_real01) + (loc_real04 - loc_real02) * (loc_real04 - loc_real02))
-	return Func0130(R2I(loc_real05 / 150), 10)
+	return GetMinInt(R2I(loc_real05 / 150), 10)
 endfunction
 
 function Func2066 takes nothing returns nothing
@@ -47837,7 +47747,7 @@ function Func2068 takes nothing returns boolean
 	local integer loc_integer01 = integers137[GetPlayerId(GetTriggerPlayer())]
 	local integer loc_integer02 = integers138[GetPlayerId(GetTriggerPlayer())]
 	if GetUnitTypeId(Players_Hero[GetPlayerId(GetTriggerPlayer())]) == 'N01V' and loc_integer02 > 0 then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, "Arrow Accuracy:" + " " + R2S(I2R(loc_integer01) / I2R(loc_integer02) * 100) + "% (" + I2S(loc_integer01) + "/" + I2S(loc_integer02) + ")")
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, "Arrow Accuracy:" + " " + R2S(I2R(loc_integer01) / I2R(loc_integer02) * 100) + "% (" + I2S(loc_integer01) + "/" + I2S(loc_integer02) + ")")
 	endif
 	return false
 endfunction
@@ -47879,7 +47789,7 @@ endfunction
 
 function Func2071 takes nothing returns boolean
 	local unit loc_unit01 = GetFilterUnit()
-	if IsUnitInGroup(loc_unit01, group001) then
+	if IsUnitInGroup(loc_unit01, Groups) then
 		return false
 	endif
 	if IsUnitEnemy(loc_unit01, GetOwningPlayer(unit002)) and GetUnitAbilityLevel(loc_unit01, 'A04R') != 1 and GetUnitState(loc_unit01, UNIT_STATE_LIFE) > 0 and IsUnitType(loc_unit01, UNIT_TYPE_STRUCTURE) == false then
@@ -47911,7 +47821,7 @@ function Func2073 takes nothing returns boolean
 	call SaveReal(HY, (loc_integer01), (24), ((loc_real07) * 1.0))
 	set unit002 = loc_unit01
 	set real002 = GetUnitAbilityLevel(loc_unit01, 'A0FN') * 75 + 25
-	set group001 = loc_group01
+	set Groups = loc_group01
 	call GroupEnumUnitsInRange(loc_group02, loc_real02, loc_real03, 200 + 25, Condition(function Func2071))
 	call ForGroup(loc_group02, function Func2072)
 	call GroupAddGroup(loc_group02, loc_group01)
@@ -47968,7 +47878,7 @@ function Func2074 takes nothing returns nothing
 	call SaveReal(HY, (loc_integer01), (24), ((loc_real02) * 1.0))
 	call SaveGroupHandle(HY, (loc_integer01), (133), (loc_group01))
 	call SaveReal(HY, (loc_integer01), (13), ((Atan2(loc_real04 - loc_real02, loc_real03 - loc_real01)) * 1.0))
-	call SaveInteger(HY, (loc_integer01), (194), (Func0131(R2I(SquareRoot((loc_real03 - loc_real01) * (loc_real03 - loc_real01) + (loc_real04 - loc_real02) * (loc_real04 - loc_real02)) / 50), 1)))
+	call SaveInteger(HY, (loc_integer01), (194), (GetMaxInt(R2I(SquareRoot((loc_real03 - loc_real01) * (loc_real03 - loc_real01) + (loc_real04 - loc_real02) * (loc_real04 - loc_real02)) / 50), 1)))
 	call SaveUnitHandle(HY, (loc_integer01), (239), (loc_unit02))
 	call TriggerRegisterTimerEvent(loc_trigger01, 0.04, true)
 	call TriggerAddCondition(loc_trigger01, Condition(function Func2073))
@@ -48856,11 +48766,11 @@ function Func2128 takes nothing returns boolean
 		set loc_string03 = "2x Casts:" + " " + I2S(integers139[loc_integer01]) + " (" + I2S(100 * integers139[loc_integer01] / integers143[loc_integer01]) + "%)"
 		set loc_string04 = "3x Casts:" + " " + I2S(integers140[loc_integer01]) + " (" + I2S(100 * integers140[loc_integer01] / integers143[loc_integer01]) + "%)"
 		set loc_string05 = "4x Casts:" + " " + I2S(integers141[loc_integer01]) + " (" + I2S(100 * integers141[loc_integer01] / integers143[loc_integer01]) + "%)"
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, loc_string01)
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, loc_string02)
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, loc_string03)
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, loc_string04)
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, loc_string05)
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, loc_string01)
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, loc_string02)
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, loc_string03)
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, loc_string04)
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, loc_string05)
 	endif
 	return false
 endfunction
@@ -50142,7 +50052,7 @@ endfunction
 function Func2209 takes nothing returns boolean
 	local integer loc_integer01 = integers144[GetPlayerId(GetTriggerPlayer())]
 	if GetUnitTypeId(Players_Hero[GetPlayerId(GetTriggerPlayer())]) == 'N01A' and loc_integer01 > 0 then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, "Total Intelligence Stolen:" + " " + I2S(loc_integer01))
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, "Total Intelligence Stolen:" + " " + I2S(loc_integer01))
 	endif
 	return false
 endfunction
@@ -50655,7 +50565,7 @@ function Func2240 takes nothing returns nothing
 	call SetUnitVertexColor(loc_unit02, 255, 255, 255, 150)
 	call UnitApplyTimedLife(loc_unit02, 'BTLF', 6)
 	call SetUnitScale(loc_unit02, loc_real03, loc_real03, loc_real03)
-	if Func0056(GetOwningPlayer(loc_unit01)) then
+	if IsScourge(GetOwningPlayer(loc_unit01)) then
 		call UnitAddPermanentAbility(loc_unit02, 'A019')
 		call SetUnitAbilityLevel(loc_unit02, 'A019', loc_integer01)
 	else
@@ -52284,7 +52194,7 @@ function Func2335 takes nothing returns nothing
 	local real loc_real03 = GetLocationX(loc_location01)
 	local real loc_real04 = GetLocationY(loc_location01)
 	local real loc_real05 = Atan2(loc_real04 - loc_real02, loc_real03 - loc_real01)
-	local real loc_real06 = Func0134(Func0141(loc_real01, loc_real02, loc_real03, loc_real04), 300)
+	local real loc_real06 = GetMaxReal(Func0141(loc_real01, loc_real02, loc_real03, loc_real04), 300)
 	local real loc_real07 = Func0120(loc_real01 + loc_real06 * Cos(loc_real05))
 	local real loc_real08 = Func0122(loc_real02 + loc_real06 * Sin(loc_real05))
 	local unit loc_unit02 = CreateUnit(GetOwningPlayer(loc_unit01), 'h07U', loc_real07, loc_real08, (loc_real05 * bj_RADTODEG) -180)
@@ -52603,7 +52513,7 @@ function Func2360 takes nothing returns boolean
 	set integer463 = 0
 	call GroupEnumUnitsOfPlayer(loc_group01, GetTriggerPlayer(), Condition(function Func2359))
 	if integer463 > 0 then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, "Land Mine Count" + ": " + I2S(integer463))
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, "Land Mine Count" + ": " + I2S(integer463))
 	endif
 	call KillGroup(loc_group01)
 	set loc_group01 = null
@@ -53502,14 +53412,14 @@ function Func2419 takes nothing returns nothing
 	local integer loc_integer01 = GetHandleId(loc_unit01)
 	local integer loc_integer02 = (LoadInteger(HY, (loc_integer01), (237)))
 	local unit loc_unit03 = Func0022(loc_integer02)
-	local integer loc_integer03 = Func0131((LoadInteger(HY, (loc_integer01), (236))), 0)
+	local integer loc_integer03 = GetMaxInt((LoadInteger(HY, (loc_integer01), (236))), 0)
 	local integer loc_integer04 = GetUnitAbilityLevel(loc_unit01, ('A0O0'))
 	if loc_unit03 != loc_unit02 then
 		set loc_integer03 = 1
 	else
-		set loc_integer03 = Func0130(loc_integer03 + 1, 2 + loc_integer04)
+		set loc_integer03 = GetMinInt(loc_integer03 + 1, 2 + loc_integer04)
 	endif
-	call Func0129(loc_unit01, ('A0NZ'), loc_integer03)
+	call UnitAddAbilityLevel(loc_unit01, ('A0NZ'), loc_integer03)
 	call SaveInteger(HY, (loc_integer01), (236), (loc_integer03))
 	if loc_unit03 != loc_unit02 then
 		call Func0021(loc_integer02)
@@ -55086,7 +54996,7 @@ function Func2514 takes nothing returns nothing
 	local unit loc_unit01 = GetTriggerUnit()
 	local real loc_real01 = (LoadReal(HY, (GetHandleId(loc_unit01)), (356)))
 	local real loc_real02 = (LoadReal(HY, (GetHandleId(loc_unit01)), (357)))
-	local real loc_real03 = Func0133((TimerGetElapsed(GlobalTimer)) -(LoadReal(HY, (GetHandleId(loc_unit01)), (358))), 1.0)
+	local real loc_real03 = GetMinReal((TimerGetElapsed(GlobalTimer)) -(LoadReal(HY, (GetHandleId(loc_unit01)), (358))), 1.0)
 	local real loc_real04 = Atan2(loc_real02 - GetUnitY(loc_unit01), loc_real01 - GetUnitX(loc_unit01))
 	local trigger loc_trigger01
 	local integer loc_integer01
@@ -56715,7 +56625,7 @@ function Func2609 takes nothing returns nothing
 	call TriggerAddCondition(loc_trigger01, Condition(function Func2608))
 	call SaveUnitHandle(HY, (loc_integer02), (17), (loc_unit02))
 	call SaveReal(HY, (loc_integer02), (137), ((Atan2(GetUnitY(loc_unit02) -real309, GetUnitX(loc_unit02) -real308)) * 1.0))
-	call SaveReal(HY, (loc_integer02), (138), ((Func0134((400 - Func0141(real308, real309, GetUnitX(loc_unit02), GetUnitY(loc_unit02))), 10) / 10) * 1.0))
+	call SaveReal(HY, (loc_integer02), (138), ((GetMaxReal((400 - Func0141(real308, real309, GetUnitX(loc_unit02), GetUnitY(loc_unit02))), 10) / 10) * 1.0))
 	call SaveReal(HY, (loc_integer02), (6), ((GetUnitX(loc_unit02)) * 1.0))
 	call SaveReal(HY, (loc_integer02), (7), ((GetUnitY(loc_unit02)) * 1.0))
 	set loc_unit01 = null
@@ -58120,7 +58030,7 @@ function Func2701 takes nothing returns nothing
 	local unit loc_unit01 = GetTriggerUnit()
 	local unit loc_unit02 = GetSpellTargetUnit()
 	local integer loc_integer01 = GetUnitAbilityLevel(loc_unit01, 'A0OJ')
-	local integer loc_integer02 = Func0130(GetHeroInt(loc_unit02, false), 2 + loc_integer01 * 2)
+	local integer loc_integer02 = GetMinInt(GetHeroInt(loc_unit02, false), 2 + loc_integer01 * 2)
 	local trigger loc_trigger01
 	local integer loc_integer03
 	local unit loc_unit03 = CreateUnit(GetOwningPlayer(loc_unit02), 'o019', GetUnitX(loc_unit02), GetUnitY(loc_unit02), 0)
@@ -59835,7 +59745,7 @@ function Func2802 takes nothing returns nothing
 endfunction
 
 function Func2803 takes nothing returns nothing
-	local real loc_real01 = Func0134(Func0133(GetUnitState(GetEnumUnit(), UNIT_STATE_MANA), real322), 0)
+	local real loc_real01 = GetMaxReal(GetMinReal(GetUnitState(GetEnumUnit(), UNIT_STATE_MANA), real322), 0)
 	local real loc_real02 = loc_real01 * 0.5
 	if Func0095(GetEnumUnit()) == false and loc_real01 > 0 and Func0105(GetEnumUnit()) == false then
 		if GetUnitState(GetEnumUnit(), UNIT_STATE_LIFE) > (loc_real02 + 0.5) then
@@ -61534,7 +61444,7 @@ function Func2897 takes nothing returns boolean
 		call FlushChildHashtable(HY, (loc_integer01))
 		call CleanTrigger(loc_trigger01)
 		if Func0184(loc_unit01) == false then
-			call SetUnitState(loc_unit01, UNIT_STATE_LIFE, Func0134(1, GetUnitState(loc_unit01, UNIT_STATE_LIFE) -loc_real01))
+			call SetUnitState(loc_unit01, UNIT_STATE_LIFE, GetMaxReal(1, GetUnitState(loc_unit01, UNIT_STATE_LIFE) -loc_real01))
 		endif
 		if Func0184(loc_unit02) == false then
 			call SetUnitState(loc_unit02, UNIT_STATE_LIFE, GetUnitState(loc_unit02, UNIT_STATE_LIFE) + loc_real01)
@@ -61542,7 +61452,7 @@ function Func2897 takes nothing returns boolean
 	else
 		set loc_real01 = GetUnitState(loc_unit02, UNIT_STATE_MAX_LIFE) * 0.2
 		call SetUnitState(loc_unit01, UNIT_STATE_LIFE, GetUnitState(loc_unit01, UNIT_STATE_LIFE) + loc_real01)
-		call SetUnitState(loc_unit02, UNIT_STATE_LIFE, Func0134(1, GetUnitState(loc_unit02, UNIT_STATE_LIFE) -loc_real01))
+		call SetUnitState(loc_unit02, UNIT_STATE_LIFE, GetMaxReal(1, GetUnitState(loc_unit02, UNIT_STATE_LIFE) -loc_real01))
 		call SaveReal(HY, (loc_integer01), (797), ((loc_real01) * 1.0))
 		call SaveReal(HY, (loc_integer01), (798), ((loc_real02) * 1.0))
 	endif
@@ -63370,7 +63280,7 @@ function Func2989 takes nothing returns boolean
 	local real loc_real01 = (LoadReal(HY, (loc_integer01), (232)))
 	local texttag loc_texttag01 = (LoadTextTagHandle(HY, (loc_integer01), (231)))
 	local integer loc_integer04 = GetTriggerEvalCount(loc_trigger01)
-	local real loc_real02 = Func0134(loc_real01 - loc_integer04, 0)
+	local real loc_real02 = GetMaxReal(loc_real01 - loc_integer04, 0)
 	local boolean loc_boolean01 = true
 	call SetTextTagText(loc_texttag01, Func2988(100 * loc_real02 / loc_real01), 0.018)
 	call SetTextTagPosUnit(loc_texttag01, loc_unit01, 0)
@@ -64732,7 +64642,7 @@ function Func3064 takes nothing returns nothing
 		call Func0109(loc_unit02, loc_unit01, 1, 100)
 		call Func0109(loc_unit02, loc_unit01, 2, 100)
 	else
-		call SetUnitState(loc_unit01, UNIT_STATE_LIFE, Func0134(GetUnitState(loc_unit01, UNIT_STATE_LIFE) -loc_real03, 1))
+		call SetUnitState(loc_unit01, UNIT_STATE_LIFE, GetMaxReal(GetUnitState(loc_unit01, UNIT_STATE_LIFE) -loc_real03, 1))
 	endif
 	set loc_unit01 = null
 	set loc_unit02 = null
@@ -65518,7 +65428,7 @@ function Func3120 takes nothing returns boolean
 	endif
 	set loc_integer01 = IMaxBJ(IMinBJ(loc_integer01, loc_integer02), 0)
 	if GetUnitTypeId(loc_unit01) == 'Nfir' then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, "Souls Collected:" + " " + I2S(loc_integer01) + "/" + I2S(loc_integer02))
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, "Souls Collected:" + " " + I2S(loc_integer01) + "/" + I2S(loc_integer02))
 	endif
 	return false
 endfunction
@@ -67092,7 +67002,7 @@ endfunction
 
 function Func3211 takes nothing returns boolean
 	if GetUnitTypeId(Players_Hero[GetPlayerId(GetTriggerPlayer())]) == 'U00F' then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, "You gained" + " " + I2S((LoadInteger(HY, (GetHandleId(Players_Hero[GetPlayerId(GetTriggerPlayer())])), (673)))) + " " + "str from Flesh Heap")
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, "You gained" + " " + I2S((LoadInteger(HY, (GetHandleId(Players_Hero[GetPlayerId(GetTriggerPlayer())])), (673)))) + " " + "str from Flesh Heap")
 	endif
 	return false
 endfunction
@@ -67261,7 +67171,7 @@ function Func3218 takes nothing returns boolean
 	local integer loc_integer01 = integers152[GetPlayerId(GetTriggerPlayer())]
 	local integer loc_integer02 = integers153[GetPlayerId(GetTriggerPlayer())]
 	if GetUnitTypeId(Players_Hero[GetPlayerId(GetTriggerPlayer())]) == 'U00F' and loc_integer02 > 0 then
-		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, real003, 10.00, "Hook Accuracy:" + " " + R2S(I2R(loc_integer01) / I2R(loc_integer02) * 100) + "% (" + I2S(loc_integer01) + "/" + I2S(loc_integer02) + ")")
+		call DisplayTimedTextToPlayer(GetTriggerPlayer(), 0, 0, 10.00, "Hook Accuracy:" + " " + R2S(I2R(loc_integer01) / I2R(loc_integer02) * 100) + "% (" + I2S(loc_integer01) + "/" + I2S(loc_integer02) + ")")
 	endif
 	return false
 endfunction
@@ -68673,7 +68583,7 @@ function Func3304 takes nothing returns nothing
 	local timer loc_timer01
 	local integer loc_integer01
 	call UnitDamageTarget(unit002, loc_unit01, real002, true, true, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_MAGIC, WEAPON_TYPE_WHOKNOWS)
-	call GroupAddUnit(group001, loc_unit01)
+	call GroupAddUnit(Groups, loc_unit01)
 	if IsUnitType(loc_unit01, UNIT_TYPE_HERO) == true then
 		set loc_timer01 = CreateTimer()
 		set loc_integer01 = GetHandleId(loc_timer01)
@@ -68691,7 +68601,7 @@ function Func3304 takes nothing returns nothing
 endfunction
 
 function Func3305 takes nothing returns boolean
-	return IsUnitEnemy(GetFilterUnit(), GetOwningPlayer(unit002)) and IsUnitInGroup(GetFilterUnit(), group001) == false and GetUnitAbilityLevel(GetFilterUnit(), 'A04R') == 0 and GetUnitState(GetFilterUnit(), UNIT_STATE_LIFE) > 1 and IsUnitType(GetFilterUnit(), UNIT_TYPE_STRUCTURE) == false
+	return IsUnitEnemy(GetFilterUnit(), GetOwningPlayer(unit002)) and IsUnitInGroup(GetFilterUnit(), Groups) == false and GetUnitAbilityLevel(GetFilterUnit(), 'A04R') == 0 and GetUnitState(GetFilterUnit(), UNIT_STATE_LIFE) > 1 and IsUnitType(GetFilterUnit(), UNIT_TYPE_STRUCTURE) == false
 endfunction
 
 function Func3306 takes nothing returns nothing
@@ -68725,7 +68635,7 @@ function Func3306 takes nothing returns nothing
 	call SetUnitX(loc_unit02, loc_real06)
 	call SetUnitY(loc_unit02, loc_real07)
 	call SetUnitFacing(loc_unit02, loc_real05 * bj_RADTODEG)
-	set group001 = loc_group01
+	set Groups = loc_group01
 	set unit002 = loc_unit01
 	set real002 = 50 * GetUnitAbilityLevel(loc_unit01, ('A0HW'))
 	call GroupEnumUnitsInRange(loc_group02, loc_real06, loc_real07, 150, loc_boolexpr01)
@@ -68768,7 +68678,7 @@ function Func3307 takes nothing returns nothing
 	endif
 	call SetUnitX(loc_unit02, loc_real06)
 	call SetUnitY(loc_unit02, loc_real07)
-	set group001 = loc_group01
+	set Groups = loc_group01
 	set unit002 = loc_unit01
 	set real002 = 50 * GetUnitAbilityLevel(loc_unit01, ('A0HW'))
 	call GroupEnumUnitsInRange(loc_group02, loc_real06, loc_real07, 150, loc_boolexpr01)
@@ -70415,7 +70325,7 @@ function Func3415 takes unit loc_unit01, unit loc_unit02, real loc_real01 return
 endfunction
 
 function Func3416 takes nothing returns boolean
-	return IsUnitInGroup(GetFilterUnit(), group001) == false and IsUnitAlly(GetFilterUnit(), GetOwningPlayer(GetTriggerUnit())) and IsUnitVisible(GetFilterUnit(), GetOwningPlayer(GetTriggerUnit())) and IsUnitType(GetFilterUnit(), UNIT_TYPE_STRUCTURE) == false and GetUnitAbilityLevel(GetFilterUnit(), 'A04R') == 0 and Func0184(GetFilterUnit()) == false and GetFilterUnit() != unit351
+	return IsUnitInGroup(GetFilterUnit(), Groups) == false and IsUnitAlly(GetFilterUnit(), GetOwningPlayer(GetTriggerUnit())) and IsUnitVisible(GetFilterUnit(), GetOwningPlayer(GetTriggerUnit())) and IsUnitType(GetFilterUnit(), UNIT_TYPE_STRUCTURE) == false and GetUnitAbilityLevel(GetFilterUnit(), 'A04R') == 0 and Func0184(GetFilterUnit()) == false and GetFilterUnit() != unit351
 endfunction
 
 function Func3417 takes group loc_group01, unit loc_unit01, unit loc_unit02, unit loc_unit03 returns unit
@@ -70423,7 +70333,7 @@ function Func3417 takes group loc_group01, unit loc_unit01, unit loc_unit02, uni
 	local boolexpr loc_boolexpr01 = Condition(function Func3416)
 	local unit loc_unit04 = null
 	local unit loc_unit05
-	set group001 = loc_group01
+	set Groups = loc_group01
 	set unit002 = loc_unit02
 	call GroupEnumUnitsInRange(loc_group02, GetUnitX(loc_unit01), GetUnitY(loc_unit01), 500, loc_boolexpr01)
 	set loc_unit05 = FirstOfGroup(loc_group02)
@@ -70824,7 +70734,7 @@ function Func3436 takes nothing returns boolean
 	local integer loc_integer01 = GetHandleId(loc_trigger01)
 	local unit loc_unit01 = (LoadUnitHandle(HY, (loc_integer01), (17)))
 	local real loc_real01 = (LoadReal(HY, (loc_integer01), (20)))
-	local real loc_real02 = Func0134(GetUnitState(loc_unit01, UNIT_STATE_LIFE) -loc_real01, 1)
+	local real loc_real02 = GetMaxReal(GetUnitState(loc_unit01, UNIT_STATE_LIFE) -loc_real01, 1)
 	local real loc_real03 = (LoadReal(HY, (GetHandleId(loc_unit01)), (243)))
 	call SetUnitState(loc_unit01, UNIT_STATE_LIFE, loc_real02)
 	call SaveReal(HY, (GetHandleId(loc_unit01)), (243), ((loc_real03 - loc_real01) * 1.0))
@@ -71307,7 +71217,7 @@ function Func3467 takes nothing returns boolean
 	call CleanTrigger(loc_trigger01)
 	set loc_integer01 = GetHandleId(loc_unit01)
 	set loc_integer02 = (LoadInteger(HY, (loc_integer01), (427)))
-	set loc_integer02 = Func0131(loc_integer02 - 1, 0)
+	set loc_integer02 = GetMaxInt(loc_integer02 - 1, 0)
 	call SaveInteger(HY, (loc_integer01), (427), (loc_integer02))
 	call Func3466(loc_unit01, loc_integer02)
 	set loc_trigger01 = null
@@ -71382,7 +71292,7 @@ function Func3469 takes nothing returns boolean
 	local unit loc_unit01 = (LoadUnitHandle(HY, (loc_integer02), (2)))
 	local integer loc_integer03 = (LoadInteger(HY, (loc_integer02), (425)))
 	local integer loc_integer04 = GetUnitAbilityLevel(loc_unit01, 'A0VX')
-	set loc_integer03 = Func0130(loc_integer03 + 1, 4)
+	set loc_integer03 = GetMinInt(loc_integer03 + 1, 4)
 	call SaveInteger(HY, (loc_integer02), (425), (loc_integer03))
 	call Func3468(loc_unit01, loc_integer04, loc_integer03)
 	call FlushChildHashtable(HY, (loc_integer01))
@@ -71401,7 +71311,7 @@ function Func3470 takes nothing returns boolean
 	if GetEventDamage() > 2 and GetEventDamageSource() != GetTriggerUnit() and Func0057(GetOwningPlayer(GetEventDamageSource())) then
 		if loc_integer02 > 0 then
 		endif
-		set loc_integer02 = Func0131(loc_integer02 - 1, 0)
+		set loc_integer02 = GetMaxInt(loc_integer02 - 1, 0)
 		call SaveInteger(HY, (loc_integer01), (425), (loc_integer02))
 		call Func3468(loc_unit01, loc_integer03, loc_integer02)
 		set loc_trigger01 = CreateTrigger()
@@ -71915,7 +71825,7 @@ function Func3484 takes unit loc_unit01, real loc_real01 returns nothing
 	elseif loc_real01 > loc_real02 * 1 then
 		set loc_integer01 = 1
 	endif
-	set loc_integer01 = Func0130(loc_integer01, 2 + GetUnitAbilityLevel(loc_unit01, 'A1NA'))
+	set loc_integer01 = GetMinInt(loc_integer01, 2 + GetUnitAbilityLevel(loc_unit01, 'A1NA'))
 	call SaveInteger(HY, (GetHandleId(loc_unit01)), (450), (loc_integer01))
 	call Func3483(loc_unit01, loc_integer01)
 endfunction
@@ -72203,7 +72113,7 @@ endfunction
 function Func3507 takes nothing returns nothing
 	local unit loc_unit01 = (LoadUnitHandle(HY, (GetHandleId(GetTriggeringTrigger())), (14)))
 	local real loc_real01 = 0.2 * GetEventDamage()
-	set loc_real01 = Func0133(loc_real01, GetUnitState(GetTriggerUnit(), UNIT_STATE_LIFE))
+	set loc_real01 = GetMinReal(loc_real01, GetUnitState(GetTriggerUnit(), UNIT_STATE_LIFE))
 	if GetUnitState(GetEnumUnit(), UNIT_STATE_LIFE) > 1 and GetEnumUnit() != GetTriggerUnit() then
 		if GetUnitState(GetEnumUnit(), UNIT_STATE_LIFE) < loc_real01 then
 			call Func0109(loc_unit01, GetEnumUnit(), 3, loc_real01)
@@ -72536,8 +72446,8 @@ endfunction
 
 function Func3532 takes nothing returns nothing
 	local integer loc_integer01 = GetHandleId(GetTriggerUnit())
-	local real loc_real01 = Func0134((LoadReal(HY, (loc_integer01), (7200 + 1))), 1)
-	local real loc_real02 = Func0134((LoadReal(HY, (loc_integer01), (7250 + 1))), 1)
+	local real loc_real01 = GetMaxReal((LoadReal(HY, (loc_integer01), (7200 + 1))), 1)
+	local real loc_real02 = GetMaxReal((LoadReal(HY, (loc_integer01), (7250 + 1))), 1)
 	local real loc_real03 = (LoadReal(HY, (loc_integer01), (7300 + 1)))
 	local real loc_real04 = (LoadReal(HY, (loc_integer01), (7350 + 1)))
 	local unit loc_unit01 = GetTriggerUnit()
@@ -73080,7 +72990,7 @@ function Func3566 takes nothing returns boolean
 			elseif loc_integer03 == 4 or loc_integer03 == 8 then
 				call SaveEffectHandle(HY, (loc_integer01), (32), (AddSpecialEffectTarget("effects\\NetherInferno.mdx", loc_unit02, "origin")))
 			endif
-			set loc_real02 = (0.08 + loc_integer02 * 0.08) * Func0134(loc_real01 - GetUnitState(loc_unit02, UNIT_STATE_LIFE), 0)
+			set loc_real02 = (0.08 + loc_integer02 * 0.08) * GetMaxReal(loc_real01 - GetUnitState(loc_unit02, UNIT_STATE_LIFE), 0)
 			if loc_real02 > 0 then
 				call Func0165("+" + I2S(R2I(loc_real02)), 2, loc_unit02, 0.023, 68, 0, 187, 216)
 			endif
@@ -73736,7 +73646,7 @@ function Func3597 takes unit loc_unit01, real loc_real01, real loc_real02, real 
 	local integer loc_integer01 = GetHandleId(loc_trigger01)
 	local unit loc_unit02 = CreateUnit(GetOwningPlayer(loc_unit01), 'h0B6', GetUnitX(loc_unit01), GetUnitY(loc_unit01), loc_real04 * bj_RADTODEG)
 	local integer loc_integer02 = GetUnitAbilityLevel(loc_unit01, 'A1MI')
-	local real loc_real05 = Func0133(25 + 250 + 25 * loc_real03 * 2, 1000)
+	local real loc_real05 = GetMinReal(25 + 250 + 25 * loc_real03 * 2, 1000)
 	local real loc_real06 = Func0141(GetUnitX(loc_unit01), GetUnitY(loc_unit01), loc_real01, loc_real02)
 	if loc_integer02 == 0 then
 		set loc_integer02 = GetUnitAbilityLevel(loc_unit01, 'A2QE')
@@ -73744,7 +73654,7 @@ function Func3597 takes unit loc_unit01, real loc_real01, real loc_real02, real 
 	if IsUnitEnemy(loc_unit02, GetLocalPlayer()) and Func0104(GetLocalPlayer()) == false then
 		call UnitSetUsesAltIcon(loc_unit02, true)
 	endif
-	call TriggerRegisterTimerEvent(loc_trigger01, Func0133(2.0 / (loc_real06 / 30), 0.04), true)
+	call TriggerRegisterTimerEvent(loc_trigger01, GetMinReal(2.0 / (loc_real06 / 30), 0.04), true)
 	call TriggerAddCondition(loc_trigger01, Condition(function Func3596))
 	call SaveUnitHandle(HY, (loc_integer01), (45), (loc_unit02))
 	call SaveReal(HY, (loc_integer01), (47), ((loc_real01) * 1.0))
@@ -74553,7 +74463,7 @@ function Func3636 takes nothing returns boolean
 		call SetUnitAnimationByIndex(loc_unit01, 5)
 		set loc_real11 = loc_real10 * 2 - loc_real11
 	endif
-	call SetUnitFlyHeight(loc_unit01, Func0134(loc_real11, 0), 0)
+	call SetUnitFlyHeight(loc_unit01, GetMaxReal(loc_real11, 0), 0)
 	call SetUnitX(loc_unit01, Func0120(loc_real06))
 	call SetUnitY(loc_unit01, Func0122(loc_real07))
 	call SetUnitFacing(loc_unit01, loc_real01)
@@ -77499,7 +77409,7 @@ function Func3761 takes nothing returns nothing
 	call SetSoundVolume(sound060, 200)
 	call StartSound(sound060)
 	call SetSoundPosition(sound060, loc_real01, loc_real02, 100)
-	if Func0056(GetOwningPlayer(loc_unit01)) then
+	if IsScourge(GetOwningPlayer(loc_unit01)) then
 		call UnitAddPermanentAbility(loc_unit03, 'A1U5')
 	else
 		call UnitAddPermanentAbility(loc_unit03, 'A1U4')
@@ -83076,7 +82986,7 @@ endfunction
 function Func4039 takes unit loc_unit01, unit loc_unit02 returns nothing
 	local unit loc_unit03 = CreateUnit(GetOwningPlayer(loc_unit02), 'e00E', GetUnitX(loc_unit02), GetUnitY(loc_unit02), 0)
 	local integer loc_integer01 = R2I(100 * GetUnitState(loc_unit02, UNIT_STATE_LIFE) / GetUnitState(loc_unit02, UNIT_STATE_MAX_LIFE))
-	local integer loc_integer02 = Func0131(Func0130(R2I(100 - loc_integer01) / 5, 20), 1)
+	local integer loc_integer02 = GetMaxInt(GetMinInt(R2I(100 - loc_integer01) / 5, 20), 1)
 	call UnitAddAbility(loc_unit03, 'A2DV')
 	call SetUnitAbilityLevel(loc_unit03, 'A2DV', loc_integer02)
 	call IssueTargetOrder(loc_unit03, "slow", loc_unit02)
@@ -84174,7 +84084,7 @@ endfunction
 
 function Func4103 takes nothing returns nothing
 	local unit loc_unit01 = GetTriggerUnit()
-	local real loc_real01 = Func0133((TimerGetElapsed(GlobalTimer)) -(LoadReal(HY, (GetHandleId(loc_unit01)), (358))), 5.0)
+	local real loc_real01 = GetMinReal((TimerGetElapsed(GlobalTimer)) -(LoadReal(HY, (GetHandleId(loc_unit01)), (358))), 5.0)
 	local integer loc_integer01 = GetUnitAbilityLevel(loc_unit01, 'A2EE')
 	local real loc_real02 = (40 + 80 * loc_integer01) * (loc_real01)
 	local group loc_group01 = GetAvailableGroup()
@@ -84395,7 +84305,7 @@ endfunction
 function Func4118 takes nothing returns nothing
 	local unit loc_unit01 = GetTriggerUnit()
 	local unit loc_unit02 = (LoadUnitHandle(HY, (GetHandleId(loc_unit01)), (796)))
-	local real loc_real01 = Func0133((TimerGetElapsed(GlobalTimer)) -(LoadReal(HY, (GetHandleId(loc_unit01)), (358))), 3)
+	local real loc_real01 = GetMinReal((TimerGetElapsed(GlobalTimer)) -(LoadReal(HY, (GetHandleId(loc_unit01)), (358))), 3)
 	local integer loc_integer01 = GetUnitAbilityLevel(loc_unit01, 'A2QT')
 	local integer loc_integer02 = R2I(2.0 * loc_real01)
 	local unit loc_unit03 = CreateUnit(GetOwningPlayer(loc_unit01), 'e00E', GetUnitX(loc_unit01), GetUnitY(loc_unit01), GetUnitFacing(loc_unit01))
@@ -87478,165 +87388,6 @@ function main takes nothing returns nothing
 	set rect211 = Rect(3424.0, -352.0, 4224.0, 320.0)
 	set rect212 = Rect(-4608.0, -448.0, -3872.0, 192.0)
 	set rect213 = Rect(2528.0, -1376.0, 2944.0, -960.0)
-	set loc_player01 = Player(15)
-	set unit118 = CreateUnit(loc_player01, 'u00Z', 7360.0, -4416.0, 270.000)
-	call SetUnitColor(unit118, ConvertPlayerColor(12))
-	set unit117 = CreateUnit(loc_player01, 'u00Z', -7296.0, 4224.0, 270.000)
-	call SetUnitColor(unit117, ConvertPlayerColor(12))
-	set unit024 = CreateUnit(loc_player01, 'n0EO', -7168.0, 6464.0, 270.000)
-	call SetUnitColor(unit024, ConvertPlayerColor(0))
-//	set unit026 = CreateUnit(loc_player01, 'n01F', -7424.0, -6976.0, 270.000)
-	set unit022 = CreateUnit(loc_player01, 'n0EO', -7360.0, 6464.0, 270.000)
-	call SetUnitColor(unit022, ConvertPlayerColor(0))
-//	set unit027 = CreateUnit(loc_player01, 'n01F', -7424.0, -6592.0, 270.000)
-//	set unit028 = CreateUnit(loc_player01, 'n01F', -7424.0, -6464.0, 270.000)
-	set unit091 = CreateUnit(loc_player01, 'n0EO', -7360.0, 6784.0, 270.000)
-	call SetUnitColor(unit091, ConvertPlayerColor(0))
-	set unit089 = CreateUnit(loc_player01, 'n0EO', -6848.0, 6784.0, 270.000)
-	call SetUnitColor(unit089, ConvertPlayerColor(0))
-//	set unit029 = CreateUnit(loc_player01, 'n01F', -7424.0, -6720.0, 270.000)
-//	set unit030 = CreateUnit(loc_player01, 'n01F', -7424.0, -6848.0, 270.000)
-	//	set unit031 = CreateUnit(loc_player01, 'nfoh', -7232.0, -7136.0, 270.000)
-	set loc_unit01 = CreateUnit(loc_player01, 'uC74', 3200.0, -64.0, 270.000) //dont delete me
-	set unit005 = CreateUnit(loc_player01, 'n0EO', -6848.0, 6464.0, 270.000)
-	call SetUnitColor(unit005, ConvertPlayerColor(0))
-//	set unit084 = CreateUnit(loc_player01, 'n01F', 7040.0, 6272.0, 270.000)
-//	set unit085 = CreateUnit(loc_player01, 'n01F', 7040.0, 5888.0, 270.000)
-//	set unit086 = CreateUnit(loc_player01, 'n01F', 7040.0, 5760.0, 270.000)
-//	set unit087 = CreateUnit(loc_player01, 'n01F', 7040.0, 6016.0, 270.000)
-//	set unit083 = CreateUnit(loc_player01, 'n01F', 7040.0, 6144.0, 270.000)
-//	set unit088 = CreateUnit(loc_player01, 'ndfl', 6784.0, 6368.0, 270.000)
-	set unit011 = CreateUnit(loc_player01, 'n0EO', -7360.0, 7104.0, 270.000)
-	call SetUnitColor(unit011, ConvertPlayerColor(0))
-	set unit090 = CreateUnit(loc_player01, 'n0EO', -7168.0, 7104.0, 270.000)
-	call SetUnitColor(unit090, ConvertPlayerColor(0))
-	set loc_unit01 = CreateUnit(loc_player01, 'uC74', -4544.0, 1152.0, 270.000) //dont delete me
-	set unit023 = CreateUnit(loc_player01, 'n0EO', -7168.0, 6784.0, 270.000)
-	call SetUnitColor(unit023, ConvertPlayerColor(0))
-	set unit115 = CreateUnit(loc_player01, 'n0EO', -6848.0, 7104.0, 270.000)
-	call SetUnitColor(unit115, ConvertPlayerColor(0))
-	set unit021 = CreateUnit(loc_player01, 'u010', -7296.0, 4416.0, 270.000)
-	call SetUnitColor(unit021, ConvertPlayerColor(12))
-	set unit119 = CreateUnit(loc_player01, 'u010', 7360.0, -4224.0, 270.000)
-	call SetUnitColor(unit119, ConvertPlayerColor(12))
-	set unit121 = CreateUnit(loc_player01, 'n0EO', -6656.0, 7104.0, 270.000)
-	call SetUnitColor(unit121, ConvertPlayerColor(0))
-	set unit122 = CreateUnit(loc_player01, 'n0EO', -6656.0, 6464.0, 270.000)
-	call SetUnitColor(unit122, ConvertPlayerColor(0))
-	set unit120 = CreateUnit(loc_player01, 'n0EO', -6656.0, 6784.0, 270.000)
-	call SetUnitColor(unit120, ConvertPlayerColor(0))
-	// set loc_player01 = Player(0)
-	//	set unit032 = CreateUnit(loc_player01, 'nC38', -7264.0, -6880.0, 270.000)
-	//	call SetUnitColor(unit032, ConvertPlayerColor(12))
-	//	set unit033 = CreateUnit(loc_player01, 'n01K', -7264.0, -6688.0, 270.000)
-	//	call SetUnitColor(unit033, ConvertPlayerColor(12))
-	//	set unit036 = CreateUnit(loc_player01, 'n009', -6560.0, -6432.0, 270.000)
-	//	call SetUnitColor(unit036, ConvertPlayerColor(12))
-	//	set unit016 = CreateUnit(loc_player01, 'n00X', -7072.0, -6368.0, 270.000)
-	//	call SetUnitColor(unit016, ConvertPlayerColor(1))
-	//	set unit014 = CreateUnit(loc_player01, 'n00V', -6816.0, -6368.0, 270.000)
-	//	call SetUnitColor(unit014, ConvertPlayerColor(12))
-	//	set unit012 = CreateUnit(loc_player01, 'n00W', -7200.0, -6432.0, 270.000)
-	//	call SetUnitColor(unit012, ConvertPlayerColor(12))
-	//	set unit007 = CreateUnit(loc_player01, 'n002', -6688.0, -6368.0, 270.000)
-	//	call SetUnitColor(unit007, ConvertPlayerColor(12))
-	//	set unit065 = CreateUnit(loc_player01, 'e025', -6624.0, -7136.0, 270.000)
-	//	set unit035 = CreateUnit(loc_player01, 'hC95', -6880.0, -7136.0, 270.000)
-	//	call SetUnitColor(unit035, ConvertPlayerColor(0))
-	//	set unit004 = CreateUnit(loc_player01, 'etol', -5632.0, -6144.0, 270.000)
-	//	set unit042 = CreateUnit(loc_player01, 'e00S', -4448.0, -4960.0, 270.000)
-	//	set unit044 = CreateUnit(loc_player01, 'e00S', -5280.0, -6112.0, 270.000)
-	//	set unit067 = CreateUnit(loc_player01, 'edob', -6400.0, -5696.0, 270.000)
-	//	set unit043 = CreateUnit(loc_player01, 'e00S', -6368.0, -4256.0, 270.000)
-	//	set unit045 = CreateUnit(loc_player01, 'e00S', -5600.0, -5728.0, 270.000)
-	//	set unit046 = CreateUnit(loc_player01, 'eaom', -6080.0, -4480.0, 270.000)
-	//	set unit047 = CreateUnit(loc_player01, 'eaoe', -6656.0, -4480.0, 270.000)
-	//	set unit049 = CreateUnit(loc_player01, 'eaom', -4416.0, -5312.0, 270.000)
-	//	set unit052 = CreateUnit(loc_player01, 'eaoe', -4864.0, -4992.0, 270.000)
-	//	set unit050 = CreateUnit(loc_player01, 'e00S', -3744.0, -6816.0, 270.000)
-	//	set unit048 = CreateUnit(loc_player01, 'eaom', -4032.0, -7040.0, 270.000)
-	//	set unit051 = CreateUnit(loc_player01, 'eaoe', -4032.0, -6528.0, 270.000)
-	//	set unit055 = CreateUnit(loc_player01, 'emow', -5792.0, -5408.0, 270.000)
-	//	set unit054 = CreateUnit(loc_player01, 'emow', -6624.0, -5088.0, 270.000)
-	//	set unit053 = CreateUnit(loc_player01, 'emow', -5088.0, -5536.0, 270.000)
-	//	set unit056 = CreateUnit(loc_player01, 'emow', -5344.0, -3936.0, 270.000)
-	//	set unit057 = CreateUnit(loc_player01, 'emow', -5088.0, -4576.0, 270.000)
-	//	set unit058 = CreateUnit(loc_player01, 'emow', -3936.0, -5344.0, 270.000)
-	//	set unit059 = CreateUnit(loc_player01, 'emow', -4512.0, -7072.0, 270.000)
-	//	set unit060 = CreateUnit(loc_player01, 'emow', -4896.0, -6240.0, 270.000)
-	//	set unit061 = CreateUnit(loc_player01, 'emow', -3808.0, -5856.0, 270.000)
-	//	set unit062 = CreateUnit(loc_player01, 'emow', -5472.0, -4704.0, 270.000)
-	//	set unit063 = CreateUnit(loc_player01, 'emow', -4512.0, -5856.0, 270.000)
-	//	set unit064 = CreateUnit(loc_player01, 'eaow', -4544.0, -6528.0, 270.000)
-	//	set unit041 = CreateUnit(loc_player01, 'e00S', -6112.0, -1248.0, 270.000)
-	//	set unit034 = CreateUnit(loc_player01, 'eaow', -6080.0, -5120.0, 270.000)
-	//	set unit040 = CreateUnit(loc_player01, 'e00S', -6112.0, 1568.0, 270.000)
-	//	set unit039 = CreateUnit(loc_player01, 'e00S', -1504.0, -1824.0, 270.000)
-	//	set unit038 = CreateUnit(loc_player01, 'e00S', -544.0, -6688.0, 270.000)
-	//	set unit037 = CreateUnit(loc_player01, 'e00S', 4960.0, -6752.0, 270.000)
-	//	set unit017 = CreateUnit(loc_player01, 'e00S', -3488.0, -3296.0, 270.000)
-	//	set unit066 = CreateUnit(loc_player01, 'edob', -5248.0, -6848.0, 270.000)
-	//	set unit116 = CreateUnit(loc_player01, 'n0HE', -6944.0, -6368.0, 270.000)
-	//	call SetUnitColor(unit116, ConvertPlayerColor(12))
-	set loc_player01 = Player(6)
-//	set unit074 = CreateUnit(loc_player01, 'n002', 5920.0, 5920.0, 270.000)
-//	call SetUnitColor(unit074, ConvertPlayerColor(12))
-//	set unit075 = CreateUnit(loc_player01, 'n00W', 5984.0, 6432.0, 270.000)
-//	call SetUnitColor(unit075, ConvertPlayerColor(12))
-//	set unit076 = CreateUnit(loc_player01, 'n00V', 5920.0, 6048.0, 270.000)
-//	call SetUnitColor(unit076, ConvertPlayerColor(12))
-//	set unit077 = CreateUnit(loc_player01, 'n00X', 5920.0, 6304.0, 270.000)
-//	call SetUnitColor(unit077, ConvertPlayerColor(1))
-//	set unit082 = CreateUnit(loc_player01, 'nC38', 6496.0, 6368.0, 270.000)
-//	call SetUnitColor(unit082, ConvertPlayerColor(12))
-//	set unit081 = CreateUnit(loc_player01, 'n01K', 6304.0, 6368.0, 270.000)
-//	call SetUnitColor(unit081, ConvertPlayerColor(12))
-//	set unit092 = CreateUnit(loc_player01, 'usep', 4352.0, 3584.0, 270.000)
-//	set unit079 = CreateUnit(loc_player01, 'n009', 5984.0, 5792.0, 270.000)
-//	call SetUnitColor(unit079, ConvertPlayerColor(12))
-//	set unit080 = CreateUnit(loc_player01, 'nC35', 6816.0, 5984.0, 270.000)
-//	call SetUnitColor(unit080, ConvertPlayerColor(12))
-//	set unit078 = CreateUnit(loc_player01, 'u00Q', 6816.0, 5664.0, 270.000)
-//	set unit019 = CreateUnit(loc_player01, 'u00M', 6048.0, -2080.0, 270.000)
-//	set unit018 = CreateUnit(loc_player01, 'u00D', 6304.0, -96.0, 270.000)
-//	set unit102 = CreateUnit(loc_player01, 'uzig', 4384.0, 4256.0, 270.000)
-//	set unit096 = CreateUnit(loc_player01, 'unpl', 5184.0, 4864.0, 270.000)
-//	set unit097 = CreateUnit(loc_player01, 'utod', 3904.0, 3904.0, 270.000)
-//	set unit098 = CreateUnit(loc_player01, 'u00M', 1056.0, -96.0, 270.000)
-//	set unit099 = CreateUnit(loc_player01, 'u00D', 2528.0, 1824.0, 270.000)
-//	set unit100 = CreateUnit(loc_player01, 'u00N', 3936.0, 3488.0, 270.000)
-//	set unit101 = CreateUnit(loc_player01, 'u00T', 4832.0, 4832.0, 270.000)
-//	set unit093 = CreateUnit(loc_player01, 'u00T', 5152.0, 4512.0, 270.000)
-//	set unit103 = CreateUnit(loc_player01, 'uzig', 3168.0, 4064.0, 270.000)
-//	set unit104 = CreateUnit(loc_player01, 'uzig', 5728.0, 4000.0, 270.000)
-//	set unit073 = CreateUnit(loc_player01, 'u00N', 2976.0, 5792.0, 270.000)
-//	set unit072 = CreateUnit(loc_player01, 'usep', 3392.0, 5504.0, 270.000)
-//	set unit071 = CreateUnit(loc_player01, 'utod', 3392.0, 6080.0, 270.000)
-//	set unit070 = CreateUnit(loc_player01, 'uzig', 4128.0, 6240.0, 270.000)
-//	set unit069 = CreateUnit(loc_player01, 'usap', 3968.0, 5888.0, 270.000)
-//	set unit105 = CreateUnit(loc_player01, 'ubon', 4992.0, 5952.0, 270.000)
-//	set unit106 = CreateUnit(loc_player01, 'uzig', 2656.0, 4704.0, 270.000)
-//	set unit107 = CreateUnit(loc_player01, 'uzig', 5536.0, 2464.0, 270.000)
-//	set unit108 = CreateUnit(loc_player01, 'uzig', 4064.0, 5280.0, 270.000)
-//	set unit109 = CreateUnit(loc_player01, 'uzig', 3488.0, 4832.0, 270.000)
-//	set unit110 = CreateUnit(loc_player01, 'usap', 6400.0, 3584.0, 270.000)
-//	set unit111 = CreateUnit(loc_player01, 'utod', 6080.0, 2944.0, 270.000)
-//	set unit112 = CreateUnit(loc_player01, 'usep', 6656.0, 2880.0, 270.000)
-//	set unit113 = CreateUnit(loc_player01, 'u00N', 6368.0, 2528.0, 270.000)
-//	set unit114 = CreateUnit(loc_player01, 'uzig', 5024.0, 3744.0, 270.000)
-//	set unit068 = CreateUnit(loc_player01, 'uzig', 6880.0, 3936.0, 270.000)
-//	set unit095 = CreateUnit(loc_player01, 'ubon', 6464.0, 4608.0, 270.000)
-//	set unit094 = CreateUnit(loc_player01, 'uzig', 4640.0, 2848.0, 270.000)
-//	set unit013 = CreateUnit(loc_player01, 'u00M', -4704.0, 5920.0, 270.000)
-//	set unit025 = CreateUnit(loc_player01, 'u00D', 32.0, 5920.0, 270.000)
-//	set unit020 = CreateUnit(loc_player01, 'n0HE', 5920.0, 6176.0, 270.000)
-//	call SetUnitColor(unit020, ConvertPlayerColor(12))
-	set loc_player01 = Player(15)
-	set unit008 = CreateUnit(loc_player01, 'e00D', -6005.1, 5458.6, 212.150) //dont delete me
-	set unit015 = CreateUnit(loc_player01, 'e00B', -561.7, -651.7, 325.600) //dont delete me
-	set unit010 = CreateUnit(loc_player01, 'e00A', 5613.5, -6070.9, 64.000) //dont delete me
-	set unit009 = CreateUnit(loc_player01, 'e008', -5467.9, -5891.1, 307.304) //dont delete me
-	set unit006 = CreateUnit(loc_player01, 'e001', 4901.8, 4536.6, 212.110) //dont delete me
 	call ConfigureNeutralVictim()
 	set boolexpr001 = Filter(function ReturnTrue)
 	set filterIssueHauntOrderAtLocBJ = Filter(function IssueHauntOrderAtLocBJFilter)
@@ -87728,14 +87479,14 @@ function main takes nothing returns nothing
 	set loc_integer01 = 0
 	loop
 		exitwhen(loc_integer01 > 100)
-		set booleans001[loc_integer01] = false
+		set IsHeroPicked[loc_integer01] = false
 		set integers025[loc_integer01] = 0
 		set integers026[loc_integer01] = 0
 		set integers027[loc_integer01] = 0
 		set integers028[loc_integer01] = 0
 		set integers029[loc_integer01] = 0
 		set integers030[loc_integer01] = 0
-		set integers036[loc_integer01] = 0
+		set AllHeroes_Index[loc_integer01] = 0
 		set loc_integer01 = loc_integer01 + 1
 	endloop
 	set loc_integer01 = 0
@@ -87764,7 +87515,7 @@ function main takes nothing returns nothing
 		exitwhen(loc_integer01 > 13)
 		set booleans003[loc_integer01] = false
 		set timers002[loc_integer01] = CreateTimer()
-		set booleans004[loc_integer01] = false
+		set IsRandomizedHero[loc_integer01] = false
 		set integers035[loc_integer01] = 0
 		set booleans008[loc_integer01] = false
 		set loc_integer01 = loc_integer01 + 1
@@ -87811,10 +87562,10 @@ function main takes nothing returns nothing
 	endloop
 	set Force_Sentinels = CreateForce()
 	set Force_Scourges = CreateForce()
-	set group001 = CreateGroup()
-	set timer002 = CreateTimer()
+	set Groups = CreateGroup()
+	// set timer002 = CreateTimer()
 	set Force_All = CreateForce()
-	set real003 = 0.00
+	// set 0 = 0.00
 	set boolean038 = true
 	set boolean039 = true
 	set loc_integer01 = 0
@@ -87826,7 +87577,7 @@ function main takes nothing returns nothing
 	set loc_integer01 = 0
 	loop
 		exitwhen(loc_integer01 > 15)
-		set strings003[loc_integer01] = "Here"
+		set LeaveAt[loc_integer01] = "Here"
 		set loc_integer01 = loc_integer01 + 1
 	endloop
 	call Func0014()
@@ -91781,7 +91532,7 @@ function main takes nothing returns nothing
 	call TriggerRegisterUnitEvent(trigger019, Scourge_Melee_Bot, EVENT_UNIT_DEATH)
 	call TriggerAddAction(trigger019, function Func0922)
 	set loc_trigger01 = CreateTrigger()
-	call TriggerRegisterUnitEvent(loc_trigger01, unit141, EVENT_UNIT_DAMAGED)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Ancient, EVENT_UNIT_DAMAGED)
 	call TriggerAddCondition(loc_trigger01, Condition(function Func0923))
 	set loc_trigger01 = CreateTrigger()
 	call TriggerRegisterUnitEvent(loc_trigger01, unit185, EVENT_UNIT_DAMAGED)
@@ -91835,36 +91586,36 @@ function main takes nothing returns nothing
 		set loc_trigger01 = null
 	endif
 	set loc_trigger01 = CreateTrigger()
-	call TriggerRegisterUnitEvent(loc_trigger01, unit145, EVENT_UNIT_DAMAGED)
-	call TriggerRegisterUnitEvent(loc_trigger01, unit145, EVENT_UNIT_DEATH)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Tower_Top_Level2, EVENT_UNIT_DAMAGED)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Tower_Top_Level2, EVENT_UNIT_DEATH)
 	call TriggerAddCondition(loc_trigger01, Condition(function Func1039))
 	set loc_trigger01 = CreateTrigger()
-	call TriggerRegisterUnitEvent(loc_trigger01, unit146, EVENT_UNIT_DAMAGED)
-	call TriggerRegisterUnitEvent(loc_trigger01, unit146, EVENT_UNIT_DEATH)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Tower_Mid_Level2, EVENT_UNIT_DAMAGED)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Tower_Mid_Level2, EVENT_UNIT_DEATH)
 	call TriggerAddCondition(loc_trigger01, Condition(function Func1040))
 	set loc_trigger01 = CreateTrigger()
-	call TriggerRegisterUnitEvent(loc_trigger01, unit147, EVENT_UNIT_DAMAGED)
-	call TriggerRegisterUnitEvent(loc_trigger01, unit147, EVENT_UNIT_DEATH)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Tower_Bot_Level2, EVENT_UNIT_DAMAGED)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Tower_Bot_Level2, EVENT_UNIT_DEATH)
 	call TriggerAddCondition(loc_trigger01, Condition(function Func1041))
 	set loc_trigger01 = CreateTrigger()
-	call TriggerRegisterUnitEvent(loc_trigger01, unit148, EVENT_UNIT_DAMAGED)
-	call TriggerRegisterUnitEvent(loc_trigger01, unit148, EVENT_UNIT_DEATH)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Tower_Top_Level3, EVENT_UNIT_DAMAGED)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Tower_Top_Level3, EVENT_UNIT_DEATH)
 	call TriggerAddCondition(loc_trigger01, Condition(function Func1042))
 	set loc_trigger01 = CreateTrigger()
-	call TriggerRegisterUnitEvent(loc_trigger01, unit149, EVENT_UNIT_DAMAGED)
-	call TriggerRegisterUnitEvent(loc_trigger01, unit149, EVENT_UNIT_DEATH)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Tower_Mid_Level3, EVENT_UNIT_DAMAGED)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Tower_Mid_Level3, EVENT_UNIT_DEATH)
 	call TriggerAddCondition(loc_trigger01, Condition(function Func1043))
 	set loc_trigger01 = CreateTrigger()
-	call TriggerRegisterUnitEvent(loc_trigger01, unit150, EVENT_UNIT_DAMAGED)
-	call TriggerRegisterUnitEvent(loc_trigger01, unit150, EVENT_UNIT_DEATH)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Tower_Bot_Level3, EVENT_UNIT_DAMAGED)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Tower_Bot_Level3, EVENT_UNIT_DEATH)
 	call TriggerAddCondition(loc_trigger01, Condition(function Func1044))
 	set loc_trigger01 = CreateTrigger()
-	call TriggerRegisterUnitEvent(loc_trigger01, unit151, EVENT_UNIT_DAMAGED)
-	call TriggerRegisterUnitEvent(loc_trigger01, unit151, EVENT_UNIT_DEATH)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Tower_Ancient_1, EVENT_UNIT_DAMAGED)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Tower_Ancient_1, EVENT_UNIT_DEATH)
 	call TriggerAddCondition(loc_trigger01, Condition(function Func1045))
 	set loc_trigger01 = CreateTrigger()
-	call TriggerRegisterUnitEvent(loc_trigger01, unit152, EVENT_UNIT_DAMAGED)
-	call TriggerRegisterUnitEvent(loc_trigger01, unit152, EVENT_UNIT_DEATH)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Tower_Ancient_2, EVENT_UNIT_DAMAGED)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Tower_Ancient_2, EVENT_UNIT_DEATH)
 	call TriggerAddCondition(loc_trigger01, Condition(function Func1046))
 	set loc_trigger01 = CreateTrigger()
 	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Melee_Top, EVENT_UNIT_DAMAGED)
@@ -91891,8 +91642,8 @@ function main takes nothing returns nothing
 	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Ranged_Bot, EVENT_UNIT_DEATH)
 	call TriggerAddCondition(loc_trigger01, Condition(function Func1052))
 	set loc_trigger01 = CreateTrigger()
-	call TriggerRegisterUnitEvent(loc_trigger01, unit141, EVENT_UNIT_DAMAGED)
-	call TriggerRegisterUnitEvent(loc_trigger01, unit141, EVENT_UNIT_DEATH)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Ancient, EVENT_UNIT_DAMAGED)
+	call TriggerRegisterUnitEvent(loc_trigger01, Sentinel_Ancient, EVENT_UNIT_DEATH)
 	call TriggerAddCondition(loc_trigger01, Condition(function Func1053))
 	set loc_trigger01 = CreateTrigger()
 	call TriggerRegisterUnitEvent(loc_trigger01, unit189, EVENT_UNIT_DAMAGED)
@@ -91974,10 +91725,10 @@ function main takes nothing returns nothing
 	call TriggerAddCondition(loc_trigger01, Condition(function Func1072))
 	set loc_trigger01 = null
 	set loc_region01 = null
-	set loc_trigger01 = CreateTrigger()
-	call TriggerAddCondition(loc_trigger01, Condition(function Func1073))
-	call TriggerRegisterTimerEvent(loc_trigger01, 5, true)
-	set loc_trigger01 = null
+	// set loc_trigger01 = CreateTrigger()
+	// call TriggerAddCondition(loc_trigger01, Condition(function Func1073))
+	// call TriggerRegisterTimerEvent(loc_trigger01, 5, true)
+	// set loc_trigger01 = null
 	call DestroyFogModifier(CreateFogModifierRect(Sentinels[0], FOG_OF_WAR_VISIBLE, bj_mapInitialPlayableArea, true, true))
 	call DestroyFogModifier(CreateFogModifierRect(Scourges[0], FOG_OF_WAR_VISIBLE, bj_mapInitialPlayableArea, true, true))
 	set loc_trigger01 = CreateTrigger()
@@ -91988,7 +91739,7 @@ function main takes nothing returns nothing
 	call TriggerRegisterUnitEvent(trigger047, unit185, EVENT_UNIT_DEATH)
 	call TriggerAddAction(trigger047, function Func1092)
 	set trigger048 = CreateTrigger()
-	call TriggerRegisterUnitEvent(trigger048, unit141, EVENT_UNIT_DEATH)
+	call TriggerRegisterUnitEvent(trigger048, Sentinel_Ancient, EVENT_UNIT_DEATH)
 	call TriggerAddAction(trigger048, function Func1090)
 	set loc_trigger01 = CreateTrigger()
 	call Func0168(loc_trigger01, EVENT_PLAYER_UNIT_ATTACKED)
